@@ -1,0 +1,199 @@
+1633536791090	geckodriver	INFO	Listening on 127.0.0.1:58171
+1633536791827	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xf/g6sxxzt51ws1d5y2x5g_9qwm0000gn/T/rust_mozprofilezE4W8P"
+1633536798718	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/xf/g6sxxzt51ws1d5y2x5g_9qwm0000gn/T/rust_mozprofilezE4W8P/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1633536801122	Marionette	INFO	Listening on port 58179
+1633536801175	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/FormValidationChild.jsm, line 177: TypeError: this._element is null
+1633537146280	geckodriver	INFO	Listening on 127.0.0.1:58350
+1633537147296	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xf/g6sxxzt51ws1d5y2x5g_9qwm0000gn/T/rust_mozprofileXuXUwH"
+1633537147998	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/xf/g6sxxzt51ws1d5y2x5g_9qwm0000gn/T/rust_mozprofileXuXUwH/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1633537150295	Marionette	INFO	Listening on port 58357
+1633537150397	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1633537209925	geckodriver	INFO	Listening on 127.0.0.1:58449
+1633537210940	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xf/g6sxxzt51ws1d5y2x5g_9qwm0000gn/T/rust_mozprofileWGhQYu"
+1633537211611	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/xf/g6sxxzt51ws1d5y2x5g_9qwm0000gn/T/rust_mozprofileWGhQYu/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1633537214983	Marionette	INFO	Listening on port 58456
+1633537215102	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+loadURI@resource://gre/modules/RemoteWebNavigation.jsm:90:51
+loadURI/<@chrome://global/content/elements/browser-custom-element.js:809:28
+_wrapURIChangeCall@chrome://global/content/elements/browser-custom-element.js:738:9
+loadURI@chrome://global/content/elements/browser-custom-element.js:808:12
+loadURI@chrome://mozapps/content/extensions/aboutaddons.js:2508:18
+render/<@chrome://mozapps/content/extensions/aboutaddons.js:2487:14
+render@chrome://mozapps/content/extensions/aboutaddons.js:2446:11
+JavaScript error: resource:///actors/FormValidationChild.jsm, line 177: TypeError: this._element is null
+1633537255157	geckodriver	INFO	Listening on 127.0.0.1:58556
+1633537256167	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xf/g6sxxzt51ws1d5y2x5g_9qwm0000gn/T/rust_mozprofilee3xyO8"
+1633537256877	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/xf/g6sxxzt51ws1d5y2x5g_9qwm0000gn/T/rust_mozprofilee3xyO8/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1633537259182	Marionette	INFO	Listening on port 58563
+1633537259277	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+loadURI@resource://gre/modules/RemoteWebNavigation.jsm:90:51
+loadURI/<@chrome://global/content/elements/browser-custom-element.js:809:28
+_wrapURIChangeCall@chrome://global/content/elements/browser-custom-element.js:738:9
+loadURI@chrome://global/content/elements/browser-custom-element.js:808:12
+loadURI@chrome://mozapps/content/extensions/aboutaddons.js:2508:18
+render/<@chrome://mozapps/content/extensions/aboutaddons.js:2487:14
+render@chrome://mozapps/content/extensions/aboutaddons.js:2446:11
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1633537317381	geckodriver	INFO	Listening on 127.0.0.1:58637
+1633537318394	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xf/g6sxxzt51ws1d5y2x5g_9qwm0000gn/T/rust_mozprofileERaYwS"
+1633537319093	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/xf/g6sxxzt51ws1d5y2x5g_9qwm0000gn/T/rust_mozprofileERaYwS/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1633537321395	Marionette	INFO	Listening on port 58646
+1633537321451	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+loadURI@resource://gre/modules/RemoteWebNavigation.jsm:90:51
+loadURI/<@chrome://global/content/elements/browser-custom-element.js:809:28
+_wrapURIChangeCall@chrome://global/content/elements/browser-custom-element.js:738:9
+loadURI@chrome://global/content/elements/browser-custom-element.js:808:12
+loadURI@chrome://mozapps/content/extensions/aboutaddons.js:2508:18
+render/<@chrome://mozapps/content/extensions/aboutaddons.js:2487:14
+render@chrome://mozapps/content/extensions/aboutaddons.js:2446:11
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1633537358786	geckodriver	INFO	Listening on 127.0.0.1:58709
+1633537358821	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xf/g6sxxzt51ws1d5y2x5g_9qwm0000gn/T/rust_mozprofilermSlwo"
+1633537359520	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/xf/g6sxxzt51ws1d5y2x5g_9qwm0000gn/T/rust_mozprofilermSlwo/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1633537362141	Marionette	INFO	Listening on port 58714
+1633537362224	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+loadURI@resource://gre/modules/RemoteWebNavigation.jsm:90:51
+loadURI/<@chrome://global/content/elements/browser-custom-element.js:809:28
+_wrapURIChangeCall@chrome://global/content/elements/browser-custom-element.js:738:9
+loadURI@chrome://global/content/elements/browser-custom-element.js:808:12
+loadURI@chrome://mozapps/content/extensions/aboutaddons.js:2508:18
+render/<@chrome://mozapps/content/extensions/aboutaddons.js:2487:14
+render@chrome://mozapps/content/extensions/aboutaddons.js:2446:11
+JavaScript warning: https://z.moatads.com/financialtimesprebidheader859796398452/moatheader.js, line 287: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-cgph3oCH2yNQQdiERCK2Gkts8WjXVEFlA4KtbNmUWg.js line 1 > eval line 5057 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633537675004	geckodriver	INFO	Listening on 127.0.0.1:58916
+1633537675018	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xf/g6sxxzt51ws1d5y2x5g_9qwm0000gn/T/rust_mozprofilemFpIDs"
+1633537675735	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/xf/g6sxxzt51ws1d5y2x5g_9qwm0000gn/T/rust_mozprofilemFpIDs/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1633537678077	Marionette	INFO	Listening on port 58921
+1633537678115	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+loadURI@resource://gre/modules/RemoteWebNavigation.jsm:90:51
+loadURI/<@chrome://global/content/elements/browser-custom-element.js:809:28
+_wrapURIChangeCall@chrome://global/content/elements/browser-custom-element.js:738:9
+loadURI@chrome://global/content/elements/browser-custom-element.js:808:12
+loadURI@chrome://mozapps/content/extensions/aboutaddons.js:2508:18
+render/<@chrome://mozapps/content/extensions/aboutaddons.js:2487:14
+render@chrome://mozapps/content/extensions/aboutaddons.js:2446:11
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+fire@resource://gre/modules/WebNavigation.jsm:400:30
+onDocumentChange@resource://gre/modules/WebNavigation.jsm:333:10
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+fire@resource://gre/modules/WebNavigation.jsm:400:30
+onDocumentChange@resource://gre/modules/WebNavigation.jsm:333:10
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1633539364796	Marionette	INFO	Stopped listening on port 58921
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x690023,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x23002F,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390078,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390141,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xA70006,name=PWebSocket::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633539371470	geckodriver	INFO	Listening on 127.0.0.1:59306
+1633539371485	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xf/g6sxxzt51ws1d5y2x5g_9qwm0000gn/T/rust_mozprofilenyyhOG"
+1633539372206	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/xf/g6sxxzt51ws1d5y2x5g_9qwm0000gn/T/rust_mozprofilenyyhOG/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1633539374524	Marionette	INFO	Listening on port 59311
+1633539374582	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+loadURI@resource://gre/modules/RemoteWebNavigation.jsm:90:51
+loadURI/<@chrome://global/content/elements/browser-custom-element.js:809:28
+_wrapURIChangeCall@chrome://global/content/elements/browser-custom-element.js:738:9
+loadURI@chrome://global/content/elements/browser-custom-element.js:808:12
+loadURI@chrome://mozapps/content/extensions/aboutaddons.js:2508:18
+render/<@chrome://mozapps/content/extensions/aboutaddons.js:2487:14
+render@chrome://mozapps/content/extensions/aboutaddons.js:2446:11
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+fire@resource://gre/modules/WebNavigation.jsm:400:30
+onDocumentChange@resource://gre/modules/WebNavigation.jsm:333:10
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+fire@resource://gre/modules/WebNavigation.jsm:400:30
+onDocumentChange@resource://gre/modules/WebNavigation.jsm:333:10
+1633539379402	Marionette	INFO	Stopped listening on port 59311
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
