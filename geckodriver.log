@@ -991,3 +991,307 @@ JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILU
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1634300237893	geckodriver	INFO	Listening on 127.0.0.1:53281
+1634300238897	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xf/g6sxxzt51ws1d5y2x5g_9qwm0000gn/T/rust_mozprofilePKkmKx"
+1634300239864	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/xf/g6sxxzt51ws1d5y2x5g_9qwm0000gn/T/rust_mozprofilePKkmKx/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1634300242665	Marionette	INFO	Listening on port 53288
+1634300242751	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+loadURI@resource://gre/modules/RemoteWebNavigation.jsm:90:51
+loadURI/<@chrome://global/content/elements/browser-custom-element.js:809:28
+_wrapURIChangeCall@chrome://global/content/elements/browser-custom-element.js:738:9
+loadURI@chrome://global/content/elements/browser-custom-element.js:808:12
+loadURI@chrome://mozapps/content/extensions/aboutaddons.js:2508:18
+render/<@chrome://mozapps/content/extensions/aboutaddons.js:2487:14
+render@chrome://mozapps/content/extensions/aboutaddons.js:2446:11
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+fire@resource://gre/modules/WebNavigation.jsm:400:30
+onDocumentChange@resource://gre/modules/WebNavigation.jsm:333:10
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+fire@resource://gre/modules/WebNavigation.jsm:400:30
+onDocumentChange@resource://gre/modules/WebNavigation.jsm:333:10
+JavaScript error: https://www.ft.com/__assets/hashed/page-kit/scripts.3530b9b24024.bundle.js, line 15: TypeError: googletag.pubads().getCorrelator is not a function
+JavaScript error: https://www.ft.com/__assets/hashed/page-kit/scripts.3530b9b24024.bundle.js, line 15: TypeError: window.moatPrebidApi is undefined
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1634302045991	geckodriver	INFO	Listening on 127.0.0.1:60333
+1634302047005	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xf/g6sxxzt51ws1d5y2x5g_9qwm0000gn/T/rust_mozprofiletNbG6r"
+1634302047721	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/xf/g6sxxzt51ws1d5y2x5g_9qwm0000gn/T/rust_mozprofiletNbG6r/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1634302050069	Marionette	INFO	Listening on port 60344
+1634302050138	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+loadURI@resource://gre/modules/RemoteWebNavigation.jsm:90:51
+loadURI/<@chrome://global/content/elements/browser-custom-element.js:809:28
+_wrapURIChangeCall@chrome://global/content/elements/browser-custom-element.js:738:9
+loadURI@chrome://global/content/elements/browser-custom-element.js:808:12
+loadURI@chrome://mozapps/content/extensions/aboutaddons.js:2508:18
+render/<@chrome://mozapps/content/extensions/aboutaddons.js:2487:14
+render@chrome://mozapps/content/extensions/aboutaddons.js:2446:11
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+fire@resource://gre/modules/WebNavigation.jsm:400:30
+onDocumentChange@resource://gre/modules/WebNavigation.jsm:333:10
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+fire@resource://gre/modules/WebNavigation.jsm:400:30
+onDocumentChange@resource://gre/modules/WebNavigation.jsm:333:10
+JavaScript error: https://www.ft.com/__assets/hashed/page-kit/scripts.3530b9b24024.bundle.js, line 15: TypeError: googletag.pubads().getCorrelator is not a function
+JavaScript error: https://www.ft.com/__assets/hashed/page-kit/scripts.3530b9b24024.bundle.js, line 15: TypeError: window.moatPrebidApi is undefined
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1634302879281	Marionette	INFO	Stopped listening on port 60344
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634302883680	geckodriver	INFO	Listening on 127.0.0.1:63884
+1634302883693	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xf/g6sxxzt51ws1d5y2x5g_9qwm0000gn/T/rust_mozprofilelbJNCW"
+1634302884324	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/xf/g6sxxzt51ws1d5y2x5g_9qwm0000gn/T/rust_mozprofilelbJNCW/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1634302886313	Marionette	INFO	Listening on port 63889
+1634302886371	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+loadURI@resource://gre/modules/RemoteWebNavigation.jsm:90:51
+loadURI/<@chrome://global/content/elements/browser-custom-element.js:809:28
+_wrapURIChangeCall@chrome://global/content/elements/browser-custom-element.js:738:9
+loadURI@chrome://global/content/elements/browser-custom-element.js:808:12
+loadURI@chrome://mozapps/content/extensions/aboutaddons.js:2508:18
+render/<@chrome://mozapps/content/extensions/aboutaddons.js:2487:14
+render@chrome://mozapps/content/extensions/aboutaddons.js:2446:11
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+fire@resource://gre/modules/WebNavigation.jsm:400:30
+onDocumentChange@resource://gre/modules/WebNavigation.jsm:333:10
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+fire@resource://gre/modules/WebNavigation.jsm:400:30
+onDocumentChange@resource://gre/modules/WebNavigation.jsm:333:10
+JavaScript error: https://www.ft.com/__assets/hashed/page-kit/scripts.3530b9b24024.bundle.js, line 15: TypeError: googletag.pubads().getCorrelator is not a function
+JavaScript error: https://www.ft.com/__assets/hashed/page-kit/scripts.3530b9b24024.bundle.js, line 15: TypeError: window.moatPrebidApi is undefined
+1634302918162	Marionette	INFO	Stopped listening on port 63889
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634302920050	geckodriver	INFO	Listening on 127.0.0.1:64105
+1634302920066	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xf/g6sxxzt51ws1d5y2x5g_9qwm0000gn/T/rust_mozprofileLvqllN"
+1634302920624	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/xf/g6sxxzt51ws1d5y2x5g_9qwm0000gn/T/rust_mozprofileLvqllN/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1634302922643	Marionette	INFO	Listening on port 64110
+1634302922685	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+loadURI@resource://gre/modules/RemoteWebNavigation.jsm:90:51
+loadURI/<@chrome://global/content/elements/browser-custom-element.js:809:28
+_wrapURIChangeCall@chrome://global/content/elements/browser-custom-element.js:738:9
+loadURI@chrome://global/content/elements/browser-custom-element.js:808:12
+loadURI@chrome://mozapps/content/extensions/aboutaddons.js:2508:18
+render/<@chrome://mozapps/content/extensions/aboutaddons.js:2487:14
+render@chrome://mozapps/content/extensions/aboutaddons.js:2446:11
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+fire@resource://gre/modules/WebNavigation.jsm:400:30
+onDocumentChange@resource://gre/modules/WebNavigation.jsm:333:10
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+fire@resource://gre/modules/WebNavigation.jsm:400:30
+onDocumentChange@resource://gre/modules/WebNavigation.jsm:333:10
+JavaScript error: https://www.ft.com/__assets/hashed/page-kit/scripts.3530b9b24024.bundle.js, line 15: TypeError: googletag.pubads().getCorrelator is not a function
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 137: TypeError: this.j.getBody() is null
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 137: TypeError: this.j.getBody() is null
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 137: TypeError: this.j.getBody() is null
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 137: TypeError: this.j.getBody() is null
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 137: TypeError: this.j.getBody() is null
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 137: TypeError: this.j.getBody() is null
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 137: TypeError: this.j.getBody() is null
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 35: Error: Error: not allowed
+Port.onMessage event fired while context is inactive.
+1634302950178	Marionette	INFO	Stopped listening on port 64110
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634303063744	geckodriver	INFO	Listening on 127.0.0.1:64777
+1634303064754	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xf/g6sxxzt51ws1d5y2x5g_9qwm0000gn/T/rust_mozprofileBx1oml"
+1634303065762	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/xf/g6sxxzt51ws1d5y2x5g_9qwm0000gn/T/rust_mozprofileBx1oml/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1634303067987	Marionette	INFO	Listening on port 64788
+1634303068044	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+loadURI@resource://gre/modules/RemoteWebNavigation.jsm:90:51
+loadURI/<@chrome://global/content/elements/browser-custom-element.js:809:28
+_wrapURIChangeCall@chrome://global/content/elements/browser-custom-element.js:738:9
+loadURI@chrome://global/content/elements/browser-custom-element.js:808:12
+loadURI@chrome://mozapps/content/extensions/aboutaddons.js:2508:18
+render/<@chrome://mozapps/content/extensions/aboutaddons.js:2487:14
+render@chrome://mozapps/content/extensions/aboutaddons.js:2446:11
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+fire@resource://gre/modules/WebNavigation.jsm:400:30
+onDocumentChange@resource://gre/modules/WebNavigation.jsm:333:10
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+fire@resource://gre/modules/WebNavigation.jsm:400:30
+onDocumentChange@resource://gre/modules/WebNavigation.jsm:333:10
+JavaScript error: https://www.ft.com/__assets/hashed/page-kit/scripts.3530b9b24024.bundle.js, line 15: TypeError: googletag.pubads().getCorrelator is not a function
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 137: TypeError: this.j.getBody() is null
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 137: TypeError: this.j.getBody() is null
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 137: TypeError: this.j.getBody() is null
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 137: TypeError: this.j.getBody() is null
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 137: TypeError: this.j.getBody() is null
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 137: TypeError: this.j.getBody() is null
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 137: TypeError: this.j.getBody() is null
+Port.onMessage event fired while context is inactive.
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1634303098673	Marionette	INFO	Stopped listening on port 64788
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634303340870	geckodriver	INFO	Listening on 127.0.0.1:49616
+1634303340883	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xf/g6sxxzt51ws1d5y2x5g_9qwm0000gn/T/rust_mozprofileABsSht"
+1634303341541	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/xf/g6sxxzt51ws1d5y2x5g_9qwm0000gn/T/rust_mozprofileABsSht/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1634303343683	Marionette	INFO	Listening on port 49621
+1634303343787	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+loadURI@resource://gre/modules/RemoteWebNavigation.jsm:90:51
+loadURI/<@chrome://global/content/elements/browser-custom-element.js:809:28
+_wrapURIChangeCall@chrome://global/content/elements/browser-custom-element.js:738:9
+loadURI@chrome://global/content/elements/browser-custom-element.js:808:12
+loadURI@chrome://mozapps/content/extensions/aboutaddons.js:2508:18
+render/<@chrome://mozapps/content/extensions/aboutaddons.js:2487:14
+render@chrome://mozapps/content/extensions/aboutaddons.js:2446:11
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+fire@resource://gre/modules/WebNavigation.jsm:400:30
+onDocumentChange@resource://gre/modules/WebNavigation.jsm:333:10
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+fire@resource://gre/modules/WebNavigation.jsm:400:30
+onDocumentChange@resource://gre/modules/WebNavigation.jsm:333:10
+JavaScript error: https://www.ft.com/__assets/hashed/page-kit/scripts.3530b9b24024.bundle.js, line 15: TypeError: googletag.pubads().getCorrelator is not a function
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 137: TypeError: this.j.getBody() is null
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 137: TypeError: this.j.getBody() is null
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 137: TypeError: this.j.getBody() is null
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 137: TypeError: this.j.getBody() is null
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 137: TypeError: this.j.getBody() is null
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 137: TypeError: this.j.getBody() is null
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 137: TypeError: this.j.getBody() is null
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 35: Error: Error: not allowed
+1634303370356	Marionette	INFO	Stopped listening on port 49621
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634303457192	geckodriver	INFO	Listening on 127.0.0.1:50202
+1634303457204	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xf/g6sxxzt51ws1d5y2x5g_9qwm0000gn/T/rust_mozprofileUB1bUK"
+1634303457852	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/xf/g6sxxzt51ws1d5y2x5g_9qwm0000gn/T/rust_mozprofileUB1bUK/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1634303459861	Marionette	INFO	Listening on port 50207
+1634303459904	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+loadURI@resource://gre/modules/RemoteWebNavigation.jsm:90:51
+loadURI/<@chrome://global/content/elements/browser-custom-element.js:809:28
+_wrapURIChangeCall@chrome://global/content/elements/browser-custom-element.js:738:9
+loadURI@chrome://global/content/elements/browser-custom-element.js:808:12
+loadURI@chrome://mozapps/content/extensions/aboutaddons.js:2508:18
+render/<@chrome://mozapps/content/extensions/aboutaddons.js:2487:14
+render@chrome://mozapps/content/extensions/aboutaddons.js:2446:11
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+fire@resource://gre/modules/WebNavigation.jsm:400:30
+onDocumentChange@resource://gre/modules/WebNavigation.jsm:333:10
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+fire@resource://gre/modules/WebNavigation.jsm:400:30
+onDocumentChange@resource://gre/modules/WebNavigation.jsm:333:10
+JavaScript error: https://www.ft.com/__assets/hashed/page-kit/scripts.3530b9b24024.bundle.js, line 15: TypeError: googletag.pubads().getCorrelator is not a function
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 137: TypeError: this.j.getBody() is null
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 137: TypeError: this.j.getBody() is null
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 137: TypeError: this.j.getBody() is null
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 137: TypeError: this.j.getBody() is null
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 137: TypeError: this.j.getBody() is null
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 137: TypeError: this.j.getBody() is null
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 137: TypeError: this.j.getBody() is null
+1634303488703	Marionette	INFO	Stopped listening on port 50207
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
