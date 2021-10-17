@@ -1,0 +1,29 @@
+issues include:
+- duplicates in links list DONE
+- articles only grabbing first two paras
+- nulls from robot pass
+
+
+news
+- ft
+- bbc world
+- nytimes uk news
+- business insider
+- dw.com
+- wsj
+
+headlines only
+- the times
+- bloomberg
+- nyt
+
+oped
+- london review of books
+- new yorker
+- economist
+
+scitech
+- arstechnica
+- mit tech review
+- techcrunch
+- nature
