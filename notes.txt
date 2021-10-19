@@ -1,9 +1,3 @@
-issues include:
-- duplicates in links list DONE
-- articles only grabbing first two paras
-- nulls from robot pass
-
-
 news
 - ft
 - bbc world
