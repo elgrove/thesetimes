@@ -44,7 +44,7 @@ def scrape_blb_article(link, driver):
         page = driver.page_source.encode("utf-8")
         soup = BeautifulSoup(page, "lxml")
         title = str.strip(soup.find("meta", property="og:title")["content"])
-        author = ["Bloomberg News"]
+        author = ["Bloomberg Staff"]
         try:
             if len(soup.findAll("meta", attrs={"name": "parsely-author"})) > 1:
                 authors = []

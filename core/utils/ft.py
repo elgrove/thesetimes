@@ -34,7 +34,7 @@ def scrape_ft_article(link, driver):
         page = driver.page_source.encode("utf-8")
         soup = BeautifulSoup(page, "lxml")
         title = str.rstrip(soup.find("meta", property="og:title")["content"])
-        author = []
+        author = ["FT Staff"]
         if len(soup.findAll("meta", property="article:author")) > 1:
             authors = []
             for n in soup.findAll("meta", property="article:author"):

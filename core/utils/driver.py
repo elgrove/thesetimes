@@ -7,9 +7,9 @@ import os
 def driver_startup():
     driver = webdriver.Firefox()
 
-    idc = os.path.abspath("utils/ext/i_dont_care_about_cookies-3.3.3-an+fx.xpi")
-    ubo = os.path.abspath("utils/ext/ublock_origin-1.38.2-an+fx.xpi")
-    bp = os.path.abspath("utils/ext/bypass-paywalls-firefox.xpi")
+    idc = os.path.abspath("core/utils/ext/i_dont_care_about_cookies-3.3.3-an+fx.xpi")
+    ubo = os.path.abspath("core/utils/ext/ublock_origin-1.38.2-an+fx.xpi")
+    bp = os.path.abspath("core/utils/ext/bypass-paywalls-firefox.xpi")
     ext = [idc, ubo, bp]
 
     for n in ext:
