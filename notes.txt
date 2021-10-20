@@ -1,7 +1,7 @@
 news
-- ft
-- bbc world
-- nytimes uk news
+- ft DONE
+- bbc world DONE
+- nytimes uk news TRICKY
 - business insider
 - dw.com
 - wsj
