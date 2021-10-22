@@ -17,12 +17,14 @@ def get_nyt_links(driver):
 
     remove_topics = [
         "live",
-        "interaction",
+        "interactive",
         "sports",
         "opinion",
         "podcasts",
         "nyregion",
         "briefing",
+        "style",
+        "books",
     ]
     headline_links = []
     for n in homepage_links[:40]:

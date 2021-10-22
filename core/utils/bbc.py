@@ -13,6 +13,7 @@ def get_bbc_links(driver):
         link.get("href") for link in soup.findAll("a") if "news" in link.get("href")
     ]
     headline_links = [root + n for n in headline_links if n[-1].isdigit()]
+    headline_links = list(dict.fromkeys(headline_links))
     return headline_links
 
 

@@ -1,6 +1,8 @@
 import os
 from time import sleep
 from bbc import get_bbc_links, scrape_bbc_article
+from nyt import get_nyt_links, scrape_nyt_article
+from dw import get_dw_links, scrape_dw_article
 
 import json
 from driver import driver_startup
@@ -34,17 +36,40 @@ driver = driver_startup()
 #####################
 
 
-bbc_links = get_bbc_links(driver)
-print(bbc_links)
-bbc_articles = []
+# bbc_links = get_bbc_links(driver)
+# bbc_articles = []
 
-for link in bbc_links:
-    article = scrape_bbc_article(link, driver)
+# for link in bbc_links:
+#     article = scrape_bbc_article(link, driver)
+#     if type(article) == dict:
+#         bbc_articles.append(article)
+
+# with open("bbc.json", "w") as file:
+#     json.dump(bbc_articles, file, indent=4, default=str)
+
+####################
+
+# nyt_links = get_nyt_links(driver)
+# nyt_articles = []
+# for link in nyt_links:
+#     article = scrape_nyt_article(link, driver)
+#     if type(article) == dict:
+#         nyt_articles.append(article)
+
+# with open("nyt.json", "w") as file:
+#     json.dump(nyt_articles, file, indent=4, default=str)
+
+
+####################
+
+dw_links = get_dw_links(driver)
+dw_articles = []
+for link in dw_links:
+    article = scrape_dw_article(link, driver)
     if type(article) == dict:
-        bbc_articles.append(article)
+        dw_articles.append(article)
 
-with open("bbc.json", "w") as file:
-    json.dump(bbc_articles, file, indent=4, default=str)
-
+with open("dw.json", "w") as file:
+    json.dump(dw_articles, file, indent=4, default=str)
 
 driver.quit()
