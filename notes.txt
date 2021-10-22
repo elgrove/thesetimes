@@ -2,7 +2,7 @@ news
 - ft DONE
 - bbc world DONE
 - nytimes DONE
-- dw.com 
+- dw.com DONE
 - wsj
 
 headlines only
