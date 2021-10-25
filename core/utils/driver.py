@@ -21,14 +21,14 @@ def driver_startup():
 
 def driver_startup_headless():
 
-    options = Options
-    options.headless = True
+    options = Options()
+    options.set_headless(True)
 
     driver = webdriver.Firefox(options=options)
 
-    idc = os.path.abspath("utils/ext/i_dont_care_about_cookies-3.3.3-an+fx.xpi")
-    ubo = os.path.abspath("utils/ext/ublock_origin-1.38.2-an+fx.xpi")
-    bp = os.path.abspath("utils/ext/bypass-paywalls-firefox.xpi")
+    idc = os.path.abspath("core/utils/ext/i_dont_care_about_cookies-3.3.3-an+fx.xpi")
+    ubo = os.path.abspath("core/utils/ext/ublock_origin-1.38.2-an+fx.xpi")
+    bp = os.path.abspath("core/utils/ext/bypass-paywalls-firefox.xpi")
     ext = [idc, ubo, bp]
 
     for n in ext:
