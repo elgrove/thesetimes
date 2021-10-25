@@ -1,10 +1,10 @@
 import os
 from time import sleep
-from bbc import get_bbc_links, scrape_bbc_article
-from driver import driver_startup_headless
-from nyt import get_nyt_links, scrape_nyt_article
-from dw import get_dw_links, scrape_dw_article
-from wsj import get_wsj_links, scrape_wsj_article
+from pubs.bbc import get_bbc_links, scrape_bbc_article
+from pubs.driver import driver_startup_headless
+from pubs.nyt import get_nyt_links, scrape_nyt_article
+from pubs.dw import get_dw_links, scrape_dw_article
+from pubs.wsj import get_wsj_links, scrape_wsj_article
 
 import json
 

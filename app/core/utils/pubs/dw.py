@@ -37,6 +37,8 @@ def scrape_dw_article(link, driver):
             p.text for p in soup.find("div", attrs={"class": "longText"}).findAll("p")
         ]
         article = dict(title=title, author=author, pubdate=pubdate, body=paras)
+        source = "Deutsche Welle"
+        article = dict(source=source, title=title, author=author, pubdate=pubdate, body=paras)
         return article
     except:
         return None

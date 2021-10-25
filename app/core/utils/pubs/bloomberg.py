@@ -65,5 +65,6 @@ def scrape_blb_article(link, driver):
         )
         bodysoup = BeautifulSoup(body, "lxml")
         paras = [p.text for p in bodysoup.find_all("p")]
-        article = dict(title=title, author=author, pubdate=pubdate, body=paras)
+        source = "Bloomberg"
+        article = dict(source=source, title=title, author=author, pubdate=pubdate, body=paras)
         return article

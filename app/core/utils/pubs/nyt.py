@@ -50,5 +50,6 @@ def scrape_nyt_article(link, driver):
     bodysoup = BeautifulSoup(body, "lxml")
     paras = [p.text for p in bodysoup.find_all("p")]
 
-    article = dict(title=title, author=author, pubdate=pubdate, body=paras)
+    source = "The New York Times"
+    article = dict(source=source, title=title, author=author, pubdate=pubdate, body=paras)
     return article

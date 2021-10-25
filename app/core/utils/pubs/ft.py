@@ -50,5 +50,6 @@ def scrape_ft_article(link, driver):
         paras = [
             p.text for p in soup.select("div[class*=content-body]")[0].find_all("p")
         ]
-        article = dict(title=title, author=author, pubdate=pubdate, body=paras)
+        source = "Financial Times"
+        article = dict(source=source, title=title, author=author, pubdate=pubdate, body=paras)
         return article

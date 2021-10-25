@@ -53,5 +53,6 @@ def scrape_wsj_article(link, driver):
         n.replace("\n", "").replace("    ", " ") for n in paras if "@wsj.com" not in n
     ]
 
-    article = dict(title=title, author=author, pubdate=pubdate, body=paras)
+    source = "The Wall Street Journal"
+    article = dict(source=source, title=title, author=author, pubdate=pubdate, body=paras)
     return article

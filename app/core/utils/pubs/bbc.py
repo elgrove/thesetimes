@@ -27,5 +27,6 @@ def scrape_bbc_article(link, driver):
         "%Y-%m-%dT%H:%M:%S.%fZ",
     )
     author = "BBC Staff"
-    article = dict(title=title, author=author, pubdate=pubdate, body=paras)
+    source = "BBC News"
+    article = dict(source=source, title=title, author=author, pubdate=pubdate, body=paras)
     return article
