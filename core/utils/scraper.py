@@ -1,14 +1,15 @@
 import os
 from time import sleep
 from bbc import get_bbc_links, scrape_bbc_article
+from driver import driver_startup_headless
 from nyt import get_nyt_links, scrape_nyt_article
 from dw import get_dw_links, scrape_dw_article
+from wsj import get_wsj_links, scrape_wsj_article
 
 import json
-from driver import driver_startup
 
 
-driver = driver_startup()
+driver = driver_startup_headless()
 
 # ft_links = get_ft_links(driver)
 # ft_articles = []
@@ -62,14 +63,27 @@ driver = driver_startup()
 
 ####################
 
-dw_links = get_dw_links(driver)
-dw_articles = []
-for link in dw_links:
-    article = scrape_dw_article(link, driver)
-    if type(article) == dict:
-        dw_articles.append(article)
+# dw_links = get_dw_links(driver)
+# dw_articles = []
+# for link in dw_links:
+#     article = scrape_dw_article(link, driver)
+#     if type(article) == dict:
+#         dw_articles.append(article)
 
-with open("dw.json", "w") as file:
-    json.dump(dw_articles, file, indent=4, default=str)
+# with open("dw.json", "w") as file:
+#     json.dump(dw_articles, file, indent=4, default=str)
+
+#####################
+
+wsj_links = get_wsj_links(driver)
+wsj_articles = []
+for link in wsj_links:
+    article = scrape_wsj_article(link, driver)
+    if type(article) == dict:
+        wsj_articles.append(article)
+
+with open("wsj.json", "w") as file:
+    json.dump(wsj_articles, file, indent=4, default=str)
+
 
 driver.quit()
