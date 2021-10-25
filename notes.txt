@@ -3,7 +3,7 @@ news
 - bbc world DONE
 - nytimes DONE
 - dw.com DONE
-- wsj
+- wsj DONE
 
 headlines only
 - the times
