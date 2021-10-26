@@ -1,5 +1,4 @@
 from bs4 import BeautifulSoup
-import lxml
 from datetime import datetime as dt
 
 
@@ -25,6 +24,7 @@ def get_nyt_links(driver):
         "briefing",
         "style",
         "books",
+        'newsletters'
     ]
     headline_links = []
     for n in homepage_links[:40]:
@@ -46,10 +46,13 @@ def scrape_nyt_article(link, driver):
         "%Y-%m-%dT%H:%M:%S.%fZ",
     )
     author = soup.find("meta", attrs={"name": "byl"})["content"][3:]
-    body = driver.find_element_by_name("articleBody").get_attribute("outerHTML")
+    body = driver.find_element_by_name(
+        "articleBody").get_attribute("outerHTML")
     bodysoup = BeautifulSoup(body, "lxml")
-    paras = [p.text for p in bodysoup.find_all("p")]
+    paras = [p.text for p in bodysoup.find_all(
+        "p") if p.text != 'Advertisement']
 
     source = "The New York Times"
-    article = dict(source=source, title=title, author=author, pubdate=pubdate, body=paras)
+    article = dict(source=source, title=title, author=author,
+                   pubdate=pubdate, body=paras)
     return article

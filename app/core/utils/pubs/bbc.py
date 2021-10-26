@@ -1,5 +1,4 @@
 from bs4 import BeautifulSoup
-import lxml
 from datetime import datetime as dt
 
 
@@ -7,7 +6,8 @@ def get_bbc_links(driver):
     homepage = "https://www.bbc.co.uk/news/world"
     root = "https://www.bbc.co.uk"
     driver.get(homepage)
-    headlines = driver.find_element_by_id("topos-component").get_attribute("outerHTML")
+    headlines = driver.find_element_by_id(
+        "topos-component").get_attribute("outerHTML")
     soup = BeautifulSoup(headlines, "lxml")
     headline_links = [
         link.get("href") for link in soup.findAll("a") if "news" in link.get("href")
@@ -28,5 +28,6 @@ def scrape_bbc_article(link, driver):
     )
     author = "BBC Staff"
     source = "BBC News"
-    article = dict(source=source, title=title, author=author, pubdate=pubdate, body=paras)
+    article = dict(source=source, title=title, author=author,
+                   pubdate=pubdate, body=paras)
     return article

@@ -1,5 +1,4 @@
 from bs4 import BeautifulSoup
-import lxml
 from datetime import datetime as dt
 
 
@@ -51,5 +50,6 @@ def scrape_ft_article(link, driver):
             p.text for p in soup.select("div[class*=content-body]")[0].find_all("p")
         ]
         source = "Financial Times"
-        article = dict(source=source, title=title, author=author, pubdate=pubdate, body=paras)
+        article = dict(source=source, title=title,
+                       author=author, pubdate=pubdate, body=paras)
         return article

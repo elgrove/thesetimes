@@ -1,5 +1,4 @@
 from bs4 import BeautifulSoup
-import lxml
 from datetime import datetime as dt
 
 

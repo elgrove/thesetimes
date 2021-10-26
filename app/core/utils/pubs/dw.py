@@ -1,5 +1,4 @@
 from bs4 import BeautifulSoup
-import lxml
 from datetime import datetime as dt
 
 
@@ -38,7 +37,8 @@ def scrape_dw_article(link, driver):
         ]
         article = dict(title=title, author=author, pubdate=pubdate, body=paras)
         source = "Deutsche Welle"
-        article = dict(source=source, title=title, author=author, pubdate=pubdate, body=paras)
+        article = dict(source=source, title=title,
+                       author=author, pubdate=pubdate, body=paras)
         return article
     except:
         return None

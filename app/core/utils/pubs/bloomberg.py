@@ -1,6 +1,5 @@
 from bs4 import BeautifulSoup
 from selenium.webdriver.common.keys import Keys
-import lxml
 from datetime import datetime as dt
 from time import sleep
 
@@ -52,7 +51,8 @@ def scrape_blb_article(link, driver):
                     authors.append(n["content"])
                     author = ", ".join(authors)
             else:
-                author = soup.find("meta", attrs={"name": "parsely-author"})["content"]
+                author = soup.find(
+                    "meta", attrs={"name": "parsely-author"})["content"]
         except:
             pass
         pubdate = dt.strptime(
@@ -66,5 +66,6 @@ def scrape_blb_article(link, driver):
         bodysoup = BeautifulSoup(body, "lxml")
         paras = [p.text for p in bodysoup.find_all("p")]
         source = "Bloomberg"
-        article = dict(source=source, title=title, author=author, pubdate=pubdate, body=paras)
+        article = dict(source=source, title=title,
+                       author=author, pubdate=pubdate, body=paras)
         return article
