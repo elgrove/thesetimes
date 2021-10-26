@@ -31,4 +31,14 @@ Insert non dupes into db
 
 Close db
 
-BUILD IN FLASK AS POC THEN MOVE TO FASTAPI
+
+scraper:
+- geckodriver
+- firefox
+- apscheduler runs update
+
+db:
+- mongo
+
+app:
+- whatever

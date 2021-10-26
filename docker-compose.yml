@@ -5,4 +5,14 @@ services:
             - '27017:27017'
         volumes:
             - ./db:/data/db
-        image: mongo:5
+        image: mongo:4
+        restart: unless-stopped
+    # scraper:
+    #     build: ./scraper
+    #     command: python main.py
+    #     volumes:
+    #     - ./scraper:/usr/src/app
+    standalone-firefox:
+        ports:
+            - '4444:4444'
+        image: 'selenium/standalone-firefox:4.0.0-20211025'
