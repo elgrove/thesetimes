@@ -1,19 +1,10 @@
-# from datetime import datetime
-# import time
-# import os
+import schedule
+import time
+from utils.update import update_db
 
-# from apscheduler.schedulers.background import BackgroundScheduler
-# from update import update_db
-
-
-# if __name__ == '__main__':
-
-#     scheduler = BackgroundScheduler(daemon=True)
-#     scheduler.add_job(update_db, 'interval', hours=2)
-#     scheduler.start()
-
-
-if __name__ == '__main__':
-    print('hello world')
-
-# pip install bs4 selenium pymongo apscheduler
+if __name__ == "__main__":
+    update_db()
+    schedule.every(2).hours.do(update_db)
+    while True:
+        schedule.run_pending()
+        time.sleep(1)

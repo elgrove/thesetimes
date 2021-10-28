@@ -6,8 +6,7 @@ def get_bbc_links(driver):
     homepage = "https://www.bbc.co.uk/news/world"
     root = "https://www.bbc.co.uk"
     driver.get(homepage)
-    headlines = driver.find_element_by_id(
-        "topos-component").get_attribute("outerHTML")
+    headlines = driver.find_element_by_id("topos-component").get_attribute("outerHTML")
     soup = BeautifulSoup(headlines, "lxml")
     headline_links = [
         link.get("href") for link in soup.findAll("a") if "news" in link.get("href")
@@ -18,16 +17,20 @@ def get_bbc_links(driver):
 
 
 def scrape_bbc_article(link, driver):
-    driver.get(link)
-    soup = BeautifulSoup(driver.page_source.encode("utf-8"), "lxml")
-    paras = [p.text for p in soup.find("article").find_all("p")]
-    title = str.rstrip(soup.find("meta", property="og:title")["content"])
-    pubdate = dt.strptime(
-        soup.find("time")["datetime"],
-        "%Y-%m-%dT%H:%M:%S.%fZ",
-    )
-    author = "BBC Staff"
-    source = "BBC News"
-    article = dict(source=source, title=title, author=author,
-                   pubdate=pubdate, body=paras)
-    return article
+    try:
+        driver.get(link)
+        soup = BeautifulSoup(driver.page_source.encode("utf-8"), "lxml")
+        paras = [p.text for p in soup.find("article").find_all("p")]
+        title = str.rstrip(soup.find("meta", property="og:title")["content"])
+        pubdate = dt.strptime(
+            soup.find("time")["datetime"],
+            "%Y-%m-%dT%H:%M:%S.%fZ",
+        )
+        author = "BBC Staff"
+        source = "BBC News"
+        article = dict(
+            source=source, title=title, author=author, pubdate=pubdate, body=paras
+        )
+        return article
+    except:
+        return None

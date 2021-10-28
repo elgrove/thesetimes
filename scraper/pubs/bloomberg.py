@@ -25,7 +25,7 @@ def get_blb_links(driver):
     links = [
         rootpage + link.get("href")
         for link in soup.findAll("a")
-        if "/news/" in link.get("href") or "/opinion/" in link.get("href")
+        if "/news/" in link.get("href")
     ]
     links = list(dict.fromkeys(links))
     return links
@@ -40,32 +40,37 @@ def scrape_blb_article(link, driver):
     # sleep(10)
 
     if "robot" not in driver.title:
-        page = driver.page_source.encode("utf-8")
-        soup = BeautifulSoup(page, "lxml")
-        title = str.strip(soup.find("meta", property="og:title")["content"])
-        author = ["Bloomberg Staff"]
         try:
-            if len(soup.findAll("meta", attrs={"name": "parsely-author"})) > 1:
-                authors = []
-                for n in soup.findAll("meta", attrs={"name": "parsely-author"}):
-                    authors.append(n["content"])
-                    author = ", ".join(authors)
-            else:
-                author = soup.find(
-                    "meta", attrs={"name": "parsely-author"})["content"]
+            page = driver.page_source.encode("utf-8")
+            soup = BeautifulSoup(page, "lxml")
+            title = str.strip(soup.find("meta", property="og:title")["content"])
+            author = ["Bloomberg Staff"]
+            try:
+                if len(soup.findAll("meta", attrs={"name": "parsely-author"})) > 1:
+                    authors = []
+                    for n in soup.findAll("meta", attrs={"name": "parsely-author"}):
+                        authors.append(n["content"])
+                        author = ", ".join(authors)
+                else:
+                    author = soup.find("meta", attrs={"name": "parsely-author"})[
+                        "content"
+                    ]
+            except:
+                pass
+            pubdate = dt.strptime(
+                soup.find("meta", attrs={"name": "parsely-pub-date"})["content"],
+                "%Y-%m-%dT%H:%M:%S.%fZ",
+            )
+            pubdate = pubdate.strftime("%Y-%m-%d %H:%M")
+            body = driver.find_element_by_class_name("middle-column").get_attribute(
+                "outerHTML"
+            )
+            bodysoup = BeautifulSoup(body, "lxml")
+            paras = [p.text for p in bodysoup.find_all("p")]
+            source = "Bloomberg"
+            article = dict(
+                source=source, title=title, author=author, pubdate=pubdate, body=paras
+            )
+            return article
         except:
-            pass
-        pubdate = dt.strptime(
-            soup.find("meta", attrs={"name": "parsely-pub-date"})["content"],
-            "%Y-%m-%dT%H:%M:%S.%fZ",
-        )
-        pubdate = pubdate.strftime("%Y-%m-%d %H:%M")
-        body = driver.find_element_by_class_name("middle-column").get_attribute(
-            "outerHTML"
-        )
-        bodysoup = BeautifulSoup(body, "lxml")
-        paras = [p.text for p in bodysoup.find_all("p")]
-        source = "Bloomberg"
-        article = dict(source=source, title=title,
-                       author=author, pubdate=pubdate, body=paras)
-        return article
+            return None

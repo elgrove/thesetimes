@@ -7,12 +7,22 @@ services:
             - ./db:/data/db
         image: mongo:4
         restart: unless-stopped
-    # scraper:
-    #     build: ./scraper
-    #     command: python main.py
+    scraper:
+        build: ./scraper
+        command: python main.py
+        volumes:
+            - ./scraper:/usr/src/app
+        environment:
+            - TZ=Europe/London
+
+
+
+    # standalone-firefox:
+    #     environment:
+    #         - PUID=1200
+    #         - PGID=1201
+    #     ports:
+    #         - '4444:4444'
+    #     image: 'selenium/standalone-firefox:4.0.0-20211025'
     #     volumes:
-    #     - ./scraper:/usr/src/app
-    standalone-firefox:
-        ports:
-            - '4444:4444'
-        image: 'selenium/standalone-firefox:4.0.0-20211025'
+    #         - ./scraper/ext:/home/seluser/.mozilla/addons

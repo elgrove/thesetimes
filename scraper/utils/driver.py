@@ -8,8 +8,7 @@ import os
 def driver_startup():
     driver = webdriver.Firefox()
 
-    idc = os.path.abspath(
-        "core/utils/ext/i_dont_care_about_cookies-3.3.3-an+fx.xpi")
+    idc = os.path.abspath("core/utils/ext/i_dont_care_about_cookies-3.3.3-an+fx.xpi")
     ubo = os.path.abspath("core/utils/ext/ublock_origin-1.38.2-an+fx.xpi")
     bp = os.path.abspath("core/utils/ext/bypass-paywalls-firefox.xpi")
     ext = [idc, ubo, bp]
@@ -26,12 +25,13 @@ def driver_startup_headless():
     options = Options()
     options.headless = True
 
-    driver = webdriver.Firefox(options=options)
+    driver = webdriver.Firefox(
+        options=options, firefox_binary="/opt/firefox/firefox-bin"
+    )
 
-    idc = os.path.abspath(
-        "core/utils/ext/i_dont_care_about_cookies-3.3.3-an+fx.xpi")
-    ubo = os.path.abspath("core/utils/ext/ublock_origin-1.38.2-an+fx.xpi")
-    bp = os.path.abspath("core/utils/ext/bypass-paywalls-firefox.xpi")
+    idc = os.path.abspath("ext/i_dont_care_about_cookies-3.3.3-an+fx.xpi")
+    ubo = os.path.abspath("ext/ublock_origin-1.38.2-an+fx.xpi")
+    bp = os.path.abspath("ext/bypass-paywalls-firefox.xpi")
     ext = [idc, ubo, bp]
 
     for n in ext:
@@ -40,6 +40,7 @@ def driver_startup_headless():
     sleep(8)
     return driver
 
+
 def driver_startup_remote():
 
     options = Options()
@@ -47,13 +48,12 @@ def driver_startup_remote():
 
     ### how does this bit work??
     fp = FirefoxProfile()
-    fp.add_extension('ext/ublock_origin-1.38.2-an+fx.xpi')
-    fp.add_extension('ext/i_dont_care_about_cookies-3.3.3-an+fx.xpi')
-    fp.add_extension('ext/bypass-paywalls-firefox.xpi')
-    driver = webdriver.Remote(command_executor='127.0.0.1:4444', browser_profile=fp)
+    fp.add_extension("ext/ublock_origin-1.38.2-an+fx.xpi")
+    fp.add_extension("ext/i_dont_care_about_cookies-3.3.3-an+fx.xpi")
+    fp.add_extension("ext/bypass-paywalls-firefox.xpi")
+    driver = webdriver.Remote(command_executor="127.0.0.1:4444", browser_profile=fp)
 
-    idc = os.path.abspath(
-        "core/utils/ext/i_dont_care_about_cookies-3.3.3-an+fx.xpi")
+    idc = os.path.abspath("core/utils/ext/i_dont_care_about_cookies-3.3.3-an+fx.xpi")
     ubo = os.path.abspath("core/utils/ext/ublock_origin-1.38.2-an+fx.xpi")
     bp = os.path.abspath("core/utils/ext/bypass-paywalls-firefox.xpi")
     ext = [idc, ubo, bp]

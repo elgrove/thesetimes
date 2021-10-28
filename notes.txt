@@ -1,3 +1,15 @@
+
+
+
+
+
+
+
+
+
+
+
+
 news
 - ft DONE
 - bbc world DONE
@@ -23,22 +35,3 @@ scitech
 
 
 
-Scrape all articles into one list of dicts
-
-Check dicts against db for dupes
-
-Insert non dupes into db
-
-Close db
-
-
-scraper:
-- geckodriver
-- firefox
-- apscheduler runs update
-
-db:
-- mongo
-
-app:
-- whatever
