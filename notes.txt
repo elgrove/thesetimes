@@ -7,8 +7,9 @@ extend:
 add more papers
 division between sections, oped, sports etc
 
-present
-
+present:
+templates
+react app
 
 
 
