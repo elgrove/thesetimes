@@ -14,7 +14,7 @@ def parse_json(data):
 
 
 @router.post("/", response_description="Add new article")
-async def create_task(request: Request, article: ArticleSchema = Body(...)):
+async def create_article(request: Request, article: ArticleSchema = Body(...)):
     article = jsonable_encoder(article)
     new_article = await request.app.mongodb["articles"].insert_one(article)
     created_article = await request.app.mongodb["articles"].find_one(
