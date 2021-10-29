@@ -18,6 +18,21 @@ api_url = "http://api:8558/news/"
 ################
 
 
+def commit_article(article):
+    if type(article) == dict:
+        if (
+            requests.get(
+                api_url + "find/",
+                params={"title": article["title"]},
+            ).status_code
+            == 404
+        ):
+            requests.post(api_url, json.dumps(article, indent=4, default=str))
+            print("Article posted")
+        else:
+            print("Article already present")
+
+
 def update_db():
     print("Starting web driver")
     driver = driver_startup_headless()
@@ -28,54 +43,42 @@ def update_db():
     for n in nyt_links:
         print(f"Scraping {n}")
         n_scraped = scrape_nyt_article(n, driver)
-        if type(n_scraped) == dict:
-            requests.post(api_url, json.dumps(n_scraped, indent=4, default=str))
-        print(f"Posted {n}")
+        commit_article(n_scraped)
 
     print("Scraping BBC")
     bbc_links = [n for n in get_bbc_links(driver)]
     for n in bbc_links:
         print(f"Scraping {n}")
         n_scraped = scrape_bbc_article(n, driver)
-        if type(n_scraped) == dict:
-            requests.post(api_url, json.dumps(n_scraped, indent=4, default=str))
-        print(f"Posted {n}")
+        commit_article(n_scraped)
 
     print("Scraping WSJ")
     wsj_links = [n for n in get_wsj_links(driver)]
     for n in wsj_links:
         print(f"Scraping {n}")
         n_scraped = scrape_wsj_article(n, driver)
-        if type(n_scraped) == dict:
-            requests.post(api_url, json.dumps(n_scraped, indent=4, default=str))
-        print(f"Posted {n}")
+        commit_article(n_scraped)
 
     print("Scraping Bloomberg")
     blb_links = [n for n in get_blb_links(driver)]
     for n in blb_links:
         print(f"Scraping {n}")
         n_scraped = scrape_blb_article(n, driver)
-        if type(n_scraped) == dict:
-            requests.post(api_url, json.dumps(n_scraped, indent=4, default=str))
-        print(f"Posted {n}")
+        commit_article(n_scraped)
 
     print("Scraping DW")
     dw_links = [n for n in get_dw_links(driver)]
     for n in dw_links:
         print(f"Scraping {n}")
         n_scraped = scrape_dw_article(n, driver)
-        if type(n_scraped) == dict:
-            requests.post(api_url, json.dumps(n_scraped, indent=4, default=str))
-        print(f"Posted {n}")
+        commit_article(n_scraped)
 
     print("Scraping FT")
     ft_links = [n for n in get_ft_links(driver)]
     for n in ft_links:
         print(f"Scraping {n}")
         n_scraped = scrape_ft_article(n, driver)
-        if type(n_scraped) == dict:
-            requests.post(api_url, json.dumps(n_scraped, indent=4, default=str))
-        print(f"Posted {n}")
+        commit_article(n_scraped)
 
     print("Done")
     driver.quit()

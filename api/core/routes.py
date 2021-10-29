@@ -40,3 +40,13 @@ async def show_article(id: str, request: Request):
         return parse_json(article)
 
     raise HTTPException(status_code=404, detail=f"Article {id} not found")
+
+
+@router.get("/find/", response_description="Get a single article by title")
+async def show_article(title: str, request: Request):
+    if (
+        article := await request.app.mongodb["articles"].find_one({"title": title})
+    ) is not None:
+        return parse_json(article)
+
+    raise HTTPException(status_code=404, detail=f"Article {id} not found")
