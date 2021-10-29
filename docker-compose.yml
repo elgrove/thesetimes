@@ -7,15 +7,13 @@ services:
             - ./db:/data/db
         image: mongo:4
         restart: unless-stopped
-    scraper:
-        build: ./scraper
-        command: python main.py
-        volumes:
-            - ./scraper:/usr/src/app
-        environment:
-            - TZ=Europe/London
-
-
+    # scraper:
+    #     build: ./scraper
+    #     command: python main.py
+    #     volumes:
+    #         - ./scraper:/usr/src/app
+    #     environment:
+    #         - TZ=Europe/London
 
     # standalone-firefox:
     #     environment:
