@@ -1,0 +1,54 @@
+
+refactor:
+take inspo from testdriven architecture
+config/settings file
+
+extend:
+add more papers
+division between sections, oped, sports etc
+
+present
+
+
+
+
+
+
+
+
+
+
+news
+- ft DONE
+- bbc world DONE
+- nytimes DONE
+- dw.com DONE
+- wsj DONE
+- reuters/ap/etc?
+
+headlines only
+- the times
+- bloomberg
+- nyt
+
+oped
+- london review of books
+- new yorker
+- economist
+
+scitech
+- arstechnica
+- mit tech review
+- techcrunch
+- nature
+
+sports
+- bbc sport
+- sky sports news
+- theguardian sport
+- wherever
+- blizzard / when sat comes
+
+
+
+
