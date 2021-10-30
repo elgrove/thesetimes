@@ -2,6 +2,7 @@
 refactor:
 take inspo from testdriven architecture
 config/settings file
+test, test, test
 
 extend:
 add more papers
