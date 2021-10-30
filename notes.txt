@@ -10,7 +10,7 @@ division between sections, oped, sports etc
 present:
 templates
 react app
-
+poetry dependency mgmt
 
 
 

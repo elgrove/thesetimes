@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h3>{{ a.title }}</h3>
+{{ a.source }} - {{ a.pubdate }}
+<br>
+{{ a.author }}
+
+<br><br><br><br>
+
+{% for p in a.body %}
+<p>{{ p }}</p>
+{% endfor %}
+
+{% endblock content %}

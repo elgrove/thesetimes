@@ -1,5 +1,6 @@
 import os
 from time import sleep
+from datetime import datetime
 from utils.driver import driver_startup_headless
 import json
 import requests
@@ -11,7 +12,9 @@ from pubs.bloomberg import get_blb_links, scrape_blb_article
 from pubs.dw import get_dw_links, scrape_dw_article
 from pubs.ft import get_ft_links, scrape_ft_article
 
-api_url = "http://api:8558/news/"
+api_url = "http://api:8558/api/"
+
+now = datetime.now().strftime("%Y/%m/%d %H:%M")
 
 ################
 # NEEDS REFACTORING BADLY
@@ -37,7 +40,7 @@ def update_db():
     print("Starting web driver")
     driver = driver_startup_headless()
     print("Web driver started")
-
+    print(f"Starting scrape at {now} GMT")
     print("Scraping NYT")
     nyt_links = [n for n in get_nyt_links(driver)]
     for n in nyt_links:
@@ -59,19 +62,19 @@ def update_db():
         n_scraped = scrape_wsj_article(n, driver)
         commit_article(n_scraped)
 
-    print("Scraping Bloomberg")
-    blb_links = [n for n in get_blb_links(driver)]
-    for n in blb_links:
-        print(f"Scraping {n}")
-        n_scraped = scrape_blb_article(n, driver)
-        commit_article(n_scraped)
+    # print("Scraping Bloomberg")
+    # blb_links = [n for n in get_blb_links(driver)]
+    # for n in blb_links:
+    #     print(f"Scraping {n}")
+    #     n_scraped = scrape_blb_article(n, driver)
+    #     commit_article(n_scraped)
 
-    print("Scraping DW")
-    dw_links = [n for n in get_dw_links(driver)]
-    for n in dw_links:
-        print(f"Scraping {n}")
-        n_scraped = scrape_dw_article(n, driver)
-        commit_article(n_scraped)
+    # print("Scraping DW")
+    # dw_links = [n for n in get_dw_links(driver)]
+    # for n in dw_links:
+    #     print(f"Scraping {n}")
+    #     n_scraped = scrape_dw_article(n, driver)
+    #     commit_article(n_scraped)
 
     print("Scraping FT")
     ft_links = [n for n in get_ft_links(driver)]

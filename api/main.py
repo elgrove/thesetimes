@@ -15,7 +15,5 @@ async def shutdown_db_client():
     app.mongodb_client.close()
 
 
-app.include_router(news_router, tags=["articles"], prefix="/news")
-
 if __name__ == "__main__":
     uvicorn.run("core.app:app", host="0.0.0.0", port=8558, reload=True)

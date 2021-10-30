@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% for a in articles %}
+
+<h3>
+    <a href="/{{ a._id }}">{{ a.title }}</a>
+</h3>
+{{ a.source }} - {{ a.pubdate }}
+<br>
+{{ a.author }}
+<br><br>
+
+{% endfor %}
+{% endblock content %}

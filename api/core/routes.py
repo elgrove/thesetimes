@@ -27,7 +27,9 @@ async def create_article(request: Request, article: ArticleSchema = Body(...)):
 @router.get("/", response_description="List all articles")
 async def list_articles(request: Request):
     articles = []
-    for a in await request.app.mongodb["articles"].find().to_list(length=250):
+    for a in (
+        await request.app.mongodb["articles"].find().sort("_id", -1).to_list(length=60)
+    ):
         articles.append(parse_json(a))
     return articles
 

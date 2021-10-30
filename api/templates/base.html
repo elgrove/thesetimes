@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grove Times</title>
+    <link href="{{ url_for('static', path='/css/bootstrap.min.css') }}" rel="stylesheet" />
+    <link href="{{ url_for('static', path='/css/style.css') }}" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <div class="row justify-content-center">
+
+
+        <h2 class="display-4">
+            <center>Grove Times</center>
+        </h2>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Oped</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Sci-Tech</a>
+            </li>
+        </ul>
+        <br>
+        <hr>
+
+    </div>
+
+
+    <br>
+    <div class="row justify-content-center">
+        <div class="col-sm-8">
+            {% block content %}
+
+            {% endblock content %}
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', path='/js/bootstrap.bundle.min.js') }}"></script>
+</body>
+
+</html>
