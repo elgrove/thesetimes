@@ -1,7 +1,6 @@
 import uvicorn
 from motor.motor_asyncio import AsyncIOMotorClient
 from core.app import app
-from core.routes import router as news_router
 
 
 @app.on_event("startup")

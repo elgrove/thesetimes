@@ -7,7 +7,7 @@
 <h3>
     <a href="/article/{{ a._id }}">{{ a.title }}</a>
 </h3>
-{{ a.source }} - {{ a.pubdate }}
+{{ a.source }} - {{ a.pubdate|print_date }}
 <br>
 {{ a.author }}
 <br><br>
