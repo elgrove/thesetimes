@@ -5,6 +5,7 @@ config/settings file
 
 extend:
 add more papers
+better curation
 division between sections, oped, sports etc
 
 present:
@@ -27,10 +28,9 @@ news
 - wsj DONE
 - reuters/ap/etc?
 
-headlines only
+headlines only?
 - the times
 - bloomberg
-- nyt
 
 oped
 - london review of books

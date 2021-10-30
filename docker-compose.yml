@@ -19,6 +19,4 @@ services:
     #     command: python main.py
     #     volumes:
     #         - ./scraper:/usr/src/app
-    #     environment:
-    #         - TZ=Europe/London
 

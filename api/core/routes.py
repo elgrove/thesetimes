@@ -1,50 +1,15 @@
 from fastapi import APIRouter, Body, Request, HTTPException, status
-from fastapi.responses import JSONResponse, HTMLResponse
+from fastapi.responses import JSONResponse
 from fastapi.encoders import jsonable_encoder
 from fastapi.templating import Jinja2Templates
-from fastapi.staticfiles import StaticFiles
 from bson import ObjectId
 
 from .models import ArticleSchema
-from .app import app
 from .utils import print_date, parse_json
 
 router = APIRouter()
 templates = Jinja2Templates(directory="templates")
 templates.env.filters["print_date"] = print_date
-app.mount("/static", StaticFiles(directory="static"), name="static")
-app.include_router(router, tags=["articles"], prefix="/api")
-
-
-##### HTML TEMPLATE ROUTES
-
-
-@app.get("/", tags=["Home"], response_class=HTMLResponse)
-async def get_homepage(request: Request):
-    articles = []
-    for a in (
-        await request.app.mongodb["articles"]
-        .find()
-        .sort("pubdate", -1)
-        .to_list(length=60)
-    ):
-        articles.append(a)
-    # random.shuffle(articles)
-    return templates.TemplateResponse(
-        "home.html", {"request": request, "articles": articles}
-    )
-
-
-@app.get("/article/{id}", tags=["Article"], response_class=HTMLResponse)
-async def get_article(id: str, request: Request):
-    if (
-        article := await request.app.mongodb["articles"].find_one({"_id": ObjectId(id)})
-    ) is not None:
-        return templates.TemplateResponse(
-            "article.html", {"request": request, "a": article}
-        )
-
-    raise HTTPException(status_code=404, detail=f"Article {id} not found")
 
 
 ##### JSON API ROUTES
