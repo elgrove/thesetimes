@@ -22,19 +22,19 @@ async def get_homepage(request: Request):
     for a in (
         await request.app.mongodb["articles"].find().sort("_id", -1).to_list(length=60)
     ):
-        articles.append(parse_json(a))
+        articles.append(a)
     return templates.TemplateResponse(
         "home.html", {"request": request, "articles": articles}
     )
 
 
-# @app.get("/{id}", tags=["Article"], response_class=HTMLResponse)
-# async def get_article(id: str, request: Request):
-#     if (
-#         article := await request.app.mongodb["articles"].find_one({"_id": ObjectId(id)})
-#     ) is not None:
-#         return templates.TemplateResponse(
-#             "article.html", {"request": request, "a": article}
-#         )
+@app.get("/article/{id}", tags=["Article"], response_class=HTMLResponse)
+async def get_article(id: str, request: Request):
+    if (
+        article := await request.app.mongodb["articles"].find_one({"_id": ObjectId(id)})
+    ) is not None:
+        return templates.TemplateResponse(
+            "article.html", {"request": request, "a": article}
+        )
 
-#     raise HTTPException(status_code=404, detail=f"Article {id} not found")
+    raise HTTPException(status_code=404, detail=f"Article {id} not found")
