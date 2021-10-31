@@ -37,8 +37,15 @@ def scrape_dw_article(link, driver):
         ]
         article = dict(title=title, author=author, pubdate=pubdate, body=paras)
         source = "Deutsche Welle"
-        article = dict(source=source, title=title,
-                       author=author, pubdate=pubdate, body=paras)
+        category = "News"
+        article = dict(
+            source=source,
+            category=category,
+            title=title,
+            author=author,
+            pubdate=pubdate,
+            body=paras,
+        )
         return article
     except:
         return None

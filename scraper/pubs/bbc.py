@@ -28,8 +28,14 @@ def scrape_bbc_article(link, driver):
         )
         author = "BBC Staff"
         source = "BBC News"
+        category = "News"
         article = dict(
-            source=source, title=title, author=author, pubdate=pubdate, body=paras
+            source=source,
+            category=category,
+            title=title,
+            author=author,
+            pubdate=pubdate,
+            body=paras,
         )
         return article
     except:

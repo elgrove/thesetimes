@@ -68,8 +68,14 @@ def scrape_blb_article(link, driver):
             bodysoup = BeautifulSoup(body, "lxml")
             paras = [p.text for p in bodysoup.find_all("p")]
             source = "Bloomberg"
+            category = "News"
             article = dict(
-                source=source, title=title, author=author, pubdate=pubdate, body=paras
+                source=source,
+                category=category,
+                title=title,
+                author=author,
+                pubdate=pubdate,
+                body=paras,
             )
             return article
         except:

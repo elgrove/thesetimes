@@ -7,6 +7,8 @@ services:
             - ./db:/data/db
         image: mongo:4
         restart: unless-stopped
+        environment:
+            - TZ=Europe/London
     api:
         build: ./api
         command: python main.py
@@ -14,9 +16,12 @@ services:
         - ./api:/usr/src/app
         ports:
         - 8558:8558
-    # scraper:
-    #     build: ./scraper
-    #     command: python main.py
-    #     volumes:
-    #         - ./scraper:/usr/src/app
-
+        environment:
+            - TZ=Europe/London
+    scraper:
+        build: ./scraper
+        command: python main.py
+        volumes:
+            - ./scraper:/usr/src/app
+        environment:
+            - TZ=Europe/London

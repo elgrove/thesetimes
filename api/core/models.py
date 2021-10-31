@@ -7,6 +7,7 @@ from bson import ObjectId
 
 class ArticleSchema(BaseModel):
     source: str = Field(...)
+    category: str = Field(...)
     title: str = Field(...)
     author: str = Field(...)
     pubdate: datetime = Field(...)
@@ -16,6 +17,7 @@ class ArticleSchema(BaseModel):
         {
             "example": {
                 "source": "BBC News",
+                "category": "News",
                 "title": "Man Bites Dog",
                 "author": "John Smith",
                 "pubdate": "2021-01-01T00:00:00.000Z",

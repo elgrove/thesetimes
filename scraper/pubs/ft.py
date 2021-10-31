@@ -28,28 +28,38 @@ def get_ft_links(driver):
 
 def scrape_ft_article(link, driver):
     """takes (link, driver) and returns dict of article"""
-    driver.get(link)
-    if "Latest news" not in driver.title:
-        page = driver.page_source.encode("utf-8")
-        soup = BeautifulSoup(page, "lxml")
-        title = str.rstrip(soup.find("meta", property="og:title")["content"])
-        author = ["FT Staff"]
-        if len(soup.findAll("meta", property="article:author")) > 1:
-            authors = []
-            for n in soup.findAll("meta", property="article:author"):
-                authors.append(n["content"])
-                author = ", ".join(authors)
-        else:
-            author = soup.find("meta", property="article:author")["content"]
-        pubdate = dt.strptime(
-            soup.find("meta", property="article:modified_time")["content"],
-            "%Y-%m-%dT%H:%M:%S.%fZ",
-        )
-        pubdate = pubdate.strftime("%Y-%m-%d %H:%M")
-        paras = [
-            p.text for p in soup.select("div[class*=content-body]")[0].find_all("p")
-        ]
-        source = "Financial Times"
-        article = dict(source=source, title=title,
-                       author=author, pubdate=pubdate, body=paras)
-        return article
+    try:
+        driver.get(link)
+        if "Latest news" not in driver.title:
+            page = driver.page_source.encode("utf-8")
+            soup = BeautifulSoup(page, "lxml")
+            title = str.rstrip(soup.find("meta", property="og:title")["content"])
+            author = ["FT Staff"]
+            if len(soup.findAll("meta", property="article:author")) > 1:
+                authors = []
+                for n in soup.findAll("meta", property="article:author"):
+                    authors.append(n["content"])
+                    author = ", ".join(authors)
+            else:
+                author = soup.find("meta", property="article:author")["content"]
+            pubdate = dt.strptime(
+                soup.find("meta", property="article:modified_time")["content"],
+                "%Y-%m-%dT%H:%M:%S.%fZ",
+            )
+            pubdate = pubdate.strftime("%Y-%m-%d %H:%M")
+            paras = [
+                p.text for p in soup.select("div[class*=content-body]")[0].find_all("p")
+            ]
+            source = "Financial Times"
+            category = "News"
+            article = dict(
+                source=source,
+                category=category,
+                title=title,
+                author=author,
+                pubdate=pubdate,
+                body=paras,
+            )
+            return article
+    except:
+        return None

@@ -5,16 +5,15 @@ config/settings file
 test, test, test
 
 extend:
-add more papers
+add more pubs
 better curation
 division between sections, oped, sports etc
+can i group similar articles based on lots of matching keywords?
 
 present:
-templates
+templates DONE
 react app
 poetry dependency mgmt
-
-
 
 
 
