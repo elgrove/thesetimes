@@ -3,13 +3,11 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.responses import HTMLResponse
 from bson import ObjectId
 
-from .routes import router as api_router
-from .routes import templates
+from .router import router as api_router
+from .router import templates
 from .utils import pub_dict  # short name to long name converter
 
 app = FastAPI()
-
-
 app.mount("/static", StaticFiles(directory="static"), name="static")
 app.include_router(api_router, tags=["articles"], prefix="/api")
 
@@ -24,7 +22,7 @@ async def get_homepage(request: Request):
         .to_list(length=60)
     ):
         articles.append(a)
-    # random.shuffle(articles)
+
     return templates.TemplateResponse(
         "home.html", {"request": request, "articles": articles}
     )
@@ -39,6 +37,7 @@ async def get_pubs_list(request: Request):
     # convert long to short for url values
     pub_dict_inverse = {v: k for k, v in pub_dict.items()}
     pubs_short = [pub_dict_inverse[n] for n in pubs]
+
     return templates.TemplateResponse(
         "pubs.html",
         {"request": request, "pubs": pubs, "pub_dict_inverse": pub_dict_inverse},
@@ -67,6 +66,7 @@ async def get_article(id: str, request: Request):
     if (
         article := await request.app.mongodb["articles"].find_one({"_id": ObjectId(id)})
     ) is not None:
+
         return templates.TemplateResponse(
             "article.html", {"request": request, "a": article}
         )
