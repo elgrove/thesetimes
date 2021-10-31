@@ -9,6 +9,7 @@ pub_dict = {
     "dw": "Deutsche Welle",
     "bbc": "BBC News",
     "ft": "Financial Times",
+    "nyr": "The New Yorker"
 }
 
 

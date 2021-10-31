@@ -11,6 +11,7 @@ from pubs.wsj import get_wsj_links, scrape_wsj_article
 from pubs.bloomberg import get_blb_links, scrape_blb_article
 from pubs.dw import get_dw_links, scrape_dw_article
 from pubs.ft import get_ft_links, scrape_ft_article
+from pubs.nyr import get_nyr_links, scrape_nyr_article
 
 api_url = "http://api:8558/api/"
 
@@ -81,6 +82,13 @@ def update_db():
     for n in ft_links:
         print(f"Scraping {n}")
         n_scraped = scrape_ft_article(n, driver)
+        commit_article(n_scraped)
+
+    print("Scraping New Yorker")
+    nyr_links = [n for n in get_nyr_links(driver)]
+    for n in nyr_links:
+        print(f"Scraping {n}")
+        n_scraped = scrape_nyr_article(n, driver)
         commit_article(n_scraped)
 
     print("Done")

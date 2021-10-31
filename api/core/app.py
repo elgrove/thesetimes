@@ -19,7 +19,7 @@ async def get_homepage(request: Request):
         await request.app.mongodb["articles"]
         .find()
         .sort("pubdate", -1)
-        .to_list(length=60)
+        .to_list(length=100)
     ):
         articles.append(a)
 
@@ -31,7 +31,7 @@ async def get_homepage(request: Request):
 @app.get("/pubs/", response_class=HTMLResponse)
 async def get_pubs_list(request: Request):
     pubs = []
-    for a in await request.app.mongodb["articles"].find().to_list(length=60):
+    for a in await request.app.mongodb["articles"].find().to_list(100):
         pubs.append(a["source"])
     pubs = list(dict.fromkeys(pubs))
     # convert long to short for url values
@@ -52,7 +52,7 @@ async def get_pub_home(pub: str, request: Request):
         await request.app.mongodb["articles"]
         .find({"source": this_pub})
         .sort("pubdate", -1)
-        .to_list(length=60)
+        .to_list(length=100)
     ):
         articles.append(a)
 
