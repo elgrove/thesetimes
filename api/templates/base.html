@@ -9,6 +9,8 @@
     <link href="{{ url_for('static', path='/css/bootstrap.min.css') }}" rel="stylesheet" />
     <link href="{{ url_for('static', path='/css/style.css') }}" rel="stylesheet" />
     <link rel="shortcut icon" href="{{ url_for('static', path='/img/favicon.ico') }}">
+
+
 </head>
 
 <body>
@@ -35,15 +37,25 @@
             <li class="nav-item">
                 <a class="nav-link link-dark" href="#">Sport</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link link-dark" href="#">Publications</a>
+            <li class="nav-item dropdown">
+                <a class="nav-link link-dark dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                    aria-haspopup="true" aria-expanded="false">Publications</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="/pubs/nyt">The New York Times</a>
+                    <a class="dropdown-item" href="/pubs/ft">Financial Times</a>
+                    <a class="dropdown-item" href="/pubs/wsj">The Wall Street Journal</a>
+                    <a class="dropdown-item" href="/pubs/dw">Deustche Welle</a>
+                    <a class="dropdown-item" href="/pubs/bbc">BBC World</a>
+
+
+
+                </div>
             </li>
         </ul>
         <br>
         <hr>
 
     </div>
-
 
     <br>
     <div id="content" class="row justify-content-center">
@@ -54,7 +66,11 @@
         </div>
     </div>
 
+    <script src="{{ url_for('static', path='/js/base.js') }}"></script>
+
     <script src="{{ url_for('static', path='/js/bootstrap.bundle.min.js') }}"></script>
+
+
 </body>
 
 </html>

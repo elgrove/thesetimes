@@ -69,12 +69,12 @@ def update_db():
     #     n_scraped = scrape_blb_article(n, driver)
     #     commit_article(n_scraped)
 
-    # print("Scraping DW")
-    # dw_links = [n for n in get_dw_links(driver)]
-    # for n in dw_links:
-    #     print(f"Scraping {n}")
-    #     n_scraped = scrape_dw_article(n, driver)
-    #     commit_article(n_scraped)
+    print("Scraping DW")
+    dw_links = [n for n in get_dw_links(driver)]
+    for n in dw_links:
+        print(f"Scraping {n}")
+        n_scraped = scrape_dw_article(n, driver)
+        commit_article(n_scraped)
 
     print("Scraping FT")
     ft_links = [n for n in get_ft_links(driver)]

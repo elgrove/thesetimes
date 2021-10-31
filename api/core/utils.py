@@ -2,6 +2,15 @@ from datetime import datetime
 import json
 from bson import json_util
 
+pub_dict = {
+    "nyt": "The New York Times",
+    "wsj": "The Wall Street Journal",
+    "blb": "Bloomberg",
+    "dw": "Deutsche Welle",
+    "bbc": "BBC News",
+    "ft": "Financial Times",
+}
+
 
 def print_date(input):
     try:

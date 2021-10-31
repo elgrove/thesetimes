@@ -15,7 +15,7 @@ def get_dw_links(driver):
         for i in a:
             if "overlay" not in i.get("href"):
                 headline_links.append(root + i.get("href"))
-    headline_links = headline_links[:6]
+    headline_links = headline_links[:4]
     return headline_links
 
 

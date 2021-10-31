@@ -13,6 +13,7 @@ templates.env.filters["print_date"] = print_date
 
 
 ##### JSON API ROUTES
+##### HTML ROUTES ARE IN APP.PY
 
 
 @router.post("/", response_description="Add new article")
