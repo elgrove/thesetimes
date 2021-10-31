@@ -1,11 +1,11 @@
 # These Times
 
-A news aggregator that pulls articles from various sources, including those behind a paywall.
+A news aggregator that pulls and presents articles from various sources, including those behind a paywall.
 
 ### Built with
 
 - Python
-- FastAP, Jinja2, Motor
+- FastAPI, Jinja2, Motor
 - MongoDB
 - BeautifulSoup, Selenium
 - Docker, docker-compose
@@ -17,8 +17,7 @@ A news aggregator that pulls articles from various sources, including those behi
 * Clone this repository
 * `cd` into the repository directory and run `docker-compose up -d`
 * The web server will listen on port 8558
-* The scraper will run every 6 hours
-
+* The scraper will run every day at the 07, 12, 16 and 19 hour
 
 ## License
 
