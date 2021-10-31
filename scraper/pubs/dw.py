@@ -40,6 +40,7 @@ def scrape_dw_article(link, driver):
         category = "News"
         article = dict(
             source=source,
+            url=link,
             category=category,
             title=title,
             author=author,

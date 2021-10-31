@@ -1,7 +1,7 @@
 import schedule
 import time
 from utils.update import update_db
-
+from utils.update import api_url
 
 schedule.every().day.at("07:00").do(update_db)
 schedule.every().day.at("12:00").do(update_db)

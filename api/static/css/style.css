@@ -4,3 +4,7 @@ body {
     padding-right: 15px;
     padding-bottom: 10px;
 }
+
+#content a:visited {
+    color:#ced4da
+}

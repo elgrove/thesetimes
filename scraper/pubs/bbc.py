@@ -11,6 +11,7 @@ def get_bbc_links(driver):
     headline_links = [
         link.get("href") for link in soup.findAll("a") if "news" in link.get("href")
     ]
+    headline_links = [n for n in headline_links if "/av/" not in n]
     headline_links = [root + n for n in headline_links if n[-1].isdigit()]
     headline_links = list(dict.fromkeys(headline_links))
     return headline_links
@@ -31,6 +32,7 @@ def scrape_bbc_article(link, driver):
         category = "News"
         article = dict(
             source=source,
+            url=link,
             category=category,
             title=title,
             author=author,
