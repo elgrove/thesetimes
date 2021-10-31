@@ -10,7 +10,7 @@ A news aggregator that pulls and presents articles from various sources, includi
 - BeautifulSoup, Selenium
 - Docker, docker-compose
 
-Enormous props to user iamadamdev for their invaluable bypass-paywalls browser extension, without which this would not be possible.
+Enormous props to github.com/iamadamdev for their invaluable bypass-paywalls browser extension, without which this would not be possible.
 
 ## Getting Started
 
