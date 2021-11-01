@@ -12,6 +12,7 @@ schedule.every().day.at("19:00").do(update_db)
 
 
 if __name__ == "__main__":
+
     time.sleep(4)  # wait for api to come online
     r = requests.get(api_url)
     # check if db is empty, if so do first run
@@ -21,6 +22,3 @@ if __name__ == "__main__":
     while True:
         schedule.run_pending()
         time.sleep(1)
-
-    # # for testing
-    # update_db()
