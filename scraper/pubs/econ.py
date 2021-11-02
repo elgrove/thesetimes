@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 from datetime import datetime as dt
+import re
 
 
 def get_econ_links(driver):
@@ -23,38 +24,44 @@ def get_econ_links(driver):
 
 def scrape_econ_article(link, driver):
     """takes (link, driver) and returns dict of article"""
-    # try:
-    driver.get(link)
-    page = driver.page_source.encode("utf-8")
-    soup = BeautifulSoup(page, 'lxml')
-    pubdate = soup.find('time').get('datetime')
+    try:
+        driver.get(link)
+        page = driver.page_source.encode("utf-8")
+        soup = BeautifulSoup(page, 'lxml')
 
-    pubdate = dt.strptime(
-        soup.find('time').get('datetime'),
-        "%Y-%m-%dT%H:%M:%SZ",
-    )
+        pubdate = dt.now()
 
-    title = str.rstrip(
-        soup.find("meta", property="og:title").get("content"))
+        if soup.find('time').get('datetime'):
+            pubdate = dt.strptime(
+                soup.find('time').get('datetime'),
+                "%Y-%m-%dT%H:%M:%SZ",
+            )
+        else:
+            pubdate = str(soup.find('time').get('text'))
+            pubdate = re.sub(r'(\d)(st|nd|rd|th)', r'\1', pubdate)
+            pubdate = dt.strptime(pubdate, "%b %-d %Y")
 
-    bodysoup = driver.find_element_by_class_name(
-        'layout-article-body').get_attribute('outerHTML')
-    bodysoup = BeautifulSoup(bodysoup, 'lxml')
-    paras = [p.text for p in bodysoup.find_all('p')]
+        title = str.rstrip(
+            soup.find("meta", property="og:title").get("content"))
 
-    source = "The Economist"
-    category = "Opinion"
-    author = "The Economist"
-    article = dict(
-        source=source,
-        url=link,
-        category=category,
-        title=title,
-        author=author,
-        pubdate=pubdate,
-        body=paras,
-    )
-    return article
-    # except:
-    #     print(f'Scrape failed {link}')
-    #     return None
+        bodysoup = driver.find_element_by_class_name(
+            'layout-article-body').get_attribute('outerHTML')
+        bodysoup = BeautifulSoup(bodysoup, 'lxml')
+        paras = [p.text for p in bodysoup.find_all('p')]
+
+        source = "The Economist"
+        category = "Opinion"
+        author = "The Economist"
+        article = dict(
+            source=source,
+            url=link,
+            category=category,
+            title=title,
+            author=author,
+            pubdate=pubdate,
+            body=paras,
+        )
+        return article
+    except:
+        print(f'Scrape failed {link}')
+        return None

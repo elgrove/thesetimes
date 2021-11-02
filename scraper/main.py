@@ -7,11 +7,12 @@ import requests
 
 schedule.every().day.at("07:00").do(update_db)
 schedule.every().day.at("12:00").do(update_db)
-schedule.every().day.at("16:00").do(update_db)
-schedule.every().day.at("19:00").do(update_db)
+schedule.every().day.at("17:00").do(update_db)
 
 
 if __name__ == "__main__":
+    time.sleep(4)
+    update_db()
 
     time.sleep(4)  # wait for api to come online
     r = requests.get(api_url)
