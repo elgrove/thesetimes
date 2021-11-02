@@ -43,6 +43,14 @@ def update_db():
     driver = driver_startup_headless()
     print("Web driver started")
     print(f"Starting scrape at {now} GMT")
+
+    print("Scraping FT")
+    ft_links = [n for n in get_ft_links(driver)]
+    for n in ft_links:
+        print(f"Scraping {n}")
+        n_scraped = scrape_ft_article(n, driver)
+        commit_article(n_scraped)
+
     print("Scraping NYT")
     nyt_links = [n for n in get_nyt_links(driver)]
     for n in nyt_links:
@@ -76,13 +84,6 @@ def update_db():
     for n in dw_links:
         print(f"Scraping {n}")
         n_scraped = scrape_dw_article(n, driver)
-        commit_article(n_scraped)
-
-    print("Scraping FT")
-    ft_links = [n for n in get_ft_links(driver)]
-    for n in ft_links:
-        print(f"Scraping {n}")
-        n_scraped = scrape_ft_article(n, driver)
         commit_article(n_scraped)
 
     print("Scraping New Yorker")
