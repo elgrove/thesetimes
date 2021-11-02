@@ -9,7 +9,8 @@ pub_dict = {
     "dw": "Deutsche Welle",
     "bbc": "BBC News",
     "ft": "Financial Times",
-    "nyr": "The New Yorker"
+    "nyr": "The New Yorker",
+    'econ': 'The Economist'
 }
 
 
@@ -23,13 +24,13 @@ def print_date(input):
     nds = [2, 22]
     rds = [3, 23]
     if dtobj.day in sts:
-        final_format = "%H:%M, %dst %B"
+        final_format = "%H:%M, %-dst %B"
     elif dtobj.day in nds:
-        final_format = "%H:%M, %dnd %B"
+        final_format = "%H:%M, %-dnd %B"
     elif dtobj.day in rds:
-        final_format = "%H:%M, %drd %B"
+        final_format = "%H:%M, %-drd %B"
     else:
-        final_format = "%H:%M, %dth %B"
+        final_format = "%H:%M, %-dth %B"
     # takes json date format and returns nicer date format for article pages
     return datetime.strftime(dtobj, final_format)
 
