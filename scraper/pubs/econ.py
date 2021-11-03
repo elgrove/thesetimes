@@ -31,15 +31,15 @@ def scrape_econ_article(link, driver):
 
         pubdate = dt.now()
 
-        if soup.find('time').get('datetime'):
-            pubdate = dt.strptime(
-                soup.find('time').get('datetime'),
-                "%Y-%m-%dT%H:%M:%SZ",
-            )
-        else:
-            pubdate = str(soup.find('time').get('text'))
-            pubdate = re.sub(r'(\d)(st|nd|rd|th)', r'\1', pubdate)
-            pubdate = dt.strptime(pubdate, "%b %-d %Y")
+        # if soup.find('time').get('datetime'):
+        #     pubdate = dt.strptime(
+        #         soup.find('time').get('datetime'),
+        #         "%Y-%m-%dT%H:%M:%SZ",
+        #     )
+        # else:
+        #     pubdate = str(soup.find('time').get('text'))
+        #     pubdate = re.sub(r'(\d)(st|nd|rd|th)', r'\1', pubdate)
+        #     pubdate = dt.strptime(pubdate, "%b %-d %Y")
 
         title = str.rstrip(
             soup.find("meta", property="og:title").get("content"))

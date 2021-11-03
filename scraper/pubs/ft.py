@@ -27,7 +27,7 @@ def get_ft_links(driver):
     # UK
     uk = 'https://www.ft.com/world/uk'
     driver.get(uk)
-    soup = BeautifulSoup(driver.page_source.encode('utf-8'))
+    soup = BeautifulSoup(driver.page_source.encode('utf-8'), 'lxml')
 
     lead = [link.get('href') for link in soup.find(
         'div', attrs={'data-trackable': 'lead-story'}).find_all('a') if 'content' in link.get('href')]

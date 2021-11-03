@@ -28,7 +28,8 @@ def scrape_nyr_article(link, driver):
         source = "The New Yorker"
         category = "Opinion"
         author = soup.find('span', attrs={"itemprop": "name"}).text
-        pubdate = dt.strptime(soup.find('time').text, '%B %d, %Y')
+        pubdate = dt.now()
+        # pubdate = dt.strptime(soup.find('time').text, '%B %d, %Y')
 
         article = dict(
             source=source,

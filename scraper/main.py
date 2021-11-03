@@ -9,7 +9,7 @@ import requests
 # schedule.every().day.at("12:00").do(update_db)
 # schedule.every().day.at("17:00").do(update_db)
 
-schedule.every().hour.at(":55").do(update_db)
+schedule.every(2).hours.at(":55").do(update_db)
 
 if __name__ == "__main__":
     time.sleep(4)  # wait for api to come online
