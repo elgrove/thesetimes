@@ -46,61 +46,61 @@ def update_db():
         print("Web driver started")
         print(f"Starting scrape at {now} GMT")
 
-        # print("Scraping FT")
-        # ft_links = [n for n in get_ft_links(driver)]
-        # for n in ft_links:
+        print("Scraping FT")
+        ft_links = [n for n in get_ft_links(driver)]
+        for n in ft_links:
+            print(f"Scraping {n}")
+            n_scraped = scrape_ft_article(n, driver)
+            commit_article(n_scraped)
+
+        print("Scraping NYT")
+        nyt_links = [n for n in get_nyt_links(driver)]
+        for n in nyt_links:
+            print(f"Scraping {n}")
+            n_scraped = scrape_nyt_article(n, driver)
+            commit_article(n_scraped)
+
+        print("Scraping BBC")
+        bbc_links = [n for n in get_bbc_links(driver)]
+        for n in bbc_links:
+            print(f"Scraping {n}")
+            n_scraped = scrape_bbc_article(n, driver)
+            commit_article(n_scraped)
+
+        # print("Scraping WSJ")
+        # wsj_links = [n for n in get_wsj_links(driver)]
+        # for n in wsj_links:
         #     print(f"Scraping {n}")
-        #     n_scraped = scrape_ft_article(n, driver)
+        #     n_scraped = scrape_wsj_article(n, driver)
         #     commit_article(n_scraped)
 
-        # print("Scraping NYT")
-        # nyt_links = [n for n in get_nyt_links(driver)]
-        # for n in nyt_links:
+        # print("Scraping Bloomberg")
+        # blb_links = [n for n in get_blb_links(driver)]
+        # for n in blb_links:
         #     print(f"Scraping {n}")
-        #     n_scraped = scrape_nyt_article(n, driver)
+        #     n_scraped = scrape_blb_article(n, driver)
         #     commit_article(n_scraped)
 
-        # print("Scraping BBC")
-        # bbc_links = [n for n in get_bbc_links(driver)]
-        # for n in bbc_links:
-        #     print(f"Scraping {n}")
-        #     n_scraped = scrape_bbc_article(n, driver)
-        #     commit_article(n_scraped)
+        print("Scraping DW")
+        dw_links = [n for n in get_dw_links(driver)]
+        for n in dw_links:
+            print(f"Scraping {n}")
+            n_scraped = scrape_dw_article(n, driver)
+            commit_article(n_scraped)
 
-        # # print("Scraping WSJ")
-        # # wsj_links = [n for n in get_wsj_links(driver)]
-        # # for n in wsj_links:
-        # #     print(f"Scraping {n}")
-        # #     n_scraped = scrape_wsj_article(n, driver)
-        # #     commit_article(n_scraped)
+        print("Scraping New Yorker")
+        nyr_links = [n for n in get_nyr_links(driver)]
+        for n in nyr_links:
+            print(f"Scraping {n}")
+            n_scraped = scrape_nyr_article(n, driver)
+            commit_article(n_scraped)
 
-        # # print("Scraping Bloomberg")
-        # # blb_links = [n for n in get_blb_links(driver)]
-        # # for n in blb_links:
-        # #     print(f"Scraping {n}")
-        # #     n_scraped = scrape_blb_article(n, driver)
-        # #     commit_article(n_scraped)
-
-        # print("Scraping DW")
-        # dw_links = [n for n in get_dw_links(driver)]
-        # for n in dw_links:
-        #     print(f"Scraping {n}")
-        #     n_scraped = scrape_dw_article(n, driver)
-        #     commit_article(n_scraped)
-
-        # print("Scraping New Yorker")
-        # nyr_links = [n for n in get_nyr_links(driver)]
-        # for n in nyr_links:
-        #     print(f"Scraping {n}")
-        #     n_scraped = scrape_nyr_article(n, driver)
-        #     commit_article(n_scraped)
-
-        # print("Scraping Economist")
-        # econ_links = [n for n in get_econ_links(driver)]
-        # for n in econ_links:
-        #     print(f"Scraping {n}")
-        #     n_scraped = scrape_econ_article(n, driver)
-        #     commit_article(n_scraped)
+        print("Scraping Economist")
+        econ_links = [n for n in get_econ_links(driver)]
+        for n in econ_links:
+            print(f"Scraping {n}")
+            n_scraped = scrape_econ_article(n, driver)
+            commit_article(n_scraped)
 
         print("Scraping Sky Sports")
         sky_links = [n for n in get_sky_links(driver)]

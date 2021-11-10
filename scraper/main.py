@@ -5,11 +5,11 @@ from utils.update import update_db
 from utils.update import api_url
 import requests
 
-# schedule.every().day.at("07:00").do(update_db)
-# schedule.every().day.at("12:00").do(update_db)
-# schedule.every().day.at("17:00").do(update_db)
+schedule.every().day.at("06:00").do(update_db)
+schedule.every().day.at("12:00").do(update_db)
+schedule.every().day.at("17:00").do(update_db)
 
-schedule.every().hour.do(update_db)
+# schedule.every().hour.do(update_db)
 
 if __name__ == "__main__":
     time.sleep(4)  # wait for api to come online
