@@ -9,10 +9,13 @@ def get_nyt_links(driver):
     headlines = driver.find_elements_by_class_name("story-wrapper")
     homepage_links = []
     for n in headlines:
-        html = n.get_attribute("outerHTML")
-        soup = BeautifulSoup(html, "lxml")
-        link = soup.find("a").get("href")
-        homepage_links.append(link)
+        try:
+            html = n.get_attribute("outerHTML")
+            soup = BeautifulSoup(html, "lxml")
+            link = soup.find("a").get("href")
+            homepage_links.append(link)
+        except:
+            pass
 
     remove_topics = [
         "live",
@@ -49,9 +52,11 @@ def scrape_nyt_article(link, driver):
             "%Y-%m-%dT%H:%M:%S.%fZ",
         )
         author = soup.find("meta", attrs={"name": "byl"})["content"][3:]
-        body = driver.find_element_by_name("articleBody").get_attribute("outerHTML")
+        body = driver.find_element_by_name(
+            "articleBody").get_attribute("outerHTML")
         bodysoup = BeautifulSoup(body, "lxml")
-        paras = [p.text for p in bodysoup.find_all("p") if p.text != "Advertisement"]
+        paras = [p.text for p in bodysoup.find_all(
+            "p") if p.text != "Advertisement"]
 
         source = "The New York Times"
         category = "News"
