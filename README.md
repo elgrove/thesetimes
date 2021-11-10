@@ -19,7 +19,7 @@ Enormous props to github.com/iamadamdev for their invaluable bypass-paywalls bro
 * Clone this repository
 * `cd` into the repository directory and run `docker-compose up -d`
 * The web server will listen on port 8558
-* The scraper will run every day at the 07, 12, 16 and 19 hour
+* The scraper will run every day at the 07, 12, 17 hours
 
 ## License
 
