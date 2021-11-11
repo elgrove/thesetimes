@@ -10,7 +10,8 @@ pub_dict = {
     "bbc": "BBC News",
     "ft": "Financial Times",
     "nyr": "The New Yorker",
-    'econ': 'The Economist'
+    'econ': 'The Economist',
+    'sky': 'Sky Sports',
 }
 
 

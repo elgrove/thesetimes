@@ -5,9 +5,9 @@ from utils.update import update_db
 from utils.update import api_url
 import requests
 
-schedule.every().day.at("06:00").do(update_db)
-schedule.every().day.at("12:00").do(update_db)
-schedule.every().day.at("17:00").do(update_db)
+schedule.every().day.at("06:50").do(update_db)
+schedule.every().day.at("11:50").do(update_db)
+schedule.every().day.at("16:50").do(update_db)
 
 # schedule.every().hour.do(update_db)
 

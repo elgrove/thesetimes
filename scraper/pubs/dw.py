@@ -31,8 +31,8 @@ def scrape_dw_article(link, driver):
         pubdate = str.strip(
             soup.find("meta", property="og:title")["content"].split("|")[2]
         )
-        pubdate = dt.now()
-        # pubdate = dt.strptime(pubdate, "%d.%m.%Y")
+        # pubdate = dt.now()
+        pubdate = dt.strptime(pubdate, "%d.%m.%Y")
         paras = [
             p.text for p in soup.find("div", attrs={"class": "longText"}).findAll("p")
         ]

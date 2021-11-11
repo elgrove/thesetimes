@@ -30,6 +30,8 @@ def scrape_sky_article(link, driver):
     title = soup.find('meta', attrs={'property': 'og:title'}).get('content')
     author = 'Sky Sports'
     pubdate = dt.now()
+    pubdate = dt.strptime(soup.find('div', attrs={
+                          'class': 'sdc-article-date'}).find('p').text, '%A %d %B %Y %H:%M, UK')
     source = 'Sky Sports'
     category = 'Sports'
 
