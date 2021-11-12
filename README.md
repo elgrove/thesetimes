@@ -2,6 +2,26 @@
 
 A news aggregator that pulls and presents articles from various sources, including those behind a paywall.
 
+Currently serving the following:
+
+News
+- Financial Times
+- New York Times
+- Wall Street Journal
+- BBC World
+- Deutsche Welle
+
+Opinion/Features
+- The Economist
+- The New Yorker
+
+Sports
+- Sky Sports (Premier League only)
+
+Tech:
+- Ars Technica
+- MIT Technology Review
+
 ### Built with
 
 - Python
