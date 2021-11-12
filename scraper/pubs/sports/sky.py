@@ -33,10 +33,12 @@ def scrape_sky_article(link, driver):
     pubdate = dt.strptime(soup.find('div', attrs={
                           'class': 'sdc-article-date'}).find('p').text, '%A %d %B %Y %H:%M, UK')
     source = 'Sky Sports'
+    source_short = 'sky'
     category = 'Sports'
 
     article = dict(
         source=source,
+        source_short=source_short,
         url=link,
         category=category,
         title=title,

@@ -42,33 +42,34 @@ def get_nyt_links(driver):
 
 def scrape_nyt_article(link, driver):
     """takes (link, driver) and returns dict of article"""
-    try:
-        driver.get(link)
-        page = driver.page_source.encode("utf-8")
-        soup = BeautifulSoup(page, "lxml")
-        title = str.rstrip(soup.find("meta", property="og:title")["content"])
-        pubdate = dt.strptime(
-            soup.find("meta", property="article:modified_time")["content"],
-            "%Y-%m-%dT%H:%M:%S.%fZ",
-        )
-        author = soup.find("meta", attrs={"name": "byl"})["content"][3:]
-        body = driver.find_element_by_name(
-            "articleBody").get_attribute("outerHTML")
-        bodysoup = BeautifulSoup(body, "lxml")
-        paras = [p.text for p in bodysoup.find_all(
-            "p") if p.text != "Advertisement"]
+    driver.get(link)
+    page = driver.page_source.encode("utf-8")
+    soup = BeautifulSoup(page, "lxml")
+    title = str.rstrip(soup.find("meta", property="og:title")["content"])
+    pubdate = dt.strptime(
+        soup.find("meta", property="article:modified_time")["content"],
+        "%Y-%m-%dT%H:%M:%S.%fZ",
+    )
+    author = soup.find("meta", attrs={"name": "byl"})["content"][3:]
+    body = driver.find_element_by_name(
+        "articleBody").get_attribute("outerHTML")
+    bodysoup = BeautifulSoup(body, "lxml")
+    paras = [p.text for p in bodysoup.find_all(
+        "p") if p.text != "Advertisement"]
 
-        source = "The New York Times"
-        category = "News"
-        article = dict(
-            source=source,
-            url=link,
-            category=category,
-            title=title,
-            author=author,
-            pubdate=pubdate,
-            body=paras,
-        )
-        return article
-    except:
-        return None
+    source = "The New York Times"
+    category = "News"
+    source_short = 'nyt'
+
+    article = dict(
+        source=source,
+        source_short=source_short,
+        url=link,
+        category=category,
+        title=title,
+        author=author,
+        pubdate=pubdate,
+        body=paras,
+    )
+
+    return article

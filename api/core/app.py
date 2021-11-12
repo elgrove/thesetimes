@@ -5,7 +5,6 @@ from bson import ObjectId
 
 from .router import router as api_router
 from .router import templates
-from .utils import pub_dict  # short name to long name converter
 
 app = FastAPI()
 app.mount("/static", StaticFiles(directory="static"), name="static")
@@ -28,29 +27,12 @@ async def get_homepage(request: Request):
     )
 
 
-@app.get("/pubs/", response_class=HTMLResponse)
-async def get_pubs_list(request: Request):
-    pubs = []
-    for a in await request.app.mongodb["articles"].find().to_list(100):
-        pubs.append(a["source"])
-    pubs = list(dict.fromkeys(pubs))
-    # convert long to short for url values
-    pub_dict_inverse = {v: k for k, v in pub_dict.items()}
-    pubs_short = [pub_dict_inverse[n] for n in pubs]
-
-    return templates.TemplateResponse(
-        "pubs.html",
-        {"request": request, "pubs": pubs, "pub_dict_inverse": pub_dict_inverse},
-    )
-
-
 @app.get("/pubs/{pub}", response_class=HTMLResponse)
 async def get_pub_home(pub: str, request: Request):
-    this_pub = pub_dict[pub]  # convert short to long for db find
     articles = []
     for a in (
         await request.app.mongodb["articles"]
-        .find({"source": this_pub})
+        .find({"source_short": pub})
         .sort("pubdate", -1)
         .to_list(length=100)
     ):

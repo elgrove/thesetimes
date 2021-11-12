@@ -7,6 +7,7 @@ from bson import ObjectId
 
 class ArticleSchema(BaseModel):
     source: str = Field(...)
+    source_short: str = Field(...)
     url: str = Field(...)
     category: str = Field(...)
     title: str = Field(...)
@@ -18,6 +19,7 @@ class ArticleSchema(BaseModel):
         {
             "example": {
                 "source": "BBC News",
+                "source_short": "bbc",
                 "url": "https://www.bbc.co.uk/news/world-59109186",
                 "category": "News",
                 "title": "Man Bites Dog",

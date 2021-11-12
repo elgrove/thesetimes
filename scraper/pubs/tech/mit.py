@@ -31,6 +31,7 @@ def scrape_mit_article(link, driver):
             paras.append(p)
 
     source = 'MIT Technology Review'
+    source_short = 'mit'
     category = 'Tech'
     title = str.rstrip(soup.find("meta", property="og:title")["content"])
     datestr = link[link.find('20'):link.find('20')+10]
@@ -41,6 +42,7 @@ def scrape_mit_article(link, driver):
 
     article = dict(
         source=source,
+        source_short=source_short,
         url=link,
         category=category,
         title=title,

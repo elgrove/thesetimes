@@ -43,7 +43,8 @@ def scrape_blb_article(link, driver):
         try:
             page = driver.page_source.encode("utf-8")
             soup = BeautifulSoup(page, "lxml")
-            title = str.strip(soup.find("meta", property="og:title")["content"])
+            title = str.strip(
+                soup.find("meta", property="og:title")["content"])
             author = ["Bloomberg Staff"]
             try:
                 if len(soup.findAll("meta", attrs={"name": "parsely-author"})) > 1:
@@ -58,7 +59,8 @@ def scrape_blb_article(link, driver):
             except:
                 pass
             pubdate = dt.strptime(
-                soup.find("meta", attrs={"name": "parsely-pub-date"})["content"],
+                soup.find("meta", attrs={
+                          "name": "parsely-pub-date"})["content"],
                 "%Y-%m-%dT%H:%M:%S.%fZ",
             )
             pubdate = pubdate.strftime("%Y-%m-%d %H:%M")
@@ -68,9 +70,11 @@ def scrape_blb_article(link, driver):
             bodysoup = BeautifulSoup(body, "lxml")
             paras = [p.text for p in bodysoup.find_all("p")]
             source = "Bloomberg"
+            source_short = 'blb'
             category = "News"
             article = dict(
                 source=source,
+                source_short=source_short,
                 url=link,
                 category=category,
                 title=title,

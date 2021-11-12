@@ -19,6 +19,7 @@ def scrape_ars_article(link, driver):
     paras = [p.text for p in soup.find(
         'div', attrs={'itemprop': 'articleBody'}).find_all('p') if len(p.text) > 1]
     source = 'Ars Technica'
+    source_short = 'ars'
     category = 'Tech'
     title = soup.find('meta', attrs={'property': 'og:title'}).get('content')
     author = soup.find('span', attrs={'itemprop': 'name'}).text
@@ -27,6 +28,7 @@ def scrape_ars_article(link, driver):
 
     article = dict(
         source=source,
+        source_short=source_short,
         url=link,
         category=category,
         title=title,
