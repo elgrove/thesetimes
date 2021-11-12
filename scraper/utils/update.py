@@ -5,16 +5,17 @@ from utils.driver import driver_startup_headless
 import json
 import requests
 from pymongo import MongoClient
-from pubs.nyt import get_nyt_links, scrape_nyt_article
-from pubs.bbc import get_bbc_links, scrape_bbc_article
-from pubs.wsj import get_wsj_links, scrape_wsj_article
-from pubs.bloomberg import get_blb_links, scrape_blb_article
-from pubs.dw import get_dw_links, scrape_dw_article
-from pubs.ft import get_ft_links, scrape_ft_article
-from pubs.nyr import get_nyr_links, scrape_nyr_article
-from pubs.econ import get_econ_links, scrape_econ_article
-from pubs.sky import get_sky_links, scrape_sky_article
-from pubs.ars import get_ars_links, scrape_ars_article
+from pubs.news.nyt import get_nyt_links, scrape_nyt_article
+from pubs.news.bbc import get_bbc_links, scrape_bbc_article
+from pubs.news.wsj import get_wsj_links, scrape_wsj_article
+from pubs.news.bloomberg import get_blb_links, scrape_blb_article
+from pubs.news.dw import get_dw_links, scrape_dw_article
+from pubs.news.ft import get_ft_links, scrape_ft_article
+from pubs.oped.nyr import get_nyr_links, scrape_nyr_article
+from pubs.oped.econ import get_econ_links, scrape_econ_article
+from pubs.sports.sky import get_sky_links, scrape_sky_article
+from pubs.tech.ars import get_ars_links, scrape_ars_article
+from pubs.tech.mit import get_mit_links, scrape_mit_article
 
 
 api_url = "http://api:8558/api/"
@@ -136,6 +137,17 @@ def update_db():
             commit_article(n_scraped)
     except:
         print(f'Scrape failed at {now} on Ars Technica')
+
+    try:
+        print("Scraping MIT Tech Review")
+        mit_links = [n for n in get_mit_links(driver)]
+        print(mit_links)
+        for n in mit_links:
+            print(f"Scraping {n}")
+            n_scraped = scrape_mit_article(n, driver)
+            commit_article(n_scraped)
+    except:
+        print(f'Scrape failed at {now} on MIT Tech Review')
 
     print(f"Scrape complete at {now}")
     driver.quit()

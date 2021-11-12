@@ -12,6 +12,8 @@ pub_dict = {
     "nyr": "The New Yorker",
     'econ': 'The Economist',
     'sky': 'Sky Sports',
+    'ars': 'Ars Technica',
+    'mit': 'MIT Technology Review'
 }
 
 
