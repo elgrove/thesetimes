@@ -49,85 +49,85 @@ def update_db():
     print("Web driver started")
     print(f"Starting scrape at {now} GMT")
 
-    # try:
-    #     print("Scraping FT")
-    #     ft_links = [n for n in get_ft_links(driver)]
-    #     for n in ft_links:
-    #         print(f"Scraping {n}")
-    #         n_scraped = scrape_ft_article(n, driver)
-    #         commit_article(n_scraped)
-    # except:
-    #     print(f'Scrape failed at {now} on FT')
+    try:
+        print("Scraping FT")
+        ft_links = [n for n in get_ft_links(driver)]
+        for n in ft_links:
+            print(f"Scraping {n}")
+            n_scraped = scrape_ft_article(n, driver)
+            commit_article(n_scraped)
+    except:
+        print(f'Scrape failed at {now} on FT')
 
-    # try:
-    #     print("Scraping NYT")
-    #     nyt_links = [n for n in get_nyt_links(driver)]
-    #     for n in nyt_links:
-    #         print(f"Scraping {n}")
-    #         n_scraped = scrape_nyt_article(n, driver)
-    #         commit_article(n_scraped)
-    # except:
-    #     print(f'Scrape failed at {now} on NYT')
+    try:
+        print("Scraping NYT")
+        nyt_links = [n for n in get_nyt_links(driver)]
+        for n in nyt_links:
+            print(f"Scraping {n}")
+            n_scraped = scrape_nyt_article(n, driver)
+            commit_article(n_scraped)
+    except:
+        print(f'Scrape failed at {now} on NYT')
 
-    # try:
-    #     print("Scraping BBC")
-    #     bbc_links = [n for n in get_bbc_links(driver)]
-    #     for n in bbc_links:
-    #         print(f"Scraping {n}")
-    #         n_scraped = scrape_bbc_article(n, driver)
-    #         commit_article(n_scraped)
-    # except:
-    #     print(f'Scrape failed at {now} on BBC')
+    try:
+        print("Scraping BBC")
+        bbc_links = [n for n in get_bbc_links(driver)]
+        for n in bbc_links:
+            print(f"Scraping {n}")
+            n_scraped = scrape_bbc_article(n, driver)
+            commit_article(n_scraped)
+    except:
+        print(f'Scrape failed at {now} on BBC')
 
-    # try:
-    #     print("Scraping WSJ")
-    #     wsj_links = [n for n in get_wsj_links(driver)]
-    #     for n in wsj_links[:3]:
-    #         print(f"Scraping {n}")
-    #         n_scraped = scrape_wsj_article(n, driver)
-    #         commit_article(n_scraped)
-    # except:
-    #     print(f'Scrape failed at {now} on WSJ')
+    try:
+        print("Scraping WSJ")
+        wsj_links = [n for n in get_wsj_links(driver)]
+        for n in wsj_links[:3]:
+            print(f"Scraping {n}")
+            n_scraped = scrape_wsj_article(n, driver)
+            commit_article(n_scraped)
+    except:
+        print(f'Scrape failed at {now} on WSJ')
 
-    # try:
-    #     print("Scraping DW")
-    #     dw_links = [n for n in get_dw_links(driver)]
-    #     for n in dw_links:
-    #         print(f"Scraping {n}")
-    #         n_scraped = scrape_dw_article(n, driver)
-    #         commit_article(n_scraped)
-    # except:
-    #     print(f'Scrape failed at {now} on DW')
+    try:
+        print("Scraping DW")
+        dw_links = [n for n in get_dw_links(driver)]
+        for n in dw_links:
+            print(f"Scraping {n}")
+            n_scraped = scrape_dw_article(n, driver)
+            commit_article(n_scraped)
+    except:
+        print(f'Scrape failed at {now} on DW')
 
-    # try:
-    #     print("Scraping New Yorker")
-    #     nyr_links = [n for n in get_nyr_links(driver)]
-    #     for n in nyr_links:
-    #         print(f"Scraping {n}")
-    #         n_scraped = scrape_nyr_article(n, driver)
-    #         commit_article(n_scraped)
-    # except:
-    #     print(f'Scrape failed at {now} on New Yorker')
+    try:
+        print("Scraping New Yorker")
+        nyr_links = [n for n in get_nyr_links(driver)]
+        for n in nyr_links:
+            print(f"Scraping {n}")
+            n_scraped = scrape_nyr_article(n, driver)
+            commit_article(n_scraped)
+    except:
+        print(f'Scrape failed at {now} on New Yorker')
 
-    # try:
-    #     print("Scraping Economist")
-    #     econ_links = [n for n in get_econ_links(driver)]
-    #     for n in econ_links:
-    #         print(f"Scraping {n}")
-    #         n_scraped = scrape_econ_article(n, driver)
-    #         commit_article(n_scraped)
-    # except:
-    #     print(f'Scrape failed at {now} on Economist')
+    try:
+        print("Scraping Economist")
+        econ_links = [n for n in get_econ_links(driver)]
+        for n in econ_links:
+            print(f"Scraping {n}")
+            n_scraped = scrape_econ_article(n, driver)
+            commit_article(n_scraped)
+    except:
+        print(f'Scrape failed at {now} on Economist')
 
-    # try:
-    #     print("Scraping Sky Sports")
-    #     sky_links = [n for n in get_sky_links(driver)]
-    #     for n in sky_links:
-    #         print(f"Scraping {n}")
-    #         n_scraped = scrape_sky_article(n, driver)
-    #         commit_article(n_scraped)
-    # except:
-    #     print(f'Scrape failed at {now} on Sky Sports')
+    try:
+        print("Scraping Sky Sports")
+        sky_links = [n for n in get_sky_links(driver)]
+        for n in sky_links:
+            print(f"Scraping {n}")
+            n_scraped = scrape_sky_article(n, driver)
+            commit_article(n_scraped)
+    except:
+        print(f'Scrape failed at {now} on Sky Sports')
 
     try:
         print("Scraping Football 365")
