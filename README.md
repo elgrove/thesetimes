@@ -2,10 +2,10 @@
 
 A news aggregator and reader that pulls and presents articles from various sources, including those behind a paywall.
 
-Currently serving the following:  
+Currently serving:  
 News: FT, NYT, WSJ, BBC, DW  
 Opinion/Features: The Economist, The New Yorker  
-Sports: Sky Sports, Football365
+Sports: Sky Sports, Football365  
 Tech: Ars Technica, MIT Technology Review  
 
 ### Built with
