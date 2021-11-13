@@ -25,7 +25,8 @@ def get_bbc_links(driver):
 def scrape_bbc_article(link, driver):
     driver.get(link)
     soup = BeautifulSoup(driver.page_source.encode("utf-8"), "lxml")
-    paras = [p.text for p in soup.find("article").find_all("p")]
+    paras = [p.text for p in soup.find("article").find_all(
+        "p", attrs={'class': lambda c: c and 'Paragraph' in c})]
     title = str.rstrip(soup.find("meta", property="og:title")["content"])
     pubdate = dt.strptime(
         soup.find("time")["datetime"],
