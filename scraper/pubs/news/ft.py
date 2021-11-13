@@ -45,7 +45,8 @@ def get_ft_links(driver):
 def scrape_ft_article(link, driver):
     """takes (link, driver) and returns dict of article"""
     driver.get(link)
-    if "Latest news" not in driver.title:
+
+    if 'latest' not in str.lower(driver.title):
         page = driver.page_source.encode("utf-8")
         soup = BeautifulSoup(page, "lxml")
         title = str.rstrip(
@@ -63,7 +64,8 @@ def scrape_ft_article(link, driver):
             soup.find("meta", property="article:modified_time")["content"],
             "%Y-%m-%dT%H:%M:%S.%fZ",
         )
-        pubdate = pubdate.strftime("%Y-%m-%d %H:%M")
+        if pubdate.microsecond:
+            pubdate = pubdate.replace(microsecond=0)
         paras = [
             p.text for p in soup.select("div[class*=content-body]")[0].find_all("p")
         ]

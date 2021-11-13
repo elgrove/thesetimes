@@ -2,6 +2,7 @@ from fastapi import FastAPI, Request, HTTPException
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import HTMLResponse
 from bson import ObjectId
+from datetime import datetime as dt
 
 from .router import router as api_router
 from .router import templates
@@ -12,6 +13,24 @@ app.include_router(api_router, tags=["articles"], prefix="/api")
 
 
 @app.get("/", response_class=HTMLResponse)
+async def get_homepage(request: Request):
+    articles = []
+    for a in (
+        await request.app.mongodb["articles"]
+        .find()
+        .to_list(length=100)
+    ):
+        articles.append(a)
+
+    articles = sorted(articles, key=lambda d: (dt.strptime(
+        d['pubdate'], "%Y-%m-%dT%H:%M:%S").date(), 1/d['pagerank']), reverse=True)
+
+    return templates.TemplateResponse(
+        "home.html", {"request": request, "articles": articles}
+    )
+
+
+@app.get("/latest", response_class=HTMLResponse)
 async def get_homepage(request: Request):
     articles = []
     for a in (
@@ -33,10 +52,13 @@ async def get_pub_home(pub: str, request: Request):
     for a in (
         await request.app.mongodb["articles"]
         .find({"source_short": pub})
-        .sort("pubdate", -1)
+        .sort("pagerank")
         .to_list(length=100)
     ):
         articles.append(a)
+
+    articles = sorted(articles, key=lambda d: (dt.strptime(
+        d['pubdate'], "%Y-%m-%dT%H:%M:%S").date(), 1/d['pagerank']), reverse=True)
 
     return templates.TemplateResponse(
         "home.html", {"request": request, "articles": articles}
@@ -66,6 +88,9 @@ async def get_pub_home(cat: str, request: Request):
         .to_list(length=100)
     ):
         articles.append(a)
+
+    articles = sorted(articles, key=lambda d: (dt.strptime(
+        d['pubdate'], "%Y-%m-%dT%H:%M:%S").date(), 1/d['pagerank']), reverse=True)
 
     return templates.TemplateResponse(
         "home.html", {"request": request, "articles": articles}

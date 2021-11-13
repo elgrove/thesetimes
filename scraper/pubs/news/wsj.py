@@ -37,7 +37,8 @@ def scrape_wsj_article(link, driver):
     driver.get(link)
     page = driver.page_source.encode("utf-8")
     soup = BeautifulSoup(page, "lxml")
-    author = soup.find("meta", attrs={"name": "author"}).get("content")
+    author = str.strip(
+        soup.find("meta", attrs={"name": "author"}).get("content").split('|')[0])
     title = soup.find(
         "meta", attrs={"name": "article.headline"}).get("content")
 

@@ -30,6 +30,7 @@ def get_nyt_links(driver):
         "newsletters",
         "video",
         "nytdealbookconference",
+        'cooking.nytimes',
     ]
     headline_links = []
     for n in homepage_links[:40]:
@@ -50,6 +51,7 @@ def scrape_nyt_article(link, driver):
         soup.find("meta", property="article:modified_time")["content"],
         "%Y-%m-%dT%H:%M:%S.%fZ",
     )
+    pubdate = pubdate.replace(microsecond=0)
     author = soup.find("meta", attrs={"name": "byl"})["content"][3:]
     body = driver.find_element_by_name(
         "articleBody").get_attribute("outerHTML")
