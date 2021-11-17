@@ -9,10 +9,10 @@ schedule.every().day.at("06:50").do(update_db)
 schedule.every().day.at("11:50").do(update_db)
 schedule.every().day.at("16:50").do(update_db)
 
-# schedule.every().hour.do(update_db)
+# schedule.every(4).hours.do(update_db)
 
 if __name__ == "__main__":
-    time.sleep(4)  # wait for api to come online
+    time.sleep(8)  # wait for api to come online
 
     # # testing
     # update_db()

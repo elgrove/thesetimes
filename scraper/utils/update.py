@@ -8,7 +8,6 @@ from pymongo import MongoClient
 from pubs.news.nyt import get_nyt_links, scrape_nyt_article
 from pubs.news.bbc import get_bbc_links, scrape_bbc_article
 from pubs.news.wsj import get_wsj_links, scrape_wsj_article
-from pubs.news.bloomberg import get_blb_links, scrape_blb_article
 from pubs.news.dw import get_dw_links, scrape_dw_article
 from pubs.news.ft import get_ft_links, scrape_ft_article
 from pubs.oped.nyr import get_nyr_links, scrape_nyr_article
