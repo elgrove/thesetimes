@@ -24,6 +24,7 @@ now = datetime.now().strftime("%Y/%m/%d %H:%M")
 
 
 def commit_article(article):
+    now = datetime.now().strftime("%Y/%m/%d %H:%M")
     if type(article) == dict:
         if (
             requests.get(
@@ -39,6 +40,7 @@ def commit_article(article):
 
 
 def update_db():
+    now = datetime.now().strftime("%Y/%m/%d %H:%M")
     print("Starting web driver")
     driver = driver_startup_headless()
     print("Web driver started")
