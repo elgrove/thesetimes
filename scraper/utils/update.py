@@ -176,5 +176,6 @@ def update_db():
     except:
         print(f'Scrape failed at {now} on MIT')
 
+    now = datetime.now().strftime("%Y/%m/%d %H:%M")
     print(f"Scrape complete at {now}")
     driver.quit()
