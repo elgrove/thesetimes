@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 from datetime import datetime as dt
+from time import sleep
 
 
 def get_ft_links(driver):
@@ -7,6 +8,13 @@ def get_ft_links(driver):
     # HOMEPAGE
     homepage = "https://www.ft.com"
     driver.get(homepage)
+    sleep(2)
+    while driver.current_url == 'https://www.ft.com/home-beta':
+        print('Trying to get old FT homepage...')
+        driver.delete_all_cookies()
+        driver.get(homepage)
+        sleep(1)
+
     headlines = driver.find_elements_by_class_name("top-stories")[0].get_attribute(
         "outerHTML"
     )
