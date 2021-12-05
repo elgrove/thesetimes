@@ -17,8 +17,9 @@ async def get_homepage(request: Request):
     articles = []
     for a in (
         await request.app.mongodb["articles"]
-        .find()
-        .to_list(length=100)
+        .find({'category': 'News'})
+        .sort('_id', -1)
+        .to_list(length=60)
     ):
         articles.append(a)
 

@@ -25,3 +25,22 @@ services:
             - ./scraper:/usr/src/app
         environment:
             - TZ=Europe/London
+    swag:
+        image: lscr.io/linuxserver/swag
+        cap_add:
+        - NET_ADMIN
+        environment:
+        - PUID=1000
+        - PGID=1000
+        - TZ=Europe/London
+        - URL=elgrove.xyz
+        - VALIDATION=dns
+        - SUBDOMAINS=news #optional
+        - DNSPLUGIN=cloudflare #optional
+        - EMAIL= aaronlovegrove@protonmail.com
+        volumes:
+        - ./swag:/config
+        ports:
+        - 443:443
+        - 80:80 #optional
+        restart: unless-stopped
