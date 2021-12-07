@@ -30,7 +30,9 @@ def get_wsj_links(driver):
         if "/amp/" in n:
             n.replace("/amp/", "/")
 
-    return headline_links[:4]
+    headline_links = [n for n in headline_links if all(["Stocks" in n, "Oil" in n])]
+
+    return headline_links[:5]
 
 
 def scrape_wsj_article(link, driver):
