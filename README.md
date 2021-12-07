@@ -1,12 +1,14 @@
 # These Times
 
-A news aggregator and reader that pulls and presents articles from various sources, including those behind a paywall.
+A news aggregator and reader that pulls and presents articles from various sources, including those behind a paywall. As with all good software, it was made to solve a problem in my own life.
 
 Currently serving:  
 News: FT, NYT, WSJ, BBC, DW  
 Opinion/Features: The Economist, The New Yorker  
 Sports: Sky Sports, Football365  
 Tech: Ars Technica, MIT Technology Review  
+
+With plans to add more, especially in opinion, tech and sports as these categories are quite bare at the moment.
 
 ### Built with
 
