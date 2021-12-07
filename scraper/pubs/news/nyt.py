@@ -53,11 +53,14 @@ def scrape_nyt_article(link, driver):
     )
     pubdate = pubdate.replace(microsecond=0)
     author = soup.find("meta", attrs={"name": "byl"})["content"][3:]
-    body = driver.find_element_by_name(
-        "articleBody").get_attribute("outerHTML")
-    bodysoup = BeautifulSoup(body, "lxml")
-    paras = [p.text for p in bodysoup.find_all(
-        "p") if p.text != "Advertisement"]
+    bodyparas = driver.find_elements_by_class_name(
+        "StoryBodyCompanionColumn")
+    body = ''
+    for n in bodyparas:
+        body = body + n.get_attribute('outerHTML')
+
+    bodysoup = BeautifulSoup(body, 'lxml')
+    paras = [p.text for p in bodysoup.find_all('p')]
 
     source = "The New York Times"
     category = "News"
