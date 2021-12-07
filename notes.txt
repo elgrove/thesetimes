@@ -1,4 +1,5 @@
 - Remove midnight pub dates
 - Homepage to show each publication's most recent #1 and #2 stories
 - Homepage to be top news outlets only - FT, NYT, WSJ, BBC - "Today's biggest stories"
-
+- Fix nav on mobile - one item gets knocked down and it looks shit
+- Add auth on API

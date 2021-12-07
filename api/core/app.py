@@ -17,14 +17,22 @@ async def get_homepage(request: Request):
     articles = []
     for a in (
         await request.app.mongodb["articles"]
-        .find({'category': 'News'})
-        .sort('_id', -1)
+        .find(
+            {"category": "News", "source_short": {"$in": ["nyt", "wsj", "ft", "bbc"]}}
+        )
+        .sort("_id", -1)  # newest-scraped articles
         .to_list(length=60)
     ):
         articles.append(a)
 
-    articles = sorted(articles, key=lambda d: (dt.strptime(
-        d['pubdate'], "%Y-%m-%dT%H:%M:%S").date(), 1/d['pagerank']), reverse=True)
+    articles = sorted(
+        articles,
+        key=lambda d: (
+            dt.strptime(d["pubdate"], "%Y-%m-%dT%H:%M:%S").date(),
+            1 / d["pagerank"],
+        ),
+        reverse=True,
+    )
 
     return templates.TemplateResponse(
         "home.html", {"request": request, "articles": articles}
@@ -36,7 +44,7 @@ async def get_homepage(request: Request):
     articles = []
     for a in (
         await request.app.mongodb["articles"]
-        .find()
+        .find({"category": "News"})
         .sort("pubdate", -1)
         .to_list(length=100)
     ):
@@ -58,8 +66,14 @@ async def get_pub_home(pub: str, request: Request):
     ):
         articles.append(a)
 
-    articles = sorted(articles, key=lambda d: (dt.strptime(
-        d['pubdate'], "%Y-%m-%dT%H:%M:%S").date(), 1/d['pagerank']), reverse=True)
+    articles = sorted(
+        articles,
+        key=lambda d: (
+            dt.strptime(d["pubdate"], "%Y-%m-%dT%H:%M:%S").date(),
+            1 / d["pagerank"],
+        ),
+        reverse=True,
+    )
 
     return templates.TemplateResponse(
         "home.html", {"request": request, "articles": articles}
@@ -90,8 +104,14 @@ async def get_pub_home(cat: str, request: Request):
     ):
         articles.append(a)
 
-    articles = sorted(articles, key=lambda d: (dt.strptime(
-        d['pubdate'], "%Y-%m-%dT%H:%M:%S").date(), 1/d['pagerank']), reverse=True)
+    articles = sorted(
+        articles,
+        key=lambda d: (
+            dt.strptime(d["pubdate"], "%Y-%m-%dT%H:%M:%S").date(),
+            1 / d["pagerank"],
+        ),
+        reverse=True,
+    )
 
     return templates.TemplateResponse(
         "home.html", {"request": request, "articles": articles}
