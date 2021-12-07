@@ -23,22 +23,20 @@ def scrape_dw_article(link, driver):
     driver.get(link)
     page = driver.page_source.encode("utf-8")
     soup = BeautifulSoup(page, "lxml")
-    title = str.rstrip(
-        soup.find("meta", property="og:title")["content"].split("|")[0]
-    )
+    title = str.rstrip(soup.find("meta", property="og:title")["content"].split("|")[0])
     author = "DW Staff"
-    pubdate = str.strip(
-        soup.find("meta", property="og:title")["content"].split("|")[2]
-    )
+    pubdate = str.strip(soup.find("meta", property="og:title")["content"].split("|")[2])
     # pubdate = dt.now()
     pubdate = dt.strptime(pubdate, "%d.%m.%Y")
     paras = [
-        p.text for p in soup.find("div", attrs={"class": "longText"}).findAll("p")
+        p.text
+        for p in soup.find("div", attrs={"class": "longText"}).findAll("p")
+        if not "/rc" in p.text
     ]
     article = dict(title=title, author=author, pubdate=pubdate, body=paras)
     source = "Deutsche Welle"
     category = "News"
-    source_short = 'dw'
+    source_short = "dw"
 
     article = dict(
         source=source,
