@@ -55,3 +55,14 @@ async def show_article(title: str, request: Request):
         return parse_json(article)
 
     raise HTTPException(status_code=404, detail=f"Article not found")
+
+
+@router.delete("/delete/{id}", response_description="Delete an article by id")
+async def delete_article(id: str, request: Request):
+    if (
+        article := await request.app.mongodb["articles"].find_one({"_id": ObjectId(id)})
+    ) is not None:
+        request.app.mongodb["articles"].delete_one({"_id": ObjectId(id)})
+        return JSONResponse(status_code=status.HTTP_200_OK)
+    else:
+        raise HTTPException(status_code=404, detail=f"Article not found")
