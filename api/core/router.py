@@ -54,4 +54,4 @@ async def show_article(title: str, request: Request):
     ) is not None:
         return parse_json(article)
 
-    raise HTTPException(status_code=404, detail=f"Article {id} not found")
+    raise HTTPException(status_code=404, detail=f"Article not found")
