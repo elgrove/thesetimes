@@ -38,9 +38,9 @@ def scrape_wsj_article(link, driver):
     page = driver.page_source.encode("utf-8")
     soup = BeautifulSoup(page, "lxml")
     author = str.strip(
-        soup.find("meta", attrs={"name": "author"}).get("content").split('|')[0])
-    title = soup.find(
-        "meta", attrs={"name": "article.headline"}).get("content")
+        soup.find("meta", attrs={"name": "author"}).get("content").split("|")[0]
+    )
+    title = soup.find("meta", attrs={"name": "article.headline"}).get("content")
 
     pubdate = dt.strptime(
         soup.find("meta", attrs={"name": "article.published"}).get("content"),
@@ -49,16 +49,13 @@ def scrape_wsj_article(link, driver):
 
     bodysoup = soup.find("article")
 
-    paras = [p.text for p in bodysoup.find_all(
-        "p") if "Copyright" not in p.text]
+    paras = [p.text for p in bodysoup.find_all("p") if "Copyright" not in p.text]
     paras = [
-        n.replace("\n", "").replace("    ", " ")
-        for n in paras
-        if "@wsj.com" not in n
+        n.replace("\n", "").replace("    ", " ") for n in paras if "@wsj.com" not in n
     ]
 
     source = "The Wall Street Journal"
-    source_short = 'wsj'
+    source_short = "wsj"
     category = "News"
 
     article = dict(
@@ -71,4 +68,8 @@ def scrape_wsj_article(link, driver):
         pubdate=pubdate,
         body=paras,
     )
-    return article
+
+    if "Please click confirm to resume now." in paras:
+        pass
+    else:
+        return article
