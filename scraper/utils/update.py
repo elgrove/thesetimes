@@ -23,6 +23,14 @@ api_url = "http://api:8558/api/"
 now = datetime.now().strftime("%Y/%m/%d %H:%M")
 
 
+# FUZZY MATCHING
+# possible_matches = get all articles from article.publication published within 12 hrs of article.pubdate
+# loop through possible_matches scoring article.title against possible_matches.article.title
+# good_match = if one scores over some score deemed a good match
+# requests.delete good_match.id
+# post article as normal
+
+
 def commit_article(article):
     now = datetime.now().strftime("%Y/%m/%d %H:%M")
     if type(article) == dict:
@@ -53,10 +61,10 @@ def update_db():
             print(f"Scraping {n}")
             n_scraped = scrape_ft_article(n, driver)
             if n_scraped:
-                n_scraped['pagerank'] = i
+                n_scraped["pagerank"] = i
             commit_article(n_scraped)
     except:
-        print(f'Scrape failed at {now} on FT')
+        print(f"Scrape failed at {now} on FT")
 
     try:
         print("Scraping NYT")
@@ -65,10 +73,10 @@ def update_db():
             print(f"Scraping {n}")
             n_scraped = scrape_nyt_article(n, driver)
             if n_scraped:
-                n_scraped['pagerank'] = i
+                n_scraped["pagerank"] = i
             commit_article(n_scraped)
     except:
-        print(f'Scrape failed at {now} on NYT')
+        print(f"Scrape failed at {now} on NYT")
 
     try:
         print("Scraping BBC")
@@ -77,10 +85,10 @@ def update_db():
             print(f"Scraping {n}")
             n_scraped = scrape_bbc_article(n, driver)
             if n_scraped:
-                n_scraped['pagerank'] = i
+                n_scraped["pagerank"] = i
             commit_article(n_scraped)
     except:
-        print(f'Scrape failed at {now} on BBC')
+        print(f"Scrape failed at {now} on BBC")
 
     try:
         print("Scraping WSJ")
@@ -89,10 +97,10 @@ def update_db():
             print(f"Scraping {n}")
             n_scraped = scrape_wsj_article(n, driver)
             if n_scraped:
-                n_scraped['pagerank'] = i
+                n_scraped["pagerank"] = i
             commit_article(n_scraped)
     except:
-        print(f'Scrape failed at {now} on WSJ')
+        print(f"Scrape failed at {now} on WSJ")
 
     try:
         print("Scraping DW")
@@ -101,10 +109,10 @@ def update_db():
             print(f"Scraping {n}")
             n_scraped = scrape_dw_article(n, driver)
             if n_scraped:
-                n_scraped['pagerank'] = i
+                n_scraped["pagerank"] = i
             commit_article(n_scraped)
     except:
-        print(f'Scrape failed at {now} on DW')
+        print(f"Scrape failed at {now} on DW")
 
     try:
         print("Scraping NYR")
@@ -113,10 +121,10 @@ def update_db():
             print(f"Scraping {n}")
             n_scraped = scrape_nyr_article(n, driver)
             if n_scraped:
-                n_scraped['pagerank'] = i
+                n_scraped["pagerank"] = i
             commit_article(n_scraped)
     except:
-        print(f'Scrape failed at {now} on NYR')
+        print(f"Scrape failed at {now} on NYR")
 
     try:
         print("Scraping ECON")
@@ -125,10 +133,10 @@ def update_db():
             print(f"Scraping {n}")
             n_scraped = scrape_econ_article(n, driver)
             if n_scraped:
-                n_scraped['pagerank'] = i
+                n_scraped["pagerank"] = i
             commit_article(n_scraped)
     except:
-        print(f'Scrape failed at {now} on ECON')
+        print(f"Scrape failed at {now} on ECON")
 
     try:
         print("Scraping SKY")
@@ -137,10 +145,10 @@ def update_db():
             print(f"Scraping {n}")
             n_scraped = scrape_sky_article(n, driver)
             if n_scraped:
-                n_scraped['pagerank'] = i
+                n_scraped["pagerank"] = i
             commit_article(n_scraped)
     except:
-        print(f'Scrape failed at {now} on SKY')
+        print(f"Scrape failed at {now} on SKY")
 
     try:
         print("Scraping F365")
@@ -149,10 +157,10 @@ def update_db():
             print(f"Scraping {n}")
             n_scraped = scrape_f365_article(n, driver)
             if n_scraped:
-                n_scraped['pagerank'] = i
+                n_scraped["pagerank"] = i
             commit_article(n_scraped)
     except:
-        print(f'Scrape failed at {now} on F365')
+        print(f"Scrape failed at {now} on F365")
 
     try:
         print("Scraping ARS")
@@ -161,10 +169,10 @@ def update_db():
             print(f"Scraping {n}")
             n_scraped = scrape_ars_article(n, driver)
             if n_scraped:
-                n_scraped['pagerank'] = i
+                n_scraped["pagerank"] = i
             commit_article(n_scraped)
     except:
-        print(f'Scrape failed at {now} on ARS')
+        print(f"Scrape failed at {now} on ARS")
 
     try:
         print("Scraping MIT")
@@ -173,10 +181,10 @@ def update_db():
             print(f"Scraping {n}")
             n_scraped = scrape_mit_article(n, driver)
             if n_scraped:
-                n_scraped['pagerank'] = i
+                n_scraped["pagerank"] = i
             commit_article(n_scraped)
     except:
-        print(f'Scrape failed at {now} on MIT')
+        print(f"Scrape failed at {now} on MIT")
 
     now = datetime.now().strftime("%Y/%m/%d %H:%M")
     print(f"Scrape complete at {now}")
