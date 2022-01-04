@@ -79,18 +79,6 @@ def update_db():
         print(f"Scrape failed at {now} on NYT")
 
     try:
-        print("Scraping BBC")
-        bbc_links = [n for n in get_bbc_links(driver)]
-        for i, n in enumerate(bbc_links, 1):
-            print(f"Scraping {n}")
-            n_scraped = scrape_bbc_article(n, driver)
-            if n_scraped:
-                n_scraped["pagerank"] = i
-            commit_article(n_scraped)
-    except:
-        print(f"Scrape failed at {now} on BBC")
-
-    try:
         print("Scraping WSJ")
         wsj_links = [n for n in get_wsj_links(driver)]
         for i, n in enumerate(wsj_links, 1):
@@ -101,6 +89,18 @@ def update_db():
             commit_article(n_scraped)
     except:
         print(f"Scrape failed at {now} on WSJ")
+
+    try:
+        print("Scraping BBC")
+        bbc_links = [n for n in get_bbc_links(driver)]
+        for i, n in enumerate(bbc_links, 1):
+            print(f"Scraping {n}")
+            n_scraped = scrape_bbc_article(n, driver)
+            if n_scraped:
+                n_scraped["pagerank"] = i
+            commit_article(n_scraped)
+    except:
+        print(f"Scrape failed at {now} on BBC")
 
     try:
         print("Scraping DW")
