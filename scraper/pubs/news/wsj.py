@@ -30,7 +30,9 @@ def get_wsj_links(driver):
         if "/amp/" in n:
             n.replace("/amp/", "/")
 
-    headline_links = [n for n in headline_links if all(["Stocks" in n, "Oil" in n])]
+    headline_links = [
+        n for n in headline_links if all(["Stocks" not in n, "Oil" not in n])
+    ]
 
     return headline_links[:5]
 

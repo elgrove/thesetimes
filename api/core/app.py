@@ -39,6 +39,21 @@ async def get_homepage(request: Request):
     )
 
 
+# async def get_landing(request: Request):
+#     articles = []
+#     for a in (
+#         await request.app.mongodb["articles"]
+#         .find()
+#         .sort("pubdate", -1)
+#         .to_list(length=40)
+#     ):
+#         articles.append(a)
+
+#     return templates.TemplateResponse(
+#         "home.html", {"request": request, "articles": articles}
+#     )
+
+
 @app.get("/latest", response_class=HTMLResponse)
 async def get_homepage(request: Request):
     articles = []

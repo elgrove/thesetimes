@@ -21,7 +21,7 @@ if __name__ == "__main__":
     time.sleep(8)  # wait for api to come online
 
     # # testing
-    # update_db()
+    update_db()
 
     r = requests.get(api_url)
     # check if db is empty, if so do first run

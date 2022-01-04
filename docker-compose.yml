@@ -15,7 +15,7 @@ services:
         volumes:
         - ./api:/usr/src/app
         ports:
-        - 8558:8558
+        - 8558:80
         environment:
             - TZ=Europe/London
     scraper:
