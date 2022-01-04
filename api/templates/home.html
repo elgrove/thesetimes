@@ -11,12 +11,14 @@
 {% for a in articles %}
 
 <h3>
-    <a class="link-dark" href="/article/{{ a._id }}">{{ a.title }}</a>
+    <a class="link-light" href="/article/{{ a._id }}">{{ a.title }}</a>
 </h3>
-{{ a.source }} - {{ a.pubdate|print_date }}
-<br>
-{{ a.author }}
-<br><br><br>
+<p class="text-light">{{ a.source }} - {{ a.pubdate|print_date }}
+    <br>
+    {{ a.author }}
+
+</p>
+<br><br>
 
 {% endfor %}
 {% endblock content %}

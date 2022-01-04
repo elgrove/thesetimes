@@ -2,15 +2,15 @@
 
 {% block content %}
 
-<h3>{{ a.title }}</h3>
-{{ a.source }} - {{ a.pubdate|print_date }}
-<br>
-{{ a.author }} - <a class="link-dark" href="{{ a.url }}">Original link</a>
+<h3 class="text-light">{{ a.title }}</h3>
+<p class="text-light">{{ a.source }} - {{ a.pubdate|print_date }}
+    <br>
+    {{ a.author }} - <a class="link-light" href="{{ a.url }}">Original link</a>
+</p>
 
-<br><br>
 
 {% for p in a.body %}
-<p>{{ p }}</p>
+<p class="text-light">{{ p }}</p>
 {% endfor %}
 
 {% endblock content %}
