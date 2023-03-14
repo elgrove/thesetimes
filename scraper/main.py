@@ -1,32 +1,39 @@
 from selenium import webdriver
-from selenium.webdriver.firefox.options import Options
-from selenium.webdriver.firefox.firefox_profile import FirefoxProfile
-from time import sleep
-import os
 
 
-def driver_startup_headless():
-    options = Options()
-    options.headless = True
+def wait_for_service(service_url, timeout):
+    import socket
+    import time
 
-    driver = webdriver.Firefox(
-        options=options, firefox_binary="/opt/firefox/firefox-bin"
-    )
+    host, port = service_url.split(":")
+    timeout_time = time.time() + timeout
 
-    ext = [
-        os.path.abspath(f"extensions/{e}")
-        for e in os.listdir("extensions")
-        if e.endswith(".xpi")
-    ]
+    while True:
+        if time.time() > timeout_time:
+            raise TimeoutError(
+                f"Timed out waiting for {service_url} to become available"
+            )
 
-    for n in ext:
-        driver.install_addon(n)
+        try:
+            sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            sock.settimeout(1)
+            sock.connect((host, int(port)))
+            sock.shutdown(socket.SHUT_RDWR)
+            return True
 
-    sleep(8)
-    return driver
+        except (ConnectionRefusedError, socket.timeout):
+            time.sleep(1)
+            continue
+
+        finally:
+            sock.close()
 
 
-if __name__ == "__main__":
-    driver = driver_startup_headless()
-    driver.get("https://www.ft.com/content/5e444ba2-0afc-49e8-bfec-5fc17ef7ee39")
-    print(driver.page_source)
+wait_for_service("browser:4444", timeout=60)
+firefox_options = webdriver.FirefoxOptions()
+driver = webdriver.Remote(
+    command_executor="http://browser:4444", options=firefox_options
+)
+driver.get("http://www.google.com")
+print(driver.page_source)
+driver.quit()
