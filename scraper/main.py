@@ -1,4 +1,5 @@
 from selenium import webdriver
+import os
 
 
 def wait_for_service(service_url, timeout):
@@ -31,9 +32,17 @@ def wait_for_service(service_url, timeout):
 
 wait_for_service("browser:4444", timeout=60)
 firefox_options = webdriver.FirefoxOptions()
+
+extensions = [os.path.abspath(f"extensions/{e}") for e in os.listdir("extensions")]
+
+
 driver = webdriver.Remote(
     command_executor="http://browser:4444", options=firefox_options
 )
-driver.get("http://www.google.com")
+
+for e in extensions:
+    webdriver.Firefox.install_addon(driver, e)
+
+driver.get("https://www.ft.com/content/e351ccfd-641f-4203-b778-19d656b8543b")
 print(driver.page_source)
 driver.quit()
