@@ -1,0 +1,9 @@
+version: '3.3'
+services:
+  scraper:
+    build: ./scraper
+    command: python main.py
+    volumes:
+      - ./scraper:/usr/src/app
+    environment:
+      - TZ=Europe/London
