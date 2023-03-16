@@ -1,14 +1,53 @@
 version: '3.3'
 services:
-  browser:
+  database:
+    image: postgres:14-bullseye
+    restart: unless-stopped
+    user: ${POSTGRES_USER}
+    env_file:
+      - .env
     ports:
-      - '4444:4444'
-      - '7900:7900'
-    image: 'selenium/standalone-firefox:4.8.1-20230306'
-  scraper:
-    build: ./scraper
+      - "${POSTGRES_PORT}:${POSTGRES_PORT}"
+    volumes:
+      - ./database:/var/lib/postgresql/data
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready" ]
+      interval: 2s
+      timeout: 60s
+  orm:
+    build: ./orm
     command: python main.py
     volumes:
-      - ./scraper:/usr/src/app
-    environment:
-      - TZ=Europe/London
+      - ./orm:/usr/src/app
+    env_file:
+      - .env
+    depends_on:
+      database:
+        condition: service_healthy
+#  webdriver:
+#    restart: unless-stopped
+#    ports:
+#      - '4444:4444'
+#      # uncomment for live browser view
+#      # - '7900:7900'
+#    healthcheck:
+#      test: ["CMD", "curl", "--silent", "--fail", "http://localhost:4444"]
+#      interval: 2s
+#      timeout: 60s
+#    image: 'selenium/standalone-firefox:4.8.1-20230306'
+#    depends_on:
+#      orm:
+#        condition: service_completed_successfully
+#  scraper:
+#    restart: unless-stopped
+#    build: ./scraper
+#    command: python main.py
+#    volumes:
+#      - ./scraper:/usr/src/app
+#    env_file:
+#      - .env
+#    depends_on:
+#      webdriver:
+#        condition: service_healthy
+#
+#

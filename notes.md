@@ -1,23 +1,3 @@
-SERVERLESS
-
-Database setup & migrations:
-pass
-
-Ticker:
-Scheduled
-Loop through list of sites to scrape
-Publishes event for site scraper
-
-Site scraper:
-pass
-
-Article scraper:
-pass
-
-
-SERVERFUL
-
-
 Website service - flask
 API service - fastapi or django-ninja
 ORM service - sqlalchemy
@@ -32,3 +12,31 @@ Lint, test
 Deploy database container
 Run db setup/migrate function
 Deploy service containers
+
+@dataclass
+Article
+.headline
+.body
+.authors
+.pubdate
+.etc...
+
+@dataclass
+Publication
+.homepage
+.article_root
+.
+
+PublicationScraper(Publication)
+.article_links
+.scrape_headline()
+.scrape_body()
+.scrape_metadata()
+
+ScraperDirector(PublicationScraper)
+
+-----
+
+database container starts
+orm container starts and runs and exits
+scraper container starts
