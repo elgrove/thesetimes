@@ -13,30 +13,5 @@ Deploy database container
 Run db setup/migrate function
 Deploy service containers
 
-@dataclass
-Article
-.headline
-.body
-.authors
-.pubdate
-.etc...
 
-@dataclass
-Publication
-.homepage
-.article_root
-.
-
-PublicationScraper(Publication)
-.article_links
-.scrape_headline()
-.scrape_body()
-.scrape_metadata()
-
-ScraperDirector(PublicationScraper)
-
------
-
-database container starts
-orm container starts and runs and exits
-scraper container starts
+- logging

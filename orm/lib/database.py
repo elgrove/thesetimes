@@ -76,11 +76,21 @@ def database_setup():
             f"GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO {os.environ['DATABASE_ADMIN']};"
         )
         conn.execute(
+            f"GRANT ALL PRIVILEGES ON ALL SEQUENCES IN SCHEMA public TO {os.environ['DATABASE_ADMIN']};"
+        )
+        conn.execute(
             f"GRANT SELECT,UPDATE,INSERT,DELETE ON ALL TABLES IN SCHEMA public TO {os.environ['DATABASE_USER']};"
+        )
+        conn.execute(
+            f"GRANT ALL PRIVILEGES ON ALL SEQUENCES IN SCHEMA public TO {os.environ['DATABASE_USER']};"
         )
 
         # grant privileges on future tables
         conn.execute(
             f"""ALTER DEFAULT PRIVILEGES FOR ROLE {os.environ['DATABASE_ADMIN']} IN SCHEMA public
                 GRANT SELECT,UPDATE,INSERT,DELETE ON TABLES TO {os.environ['DATABASE_USER']};"""
+        )
+        conn.execute(
+            f"""ALTER DEFAULT PRIVILEGES FOR ROLE {os.environ['DATABASE_ADMIN']} IN SCHEMA public
+                GRANT ALL PRIVILEGES ON SEQUENCES TO {os.environ['DATABASE_USER']};"""
         )

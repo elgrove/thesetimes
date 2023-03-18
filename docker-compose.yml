@@ -3,7 +3,7 @@ services:
   database:
     image: postgres:14-bullseye
     restart: unless-stopped
-    user: ${POSTGRES_USER}
+    user: postgres
     env_file:
       - .env
     ports:
