@@ -1,22 +1,12 @@
-import abc
-
-
-from sqlalchemy.orm import declarative_base
+from sqlalchemy.ext.automap import automap_base
 from sqlalchemy import Column, Integer, String, DateTime
 from sqlalchemy.dialects import postgresql
 
-Base = declarative_base()
+from lib.database import get_db_engine
 
+Base = automap_base()
 
-class Article(Base):
-    __tablename__ = "articles"
+engine = get_db_engine()
+Base.prepare(engine, reflect=True)
 
-    id = Column(Integer, primary_key=True, autoincrement=True)
-    publication = Column(String)
-    pubdate = Column(DateTime)
-    authors = Column(String)
-    title = Column(String)
-    body = Column(postgresql.ARRAY, String, dimensions=1)
-
-    def __repr__(self):
-        return f"{self.publication} - {self.title}"
+Article = Base.classes.article
