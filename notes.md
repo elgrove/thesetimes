@@ -9,9 +9,5 @@ Nox, linting, testing
 
 What would a CICD process do?
 Lint, test
-Deploy database container
-Run db setup/migrate function
-Deploy service containers
-
-
-- logging
+rebuild docker containers where needed
+docker compose up
