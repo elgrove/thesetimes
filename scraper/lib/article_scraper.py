@@ -2,7 +2,7 @@ import logging
 
 from lib.logger import get_logger
 from functools import cached_property
-from lib.article import Article
+from lib.database_models import Article
 from lib.publications import Publication
 
 from . import LOGGER
@@ -28,17 +28,18 @@ class ArticleScraper:
         return self.publication.get_article_body(self.driver, self.url)
 
     @cached_property
-    def pubdate(self):
+    def published_date(self):
         return self.publication.get_article_pubdate(self.driver, self.url)
 
     @property
     def database_model(self):
         return Article(
-            publication=self.publication.name,
+            publication_name=self.publication.name,
+            publication_short=self.publication.short_name,
             title=self.title,
             body=self.body,
             authors=self.authors,
-            pubdate=self.pubdate,
+            published_date=self.published_date,
         )
 
     def scrape_to_db(self):

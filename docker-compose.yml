@@ -67,3 +67,14 @@ services:
     depends_on:
       webdriver:
         condition: service_healthy
+  webapp:
+    restart: unless-stopped
+    build: ./web
+    command: gunicorn -w 1 -b 0.0.0.0 'main:create_app()'
+    volumes:
+      - ./web:/usr/src/app
+    env_file:
+      - .env
+    depends_on:
+      orm:
+        condition: service_completed_successfully

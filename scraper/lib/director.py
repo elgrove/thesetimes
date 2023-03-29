@@ -1,6 +1,6 @@
 import logging
 from sqlalchemy.orm import sessionmaker
-from lib.article import Article
+from lib.database_models import Article
 from lib.article_scraper import ArticleScraper
 from lib.database import get_db_engine
 from lib.publications.financial_times import FinancialTimes

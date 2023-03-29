@@ -7,6 +7,7 @@ from lib.database import get_db_engine
 Base = automap_base()
 
 engine = get_db_engine()
+
 Base.prepare(engine, reflect=True)
 
 Article = Base.classes.articles

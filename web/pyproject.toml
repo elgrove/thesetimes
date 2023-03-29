@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "api"
+name = "web"
 version = "0.1.0"
 description = ""
 authors = ["Aaron <aaron@aaron.com>"]
@@ -7,8 +7,13 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "~3.9"
+flask = "^2.2.3"
+gunicorn = "^20.1.0"
 
 
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
 
 [build-system]
 requires = ["poetry-core"]
