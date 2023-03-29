@@ -1,10 +1,10 @@
 import logging
 from sqlalchemy.orm import sessionmaker
-from lib.database_models import Article
-from lib.article_scraper import ArticleScraper
-from lib.database import get_db_engine
-from lib.publications.financial_times import FinancialTimes
-from lib.webdriver import WebDriverBuilder
+from core.database_models import Article
+from core.article_scraper import ArticleScraper
+from core.database import get_db_engine
+from core.publications.financial_times import FinancialTimes
+from core.webdriver import WebDriverBuilder
 from . import LOGGER
 
 

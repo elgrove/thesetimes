@@ -24,17 +24,6 @@ services:
     depends_on:
       database:
         condition: service_healthy
-  # api:
-  #   restart: unless-stopped
-  #   build: ./api
-  #   command: python manage.py runserver
-  #   volumes:
-  #     - ./scraper:/usr/src/app
-  #   env_file:
-  #     - .env
-  #   depends_on:
-  #     orm:
-  #       condition: service_completed_successfully
   webdriver:
     restart: unless-stopped
     ports:
@@ -71,6 +60,8 @@ services:
     restart: unless-stopped
     build: ./web
     command: gunicorn -w 1 -b 0.0.0.0 'main:create_app()'
+    ports:
+      - 8000:8000
     volumes:
       - ./web:/usr/src/app
     env_file:

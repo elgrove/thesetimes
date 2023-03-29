@@ -1,9 +1,9 @@
 import logging
 
-from lib.logger import get_logger
+from core.logger import get_logger
 from functools import cached_property
-from lib.database_models import Article
-from lib.publications import Publication
+from core.database_models import Article
+from core.publications import Publication
 
 from . import LOGGER
 

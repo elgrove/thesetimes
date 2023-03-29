@@ -1,7 +1,7 @@
-from lib.database import get_db_engine
-from lib.logger import get_logger
-from lib.webdriver import WebDriverBuilder
-from lib.director import ScraperDirector
+from core.database import get_db_engine
+from core.logger import get_logger
+from core.webdriver import WebDriverBuilder
+from core.director import ScraperDirector
 
 
 if __name__ == "__main__":

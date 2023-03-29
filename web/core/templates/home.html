@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+<style>
+    #content a:visited {
+        color: #ced4da
+    }
+</style>
+
+{% block content %}
+
+{% for a in articles %}
+
+<h3>
+    <a class="link-light" href="/article/{{ a._id }}">{{ a.title }}</a>
+</h3>
+<p class="text-light">{{ a.publication_name }} - {{ a.published_date|date }}
+    <br>
+    {{ a.authors }}
+
+</p>
+<br><br>
+
+{% endfor %}
+{% endblock content %}
