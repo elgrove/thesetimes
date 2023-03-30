@@ -23,9 +23,27 @@ class TestFinancialTimes:
         pub = FinancialTimes()
         driver = MockFinancialTimesDriver()
         article_urls = pub.get_articles(driver)
+
+        assert len(article_urls) == 13
+        assert all(a in article_urls for a in [
+            # top story
+            "https://www.ft.com/content/59827e3a-ca68-4c75-a6c6-b71d58df907a",
+            # second shelf
+            "https://www.ft.com/content/69ca2924-85f7-42ae-9b5b-5b9907cf12b7",
+            # spotlight shelf
+            "https://www.ft.com/content/b1657ee3-eb9d-41c7-851e-5900c74bd934",
+            # # news shelf
+            # "https://www.ft.com/content/f814ff18-4c05-4589-9879-b0800ac3a4ed",
+            # "https://www.ft.com/content/475e8cc1-8cd5-4877-980e-7a86847e3bc6"
+            ])
+
+    def test_get_articles_exclude_live_news(self):
+        pub = FinancialTimes()
+        driver = MockFinancialTimesDriver()
+        article_urls = pub.get_articles(driver)
         assert (
-            article_urls[0]
-            == "https://www.ft.com/content/5746165a-3a0c-42c7-9a2e-cb7cf5f33f46"
+            "https://www.ft.com/content/9232fa8b-ef69-4ccb-abe0-58f69eb726b1"
+            not in article_urls
         )
 
     def test_get_article_authors(self):

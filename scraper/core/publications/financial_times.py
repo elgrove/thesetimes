@@ -14,21 +14,29 @@ class FinancialTimes(Publication):
     def get_articles(self, driver):
         driver.get(self.homepage)
         soup = self.parser(driver.page_source.encode("utf-8"), "lxml")
-        article_urls = [
-            self.homepage + a.get("href")
-            for soup in [
-                section.find_all(
-                    "a", attrs={"data-trackable-context-story-link": "heading-link"}
-                )
-                for section in soup.find_all(
-                    attrs={"data-trackable-context-list-type": "top-stories"}
-                )
-                # only top 3 sections
-            ][:3]
-            for a in soup
-            if "content" in a.get("href")
+
+        TOP_STORY_DIVS_TO_SCRAPE = 3
+
+        top_stories_divs = soup.find_all(
+            attrs={"data-trackable-context-list-type": "top-stories"}
+        )[:TOP_STORY_DIVS_TO_SCRAPE]
+
+        div_containing_live_news = [d for d in top_stories_divs if "FT live news" in d.text][0]
+        story_group_live_news = div_containing_live_news.find('div', attrs={'class': 'story-group'})
+        live_news_urls = {self.homepage + a.get("href") for a in story_group_live_news.find_all('a') if 'content' in a.get('href')}
+
+        heading_anchors = [
+            section.find_all(
+                "a", attrs={"data-trackable-context-story-link": "heading-link"}
+            )
+            for section in top_stories_divs
         ]
-        return article_urls
+        # flatten list of lists
+        heading_anchors = [item for sublist in heading_anchors for item in sublist]
+
+        article_urls = {self.homepage + a.get("href") for a in heading_anchors if 'content' in a.get('href')}
+
+        return list(article_urls - live_news_urls)
 
     def get_article_authors(self, driver, article_url):
         driver.get(article_url)
