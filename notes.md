@@ -17,4 +17,3 @@ Public/private attributes
 uniqueness on article
 articles updated how do we do that
 styling on pages
-remove ft live news

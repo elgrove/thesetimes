@@ -3,7 +3,13 @@ from sqlalchemy.orm import Session
 from sqlalchemy import desc
 from .database import engine, models
 
-core = Blueprint("core", __name__, template_folder="templates", static_folder="static")
+core = Blueprint(
+    "core",
+    __name__,
+    template_folder="templates",
+    static_folder="static",
+    static_url_path="/core",
+)
 
 
 ENGINE = engine.get_engine()
