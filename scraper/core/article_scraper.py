@@ -36,6 +36,7 @@ class ArticleScraper:
         return Article(
             publication_name=self.publication.name,
             publication_short=self.publication.short_name,
+            url=self.url,
             title=self.title,
             body=self.body,
             authors=self.authors,

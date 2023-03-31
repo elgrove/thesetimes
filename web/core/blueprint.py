@@ -1,7 +1,8 @@
 from flask import Blueprint, render_template
 from sqlalchemy.orm import Session
 from sqlalchemy import desc
-from .database import engine, models
+from .engine import get_engine
+from .models import Article
 
 core = Blueprint(
     "core",
@@ -12,16 +13,25 @@ core = Blueprint(
 )
 
 
-ENGINE = engine.get_engine()
+ENGINE = get_engine()
+
+# TODO scoped session
 
 
 @core.route("/")
 def home():
     with Session(ENGINE) as session:
         articles = (
-            session.query(models.Article)
-            .order_by(desc(models.Article.published_date))
+            session.query(Article)
+            .order_by(desc(Article.published_date))
             .limit(60)
             .all()
         )
     return render_template("home.html", articles=articles)
+
+
+@core.route("/article/<id>")
+def article(id):
+    with Session(ENGINE) as session:
+        article = session.query(Article).filter(Article.id == id).first()
+    return render_template("article.html", article=article)

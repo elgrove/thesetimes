@@ -1,5 +1,5 @@
 from flask import Flask
-from core import core
+from core.blueprint import core
 
 app = Flask(__name__)
 
