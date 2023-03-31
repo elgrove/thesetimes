@@ -1,5 +1,5 @@
 clean:
-	rm -rf orm/lib/alembic/versions/*
+	rm -rf orm/core/alembic/versions/*
 	sudo rm -rf database
 	mkdir database
 	sudo chown -R 999:999 ./database

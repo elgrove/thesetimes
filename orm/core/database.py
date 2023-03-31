@@ -71,6 +71,7 @@ def database_setup():
         create_database(admin_engine.url)
 
     with admin_engine.connect() as conn:
+        conn.execute('CREATE EXTENSION IF NOT EXISTS "pgcrypto";')
         # grant privileges on existing tables
         conn.execute(
             f"GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO {os.environ['DATABASE_ADMIN']};"

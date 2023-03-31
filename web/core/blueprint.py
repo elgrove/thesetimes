@@ -1,8 +1,8 @@
 from flask import Blueprint, render_template
 from sqlalchemy.orm import Session
 from sqlalchemy import desc
-from .engine import get_engine
-from .models import Article
+from core.engine import get_engine
+from core.models import Article
 
 core = Blueprint(
     "core",
@@ -30,8 +30,8 @@ def home():
     return render_template("home.html", articles=articles)
 
 
-@core.route("/article/<id>")
-def article(id):
+@core.route("/article/<uuid>")
+def article(uuid):
     with Session(ENGINE) as session:
-        article = session.query(Article).filter(Article.id == id).first()
+        article = session.query(Article).filter(Article.uuid == uuid).first()
     return render_template("article.html", article=article)

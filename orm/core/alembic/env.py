@@ -1,7 +1,7 @@
 from logging.config import fileConfig
 
-from lib.database import get_admin_db_engine
-from lib.models import Base
+from core.database import get_admin_db_engine
+from core.models import Base
 
 from alembic import context
 

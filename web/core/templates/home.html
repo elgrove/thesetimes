@@ -11,7 +11,7 @@
 {% for a in articles %}
 
 <h3>
-    <a class="link-light" href="/article/{{ a.id }}">{{ a.title }}</a>
+    <a class="link-light" href="/article/{{ a.uuid }}">{{ a.title }}</a>
 </h3>
 <p class="text-light">{{ a.publication_name }} - {{ a.published_date|date }}
     <br>
