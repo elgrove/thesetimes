@@ -44,7 +44,12 @@ class ArticleScraper:
         )
 
     def scrape_to_db(self):
-        LOGGER.info(f"Adding to session article {self.title}")
-        self.session.add(self.database_model)
-        LOGGER.info(f"Committing session")
+        LOGGER.debug(f"Merging into session: {self.title}")
+        result = self.session.merge(self.database_model)
+        if result in self.session.dirty:
+            LOGGER.info(f"Article was updated: {self.title}")
+        elif result in self.session.new:
+            LOGGER.info(f"Article was inserted: {self.title}")
+
+        LOGGER.debug(f"Committing session")
         self.session.commit()

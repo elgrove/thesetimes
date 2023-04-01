@@ -21,9 +21,20 @@ class FinancialTimes(Publication):
             attrs={"data-trackable-context-list-type": "top-stories"}
         )[:TOP_STORY_DIVS_TO_SCRAPE]
 
-        div_containing_live_news = [d for d in top_stories_divs if "FT live news" in d.text][0]
-        story_group_live_news = div_containing_live_news.find('div', attrs={'class': 'story-group'})
-        live_news_urls = {self.homepage + a.get("href") for a in story_group_live_news.find_all('a') if 'content' in a.get('href')}
+        # filtering out live news feed pages
+        live_news_urls = set()
+        div_containing_live_news = [
+            d for d in top_stories_divs if "FT live news" in d.text
+        ]
+        for div in div_containing_live_news:
+            story_group_live_news = div.find("div", attrs={"class": "story-group"})
+            live_news_urls.add(
+                {
+                    self.homepage + a.get("href")
+                    for a in story_group_live_news.find_all("a")
+                    if "content" in a.get("href")
+                }
+            )
 
         heading_anchors = [
             section.find_all(
@@ -34,7 +45,11 @@ class FinancialTimes(Publication):
         # flatten list of lists
         heading_anchors = [item for sublist in heading_anchors for item in sublist]
 
-        article_urls = {self.homepage + a.get("href") for a in heading_anchors if 'content' in a.get('href')}
+        article_urls = {
+            self.homepage + a.get("href")
+            for a in heading_anchors
+            if "content" in a.get("href")
+        }
 
         return list(article_urls - live_news_urls)
 
