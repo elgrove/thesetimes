@@ -1,14 +1,14 @@
-from sqlalchemy.orm import declarative_base
-from sqlalchemy import Column, Integer, String, DateTime, ForeignKey
+from sqlalchemy import Column, String, DateTime
 from sqlalchemy.dialects import postgresql
-from sqlalchemy.dialects.postgresql import UUID
+from sqlalchemy.orm import declarative_base
 from sqlalchemy.sql import text
-import uuid
 
 Base = declarative_base()
 
 
 class Article(Base):
+    """Object representing rows in the Articles table."""
+
     __tablename__ = "articles"
 
     uuid = Column(String, server_default=text("gen_random_uuid()"))

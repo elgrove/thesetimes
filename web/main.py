@@ -1,30 +1,22 @@
 from flask import Flask
+
 from core.blueprint import core
-
-app = Flask(__name__)
-
-
-from datetime import datetime
-
-
-def print_date(dtobj):
-    mapping = {"1": "st", "2": "th", "3": "rd"}
-    try:
-        suffix = mapping[str(dtobj.day)[-1]]
-    except KeyError:
-        suffix = "th"
-
-    format = f"%H:%M, %-d{suffix} %B"
-    return datetime.strftime(dtobj, format)
+from core.filters import print_date
 
 
 def create_app():
+    """App factory for the Flask app with configuration."""
     app = Flask(__name__)
     app.register_blueprint(core)
     app.add_template_filter(print_date, "date")
     return app
 
 
-if __name__ == "__main__":
+def start_development_server():
+    """Run development server. For development purposes only."""
     app = create_app()
     app.run(debug=True, host="0.0.0.0", port=8000)
+
+
+if __name__ == "__main__":
+    start_development_server()

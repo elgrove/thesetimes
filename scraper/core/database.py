@@ -4,6 +4,7 @@ import sqlalchemy
 
 
 def get_db_engine():
+    """Return database engine based on env vars."""
     connection_url = sqlalchemy.engine.URL.create(
         "postgresql+psycopg2",
         username=os.environ["DATABASE_USER"],

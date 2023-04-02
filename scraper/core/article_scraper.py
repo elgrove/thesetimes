@@ -1,15 +1,15 @@
-import logging
-
-from core.logger import get_logger
 from functools import cached_property
+
+from core import LOGGER
 from core.database_models import Article
 from core.publications import Publication
 
-from . import LOGGER
-
 
 class ArticleScraper:
+    """Class for scraping an article from any publication."""
+
     def __init__(self, publication: Publication, url, driver, session):
+        """Initialise with publication class, url of article, scraper webdriver and db session."""
         self.publication = publication
         self.url = url
         self.driver = driver
@@ -17,22 +17,27 @@ class ArticleScraper:
 
     @cached_property
     def authors(self):
+        """Returns the article's authors."""
         return self.publication.get_article_authors(self.driver, self.url)
 
     @cached_property
     def title(self):
+        """Returns the article's title."""
         return self.publication.get_article_title(self.driver, self.url)
 
     @cached_property
     def body(self):
+        """Returns the article's body as a list of paragraphs."""
         return self.publication.get_article_body(self.driver, self.url)
 
     @cached_property
     def published_date(self):
+        """Returns the article's publication datetime."""
         return self.publication.get_article_pubdate(self.driver, self.url)
 
     @property
     def database_model(self):
+        """Returns a database model of the article."""
         return Article(
             publication_name=self.publication.name,
             publication_short=self.publication.short_name,
@@ -44,12 +49,13 @@ class ArticleScraper:
         )
 
     def scrape_to_db(self):
-        LOGGER.debug(f"Merging into session: {self.title}")
+        """Execute scraping and insert article object into database."""
+        LOGGER.debug("Merging into session: %s", self.title)
         result = self.session.merge(self.database_model)
         if result in self.session.dirty:
-            LOGGER.info(f"Article was updated: {self.title}")
+            LOGGER.info("Article was updated: %s", self.title)
         elif result in self.session.new:
-            LOGGER.info(f"Article was inserted: {self.title}")
+            LOGGER.info("Article was inserted: %s ", self.title)
 
-        LOGGER.debug(f"Committing session")
+        LOGGER.debug("Committing session")
         self.session.commit()

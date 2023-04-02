@@ -19,7 +19,8 @@ ENGINE = get_engine()
 
 
 @core.route("/")
-def home():
+def home_page():
+    """Route for the root homepage."""
     with Session(ENGINE) as session:
         articles = (
             session.query(Article)
@@ -31,7 +32,8 @@ def home():
 
 
 @core.route("/article/<uuid>")
-def article(uuid):
+def article_page(uuid):
+    """Route to retrieve an individual article by uuid column."""
     with Session(ENGINE) as session:
         article = session.query(Article).filter(Article.uuid == uuid).first()
     return render_template("article.html", article=article)

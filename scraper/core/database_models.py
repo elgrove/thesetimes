@@ -1,6 +1,4 @@
 from sqlalchemy.ext.automap import automap_base
-from sqlalchemy import Column, Integer, String, DateTime
-from sqlalchemy.dialects import postgresql
 
 from core.database import get_db_engine
 

@@ -13,9 +13,22 @@ lxml = "^4.9.2"
 sqlalchemy = "^1.4"
 psycopg2-binary = "^2.9.5"
 
-
 [tool.poetry.group.dev.dependencies]
+pylint = "^2.17.1"
 pytest = "^7.2.2"
+black = "^23.3.0"
+
+[tool.pylint.options]
+ignore = [".venv", "pyproject.toml"]
+
+[tool.pylint.messages_control]
+max-line-length = 120
+disable = [
+    "missing-module-docstring",
+    "too-few-public-methods",
+    "invalid-name",
+    "fixme",
+]
 
 [build-system]
 requires = ["poetry-core"]

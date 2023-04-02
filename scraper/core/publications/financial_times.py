@@ -4,6 +4,8 @@ from core.publications import Publication
 
 
 class FinancialTimes(Publication):
+    """Object holding code for scraping the publication Financial Times."""
+
     def __init__(self):
         super().__init__()
         self.name = "Financial Times"
@@ -15,11 +17,11 @@ class FinancialTimes(Publication):
         driver.get(self.homepage)
         soup = self.parser(driver.page_source.encode("utf-8"), "lxml")
 
-        TOP_STORY_DIVS_TO_SCRAPE = 3
+        top_story_divs_to_scrape = 3
 
         top_stories_divs = soup.find_all(
             attrs={"data-trackable-context-list-type": "top-stories"}
-        )[:TOP_STORY_DIVS_TO_SCRAPE]
+        )[:top_story_divs_to_scrape]
 
         # filtering out live news feed pages
         live_news_urls = set()
