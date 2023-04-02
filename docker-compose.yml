@@ -16,7 +16,6 @@ services:
       timeout: 60s
   orm:
     build: ./orm
-    command: python main.py
     volumes:
       - ./orm:/usr/src/app
     env_file:
@@ -48,7 +47,6 @@ services:
   scraper:
     restart: unless-stopped
     build: ./scraper
-    command: python main.py
     volumes:
       - ./scraper:/usr/src/app
     env_file:
@@ -56,16 +54,15 @@ services:
     depends_on:
       webdriver:
         condition: service_healthy
-  # web:
-  #   restart: unless-stopped
-  #   build: ./web
-  #   command: gunicorn -w 1 -b 0.0.0.0 'main:create_app()'
-  #   ports:
-  #     - 8000:8000
-  #   volumes:
-  #     - ./web:/usr/src/app
-  #   env_file:
-  #     - .env
-  #   depends_on:
-  #     orm:
-  #       condition: service_completed_successfully
+  web:
+    restart: unless-stopped
+    build: ./web
+    ports:
+      - 8000:8000
+    volumes:
+      - ./web:/usr/src/app
+    env_file:
+      - .env
+    depends_on:
+      orm:
+        condition: service_completed_successfully

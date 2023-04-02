@@ -33,7 +33,6 @@ Public/private attributes
 Todo
 
 before mvp
-- log main and m1 into alvgrv github
 - lint? ruff?
 - tests on flask app
 - scheduling on scraper
