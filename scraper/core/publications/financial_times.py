@@ -7,6 +7,7 @@ class FinancialTimes(Publication):
     """Object holding code for scraping the publication Financial Times."""
 
     def __init__(self):
+        '''Initialise class with required attributes.'''
         super().__init__()
         self.name = "Financial Times"
         self.short_name = "ft"
@@ -14,6 +15,7 @@ class FinancialTimes(Publication):
         self.homepage = "https://www.ft.com"
 
     def get_articles(self, driver):
+        '''Returns a list of article URLs to be scraped.'''
         driver.get(self.homepage)
         soup = self.parser(driver.page_source.encode("utf-8"), "lxml")
 
@@ -30,7 +32,7 @@ class FinancialTimes(Publication):
         ]
         for div in div_containing_live_news:
             story_group_live_news = div.find("div", attrs={"class": "story-group"})
-            live_news_urls.add(
+            live_news_urls = live_news_urls.union(
                 {
                     self.homepage + a.get("href")
                     for a in story_group_live_news.find_all("a")
@@ -56,9 +58,10 @@ class FinancialTimes(Publication):
         return list(article_urls - live_news_urls)
 
     def get_article_authors(self, driver, article_url):
+        '''Returns the author(s) of the article as a string, comma-seperated if more than one.'''
         driver.get(article_url)
         soup = self.parser(driver.page_source.encode("utf-8"), "lxml")
-        author = ["FT Staff"]
+        author = "FT Staff"
         if len(soup.findAll("meta", property="article:author")) > 1:
             authors = []
             for n in soup.findAll("meta", property="article:author"):
@@ -69,6 +72,7 @@ class FinancialTimes(Publication):
         return author
 
     def get_article_pubdate(self, driver, article_url):
+        '''Returns the article published date as a datetime object.'''
         driver.get(article_url)
         soup = self.parser(driver.page_source.encode("utf-8"), "lxml")
         pubdate = dt.strptime(
@@ -80,12 +84,14 @@ class FinancialTimes(Publication):
         return pubdate
 
     def get_article_title(self, driver, article_url):
+        '''Returns the article title as a string.'''
         driver.get(article_url)
         soup = self.parser(driver.page_source.encode("utf-8"), "lxml")
         title = str.rstrip(soup.find("meta", property="og:title")["content"])
         return title
 
     def get_article_body(self, driver, article_url):
+        '''Returns the article body as a list of strings, one for each paragraph.'''
         driver.get(article_url)
         soup = self.parser(driver.page_source.encode("utf-8"), "lxml")
         body = [

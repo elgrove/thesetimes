@@ -1,5 +1,3 @@
-from functools import cached_property
-
 from core import LOGGER
 from core.database_models import Article
 from core.publications import Publication
@@ -15,22 +13,22 @@ class ArticleScraper:
         self.driver = driver
         self.session = session
 
-    @cached_property
+    @property
     def authors(self):
         """Returns the article's authors."""
         return self.publication.get_article_authors(self.driver, self.url)
 
-    @cached_property
+    @property
     def title(self):
         """Returns the article's title."""
         return self.publication.get_article_title(self.driver, self.url)
 
-    @cached_property
+    @property
     def body(self):
         """Returns the article's body as a list of paragraphs."""
         return self.publication.get_article_body(self.driver, self.url)
 
-    @cached_property
+    @property
     def published_date(self):
         """Returns the article's publication datetime."""
         return self.publication.get_article_pubdate(self.driver, self.url)
