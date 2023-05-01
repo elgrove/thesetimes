@@ -40,3 +40,4 @@ class ScraperDirector:
                     scraper = self.article_scraper(pub, url, self.driver, session)
                     scraper.scrape_to_db()
             LOGGER.info("Closing database session")
+        self.driver.quit()
