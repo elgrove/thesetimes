@@ -1,4 +1,4 @@
-from sqlalchemy import Column, String, DateTime
+from sqlalchemy import Column, String, DateTime, Integer
 from sqlalchemy.dialects import postgresql
 from sqlalchemy.orm import declarative_base
 from sqlalchemy.sql import text
@@ -19,6 +19,7 @@ class Article(Base):
     authors = Column(String, nullable=False, primary_key=True)
     title = Column(String, nullable=False, primary_key=True)
     body = Column(postgresql.ARRAY(String, dimensions=1), nullable=False)
+    page_rank = Column(Integer, nullable=False)
 
     def __repr__(self):
         return f"{self.publication_name} - {self.title}"

@@ -6,6 +6,27 @@ from core.publication.financial_times import FinancialTimes
 from tests.cases.publications.cases_financial_times import HOMEPAGE_HTML, ARTICLE_HTML
 
 
+import pytest
+from sqlalchemy import create_mock_engine
+
+
+@pytest.fixture(name="article", autouse=True)
+def article(monkeypatch):
+    class Article:
+        def __init__(self, *args, **kwargs):
+            pass
+
+    monkeypatch.setattr("core.database_models.Article", Article)
+
+
+@pytest.fixture(name="engine", autouse=True)
+def engine(monkeypatch):
+    def get_engine():
+        return create_mock_engine("postgresql://", lambda x: x)
+
+    monkeypatch.setattr("core.database.engine.get_db_engine", get_engine)
+
+
 class MockFinancialTimesDriver:
     """Mocking the webdriver service, returning pages from the FT."""
 

@@ -7,7 +7,7 @@ services:
     env_file:
       - .env
     ports:
-      - "${POSTGRES_PORT}:${POSTGRES_PORT}"
+      - "8002:${POSTGRES_PORT}"
     volumes:
       - ./database:/var/lib/postgresql/data
     healthcheck:
@@ -26,7 +26,7 @@ services:
   webdriver:
     restart: unless-stopped
     ports:
-      - '4444:4444'
+      - '8001:4444'
       # uncomment for live browser view
       # - '7900:7900'
     healthcheck:

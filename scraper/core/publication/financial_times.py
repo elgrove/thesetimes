@@ -61,8 +61,12 @@ class FinancialTimes(Publication):
         """Returns the author(s) of the article as a string, comma-seperated if more than one."""
         driver.get(article_url)
         soup = self.parser(driver.page_source.encode("utf-8"), "lxml")
-        author = "FT Staff"
-        if len(soup.findAll("meta", property="article:author")) > 1:
+        author_count = len(soup.findAll("meta", property="article:author"))
+
+        if not author_count:
+            return "FT Staff"
+
+        if author_count > 1:
             authors = []
             for n in soup.findAll("meta", property="article:author"):
                 authors.append(n["content"])
