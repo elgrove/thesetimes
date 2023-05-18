@@ -2,7 +2,7 @@ from datetime import datetime
 
 import pytest
 
-from core.publications.financial_times import FinancialTimes
+from core.publication.financial_times import FinancialTimes
 from tests.cases.publications.cases_financial_times import HOMEPAGE_HTML, ARTICLE_HTML
 
 
@@ -56,6 +56,9 @@ class TestFinancialTimes:
             "https://www.ft.com/content/9232fa8b-ef69-4ccb-abe0-58f69eb726b1"
             not in article_urls
         )
+
+    def test_get_articles_order(self):
+        pass
 
     def test_get_article_authors(self):
         """Test get article authors."""

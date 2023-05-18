@@ -1,12 +1,21 @@
+from dataclasses import dataclass
+from datetime import datetime
+
 from core import LOGGER
-from core.database_models import Article
-from core.publications import Publication
+from core.database_models import Article as ArticleModel
+from core.publication import Publication
+
+
+@dataclass
+class ArticleToScrape:
+    url: str
+    page_rank: int
 
 
 class ArticleScraper:
     """Class for scraping an article from any publication."""
 
-    def __init__(self, publication: Publication, url, driver, session):
+    def __init__(self, publication: Publication, url: ArticleToScrape, driver, session):
         """Initialise with publication class, url of article, scraper webdriver and db session."""
         self.publication = publication
         self.url = url
@@ -36,7 +45,7 @@ class ArticleScraper:
     @property
     def database_model(self):
         """Returns a database model of the article."""
-        return Article(
+        return ArticleModel(
             publication_name=self.publication.name,
             publication_short=self.publication.short_name,
             url=self.url,

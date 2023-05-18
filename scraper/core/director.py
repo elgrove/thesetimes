@@ -3,7 +3,7 @@ from sqlalchemy.orm import sessionmaker
 from core import LOGGER
 from core.article_scraper import ArticleScraper
 from core.database import get_db_engine
-from core.publications.financial_times import FinancialTimes
+from core.publication.financial_times import FinancialTimes
 from core.webdriver import WebDriverBuilder
 
 
@@ -35,9 +35,8 @@ class ScraperDirector:
             for pub in self.PUBLICATIONS:
                 pub = pub()
                 LOGGER.info("Working on publication %s", pub.name)
-                article_urls = pub.get_articles(self.driver)
-                for url in article_urls:
-                    scraper = self.article_scraper(pub, url, self.driver, session)
+                for article in pub.get_articles(self.driver):
+                    scraper = self.article_scraper(pub, article, self.driver, session)
                     scraper.scrape_to_db()
             LOGGER.info("Closing database session")
         self.driver.quit()

@@ -4,49 +4,28 @@ ORM service - sqlalchemy
 Scraper service - selenium/bs4
 Database - postgres
 
+GA builds the docker containers and publishes them
+Linode cron or watchtower to keep the containers updated
 
-CICD
-Nox, linting, testing
-
-What would a CICD process do?
-Lint, test
-rebuild docker containers where needed
-docker compose up
-
-where am i going to deploy? linode
-how am i  going to do github actions? ssh into linode
-
-github actions:
-
-on pr:
-    - lint
-    - test
-
+github actions
 on merge into main:
-    - ssh into linode with key auth
-    - git pull
-    - dcp up --build
+    - semantic release
+    - build  containers
 
 
-Public/private attributes
 
-Todo
-
-before mvp
-- lint? ruff?
-- tests on flask app
-- scheduling on scraper
-- can i develop the flask app inside the container?
-- reverse proxy maybe traefik or caddy
-
-
-after mvp:
-- deal with articles updating
-- push to github
-- cicd based on pushes to github (after mvp)
-- lint
-- images and charts
-- homepage ranking
-- latest news page sorted by pubdate
-- other publications - nyt, econ, bbc, athletic, new yorker, ft opinion, ft life and arts
-- 
+ROADMAP
+- [x] scheduling for scraper
+- [ ] homepage ranking
+- [ ] latest news page (as opposed to ranked)
+- [ ] deal with articles updating
+- [ ] cicd publishes docker containers on merge into main
+- [ ] scrape images and charts
+- [ ] add publications
+  - [ ] new yorker
+  - [ ] nyt
+  - [ ] economist
+  - [ ] bbc
+  - [ ] athletic
+- [ ] reverse proxy
+- [/] tests for flask app
