@@ -1,4 +1,4 @@
-from core.database import database_setup, run_migrations
+from thesetimes_orm.database import database_setup, run_migrations
 
 if __name__ == "__main__":
     database_setup()

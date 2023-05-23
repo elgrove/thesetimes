@@ -2,7 +2,7 @@ from dataclasses import dataclass
 from datetime import datetime
 
 from core import LOGGER
-from core.database_models import Article
+from thesetimes_orm.models import Article
 from core.publication import Publication
 
 

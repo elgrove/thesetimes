@@ -9,15 +9,15 @@ services:
     ports:
       - "8002:${POSTGRES_PORT}"
     volumes:
-      - ./database:/var/lib/postgresql/data
+      - ./service-database:/var/lib/postgresql/data
     healthcheck:
       test: [ "CMD-SHELL", "pg_isready" ]
       interval: 2s
       timeout: 60s
   orm:
-    build: ./orm
+    image: service-orm:latest
     volumes:
-      - ./orm:/usr/src/app
+      - ./service-orm:/usr/src/app
     env_file:
       - .env
     depends_on:
@@ -46,9 +46,9 @@ services:
         condition: service_completed_successfully
   scraper:
     restart: unless-stopped
-    build: ./scraper
+    image: service-scraper:latest
     volumes:
-      - ./scraper:/usr/src/app
+      - ./service-scraper:/usr/src/app
     env_file:
       - .env
     depends_on:
@@ -56,11 +56,11 @@ services:
         condition: service_healthy
   web:
     restart: unless-stopped
-    build: ./web
+    image: service-web:latest
     ports:
       - 8000:8000
     volumes:
-      - ./web:/usr/src/app
+      - ./service-web:/usr/src/app
     env_file:
       - .env
     depends_on:

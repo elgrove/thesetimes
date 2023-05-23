@@ -1,7 +1,7 @@
 from logging.config import fileConfig
 
-from core.database import get_admin_db_engine
-from core.models import Base
+from thesetimes_orm.database import get_admin_db_engine
+from thesetimes_orm.models import Base
 
 from alembic import context
 
