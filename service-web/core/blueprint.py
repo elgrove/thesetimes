@@ -13,27 +13,23 @@ core = Blueprint(
 )
 
 
-ENGINE = get_engine()
-
-# TODO scoped session
-
-
 @core.route("/")
 def home_page():
     """Route for the root homepage."""
-    with Session(ENGINE) as session:
-        articles = (
+    with Session(get_engine()) as session:
+        latest_articles = (
             session.query(Article)
             .order_by(desc(Article.published_date))
-            .limit(60)
+            .limit(20)
             .all()
         )
-    return render_template("home.html", articles=articles)
+    top_articles = sorted(latest_articles, key=lambda x: x.page_rank)
+    return render_template("home.html", articles=top_articles)
 
 
 @core.route("/article/<uuid>")
 def article_page(uuid):
     """Route to retrieve an individual article by uuid column."""
-    with Session(ENGINE) as session:
+    with Session(get_engine()) as session:
         article = session.query(Article).filter(Article.uuid == uuid).first()
     return render_template("article.html", article=article)
