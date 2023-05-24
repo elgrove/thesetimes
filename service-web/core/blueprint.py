@@ -27,6 +27,19 @@ def home_page():
     return render_template("home.html", articles=top_articles)
 
 
+@core.route("/latest")
+def latest_page():
+    """Route for the root homepage."""
+    with Session(get_engine()) as session:
+        latest_articles = (
+            session.query(Article)
+            .order_by(desc(Article.published_date))
+            .limit(20)
+            .all()
+        )
+    return render_template("home.html", articles=latest_articles)
+
+
 @core.route("/article/<uuid>")
 def article_page(uuid):
     """Route to retrieve an individual article by uuid column."""

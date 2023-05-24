@@ -16,8 +16,8 @@ on merge into main:
 
 ROADMAP
 - [x] scheduling for scraper
-- [ ] homepage ranking
-- [ ] latest news page (as opposed to ranked)
+- [x] homepage ranking
+- [x] latest news page (as opposed to ranked)
 - [ ] deal with articles updating
 - [ ] cicd publishes docker containers on merge into main
 - [ ] scrape images and charts
