@@ -4,7 +4,7 @@ from core.article_scraper import ArticleToScrape
 from core.publication import Publication
 
 
-class NewYorker(Publication):
+class TheNewYorker(Publication):
     """Object holding code for scraping the publication Financial Times."""
 
     def __init__(self):

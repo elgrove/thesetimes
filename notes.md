@@ -21,8 +21,9 @@ ROADMAP
 - [ ] deal with articles updating
 - [ ] cicd publishes docker containers on merge into main
 - [ ] scrape images and charts
+- [ ] add publication-specific pages
 - [ ] add publications
-  - [ ] new yorker
+  - [x] new yorker
   - [ ] nyt
   - [ ] economist
   - [ ] bbc

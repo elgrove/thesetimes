@@ -4,13 +4,14 @@ from core import LOGGER
 from core.article_scraper import ArticleScraper
 from core.database import get_db_engine
 from core.publication.financial_times import FinancialTimes
+from core.publication.new_yorker import TheNewYorker
 from core.webdriver import WebDriverBuilder
 
 
 class ScraperDirector:
     """Director class orchestrating scraping of all publications."""
 
-    PUBLICATIONS = [FinancialTimes]
+    PUBLICATIONS = [FinancialTimes, TheNewYorker]
 
     def __init__(
         self,

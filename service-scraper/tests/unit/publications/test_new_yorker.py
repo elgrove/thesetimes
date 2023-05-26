@@ -4,7 +4,7 @@ import pytest
 from thesetimes_orm.models import Article
 
 from core.article_scraper import ArticleToScrape
-from core.publication.new_yorker import NewYorker
+from core.publication.new_yorker import TheNewYorker
 from tests.cases.publications.new_yorker.article import ARTICLE_HTML
 from tests.cases.publications.new_yorker.homepage import HOMEPAGE_HTML
 
@@ -34,21 +34,21 @@ class TestNewYorker:
 
     def test_get_articles_isobject_article(self):
         """Test get_articles."""
-        pub = NewYorker()
+        pub = TheNewYorker()
         driver = MockNewYorkerDriver()
         articles = pub.get_articles(driver)
 
         assert all(isinstance(article, ArticleToScrape) for article in articles)
 
     def test_get_articles_count(self):
-        pub = NewYorker()
+        pub = TheNewYorker()
         driver = MockNewYorkerDriver()
         articles = pub.get_articles(driver)
 
         assert len(articles) == 9
 
     def test_get_articles_urls(self):
-        pub = NewYorker()
+        pub = TheNewYorker()
         driver = MockNewYorkerDriver()
         articles = pub.get_articles(driver)
 
@@ -72,25 +72,25 @@ class TestNewYorker:
 
     def test_get_article_authors(self):
         """Test get article authors."""
-        pub = NewYorker()
+        pub = TheNewYorker()
         driver = MockNewYorkerDriver()
         authors = pub.get_article_authors(driver, "url")
         assert authors == "Amanda Petrusich"
 
     def test_get_article_pubdate(self):
-        pub = NewYorker()
+        pub = TheNewYorker()
         driver = MockNewYorkerDriver()
         pubdate = pub.get_article_pubdate(driver, "url")
         assert pubdate == datetime(2023, 5, 25, 18, 37, 21)
 
     def test_get_article_title(self):
-        pub = NewYorker()
+        pub = TheNewYorker()
         driver = MockNewYorkerDriver()
         title = pub.get_article_title(driver, "url")
         assert title == "The Untouchable Tina Turner"
 
     def test_get_article_body(self):
-        pub = NewYorker()
+        pub = TheNewYorker()
         driver = MockNewYorkerDriver()
         body = pub.get_article_body(driver, "url")
         assert body == [
