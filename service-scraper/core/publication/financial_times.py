@@ -1,4 +1,5 @@
 from datetime import datetime as dt
+from functools import cached_property
 
 from core.article_scraper import ArticleToScrape
 from core.publication import Publication
@@ -15,85 +16,50 @@ class FinancialTimes(Publication):
         self.category = "News"
         self.homepage = "https://www.ft.com"
 
-    def get_articles(self, driver):  # TODO could be broken up
-        """Returns a list of article URLs to be scraped."""
-        driver.get(self.homepage)
-        soup = self.parser(driver.page_source.encode("utf-8"), "lxml")
+    def _get_top_story_divs(self, soup, top_story_divs=3):
+        return soup.find_all(attrs={"data-trackable-context-list-type": "top-stories"})[
+            :top_story_divs
+        ]
 
-        top_story_divs_to_scrape = 3
-
-        top_stories_divs = soup.find_all(
-            attrs={"data-trackable-context-list-type": "top-stories"}
-        )[:top_story_divs_to_scrape]
-
+    def _get_top_story_urls(self, soup):
         heading_anchors = []
-        for section in top_stories_divs:
+        for section in self._get_top_story_divs(soup):
             heading_anchors.extend(
                 section.find_all(
                     "a", attrs={"data-trackable-context-story-link": "heading-link"}
                 )
             )
 
-        article_urls = [
+        return [
             self.homepage + a.get("href")
             for a in heading_anchors
             if "content" in a.get("href")
         ]
 
-        # filtering out live news feed pages
+    def _get_live_news_urls(self, soup):
         live_news_urls = []
         div_containing_live_news = [
-            d for d in top_stories_divs if "FT live news" in d.text
+            d for d in self._get_top_story_divs(soup) if "FT live news" in d.text
         ]
         for div in div_containing_live_news:
             story_group = div.find("div", attrs={"class": "story-group"})
             for a in story_group.find_all("a"):
                 if "content" in a.get("href"):
                     live_news_urls.append(self.homepage + a.get("href"))
+        return live_news_urls
 
-        article_urls = [a for a in article_urls if a not in live_news_urls]
+    def get_articles(self, driver):
+        """Returns a list of article URLs to be scraped."""
+        driver.get(self.homepage)
+        soup = self.parser(driver.page_source.encode("utf-8"), "lxml")
+        top_story_urls = self._get_top_story_urls(soup)
+        live_news_urls = self._get_live_news_urls(soup)
+        article_urls = [a for a in top_story_urls if a not in live_news_urls]
 
         return [
             ArticleToScrape(url=url, page_rank=i)
             for i, url in enumerate(article_urls, start=1)
         ]
-
-    def get_article_authors(self, driver, article_url):
-        """Returns the author(s) of the article as a string, comma-seperated if more than one."""
-        driver.get(article_url)
-        soup = self.parser(driver.page_source.encode("utf-8"), "lxml")
-        author_count = len(soup.findAll("meta", property="article:author"))
-
-        if not author_count:
-            return "FT Staff"
-
-        if author_count > 1:
-            authors = []
-            for n in soup.findAll("meta", property="article:author"):
-                authors.append(n["content"])
-                author = ", ".join(authors)
-        else:
-            author = soup.find("meta", property="article:author")["content"]
-        return author
-
-    def get_article_pubdate(self, driver, article_url):
-        """Returns the article published date as a datetime object."""
-        driver.get(article_url)
-        soup = self.parser(driver.page_source.encode("utf-8"), "lxml")
-        pubdate = dt.strptime(
-            soup.find("meta", property="article:modified_time")["content"],
-            "%Y-%m-%dT%H:%M:%S.%fZ",
-        )
-        if pubdate.microsecond:
-            pubdate = pubdate.replace(microsecond=0)
-        return pubdate
-
-    def get_article_title(self, driver, article_url):
-        """Returns the article title as a string."""
-        driver.get(article_url)
-        soup = self.parser(driver.page_source.encode("utf-8"), "lxml")
-        title = str.rstrip(soup.find("meta", property="og:title")["content"])
-        return title
 
     def get_article_body(self, driver, article_url):
         """Returns the article body as a list of strings, one for each paragraph."""
