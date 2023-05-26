@@ -19,8 +19,9 @@ def home_page():
     with Session(get_engine()) as session:
         latest_articles = (
             session.query(Article)
+            .order_by(desc(Article.page_rank))
             .order_by(desc(Article.published_date))
-            .limit(20)
+            .limit(40)  # TODO order by desc 20 is leaving out older aeticle from NYR
             .all()
         )
     top_articles = sorted(latest_articles, key=lambda x: x.page_rank)
@@ -34,7 +35,7 @@ def latest_page():
         latest_articles = (
             session.query(Article)
             .order_by(desc(Article.published_date))
-            .limit(20)
+            .limit(40)
             .all()
         )
     return render_template("home.html", articles=latest_articles)
