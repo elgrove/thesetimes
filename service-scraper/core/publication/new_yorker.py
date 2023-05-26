@@ -23,7 +23,7 @@ class TheNewYorker(Publication):
         top_nine_collage_urls = list(
             dict.fromkeys(  # dedupe list, preserving order
                 [
-                    a.get("href")
+                    self.homepage + a.get("href")
                     for a in top_nine_collage_div.find_all(
                         "a", attrs={"data-recirc-pattern": "summary-item"}
                     )

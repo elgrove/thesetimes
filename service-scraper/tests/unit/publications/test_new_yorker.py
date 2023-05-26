@@ -56,15 +56,15 @@ class TestNewYorker:
             ArticleToScrape(url=url, page_rank=i)
             for i, url in enumerate(
                 [
-                    "/magazine/2023/05/29/stephen-satterfield-puts-black-cuisine-at-the-center-of-us-history",
-                    "/news/letter-from-bidens-washington/it-was-more-than-a-desaster",
-                    "/culture/postscript/the-untouchable-tina-turner",
-                    "/culture/culture-desk/david-choes-fans-want-to-follow-him-to-a-world-beyond-conformity",
-                    "/culture/cultural-comment/farewell-kendall-roy-succession",
-                    "/news/daily-comment/how-warhol-turned-the-supreme-court-justices-into-art-critics",
-                    "/magazine/2023/05/29/what-we-owe-our-trees",
-                    "/news/q-and-a/why-masha-gessen-resigned-from-the-pen-america-board",
-                    "/books/under-review/can-you-love-the-art-and-hate-the-artist",
+                    "https://www.newyorker.com/magazine/2023/05/29/stephen-satterfield-puts-black-cuisine-at-the-center-of-us-history",
+                    "https://www.newyorker.com/news/letter-from-bidens-washington/it-was-more-than-a-desaster",
+                    "https://www.newyorker.com/culture/postscript/the-untouchable-tina-turner",
+                    "https://www.newyorker.com/culture/culture-desk/david-choes-fans-want-to-follow-him-to-a-world-beyond-conformity",
+                    "https://www.newyorker.com/culture/cultural-comment/farewell-kendall-roy-succession",
+                    "https://www.newyorker.com/news/daily-comment/how-warhol-turned-the-supreme-court-justices-into-art-critics",
+                    "https://www.newyorker.com/magazine/2023/05/29/what-we-owe-our-trees",
+                    "https://www.newyorker.com/news/q-and-a/why-masha-gessen-resigned-from-the-pen-america-board",
+                    "https://www.newyorker.com/books/under-review/can-you-love-the-art-and-hate-the-artist",
                 ],
                 start=1,
             )
