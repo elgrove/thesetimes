@@ -15,11 +15,13 @@ upd:
 localweb:
 	cd service-web && DATABASE_USER=articles_user DATABASE_SERVICE=100.93.30.84 POSTGRES_PORT=5432 DATABASE_NAME=thesetimes POSTGRES_PASSWORD=1111 poetry run python main.py
 
+localpsql:
+	psql -h 100.93.30.84 -p 8002 --username articles_admin -d thesetimes
+
 development: clean upd localweb
 
 PACKAGES := package-orm
 SERVICES := service-orm service-scraper service-web
-
 
 build:
 	$(foreach service,$(SERVICES),docker build -f $(service)/Dockerfile -t $(service):latest .;)
