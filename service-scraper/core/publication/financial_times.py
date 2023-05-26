@@ -54,7 +54,8 @@ class FinancialTimes(Publication):
         article_urls = [a for a in article_urls if a not in live_news_urls]
 
         return [
-            ArticleToScrape(url=url, page_rank=i) for i, url in enumerate(article_urls)
+            ArticleToScrape(url=url, page_rank=i)
+            for i, url in enumerate(article_urls, start=1)
         ]
 
     def get_article_authors(self, driver, article_url):

@@ -1,30 +1,16 @@
 from datetime import datetime
 
 import pytest
+from thesetimes_orm.models import Article
 
+from core.article_scraper import ArticleToScrape
 from core.publication.financial_times import FinancialTimes
-from tests.cases.publications.cases_financial_times import HOMEPAGE_HTML, ARTICLE_HTML
+from tests.cases.publications.financial_times.article import ARTICLE_HTML
+from tests.cases.publications.financial_times.homepage import HOMEPAGE_HTML
 
 
 import pytest
 from sqlalchemy import create_mock_engine
-
-
-@pytest.fixture(name="article", autouse=True)
-def article(monkeypatch):
-    class Article:
-        def __init__(self, *args, **kwargs):
-            pass
-
-    monkeypatch.setattr("core.database_models.Article", Article)
-
-
-@pytest.fixture(name="engine", autouse=True)
-def engine(monkeypatch):
-    def get_engine():
-        return create_mock_engine("postgresql://", lambda x: x)
-
-    monkeypatch.setattr("core.database.engine.get_db_engine", get_engine)
 
 
 class MockFinancialTimesDriver:
@@ -46,13 +32,28 @@ class MockFinancialTimesDriver:
 class TestFinancialTimes:
     """Tests for the Financial Times scraper."""
 
-    def test_get_articles(self):
+    def test_get_articles_isobject_article(self):
         """Test get_articles."""
         pub = FinancialTimes()
         driver = MockFinancialTimesDriver()
-        article_urls = pub.get_articles(driver)
+        articles = pub.get_articles(driver)
 
-        assert len(article_urls) == 13
+        assert all(isinstance(article, ArticleToScrape) for article in articles)
+
+    def test_get_articles_returns_count(self):
+        pub = FinancialTimes()
+        driver = MockFinancialTimesDriver()
+        articles = pub.get_articles(driver)
+
+        assert len(articles) == 13
+
+    def test_get_articles_urls(self):
+        """Test get_articles."""
+        pub = FinancialTimes()
+        driver = MockFinancialTimesDriver()
+        articles = pub.get_articles(driver)
+        article_urls = [a.url for a in articles]
+
         assert all(
             a in article_urls
             for a in [
@@ -72,7 +73,9 @@ class TestFinancialTimes:
         """Test get articles, excluding live news feed pages."""
         pub = FinancialTimes()
         driver = MockFinancialTimesDriver()
-        article_urls = pub.get_articles(driver)
+        articles = pub.get_articles(driver)
+        article_urls = [a.url for a in articles]
+
         assert (
             "https://www.ft.com/content/9232fa8b-ef69-4ccb-abe0-58f69eb726b1"
             not in article_urls

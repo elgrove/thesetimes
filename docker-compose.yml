@@ -1,6 +1,7 @@
 version: '3.3'
 services:
   database:
+    platform: linux/amd64
     image: postgres:14-bullseye
     restart: unless-stopped
     user: postgres
@@ -15,6 +16,7 @@ services:
       interval: 2s
       timeout: 60s
   orm:
+    platform: linux/amd64
     image: service-orm:latest
     volumes:
       - ./service-orm:/usr/src/app
@@ -24,6 +26,7 @@ services:
       database:
         condition: service_healthy
   webdriver:
+    platform: linux/amd64
     restart: unless-stopped
     ports:
       - '8001:4444'
@@ -45,6 +48,7 @@ services:
       orm:
         condition: service_completed_successfully
   scraper:
+    platform: linux/amd64
     restart: unless-stopped
     image: service-scraper:latest
     volumes:
@@ -55,6 +59,7 @@ services:
       webdriver:
         condition: service_healthy
   web:
+    platform: linux/amd64
     restart: unless-stopped
     image: service-web:latest
     ports:
