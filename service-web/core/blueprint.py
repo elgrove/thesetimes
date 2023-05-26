@@ -47,3 +47,33 @@ def article_page(uuid):
     with Session(get_engine()) as session:
         article = session.query(Article).filter(Article.uuid == uuid).first()
     return render_template("article.html", article=article)
+
+
+@core.route("/publication/<short_name>")
+def publication_page(short_name):
+    """Route to retrieve a homepage for a specific publication, sorted by latest."""
+    # TODO sort by day then by page rank
+    with Session(get_engine()) as session:
+        articles = (
+            session.query(Article)
+            .where(Article.publication_short == short_name)
+            .order_by(desc(Article.published_date))
+            .limit(40)
+            .all()
+        )
+    return render_template("home.html", articles=articles)
+
+
+@core.route("/<short_name>")
+def publication_page(short_name):
+    """Route to retrieve a homepage for a specific publication, sorted by latest."""
+    # TODO sort by day then by page rank
+    with Session(get_engine()) as session:
+        articles = (
+            session.query(Article)
+            .where(Article.publication_short == short_name)
+            .order_by(desc(Article.published_date))
+            .limit(40)
+            .all()
+        )
+    return render_template("home.html", articles=articles)
