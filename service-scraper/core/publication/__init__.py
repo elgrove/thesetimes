@@ -15,7 +15,7 @@ class Publication(abc.ABC):
     Some methods offer a default implementation based on common meta tags that
         most publications use in their header.
 
-    OTOH, get_articles and get_article_body will almost certainly need custom implementation.
+    OTOH, get_articles and get_article_body will almost certainly require custom implementation.
     """
 
     def __init__(self, parser=BeautifulSoup) -> None:

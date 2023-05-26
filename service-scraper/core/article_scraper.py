@@ -13,7 +13,7 @@ class ArticleToScrape:
 
 
 class ArticleScraper:
-    """Class for scraping an article from any publication."""
+    """Class for scraping an article and its metadata from any Publication."""
 
     def __init__(
         self, publication: Publication, article: ArticleToScrape, driver, session
