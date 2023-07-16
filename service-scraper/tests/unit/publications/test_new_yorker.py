@@ -1,7 +1,5 @@
 from datetime import datetime
 
-import pytest
-from thesetimes_orm.models import Article
 
 from core.article_scraper import ArticleToScrape
 from core.publication.new_yorker import TheNewYorker
@@ -10,7 +8,6 @@ from tests.cases.publications.new_yorker.homepage import HOMEPAGE_HTML
 
 
 import pytest
-from sqlalchemy import create_mock_engine
 
 
 class MockNewYorkerDriver:

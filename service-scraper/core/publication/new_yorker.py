@@ -5,7 +5,7 @@ from core.publication import Publication
 
 
 class TheNewYorker(Publication):
-    """Object holding code for scraping the publication Financial Times."""
+    """Object holding code for scraping the publication The New Yorker."""
 
     def __init__(self):
         """Initialise class with required attributes."""

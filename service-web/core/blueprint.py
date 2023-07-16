@@ -21,7 +21,7 @@ def home_page():
             session.query(Article)
             .order_by(desc(Article.page_rank))
             .order_by(desc(Article.published_date))
-            .limit(40)  # TODO order by desc 20 is leaving out older aeticle from NYR
+            .limit(40)
             .all()
         )
     top_articles = sorted(latest_articles, key=lambda x: x.page_rank)

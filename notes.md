@@ -19,14 +19,19 @@ ROADMAP
 - [x] homepage ranking
 - [x] latest news page (as opposed to ranked)
 - [ ] deal with articles updating
+  - [ ] query db for article url. if not found, insert
+  - [ ] if found, compare hash of the title+body to the db
+  - [ ] update the existing row if hash != 
+  - [ ] add 
 - [ ] cicd publishes docker containers on merge into main
 - [ ] scrape images and charts
-- [ ] add publication-specific pages
-- [ ] add publications
+- [x] add publication-specific pages
+- [/] add category to database and add category pages
+- [/] add publications
   - [x] new yorker
   - [ ] nyt
   - [ ] economist
   - [ ] bbc
-  - [ ] athletic
+  - [ ] athletic (possibly a different service)
 - [ ] reverse proxy
 - [/] tests for flask app

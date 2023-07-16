@@ -54,7 +54,7 @@ class Publication(abc.ABC):
         """
         driver.get(article_url)
         soup = self.parser(driver.page_source.encode("utf-8"), "lxml")
-        author_count = len(soup.findAll("meta", property="article:author"))
+        author_count = len(soup.find_all("meta", property="article:author"))
 
         if not author_count:
             return f"{self.name} Staff"
@@ -63,7 +63,7 @@ class Publication(abc.ABC):
             return f"{self.name} Staff"
         elif author_count > 1:
             authors = []
-            for n in soup.findAll("meta", property="article:author"):
+            for n in soup.find_all("meta", property="article:author"):
                 authors.append(n["content"])
                 author = ", ".join(authors)
         else:
