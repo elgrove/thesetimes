@@ -1,7 +1,3 @@
-from datetime import datetime as dt
-
-import bs4
-
 from core.article_scraper import ArticleToScrape
 from core.publication import Publication
 
@@ -19,7 +15,7 @@ class NewYorkTimes(Publication):
 
     @property
     def _filter_exclusion_terms(self):
-        """Returns a list of exclusion terms to filter front page articles"""
+        """Returns a list of exclusion terms to filter front page articles."""
         return [
             "live",
             "interactive",
@@ -59,8 +55,8 @@ class NewYorkTimes(Publication):
         ]
 
     def get_article_authors(self, driver, article_url):
+        """Get article authors."""
         driver.get(article_url)
-        # TODO refactor so that soup is a cached property
         soup = self.parser(driver.page_source.encode("utf-8"), "lxml")
         byline = soup.find("meta", attrs={"name": "byl"}).get("content")
         byline = byline.replace("By", "").strip()
@@ -68,6 +64,7 @@ class NewYorkTimes(Publication):
         return authors
 
     def get_article_body(self, driver, article_url):
+        """Get article body."""
         driver.get(article_url)
         soup = self.parser(driver.page_source.encode("utf-8"), "lxml")
         body_divs = soup.find_all("div", attrs={"class": "StoryBodyCompanionColumn"})

@@ -1,13 +1,16 @@
 from dataclasses import dataclass
-from datetime import datetime
+
+from thesetimes_orm.models import Article
 
 from core import LOGGER
-from thesetimes_orm.models import Article
 from core.publication import Publication
 
 
 @dataclass
 class ArticleToScrape:
+    """Object representing an article to be scraped, it's url and its page rank on the
+    source home page."""
+
     url: str
     page_rank: int
 
@@ -18,7 +21,8 @@ class ArticleScraper:
     def __init__(
         self, publication: Publication, article: ArticleToScrape, driver, session
     ):
-        """Initialise with publication class, url of article, scraper webdriver and db session."""
+        """Initialise with publication class, url of article, scraper webdriver and db
+        session."""
         self.publication = publication
         self.article = article
         self.driver = driver

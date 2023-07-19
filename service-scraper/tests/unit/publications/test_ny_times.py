@@ -1,11 +1,11 @@
 from datetime import datetime
 
+import pytest
+
 from core.article_scraper import ArticleToScrape
 from core.publication.ny_times import NewYorkTimes
 from tests.cases.publications.ny_times.article import ARTICLE_HTML
 from tests.cases.publications.ny_times.homepage import HOMEPAGE_HTML
-
-import pytest
 
 
 class MockNewYorkTimesDriver:

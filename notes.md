@@ -29,7 +29,7 @@ ROADMAP
 - [/] add category to database and add category pages
 - [/] add publications
   - [x] new yorker
-  - [ ] nyt
+  - [x] nyt
   - [ ] economist
   - [ ] bbc
   - [ ] athletic (possibly a different service)

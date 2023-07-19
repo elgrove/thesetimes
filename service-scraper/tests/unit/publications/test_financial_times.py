@@ -1,16 +1,11 @@
 from datetime import datetime
 
 import pytest
-from thesetimes_orm.models import Article
 
 from core.article_scraper import ArticleToScrape
 from core.publication.financial_times import FinancialTimes
 from tests.cases.publications.financial_times.article import ARTICLE_HTML
 from tests.cases.publications.financial_times.homepage import HOMEPAGE_HTML
-
-
-import pytest
-from sqlalchemy import create_mock_engine
 
 
 class MockFinancialTimesDriver:
@@ -41,6 +36,7 @@ class TestFinancialTimes:
         assert all(isinstance(article, ArticleToScrape) for article in articles)
 
     def test_get_articles_returns_count(self):
+        """Test get articles returns 13 articles."""
         pub = FinancialTimes()
         driver = MockFinancialTimesDriver()
         articles = pub.get_articles(driver)
@@ -80,9 +76,6 @@ class TestFinancialTimes:
             "https://www.ft.com/content/9232fa8b-ef69-4ccb-abe0-58f69eb726b1"
             not in article_urls
         )
-
-    def test_get_articles_order(self):
-        pass
 
     def test_get_article_authors(self):
         """Test get article authors."""

@@ -4,6 +4,8 @@ from sqlalchemy import create_mock_engine
 
 @pytest.fixture(name="engine", autouse=True)
 def engine(monkeypatch):
+    """Engine fixture."""
+
     def get_engine():
         return create_mock_engine("postgresql://", lambda x: x)
 

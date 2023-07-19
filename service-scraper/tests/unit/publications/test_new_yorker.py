@@ -1,13 +1,11 @@
 from datetime import datetime
 
+import pytest
 
 from core.article_scraper import ArticleToScrape
 from core.publication.new_yorker import TheNewYorker
 from tests.cases.publications.new_yorker.article import ARTICLE_HTML
 from tests.cases.publications.new_yorker.homepage import HOMEPAGE_HTML
-
-
-import pytest
 
 
 class MockNewYorkerDriver:
@@ -38,6 +36,7 @@ class TestNewYorker:
         assert all(isinstance(article, ArticleToScrape) for article in articles)
 
     def test_get_articles_count(self):
+        """Test get articles returns 9 articles."""
         pub = TheNewYorker()
         driver = MockNewYorkerDriver()
         articles = pub.get_articles(driver)
@@ -75,18 +74,21 @@ class TestNewYorker:
         assert authors == "Amanda Petrusich"
 
     def test_get_article_pubdate(self):
+        """Test get article pubdate."""
         pub = TheNewYorker()
         driver = MockNewYorkerDriver()
         pubdate = pub.get_article_pubdate(driver, "url")
         assert pubdate == datetime(2023, 5, 25, 18, 37, 21)
 
     def test_get_article_title(self):
+        """Test get article title."""
         pub = TheNewYorker()
         driver = MockNewYorkerDriver()
         title = pub.get_article_title(driver, "url")
         assert title == "The Untouchable Tina Turner"
 
     def test_get_article_body(self):
+        """Test get article body."""
         pub = TheNewYorker()
         driver = MockNewYorkerDriver()
         body = pub.get_article_body(driver, "url")

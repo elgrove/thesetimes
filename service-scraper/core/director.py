@@ -17,11 +17,11 @@ class ScraperDirector:
         self,
         driver_builder=WebDriverBuilder,
         article_scraper=ArticleScraper,
-        engine=get_db_engine(),
+        engine=get_db_engine,
     ):
         """Initialise with webdriver and article scraper classes and db engine."""
         self.driver = driver_builder().get_driver()
-        self.engine = engine
+        self.engine = engine()
         self.article_scraper = article_scraper
 
     @property

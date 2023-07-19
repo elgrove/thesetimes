@@ -1,5 +1,3 @@
-from datetime import datetime as dt
-
 from core.article_scraper import ArticleToScrape
 from core.publication import Publication
 
