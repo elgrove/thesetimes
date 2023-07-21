@@ -13,6 +13,9 @@ def create_app():
 
 
 def start_development_server():
-    """Run development server. For development purposes only."""
+    """Run development server.
+
+    For development purposes only.
+    """
     app = create_app()
-    app.run(debug=True, host="0.0.0.0", port=8000)
+    app.run(debug=True, host="0.0.0.0", port=8000)  # noqa: S104, S201

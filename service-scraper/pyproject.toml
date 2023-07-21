@@ -64,7 +64,7 @@ per-file-ignores = ['tests/*:S,DAR101,D101,E101,D102']
 # S = all security checks carried out by flake8-bandit
 # DAR101 = docstring missing parameter. no need to describe what monkeypatch is!
 # D101 = missing docstring in public class. test classes do not need docstrings.
-application-import-names = ['customer_data_orm']
+application-import-names = ['core']
 docstring-convention = 'google'
 strictness = 'long' # darglint docstring strictness
 max-line-length = 88
@@ -84,9 +84,6 @@ max-module-lines = 1000
 
 [tool.pylint.options]
 ignore = ["tests", "pyproject.toml"]
-
-[tool.pytest.ini_options]
-pythonpath=["core", "tests"]
 
 [build-system]
 requires = ["poetry-core"]

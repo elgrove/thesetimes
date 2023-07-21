@@ -1,8 +1,9 @@
 from flask import Blueprint, render_template
-from sqlalchemy.orm import Session
 from sqlalchemy import desc
-from core.engine import get_engine
+from sqlalchemy.orm import Session
 from thesetimes_orm.models import Article
+
+from core.engine import get_engine
 
 core = Blueprint(
     "core",
@@ -50,21 +51,6 @@ def article_page(uuid):
 
 
 @core.route("/publication/<short_name>")
-def publication_page(short_name):
-    """Route to retrieve a homepage for a specific publication, sorted by latest."""
-    # TODO sort by day then by page rank
-    with Session(get_engine()) as session:
-        articles = (
-            session.query(Article)
-            .where(Article.publication_short == short_name)
-            .order_by(desc(Article.published_date))
-            .limit(40)
-            .all()
-        )
-    return render_template("home.html", articles=articles)
-
-
-@core.route("/<short_name>")
 def publication_page(short_name):
     """Route to retrieve a homepage for a specific publication, sorted by latest."""
     # TODO sort by day then by page rank

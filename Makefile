@@ -26,18 +26,13 @@ SERVICES := service-orm service-scraper service-web
 build:
 	$(foreach service,$(SERVICES),docker build -f $(service)/Dockerfile -t $(service):latest .;)
 
-# test:
-# 	$(foreach service,$(SERVICES),cd $(service) && poetry run pytest .;cd ..)
-# 	$(foreach package,$(PACKAGES),cd $(package) && poetry run pytest .;cd ..)
-
-format:
-	$(foreach service,$(SERVICES),cd $(service) && poetry run black .; cd ..;)
-	$(foreach package,$(PACKAGES),cd $(package) && poetry run black .; cd ..;)
-
+test:
+	$(foreach service,$(SERVICES),cd $(service) && make test && cd ..;)
+	$(foreach package,$(PACKAGES),cd $(package) && make test && cd ..;)
 
 lint:
-	$(foreach service,$(SERVICES),cd $(service) && poetry run pylint --recursive=y .; cd ..;)
-	$(foreach package,$(PACKAGES),cd $(package) && poetry run pylint --recursive=y .; cd ..;)
+	$(foreach service,$(SERVICES),cd $(service) && make lint && cd ..;)
+	$(foreach package,$(PACKAGES),cd $(package) && make lint && cd ..;)
 
 lock:
 	$(foreach service,$(SERVICES),cd $(service) && poetry lock; cd ..;)
@@ -46,4 +41,9 @@ lock:
 install:
 	$(foreach service,$(SERVICES),cd $(service) && poetry install; cd ..;)
 	$(foreach package,$(PACKAGES),cd $(package) && poetry install; cd ..;)
+
+
+venv:
+	$(foreach service,$(SERVICES),cd $(service) && rm poetry.lock; rm -rf .venv; poetry install; cd ..;)
+	$(foreach package,$(PACKAGES),cd $(package) && rm poetry.lock; rm -rf .venv; poetry install; cd ..;)
 

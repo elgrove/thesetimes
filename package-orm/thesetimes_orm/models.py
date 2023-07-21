@@ -1,4 +1,4 @@
-from sqlalchemy import Column, String, DateTime, Integer
+from sqlalchemy import Column, DateTime, Integer, String
 from sqlalchemy.dialects import postgresql
 from sqlalchemy.orm import declarative_base
 from sqlalchemy.sql import text
@@ -22,4 +22,5 @@ class Article(Base):
     page_rank = Column(Integer, nullable=False)
 
     def __repr__(self):
+        """String representation of article object."""
         return f"{self.publication_name} - {self.title}"

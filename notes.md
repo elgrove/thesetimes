@@ -30,7 +30,7 @@ ROADMAP
 - [/] add publications
   - [x] new yorker
   - [x] nyt
-  - [ ] economist
+  - [x] economist
   - [ ] bbc
   - [ ] athletic (possibly a different service)
 - [ ] reverse proxy

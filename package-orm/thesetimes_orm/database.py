@@ -7,7 +7,8 @@ from sqlalchemy_utils import create_database, database_exists
 
 
 def get_maintenance_db_engine():
-    """Create a database engine to the default db 'postgres' to facilitate maintenance operations."""
+    """Create a database engine to the default db 'postgres' to facilitate maintenance
+    operations."""
     connection_url = sqlalchemy.engine.URL.create(
         "postgresql+psycopg2",
         username=os.environ["POSTGRES_USER"],
@@ -23,7 +24,8 @@ def get_maintenance_db_engine():
 
 
 def get_admin_db_engine():
-    """Create a database engine to the our db 'thesetimes' to execute setup operations."""
+    """Create a database engine to the our db 'thesetimes' to execute setup
+    operations."""
     connection_url = sqlalchemy.engine.URL.create(
         "postgresql+psycopg2",
         username=os.environ["DATABASE_ADMIN"],
@@ -48,7 +50,7 @@ def run_migrations():
 def user_exists(user, conn):
     """Check if user already exists in the database."""
     result = conn.execute(
-        f"SELECT usename from pg_catalog.pg_user WHERE usename = '{user}';"
+        f"SELECT usename from pg_catalog.pg_user WHERE usename = '{user}';"  # noqa: S608
     )
     if not result.first():
         return False
