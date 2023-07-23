@@ -26,7 +26,7 @@ ROADMAP
 - [ ] cicd publishes docker containers on merge into main
 - [ ] scrape images and charts
 - [x] add publication-specific pages
-- [/] add category to database and add category pages
+- [ ] add category to database and add category pages
 - [/] add publications
   - [x] new yorker
   - [x] nyt
