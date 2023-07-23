@@ -11,9 +11,9 @@ class Publication(abc.ABC):
     Publication.
 
     All methods take a WebDriver object to be controlled, and those that act on a single
-    article     also take the article URL.
+    article also take the article URL.
 
-    Some methods offer a default implementation based on common meta tags that     most
+    Some methods offer a default implementation based on common meta tags that most
     publications use in their header.
 
     OTOH, get_articles and get_article_body will almost certainly require custom

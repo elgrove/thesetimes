@@ -5,23 +5,14 @@ clean:
 	sudo chown -R 999:999 ./service-database
 	rm -rf package-orm/dist/*
 
-up: build
-	sudo docker compose down
-	sudo docker compose up
+upd: clean build
+	sudo docker compose up -d
 
-upd:
-	sudo docker compose up -d --build
+deploy: clean install build
+	sudo docker compose up -d
 
-localweb:
-	cd service-web && DATABASE_USER=articles_user DATABASE_SERVICE=100.93.30.84 POSTGRES_PORT=5432 DATABASE_NAME=thesetimes POSTGRES_PASSWORD=1111 poetry run python main.py
-
-localpsql:
-	psql -h 100.93.30.84 -p 8002 --username articles_admin -d thesetimes
-
-development: clean upd localweb
-
-PACKAGES := package-orm
 SERVICES := service-orm service-scraper service-web
+PACKAGES := package-orm
 
 build:
 	$(foreach service,$(SERVICES),docker build -f $(service)/Dockerfile -t $(service):latest .;)
@@ -35,13 +26,12 @@ lint:
 	$(foreach package,$(PACKAGES),cd $(package) && make lint && cd ..;)
 
 lock:
-	$(foreach service,$(SERVICES),cd $(service) && poetry lock; cd ..;)
-	$(foreach package,$(PACKAGES),cd $(package) && poetry lock; cd ..;)
+	$(foreach service,$(SERVICES),cd $(service) && poetry lock && cd ..;)
+	$(foreach package,$(PACKAGES),cd $(package) && poetry lock && cd ..;)
 
 install:
-	$(foreach service,$(SERVICES),cd $(service) && poetry install; cd ..;)
-	$(foreach package,$(PACKAGES),cd $(package) && poetry install; cd ..;)
-
+	$(foreach service,$(SERVICES),cd $(service) && poetry install && cd ..;)
+	$(foreach package,$(PACKAGES),cd $(package) && poetry install && cd ..;)
 
 venv:
 	$(foreach service,$(SERVICES),cd $(service) && rm poetry.lock; rm -rf .venv; poetry install; cd ..;)
