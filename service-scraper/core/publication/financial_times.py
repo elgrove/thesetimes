@@ -63,6 +63,6 @@ class FinancialTimes(Publication):
         driver.get(article_url)
         soup = self.parser(driver.page_source.encode("utf-8"), "lxml")
         body = [
-            p.text for p in soup.select("div[class*=content-body]")[0].find_all("p")
+            p.text for p in soup.select("#article-body")[0].find_all("p")
         ]
         return body

@@ -36,8 +36,16 @@ class ScraperDirector:
             for pub in self.PUBLICATIONS:
                 pub = pub()
                 LOGGER.info("Working on publication %s", pub.name)
-                for article in pub.get_articles(self.driver):
-                    scraper = self.article_scraper(pub, article, self.driver, session)
-                    scraper.scrape_to_db()
+                try:
+                    articles = pub.get_articles(self.driver)
+                except:
+                    LOGGER.error("Get articles failed for publication %s", pub.name)
+                for article in articles:
+                    try:
+                        self.article_scraper(
+                            pub, article, self.driver, session
+                        ).scrape_to_db()
+                    except:
+                        LOGGER.error("Scrape failed for %s", article.url)
             LOGGER.info("Closing database session")
         self.driver.quit()

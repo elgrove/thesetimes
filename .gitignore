@@ -2,7 +2,7 @@
 
 service-database/
 log.txt
-service-orm/alembic/versions
+service-orm/alembic/versions/*
 
 .DS_STORE
 

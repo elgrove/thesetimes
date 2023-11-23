@@ -8,7 +8,7 @@ from core.publication import Publication
 
 @dataclass
 class ArticleToScrape:
-    """Object representing an article to be scraped, it's url and its page rank on the
+    """Object representing an article to be scraped, its url and its page rank on the
     source home page."""
 
     url: str

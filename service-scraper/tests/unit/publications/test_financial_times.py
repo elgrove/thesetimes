@@ -41,7 +41,7 @@ class TestFinancialTimes:
         driver = MockFinancialTimesDriver()
         articles = pub.get_articles(driver)
 
-        assert len(articles) == 13
+        assert len(articles) == 14
 
     def test_get_articles_urls(self):
         """Test get_articles."""
@@ -54,11 +54,11 @@ class TestFinancialTimes:
             a in article_urls
             for a in [
                 # top story
-                "https://www.ft.com/content/59827e3a-ca68-4c75-a6c6-b71d58df907a",
+                "https://www.ft.com/content/9ac523da-1c15-43e8-9ccc-bbfdbce4b74a",
                 # second shelf
-                "https://www.ft.com/content/69ca2924-85f7-42ae-9b5b-5b9907cf12b7",
+                "https://www.ft.com/content/2314fb09-7f58-45e1-86ab-4767e9139ad3",
                 # spotlight shelf
-                "https://www.ft.com/content/b1657ee3-eb9d-41c7-851e-5900c74bd934",
+                "https://www.ft.com/content/81717934-e941-4064-9371-30c517399879",
                 # # news shelf
                 # "https://www.ft.com/content/f814ff18-4c05-4589-9879-b0800ac3a4ed",
                 # "https://www.ft.com/content/475e8cc1-8cd5-4877-980e-7a86847e3bc6"
@@ -82,14 +82,14 @@ class TestFinancialTimes:
         pub = FinancialTimes()
         driver = MockFinancialTimesDriver()
         authors = pub.get_article_authors(driver, "url")
-        assert authors == "Kate Duguid"
+        assert authors == "Madison Marriage"
 
     def test_get_article_pubdate(self):
         """Test get article published date."""
         pub = FinancialTimes()
         driver = MockFinancialTimesDriver()
         pubdate = pub.get_article_pubdate(driver, "url")
-        assert pubdate == datetime(2023, 3, 17, 21, 0, 24)
+        assert pubdate == datetime(2023, 11, 23, 14, 30, 9)
 
     def test_get_article_title(self):
         """Test get article title."""
@@ -97,7 +97,7 @@ class TestFinancialTimes:
         driver = MockFinancialTimesDriver()
         title = pub.get_article_title(driver, "url")
         assert (
-            title == "US Treasuries’ rollercoaster ride strains bond market functioning"
+            title == "British tech tycoon Lawrence Jones guilty of rape and sexual assault"
         )
 
     def test_get_article_body(self):
@@ -105,4 +105,4 @@ class TestFinancialTimes:
         pub = FinancialTimes()
         driver = MockFinancialTimesDriver()
         body = pub.get_article_body(driver, "url")
-        assert len(body) == 20
+        assert len(body) == 31

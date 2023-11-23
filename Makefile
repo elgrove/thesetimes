@@ -11,11 +11,14 @@ upd: clean build
 deploy: clean install build
 	sudo docker compose up -d
 
+develop: clean install build
+	sudo docker compose up
+
 SERVICES := service-orm service-scraper service-web
 PACKAGES := package-orm
 
 build:
-	$(foreach service,$(SERVICES),docker build -f $(service)/Dockerfile -t $(service):latest .;)
+	$(foreach service,$(SERVICES),sudo docker build -f $(service)/Dockerfile -t $(service):latest .;)
 
 test:
 	$(foreach service,$(SERVICES),cd $(service) && make test && cd ..;)

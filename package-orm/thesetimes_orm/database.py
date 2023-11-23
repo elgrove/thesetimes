@@ -1,9 +1,13 @@
 import os
 
 from alembic import command
+from alembic.autogenerate import compare_metadata
 from alembic.config import Config
+from alembic.runtime.migration import MigrationContext
 import sqlalchemy
 from sqlalchemy_utils import create_database, database_exists
+
+from .models import Base
 
 
 def get_maintenance_db_engine():
@@ -38,6 +42,15 @@ def get_admin_db_engine():
     return sqlalchemy.create_engine(
         connection_url, connect_args={"sslmode": "disable"}, echo=False
     )
+
+
+def migration_required():
+    """Returns bool if Alembic finds a diff between Base and the database state."""
+    engine = get_maintenance_db_engine()
+    with engine.connect() as c:
+        context = MigrationContext.configure(c)
+        diff = compare_metadata(context, Base.metadata)
+        return bool(diff)
 
 
 def run_migrations():

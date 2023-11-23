@@ -1,302 +1,2336 @@
-ARTICLE_HTML = """<html lang="en-GB" class="js enhanced js-focus-visible bcszvkd znrewlrf" data-o-component="o-typography" style="overflow-x:hidden;background-color:#fff1e5;color:#33302e" data-js-focus-visible=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><title>US Treasuries’ rollercoaster ride strains bond market functioning  | Financial Times</title><meta name="description" content="Daily trading volumes more than doubled as failure of SVB sparked headlong dash to safety of government debt"><link rel="canonical" href="https://www.ft.com/content/a8c1c3df-d8f7-4f3d-af9c-00af0d587880"><meta name="robots" content="index,follow,max-snippet:200,max-image-preview:large"><meta name="google-site-verification" content="4-t8sFaPvpO5FH_Gnw1dkM28CQepjzo8UjjAkdDflTw"><script src="//securepubads.g.doubleclick.net/tag/js/gpt.js" o-ads="" async=""></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-NWQJW68"></script><script src="https://bloomreach.ft.com/js/exponea.min.js"></script><script type="application/ld+json">{"@context":"http://schema.org","@type":"NewsArticle","headline":"US Treasuries’ rollercoaster ride strains bond market functioning ","datePublished":"2023-03-17T21:00:24.212Z","dateModified":"2023-03-17T21:00:24.212Z","description":"Daily trading volumes more than doubled as failure of SVB sparked headlong dash to safety of government debt","isAccessibleForFree":"False","isPartOf":{"@type":["CreativeWork","Product"],"name":"Financial Times","productID":"ft.com:subscribed"},"alternativeHeadline":"US Treasuries’ rollercoaster ride strains bond market functioning ","image":{"@type":"ImageObject","@context":"http://schema.org","url":"https://d1e00ek4ebabms.cloudfront.net/production/dba0e6ef-4f5d-4963-a9f7-644e9eb568db.jpg","width":2289,"height":1288},"author":[{"@type":"Person","@context":"http://schema.org","name":"Kate Duguid","url":"https://www.ft.com/kate-duguid","worksFor":{"@type":"Organization","@context":"http://schema.org","name":"Financial Times","legalName":"The Financial Times Ltd.","logo":{"@type":"ImageObject","@context":"http://schema.org","url":"https://im.ft-static.com/m/img/masthead_main.jpg","width":435,"height":36},"url":"https://www.ft.com","sameAs":["https://www.twitter.com/FT","https://www.facebook.com/financialtimes","https://www.linkedin.com/company/financial-times","https://www.youtube.com/user/FinancialTimesVideos","https://www.instagram.com/financialtimes"]}}],"articleBody":"An explosion of volatility in US Treasuries following the collapse of Silicon Valley Bank has provided the sternest test of a market that underpins much of the global financial system since a dramatic meltdown in the early stages of the Covid-19 pandemic.\n\nBut while the $22tn market for US government debt this week suffered its most volatile period since the global financial crisis a decade and a half ago, surpassing even levels seen in March 2020, investors and analysts said market functioning by and large held up.\n\nDaily trading volumes more than doubled as the failure of SVB sparked a headlong dash into the safety of Treasuries. Bets that the banking crisis would force the Federal Reserve to slow, or even call off, its plans to raise interest rates further fuelled demand, leading to the biggest one-day rally in short-term Treasuries since 1987.\n\nThe moves did not lead to a 2020-style breakdown, when investors began to flee Treasuries en masse in a grave threat to the functioning of the entire financial system until the Fed stepped in with massive bond purchases.\n\n“To me, it felt like the market worked. It functioned,” said Kevin McPartland, head of market structure and technology research at Coalition Greenwich. “The market structure clearly kept up, with $1.5tn traded.”\n\nStill, the current turmoil underlines that frenzied volatility is the new normal in the Treasury market, sparking concerns in some quarters that the potential for a financial accident is never far away.\n\n“We’re one crisis away from a complete breakdown of Treasury market liquidity,” said Priya Misra, head of global rates research at TD Securities. The bailout for SVB depositors and emergency funding measures launched by US authorities “prevented a bigger crisis from happening”, she added.\n\nAlmost $1.5tn was traded in Treasuries on Monday with more than $1tn traded on each of the following three days, according to Trace data. That is more than double the recent average daily volume, which in January and February was about $650bn, according to Sifma.\n\nVolatility in the market, tracked by the Ice BofA Move index, reached its highest level since 2008.\n\nThere were signs of stress. Liquidity, the ease with which assets can be bought and sold, deteriorated, and investors reported having to pay more to get big deals done. Some traders resorted to picking up the phone to make deals, rather than trading electronically, as they typically do.\n\n“Funding pressures and liquidity pressures in the banking sector have filtered through to the Treasury market,” said Matthew Scott, head of global rates trading at AllianceBernstein. “It is more expensive to trade, you can trade less.”\n\nBut trading was still possible, if costly, Scott said. Liquidity conditions in some parts of the market were the worst they had been since March 2020, but they were nowhere near as bad as they were then, when a breakdown in Treasuries sent markets worldwide into a spiral.\n\nThe bank angst has also prompted conversations about more regulation of the financial sector, which could chill participation in the Treasury market. The Financial Times reported earlier this week that Fed officials were reviewing capital and liquidity requirements for midsized banks.\n\nNew regulations in the wake of the 2008-09 financial crisis designed to make the banking system more robust are behind some of the increased volatility in Treasuries in recent years, investors have long argued.\n\nPrimary dealers — the big banks that transact directly with the Treasury department at bond auctions and were the traditional providers of market liquidity — have stepped back from the market. This is partly because post-crisis rules made it more expensive for them to hold Treasuries, and in part because of a broader change in risk appetite.\n\nAs their share of government bond trading declined, hedge funds and high-speed traders took their place, introducing new degrees of leverage risk to the market.\n\nSome experts warn that any further constraints on banks as a result of the current crisis, even if only on smaller players, may have a chilling effect on liquidity, further raising risks.\n\n“Banks are now under the regulatory spotlight with this latest crisis — and primary dealer banks will not get a pass, if anything, the opposite. Regulators will be ruthlessly probing bank balance sheets to satisfy themselves that the biggest banks are completely immunised against failure and capable of supporting themselves and the rest of the financial system,” said Yesha Yadav, a professor at Vanderbilt Law School.\n\nPrimary dealers, said Yadav, might therefore now have to be extra careful about how they use their balance sheets to make markets in Treasuries. “It seems likely that we are going to have a really depressing few months for Treasuries liquidity ahead.”\n\nAdditional reporting by Katie Martin in London","wordCount":794,"publisher":{"@type":"Organization","@context":"http://schema.org","name":"Financial Times","legalName":"The Financial Times Ltd.","logo":{"@type":"ImageObject","@context":"http://schema.org","url":"https://im.ft-static.com/m/img/masthead_main.jpg","width":435,"height":36},"url":"https://www.ft.com","sameAs":["https://www.twitter.com/FT","https://www.facebook.com/financialtimes","https://www.linkedin.com/company/financial-times","https://www.youtube.com/user/FinancialTimesVideos","https://www.instagram.com/financialtimes"]}}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Capital markets","item":"https://www.ft.com/capital-markets"},{"@type":"ListItem","position":2,"name":"Markets","item":"https://www.ft.com/markets"},{"@type":"ListItem","position":3,"name":"US Treasury bonds","item":"https://www.ft.com/us-treasury-bonds"}]}</script><script type="application/ld+json">{"@context":"http://schema.org","@type":"WebSite","name":"Financial Times","alternateName":"FT.com","url":"http://www.ft.com"}</script><meta property="fb:pages" content="8860325749"><meta property="twitter:site" content="@FinancialTimes"><meta property="twitter:card" content="summary_large_image"><meta property="og:title" content="US Treasuries’ rollercoaster ride strains bond market functioning "><meta property="og:description" content="Daily trading volumes more than doubled as failure of SVB sparked headlong dash to safety of government debt"><meta property="og:image" content="https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fdba0e6ef-4f5d-4963-a9f7-644e9eb568db.jpg?source=next-opengraph&amp;fit=scale-down&amp;width=900"><meta property="og:url" content="https://www.ft.com/content/a8c1c3df-d8f7-4f3d-af9c-00af0d587880"><meta property="og:type" content="article"><meta property="article:published_time" content="2023-03-17T21:00:24.212Z"><meta property="article:modified_time" content="2023-03-17T21:00:24.212Z"><meta property="article:author" content="Kate Duguid"><meta name="apple-itunes-app" content="app-id=1200842933, app-argument=https://www.ft.com/content/a8c1c3df-d8f7-4f3d-af9c-00af0d587880"><link rel="icon" type="image/svg+xml" href="https://www.ft.com/__origami/service/image/v2/images/raw/ftlogo-v1%3Abrand-ft-logo-square-coloured?source=update-logos&amp;format=svg"><link rel="alternate icon" type="image/png" href="https://www.ft.com/__origami/service/image/v2/images/raw/ftlogo-v1%3Abrand-ft-logo-square-coloured?source=update-logos&amp;format=png&amp;width=32&amp;height=32" sizes="32x32"><link rel="alternate icon" type="image/png" href="https://www.ft.com/__origami/service/image/v2/images/raw/ftlogo-v1%3Abrand-ft-logo-square-coloured?source=update-logos&amp;format=png&amp;width=194&amp;height=194" sizes="194x194"><link rel="apple-touch-icon" href="https://www.ft.com/__origami/service/image/v2/images/raw/ftlogo-v1%3Abrand-ft-logo-square-coloured?source=update-logos&amp;format=png&amp;width=180&amp;height=180" sizes="180x180"><link rel="manifest" href="https://www.ft.com/__assets/creatives/manifest/manifest-v6.json"><script>
-!function(e,n,t,i,o,r){function c(e){if("number"!=typeof e)return e;var n=new Date;return new Date(n.getTime()+1e3*e)}var a=4e3,s="xnpe_async_hide";function p(e){return e.reduce((function(e,n){return e[n]=function(){e._.push([n.toString(),arguments])},e}),{_:[]})}function m(e,n,t){var i=t.createElement(n);i.src=e;var o=t.getElementsByTagName(n)[0];return o.parentNode.insertBefore(i,o),i}function u(e){return"[object Date]"===Object.prototype.toString.call(e)}r.target=r.target,r.file_path=r.file_path||r.target+"/js/exponea.min.js",o[n]=p(["anonymize","initialize","identify","update","track","trackLink","trackEnhancedEcommerce","getHtml","showHtml","showBanner","showWebLayer","ping","getAbTest","loadDependency","getRecommendation","reloadWebLayers"]),o[n].notifications=p(["isAvailable","isSubscribed","subscribe","unsubscribe"]),o[n]["snippetVersion"]="v2.3.0",function(e,n,t){e[n]["_"+t]={},e[n]["_"+t].nowFn=Date.now,e[n]["_"+t].snippetStartTime=e[n]["_"+t].nowFn()}(o,n,"performance"),function(e,n,t,i,o,r){e[o]={sdk:e[i],sdkObjectName:i,skipExperiments:!!t.new_experiments,sign:t.token+"/"+(r.exec(n.cookie)||["","new"])[1],path:t.target}}(o,e,r,n,i,RegExp("__exponea_etc__"+"=([\w-]+)")),function(e,n,t){m(e.file_path,n,t)}(r,t,e),function(e,n,t,i,o,r,p){if(e.new_experiments){!0===e.new_experiments&&(e.new_experiments={});var f,l=e.new_experiments.hide_class||s,_=e.new_experiments.timeout||a,d=encodeURIComponent(r.location.href.split("#")[0]);e.cookies&&e.cookies.expires&&("number"==typeof e.cookies.expires||u(e.cookies.expires)?f=c(e.cookies.expires):e.cookies.expires.tracking&&("number"==typeof e.cookies.expires.tracking||u(e.cookies.expires.tracking))&&(f=c(e.cookies.expires.tracking))),f&&f<new Date&&(f=void 0);var x=e.target+"/webxp/"+n+"/"+r[t].sign+"/modifications.min.js?http-referer="+d+"&timeout="+_+"ms"+(f?"&cookie-expires="+Math.floor(f.getTime()/1e3):"");"sync"===e.new_experiments.mode&&r.localStorage.getItem("__exponea__sync_modifications__")?function(e,n,t,i,o){t[o][n]="<"+n+' src="'+e+'"></'+n+">",i.writeln(t[o][n]),i.writeln("<"+n+">!"+o+".init && document.writeln("+o+"."+n+'.replace("/'+n+'/", "/'+n+'-async/").replace("><", " async><"))</'+n+">")}(x,n,r,p,t):function(e,n,t,i,o,r,c,a){r.documentElement.classList.add(e);var s=m(t,i,r);function p(){o[a].init||m(t.replace("/"+i+"/","/"+i+"-async/"),i,r)}function u(){r.documentElement.classList.remove(e)}s.onload=p,s.onerror=p,o.setTimeout(u,n),o[c]._revealPage=u}(l,_,x,n,r,p,o,t)}}(r,t,i,0,n,o,e),function(e,n,t){e[n].start=function(i){i&&Object.keys(i).forEach((function(e){return t[e]=i[e]})),e[n].initialize(t)}}(o,n,r)}(document,"exponea","script","webxpClient",window,{
-	target: 'https://bloomreach.ft.com',
-	token: 'd6e5bd4c-9228-11eb-a414-9a67e462410e',
-});
-</script><link rel="preconnect" href="https://spoor-api.ft.com"><link rel="preconnect" href="https://session-next.ft.com" crossorigin="use-credentials"><link rel="preconnect" href="https://ads-api.ft.com"><link rel="preconnect" href="https://securepubads.g.doubleclick.net"><link rel="preload" as="script" href="https://polyfill.io/v3/polyfill.min.js?features=default%2Ces5%2Ces2015%2Ces2016%2Ces2017%2CEventSource%2Cfetch%2CHTMLPictureElement%2CIntersectionObserver%2CNodeList.prototype.forEach&amp;source=next"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/webpack-runtime.e95fdf411b11.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/page-kit-components.b033b7b7b388.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/shared.stable.6a8037e4bced.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-tracking.08fe02a008e3.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-x-gift-article.175e5aa08f1b.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-video.f53e6308a014.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-n-messaging-client.48c253b9b3c5.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-overlay.76dde1958cd3.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-tooltip.c5602641627c.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-x-interaction.dfc1b7355047.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-n-tracking.2e76281e8fc5.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/preact.1d691d84b45c.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-comments.82607a2807dd.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-header.2feea0c74cd0.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-message.2aff5f94ee93.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-banner.1f40bdc13c18.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-date.b4f2de41ea20.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-cookie-message.3f4069a0e63e.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-n-exponea.a9491f5444cd.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-viewport.26d2ea6ea104.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-toggle.02e52d783748.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/privacy-components.c76670cc3d4c.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-typography.e23e1f1503bb.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-share.087eb9f04430.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/superstore.efa85c8c265d.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-grid.3a60498625a1.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-footer.80a1922ff25b.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-utils.7f91b7df924c.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-x-engine.5617be4949c1.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-n-myft-ui.8cea18c355c4.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-n-syndication.c2cbd9b65976.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-n-magnet.f31244dfd541.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-table.b4cf58281537.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-n-newsletter-signup.f96e7c002d2d.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-n-feedback.9b830d7cc2f8.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-forms.33c59aad67dc.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-n-notification.ffae2cfafe36.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-n-scrollytelling-image.64b28cd8fbe0.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-n-browsable-lists.529248bead31.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-audio.e70212200dfe.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-errors.be3c3bdc0c01.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-expander.1284835aad36.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-lazy-load.2b733fdd8c1d.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-n-eventpromo.0b19a22dbf5c.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-n-topic-tracker-client.c9dc26a30d08.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-x-teaser.f236464910bc.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/dateformat.97e6b7af2ded.bundle.js" type="application/javascript"><link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/scripts.57dc02532b24.bundle.js" type="application/javascript"><link rel="preload" as="font" href="https://www.ft.com/__origami/service/build/v3/font?font_format=woff2&amp;font_name=MetricWeb-Regular&amp;system_code=origami&amp;version=1.12" type="font/woff2" crossorigin="anonymous"><link rel="preload" as="font" href="https://www.ft.com/__origami/service/build/v3/font?font_format=woff2&amp;font_name=MetricWeb-Semibold&amp;system_code=origami&amp;version=1.12" type="font/woff2" crossorigin="anonymous"><link rel="preload" as="font" href="https://www.ft.com/__origami/service/build/v3/font?font_format=woff2&amp;font_name=FinancierDisplayWeb-Regular&amp;system_code=origami&amp;version=1.12" type="font/woff2" crossorigin="anonymous"><link rel="preload" as="font" href="https://www.ft.com/__origami/service/build/v3/font?font_format=woff2&amp;font_name=FinancierDisplayWeb-Bold&amp;system_code=origami&amp;version=1.12" type="font/woff2" crossorigin="anonymous"><script id="initial-props" type="application/json">{"mainConcepts":{"focus":["2f9f69ff-9874-4529-adf9-3b9641b51c9b","fca046a3-a5e3-43f4-9a09-e90418747ec7","8a2cd02a-a97d-40be-b431-07ab2b26fe23","06177bd5-f2d4-41da-8314-19475b8b2243","2814aea9-fc45-471b-849f-4a2fc37182e8","37b1e62e-93ff-4991-aa83-c1ec974d4802","c91b1fad-1097-468b-be82-9a8ff717d54c"],"authorConcepts":["f72188d6-6bed-4242-b08c-4365652e664d"],"displayConcept":"2f9f69ff-9874-4529-adf9-3b9641b51c9b"}}</script><link rel="stylesheet" href="https://www.ft.com/__assets/hashed/page-kit/vendors~page-kit-layout-styles.8f1b1221115f.css"><link rel="stylesheet" href="https://www.ft.com/__assets/hashed/page-kit/main.e0641684563f.css"><script type="application/json" id="page-kit-bootstrap-config">{"trackErrors":true,"core":["https://polyfill.io/v3/polyfill.min.js?features=HTMLPictureElement&source=next"],"enhanced":["https://polyfill.io/v3/polyfill.min.js?features=default%2Ces5%2Ces2015%2Ces2016%2Ces2017%2CEventSource%2Cfetch%2CHTMLPictureElement%2CIntersectionObserver%2CNodeList.prototype.forEach&source=next","https://www.ft.com/__assets/hashed/page-kit/webpack-runtime.e95fdf411b11.bundle.js","https://www.ft.com/__assets/hashed/page-kit/page-kit-components.b033b7b7b388.bundle.js","https://www.ft.com/__assets/hashed/page-kit/shared.stable.6a8037e4bced.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-o-tracking.08fe02a008e3.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-x-gift-article.175e5aa08f1b.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-o-video.f53e6308a014.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-n-messaging-client.48c253b9b3c5.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-o-overlay.76dde1958cd3.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-o-tooltip.c5602641627c.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-x-interaction.dfc1b7355047.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-n-tracking.2e76281e8fc5.bundle.js","https://www.ft.com/__assets/hashed/page-kit/preact.1d691d84b45c.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-o-comments.82607a2807dd.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-o-header.2feea0c74cd0.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-o-message.2aff5f94ee93.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-o-banner.1f40bdc13c18.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-o-date.b4f2de41ea20.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-o-cookie-message.3f4069a0e63e.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-n-exponea.a9491f5444cd.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-o-viewport.26d2ea6ea104.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-o-toggle.02e52d783748.bundle.js","https://www.ft.com/__assets/hashed/page-kit/privacy-components.c76670cc3d4c.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-o-typography.e23e1f1503bb.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-o-share.087eb9f04430.bundle.js","https://www.ft.com/__assets/hashed/page-kit/superstore.efa85c8c265d.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-o-grid.3a60498625a1.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-o-footer.80a1922ff25b.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-o-utils.7f91b7df924c.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-x-engine.5617be4949c1.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-n-myft-ui.8cea18c355c4.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-n-syndication.c2cbd9b65976.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-n-magnet.f31244dfd541.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-o-table.b4cf58281537.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-n-newsletter-signup.f96e7c002d2d.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-n-feedback.9b830d7cc2f8.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-o-forms.33c59aad67dc.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-n-notification.ffae2cfafe36.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-n-scrollytelling-image.64b28cd8fbe0.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-n-browsable-lists.529248bead31.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-o-audio.e70212200dfe.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-o-errors.be3c3bdc0c01.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-o-expander.1284835aad36.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-o-lazy-load.2b733fdd8c1d.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-n-eventpromo.0b19a22dbf5c.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-n-topic-tracker-client.c9dc26a30d08.bundle.js","https://www.ft.com/__assets/hashed/page-kit/financial-times-x-teaser.f236464910bc.bundle.js","https://www.ft.com/__assets/hashed/page-kit/dateformat.97e6b7af2ded.bundle.js","https://www.ft.com/__assets/hashed/page-kit/scripts.57dc02532b24.bundle.js"]}</script><script src="https://polyfill.io/v3/polyfill.min.js?features=default%2Ces5%2Ces2015%2Ces2016%2Ces2017%2CEventSource%2Cfetch%2CHTMLPictureElement%2CIntersectionObserver%2CNodeList.prototype.forEach&amp;source=next"></script><script src="https://www.ft.com/__assets/hashed/page-kit/webpack-runtime.e95fdf411b11.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/page-kit-components.b033b7b7b388.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/shared.stable.6a8037e4bced.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-tracking.08fe02a008e3.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/financial-times-x-gift-article.175e5aa08f1b.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-video.f53e6308a014.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/financial-times-n-messaging-client.48c253b9b3c5.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-overlay.76dde1958cd3.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-tooltip.c5602641627c.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/financial-times-x-interaction.dfc1b7355047.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/financial-times-n-tracking.2e76281e8fc5.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/preact.1d691d84b45c.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-comments.82607a2807dd.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-header.2feea0c74cd0.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-message.2aff5f94ee93.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-banner.1f40bdc13c18.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-date.b4f2de41ea20.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-cookie-message.3f4069a0e63e.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/financial-times-n-exponea.a9491f5444cd.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-viewport.26d2ea6ea104.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-toggle.02e52d783748.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/privacy-components.c76670cc3d4c.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-typography.e23e1f1503bb.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-share.087eb9f04430.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/superstore.efa85c8c265d.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-grid.3a60498625a1.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-footer.80a1922ff25b.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-utils.7f91b7df924c.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/financial-times-x-engine.5617be4949c1.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/financial-times-n-myft-ui.8cea18c355c4.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/financial-times-n-syndication.c2cbd9b65976.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/financial-times-n-magnet.f31244dfd541.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-table.b4cf58281537.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/financial-times-n-newsletter-signup.f96e7c002d2d.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/financial-times-n-feedback.9b830d7cc2f8.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-forms.33c59aad67dc.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/financial-times-n-notification.ffae2cfafe36.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/financial-times-n-scrollytelling-image.64b28cd8fbe0.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/financial-times-n-browsable-lists.529248bead31.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-audio.e70212200dfe.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-errors.be3c3bdc0c01.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-expander.1284835aad36.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-lazy-load.2b733fdd8c1d.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/financial-times-n-eventpromo.0b19a22dbf5c.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/financial-times-n-topic-tracker-client.c9dc26a30d08.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/financial-times-x-teaser.f236464910bc.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/dateformat.97e6b7af2ded.bundle.js"></script><script src="https://www.ft.com/__assets/hashed/page-kit/scripts.57dc02532b24.bundle.js"></script><script>;(function () {
-  var doc = document.documentElement
-  var isEnhanced = isEnhancedBrowser()
-  var scriptsConfig = getScriptsConfig()
-  var scriptsToLoad = []
-  var currentScript = document.scripts[document.scripts.length - 1]
+ARTICLE_HTML = """<!DOCTYPE html>
+<html lang="en-GB" class="no-js core o-typography--loading-sans o-typography--loading-sans-bold o-typography--loading-display o-typography--loading-display-bold" data-o-component="o-typography" style="overflow-x:hidden;background-color:#fff1e5;color:#33302e">
+    <head>
+        <meta charSet="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>British tech tycoon Lawrence Jones guilty of rape and sexual assault</title>
+        <meta name="description" content="Founder of web hosting business UKFast convicted of attacking three women"/>
+        <link rel="canonical" href="https://www.ft.com/content/2314fb09-7f58-45e1-86ab-4767e9139ad3"/>
+        <meta name="robots" content="index,follow,max-snippet:200,max-image-preview:large"/>
+        <meta name="google-site-verification" content="4-t8sFaPvpO5FH_Gnw1dkM28CQepjzo8UjjAkdDflTw"/>
+        <script type="application/ld+json">
+            {
+                "@context": "http://schema.org",
+                "@type": "NewsArticle",
+                "headline": "British tech tycoon Lawrence Jones guilty of rape and sexual assault",
+                "datePublished": "2023-11-23T14:30:09.711Z",
+                "dateModified": "2023-11-23T14:30:09.711Z",
+                "description": "Founder of web hosting business UKFast convicted of attacking three women",
+                "isAccessibleForFree": "False",
+                "isPartOf": {
+                    "@type": [
+                        "CreativeWork",
+                        "Product"
+                    ],
+                    "name": "Financial Times",
+                    "productID": "ft.com:subscribed"
+                },
+                "alternativeHeadline": "British tech tycoon Lawrence Jones guilty of rape and sexual assault",
+                "image": {
+                    "@type": "ImageObject",
+                    "@context": "http://schema.org",
+                    "url": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F60936964-23d1-4b78-96e8-37b54a4579c6.jpg?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1",
+                    "width": 2290,
+                    "height": 1288
+                },
+                "author": [
+                    {
+                        "@type": "Person",
+                        "@context": "http://schema.org",
+                        "name": "Madison Marriage",
+                        "url": "https://www.ft.com/madison-marriage",
+                        "worksFor": {
+                            "@type": "Organization",
+                            "@context": "http://schema.org",
+                            "name": "Financial Times",
+                            "legalName": "The Financial Times Ltd.",
+                            "logo": {
+                                "@type": "ImageObject",
+                                "@context": "http://schema.org",
+                                "url": "https://im.ft-static.com/m/img/masthead_main.jpg",
+                                "width": 435,
+                                "height": 36
+                            },
+                            "url": "https://www.ft.com",
+                            "sameAs": [
+                                "https://www.twitter.com/FT",
+                                "https://www.facebook.com/financialtimes",
+                                "https://www.linkedin.com/company/financial-times",
+                                "https://www.youtube.com/user/FinancialTimesVideos",
+                                "https://www.instagram.com/financialtimes"
+                            ]
+                        }
+                    }
+                ],
+                "articleBody": "Technology entrepreneur Lawrence Jones has been found guilty of raping two women in the early 1990s and of sexually assaulting a third woman a decade ago while she worked at UKFast, the web-hosting business he founded.\n\nThe 55-year-old was on Thursday unanimously convicted of raping the two women in Manchester 30 years ago. He was convicted of the sexual assault in January but that majority verdict could not be reported until now because of a reporting restriction.\n\nJones, once dubbed Britain’s “cloud computing king”, was considered one of the most influential technology magnates in the UK with an estimated wealth of about £700mn.\n\nBut his business empire began to crumble in 2019 after the Financial Times published an investigation into his workplace conduct and treatment of female employees, prompting him to quit the company he founded 20 years earlier.\n\nThe two women Jones raped in the 1990s, who do not know each other, said in court that Jones attacked them in his flat on separate occasions after he gave them a substance that left them stupefied and unable to fight him off.\n\nThey both knew Jones socially through his work at the time as a pianist at local hotels and pubs across Manchester before his business career took off, the November trial in Manchester Crown Court heard.\n\nJones, who later gained a prominent public profile as a self-styled straight-talking business guru, claimed he had never met one of the women and said he had a consensual sexual relationship with the second.\n\nIn a separate trial in January Jones was found guilty of sexually assaulting a third woman — a former employee at UKFast — while she accompanied him on a business trip to London a decade ago.\n\nJones has been held in custody since the January conviction.\n\nThe father-of-four was acquitted of sexually assaulting and raping a fourth woman, another former UKFast employee, at the January trial.\n\nThe outcome of the January trial could not be reported until the second trial concluded this month to avoid prejudicing the jury. Jones’s sentencing on all three convictions will take place in a week.\n\nJurors in the November trial heard harrowing details of the rapes Jones committed.\n\nOne of the women said she had known Jones in the 1990s because he dated one of her friends at the time.\n\nShe told the court she considered Jones obnoxious after he made an inappropriate sexual remark about her love life the first time they met, telling her she needed “a good fucking”.\n\nShe said she agreed to have a “Christmas drink” at his flat in late 1993 because she felt she owed it to her friend to make an effort with him.\n\nOnce at the flat, she said she had a glass of red wine and a few puffs of a spliff, but quickly became completely disoriented. She said she believed she may have been drugged, and that Jones proceeded to have sex with her against her will.\n\nShe told the court that when she resisted him, Jones shouted at her and called her “a prick tease”. Jones denied having ever met the woman.\n\nThe second woman in the November trial said she was at Jones’s flat when he asked her to sniff a liquid from a small medicinal bottle, which immediately made her feel woozy and “really out of it”. While she was incapacitated, she said Jones had sex with her.\n\nShe recalled the assault was painful as she had not been expecting it and described his attack as “opportunistic”.\n\nAt trial Jones denied raping the second woman and said he had a consensual sexual relationship with her, but that he broke it off after finding it had become too “intense”.\n\nJones also admitted on the stand to occasionally using “poppers” — a drug that can make an individual feel high when inhaled — during sexual intercourse in the 1990s but said he had only ever done so with the full consent of his sexual partners.\n\nJones, who once featured in the Sunday Times rich list, had denied all the charges in both trials. In 2015, he was awarded an MBE for services to the digital economy.\n\nIsla Chilton, senior district crown prosecutor for the North West Rape and Serious Sexual Offence Unit at the Crown Prosecution Service, said: “Jones raped two women with no thought for how his actions would affect them.\n\n“By denying the offences, he compounded the harm to the women, attempting to evade responsibility for his actions. The jury saw through his lies and found him guilty.”\n\nThe young female employee in the January trial told the court that Jones attacked her during a work trip in his penthouse suite, which her bedroom adjoined.\n\nShe said he began pulling her towards him despite her clear resistance while they were sitting on a sofa. Jones then demanded to see her knickers and attempted to forcefully prise her thighs apart, but she managed to get away from him, ran to her room and locked the door, the jury was told.\n\nThe trials were closely followed by former employees of UKFast, which rebranded as ANS after the initial charges against Jones became public in 2021. Under his leadership the company regularly featured in the Sunday Times’ “Best Companies to Work For” list.\n\nMore than 30 former employees spoke to the FT in 2019 alleging a toxic working culture at UKFast under Jones’s leadership. Many claimed that sexual harassment or inappropriate behaviour by their former boss was commonplace, including unwanted massages, meetings in hot tubs and saunas, and intrusive questions about their sex lives.\n\nTwo women told the FT at the time that they had been sexually assaulted by the entrepreneur, allegations he denied.\n\nThe former employees also alleged a workplace culture of fear, with Jones prone to angry, unpredictable outbursts and presiding over a “hire and fire” atmosphere.\n\nJones stood down as chief executive of UKFast shortly after the FT investigation was published in 2019. Inflexion, the private equity firm that had a minority stake in the internet company at the time, bought out Jones and his wife Gail, also a director at UKFast, in 2020.",
+                "wordCount": 1030,
+                "publisher": {
+                    "@type": "Organization",
+                    "@context": "http://schema.org",
+                    "name": "Financial Times",
+                    "legalName": "The Financial Times Ltd.",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "@context": "http://schema.org",
+                        "url": "https://im.ft-static.com/m/img/masthead_main.jpg",
+                        "width": 435,
+                        "height": 36
+                    },
+                    "url": "https://www.ft.com",
+                    "sameAs": [
+                        "https://www.twitter.com/FT",
+                        "https://www.facebook.com/financialtimes",
+                        "https://www.linkedin.com/company/financial-times",
+                        "https://www.youtube.com/user/FinancialTimesVideos",
+                        "https://www.instagram.com/financialtimes"
+                    ]
+                }
+            }</script>
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Companies",
+                        "item": "https://www.ft.com/companies"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Europe",
+                        "item": "https://www.ft.com/europe"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "Social affairs",
+                        "item": "https://www.ft.com/social-affairs"
+                    }
+                ]
+            }</script>
+        <script type="application/ld+json">
+            {
+                "@context": "http://schema.org",
+                "@type": "WebSite",
+                "name": "Financial Times",
+                "alternateName": "FT.com",
+                "url": "http://www.ft.com"
+            }</script>
+        <meta property="fb:pages" content="8860325749"/>
+        <meta property="twitter:site" content="@FinancialTimes"/>
+        <meta property="twitter:card" content="summary_large_image"/>
+        <meta property="og:title" content="British tech tycoon Lawrence Jones guilty of rape and sexual assault"/>
+        <meta property="og:description" content="Founder of web hosting business UKFast convicted of attacking three women"/>
+        <meta property="og:image" content="https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fwww.ft.com%2F__origami%2Fservice%2Fimage%2Fv2%2Fimages%2Fraw%2Fhttps%253A%252F%252Fd1e00ek4ebabms.cloudfront.net%252Fproduction%252F60936964-23d1-4b78-96e8-37b54a4579c6.jpg%3Fsource%3Dnext-article%26fit%3Dscale-down%26quality%3Dhighest%26width%3D700%26dpr%3D1?source=next-opengraph&amp;fit=scale-down&amp;width=900"/>
+        <meta property="og:url" content="https://www.ft.com/content/2314fb09-7f58-45e1-86ab-4767e9139ad3"/>
+        <meta property="og:type" content="article"/>
+        <meta property="article:published_time" content="2023-11-23T14:30:09.711Z"/>
+        <meta property="article:modified_time" content="2023-11-23T14:30:09.711Z"/>
+        <meta property="article:author" content="Madison Marriage"/>
+        <meta name="apple-itunes-app" content="app-id=1200842933, app-argument=https://www.ft.com/content/2314fb09-7f58-45e1-86ab-4767e9139ad3"/>
+        <link rel="icon" type="image/svg+xml" href="https://www.ft.com/__origami/service/image/v2/images/raw/ftlogo-v1%3Abrand-ft-logo-square-coloured?source=update-logos&amp;format=svg"/>
+        <link rel="alternate icon" type="image/png" href="https://www.ft.com/__origami/service/image/v2/images/raw/ftlogo-v1%3Abrand-ft-logo-square-coloured?source=update-logos&amp;format=png&amp;width=32&amp;height=32" sizes="32x32"/>
+        <link rel="alternate icon" type="image/png" href="https://www.ft.com/__origami/service/image/v2/images/raw/ftlogo-v1%3Abrand-ft-logo-square-coloured?source=update-logos&amp;format=png&amp;width=194&amp;height=194" sizes="194x194"/>
+        <link rel="apple-touch-icon" href="https://www.ft.com/__origami/service/image/v2/images/raw/ftlogo-v1%3Abrand-ft-logo-square-coloured?source=update-logos&amp;format=png&amp;width=180&amp;height=180" sizes="180x180"/>
+        <link rel="manifest" href="https://www.ft.com/__assets/creatives/manifest/manifest-v6.json"/>
+        <script>
+            !function(e, n, t, i, o, r) {
+                function c(e) {
+                    if ("number" != typeof e)
+                        return e;
+                    var n = new Date;
+                    return new Date(n.getTime() + 1e3 * e)
+                }
+                var a = 4e3
+                  , s = "xnpe_async_hide";
+                function p(e) {
+                    return e.reduce((function(e, n) {
+                        return e[n] = function() {
+                            e._.push([n.toString(), arguments])
+                        }
+                        ,
+                        e
+                    }
+                    ), {
+                        _: []
+                    })
+                }
+                function m(e, n, t) {
+                    var i = t.createElement(n);
+                    i.src = e;
+                    var o = t.getElementsByTagName(n)[0];
+                    return o.parentNode.insertBefore(i, o),
+                    i
+                }
+                function u(e) {
+                    return "[object Date]" === Object.prototype.toString.call(e)
+                }
+                r.target = r.target,
+                r.file_path = r.file_path || r.target + "/js/exponea.min.js",
+                o[n] = p(["anonymize", "initialize", "identify", "update", "track", "trackLink", "trackEnhancedEcommerce", "getHtml", "showHtml", "showBanner", "showWebLayer", "ping", "getAbTest", "loadDependency", "getRecommendation", "reloadWebLayers"]),
+                o[n].notifications = p(["isAvailable", "isSubscribed", "subscribe", "unsubscribe"]),
+                o[n]["snippetVersion"] = "v2.3.0",
+                function(e, n, t) {
+                    e[n]["_" + t] = {},
+                    e[n]["_" + t].nowFn = Date.now,
+                    e[n]["_" + t].snippetStartTime = e[n]["_" + t].nowFn()
+                }(o, n, "performance"),
+                function(e, n, t, i, o, r) {
+                    e[o] = {
+                        sdk: e[i],
+                        sdkObjectName: i,
+                        skipExperiments: !!t.new_experiments,
+                        sign: t.token + "/" + (r.exec(n.cookie) || ["", "new"])[1],
+                        path: t.target
+                    }
+                }(o, e, r, n, i, RegExp("__exponea_etc__" + "=([\w-]+)")),
+                function(e, n, t) {
+                    m(e.file_path, n, t)
+                }(r, t, e),
+                function(e, n, t, i, o, r, p) {
+                    if (e.new_experiments) {
+                        !0 === e.new_experiments && (e.new_experiments = {});
+                        var f, l = e.new_experiments.hide_class || s, _ = e.new_experiments.timeout || a, d = encodeURIComponent(r.location.href.split("#")[0]);
+                        e.cookies && e.cookies.expires && ("number" == typeof e.cookies.expires || u(e.cookies.expires) ? f = c(e.cookies.expires) : e.cookies.expires.tracking && ("number" == typeof e.cookies.expires.tracking || u(e.cookies.expires.tracking)) && (f = c(e.cookies.expires.tracking))),
+                        f && f < new Date && (f = void 0);
+                        var x = e.target + "/webxp/" + n + "/" + r[t].sign + "/modifications.min.js?http-referer=" + d + "&timeout=" + _ + "ms" + (f ? "&cookie-expires=" + Math.floor(f.getTime() / 1e3) : "");
+                        "sync" === e.new_experiments.mode && r.localStorage.getItem("__exponea__sync_modifications__") ? function(e, n, t, i, o) {
+                            t[o][n] = "<" + n + ' src="' + e + '"></' + n + ">",
+                            i.writeln(t[o][n]),
+                            i.writeln("<" + n + ">!" + o + ".init && document.writeln(" + o + "." + n + '.replace("/' + n + '/", "/' + n + '-async/").replace("><", " async><"))</' + n + ">")
+                        }(x, n, r, p, t) : function(e, n, t, i, o, r, c, a) {
+                            r.documentElement.classList.add(e);
+                            var s = m(t, i, r);
+                            function p() {
+                                o[a].init || m(t.replace("/" + i + "/", "/" + i + "-async/"), i, r)
+                            }
+                            function u() {
+                                r.documentElement.classList.remove(e)
+                            }
+                            s.onload = p,
+                            s.onerror = p,
+                            o.setTimeout(u, n),
+                            o[c]._revealPage = u
+                        }(l, _, x, n, r, p, o, t)
+                    }
+                }(r, t, i, 0, n, o, e),
+                function(e, n, t) {
+                    e[n].start = function(i) {
+                        i && Object.keys(i).forEach((function(e) {
+                            return t[e] = i[e]
+                        }
+                        )),
+                        e[n].initialize(t)
+                    }
+                }(o, n, r)
+            }(document, "exponea", "script", "webxpClient", window, {
+                target: 'https://bloomreach.ft.com',
+                token: 'd6e5bd4c-9228-11eb-a414-9a67e462410e',
+            });
+        </script>
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:image" content="https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fwww.ft.com%2F__origami%2Fservice%2Fimage%2Fv2%2Fimages%2Fraw%2Fhttps%253A%252F%252Fd1e00ek4ebabms.cloudfront.net%252Fproduction%252F60936964-23d1-4b78-96e8-37b54a4579c6.jpg%3Fsource%3Dnext-article%26fit%3Dscale-down%26quality%3Dhighest%26width%3D700%26dpr%3D1?source=next-opengraph&amp;fit=scale-down&amp;width=900&amp;overlay=https://www.ft.com/__assets/creatives/x/ft-overlay.png&amp;overlay_height=0.15&amp;overlay_y=30&amp;overlay_gravity=south_east"/>
+        <link rel="preconnect" href="https://spoor-api.ft.com"/>
+        <link rel="preconnect" href="https://session-next.ft.com" crossorigin="use-credentials"/>
+        <link rel="preconnect" href="https://ads-api.ft.com"/>
+        <link rel="preconnect" href="https://securepubads.g.doubleclick.net"/>
+        <link rel="preload" as="script" href="https://polyfill.io/v3/polyfill.min.js?features=default%2Ces5%2Ces2015%2Ces2016%2Ces2017%2CEventSource%2Cfetch%2CHTMLPictureElement%2CIntersectionObserver%2CNodeList.prototype.forEach&amp;source=next"/>
+        <link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/webpack-runtime.4b049f59fcfb.bundle.js" type="application/javascript"/>
+        <link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-n-myft-ui.06a1cfe0f62f.bundle.js" type="application/javascript"/>
+        <link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/preact.aba0562f253d.bundle.js" type="application/javascript"/>
+        <link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/page-kit-components.bada9dd7828c.bundle.js" type="application/javascript"/>
+        <link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/superstore.efa85c8c265d.bundle.js" type="application/javascript"/>
+        <link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/shared.stable.9f8e227678dc.bundle.js" type="application/javascript"/>
+        <link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-tracking.bee32175562d.bundle.js" type="application/javascript"/>
+        <link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-video.c60deb1ba5e3.bundle.js" type="application/javascript"/>
+        <link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-overlay.725beaf16480.bundle.js" type="application/javascript"/>
+        <link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-n-tracking.00c6a522b4b4.bundle.js" type="application/javascript"/>
+        <link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-tooltip.0dc525295c22.bundle.js" type="application/javascript"/>
+        <link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-expander.1284835aad36.bundle.js" type="application/javascript"/>
+        <link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-header.78ed6c1be10a.bundle.js" type="application/javascript"/>
+        <link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-date.89299101937d.bundle.js" type="application/javascript"/>
+        <link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-n-exponea.a9491f5444cd.bundle.js" type="application/javascript"/>
+        <link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-viewport.26d2ea6ea104.bundle.js" type="application/javascript"/>
+        <link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-toggle.02e52d783748.bundle.js" type="application/javascript"/>
+        <link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/privacy-components.c76670cc3d4c.bundle.js" type="application/javascript"/>
+        <link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-typography.e23e1f1503bb.bundle.js" type="application/javascript"/>
+        <link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-share.a5222a5d7cf8.bundle.js" type="application/javascript"/>
+        <link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-grid.3a60498625a1.bundle.js" type="application/javascript"/>
+        <link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-footer.80a1922ff25b.bundle.js" type="application/javascript"/>
+        <link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-utils.fcb47ada8316.bundle.js" type="application/javascript"/>
+        <link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-x-engine.ab24e1752fd8.bundle.js" type="application/javascript"/>
+        <link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-n-magnet.8031e049855a.bundle.js" type="application/javascript"/>
+        <link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-table.f7fd21256413.bundle.js" type="application/javascript"/>
+        <link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-n-newsletter-signup.86486f40af67.bundle.js" type="application/javascript"/>
+        <link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-n-notification.ffae2cfafe36.bundle.js" type="application/javascript"/>
+        <link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-n-scrollytelling-image.64b28cd8fbe0.bundle.js" type="application/javascript"/>
+        <link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-audio.9f5609f087ec.bundle.js" type="application/javascript"/>
+        <link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-o-errors.be3c3bdc0c01.bundle.js" type="application/javascript"/>
+        <link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/financial-times-n-eventpromo.0b19a22dbf5c.bundle.js" type="application/javascript"/>
+        <link rel="preload" as="script" href="https://www.ft.com/__assets/hashed/page-kit/scripts.c819326c5430.bundle.js" type="application/javascript"/>
+        <link rel="preload" as="font" href="https://www.ft.com/__origami/service/build/v3/font?font_format=woff2&amp;font_name=MetricWeb-Regular&amp;system_code=origami&amp;version=1.12" type="font/woff2" crossorigin="anonymous"/>
+        <link rel="preload" as="font" href="https://www.ft.com/__origami/service/build/v3/font?font_format=woff2&amp;font_name=MetricWeb-Semibold&amp;system_code=origami&amp;version=1.12" type="font/woff2" crossorigin="anonymous"/>
+        <link rel="preload" as="font" href="https://www.ft.com/__origami/service/build/v3/font?font_format=woff2&amp;font_name=FinancierDisplayWeb-Regular&amp;system_code=origami&amp;version=1.12" type="font/woff2" crossorigin="anonymous"/>
+        <link rel="preload" as="font" href="https://www.ft.com/__origami/service/build/v3/font?font_format=woff2&amp;font_name=FinancierDisplayWeb-Bold&amp;system_code=origami&amp;version=1.12" type="font/woff2" crossorigin="anonymous"/>
+        <script id="initial-props" type="application/json">
+            {
+                "mainConcepts": {
+                    "contentId": "2314fb09-7f58-45e1-86ab-4767e9139ad3",
+                    "focus": [
+                        "57afc2ba-73ba-42da-8433-0ad6ae1e9d05",
+                        "6b32f2c1-da43-4e19-80b9-8aef4ab640d7",
+                        "6b683eff-56c3-43d9-acfc-7511d974fc01",
+                        "6bade25b-56b3-4409-8d32-c131666d9acb",
+                        "9c4e64d2-1aca-4ed0-9ec0-dc1748415e2d",
+                        "a579350c-61ce-4c00-97ca-ddaa2e0cacf6",
+                        "624e64e0-aa3b-338e-9421-76785bafb4fd",
+                        "6374b579-f67d-4970-a7cd-1ab5e41a551a",
+                        "64ba2208-0c0d-43e2-a883-beecb55c0d33",
+                        "82645c31-4426-4ef5-99c9-9df6e0940c00",
+                        "c47f4dfc-6879-4e95-accf-ca8cbe6a1f69",
+                        "e58e66fe-7cc6-4382-b781-1161bae8b905"
+                    ],
+                    "authorConcepts": [
+                        {
+                            "id": "5fed50f3-ac7b-41a5-a653-777fdd4e7492",
+                            "prefLabel": "Madison Marriage",
+                            "types": [
+                                "http://www.ft.com/ontology/core/Thing",
+                                "http://www.ft.com/ontology/concept/Concept",
+                                "http://www.ft.com/ontology/person/Person"
+                            ],
+                            "type": "PERSON",
+                            "directType": "http://www.ft.com/ontology/person/Person",
+                            "isPackageBrand": false,
+                            "predicate": "http://www.ft.com/ontology/annotation/hasAuthor",
+                            "url": "https://www.ft.com/madison-marriage",
+                            "relativeUrl": "/madison-marriage",
+                            "predicateName": "hasAuthor"
+                        }
+                    ]
+                }
+            }</script>
+        <link rel="stylesheet" href="https://www.ft.com/__assets/hashed/page-kit/vendors~page-kit-layout-styles.71213de25960.css"/>
+        <link rel="stylesheet" href="https://www.ft.com/__assets/hashed/page-kit/main.9cbfa739f0ef.css"/>
+        <script type="application/json" id="page-kit-bootstrap-config">
+            {
+                "trackErrors": true,
+                "core": [
+                    "https://polyfill.io/v3/polyfill.min.js?features=HTMLPictureElement&source=next"
+                ],
+                "enhanced": [
+                    "https://polyfill.io/v3/polyfill.min.js?features=default%2Ces5%2Ces2015%2Ces2016%2Ces2017%2CEventSource%2Cfetch%2CHTMLPictureElement%2CIntersectionObserver%2CNodeList.prototype.forEach&source=next",
+                    "https://www.ft.com/__assets/hashed/page-kit/webpack-runtime.4b049f59fcfb.bundle.js",
+                    "https://www.ft.com/__assets/hashed/page-kit/financial-times-n-myft-ui.06a1cfe0f62f.bundle.js",
+                    "https://www.ft.com/__assets/hashed/page-kit/preact.aba0562f253d.bundle.js",
+                    "https://www.ft.com/__assets/hashed/page-kit/page-kit-components.bada9dd7828c.bundle.js",
+                    "https://www.ft.com/__assets/hashed/page-kit/superstore.efa85c8c265d.bundle.js",
+                    "https://www.ft.com/__assets/hashed/page-kit/shared.stable.9f8e227678dc.bundle.js",
+                    "https://www.ft.com/__assets/hashed/page-kit/financial-times-o-tracking.bee32175562d.bundle.js",
+                    "https://www.ft.com/__assets/hashed/page-kit/financial-times-o-video.c60deb1ba5e3.bundle.js",
+                    "https://www.ft.com/__assets/hashed/page-kit/financial-times-o-overlay.725beaf16480.bundle.js",
+                    "https://www.ft.com/__assets/hashed/page-kit/financial-times-n-tracking.00c6a522b4b4.bundle.js",
+                    "https://www.ft.com/__assets/hashed/page-kit/financial-times-o-tooltip.0dc525295c22.bundle.js",
+                    "https://www.ft.com/__assets/hashed/page-kit/financial-times-o-expander.1284835aad36.bundle.js",
+                    "https://www.ft.com/__assets/hashed/page-kit/financial-times-o-header.78ed6c1be10a.bundle.js",
+                    "https://www.ft.com/__assets/hashed/page-kit/financial-times-o-date.89299101937d.bundle.js",
+                    "https://www.ft.com/__assets/hashed/page-kit/financial-times-n-exponea.a9491f5444cd.bundle.js",
+                    "https://www.ft.com/__assets/hashed/page-kit/financial-times-o-viewport.26d2ea6ea104.bundle.js",
+                    "https://www.ft.com/__assets/hashed/page-kit/financial-times-o-toggle.02e52d783748.bundle.js",
+                    "https://www.ft.com/__assets/hashed/page-kit/privacy-components.c76670cc3d4c.bundle.js",
+                    "https://www.ft.com/__assets/hashed/page-kit/financial-times-o-typography.e23e1f1503bb.bundle.js",
+                    "https://www.ft.com/__assets/hashed/page-kit/financial-times-o-share.a5222a5d7cf8.bundle.js",
+                    "https://www.ft.com/__assets/hashed/page-kit/financial-times-o-grid.3a60498625a1.bundle.js",
+                    "https://www.ft.com/__assets/hashed/page-kit/financial-times-o-footer.80a1922ff25b.bundle.js",
+                    "https://www.ft.com/__assets/hashed/page-kit/financial-times-o-utils.fcb47ada8316.bundle.js",
+                    "https://www.ft.com/__assets/hashed/page-kit/financial-times-x-engine.ab24e1752fd8.bundle.js",
+                    "https://www.ft.com/__assets/hashed/page-kit/financial-times-n-magnet.8031e049855a.bundle.js",
+                    "https://www.ft.com/__assets/hashed/page-kit/financial-times-o-table.f7fd21256413.bundle.js",
+                    "https://www.ft.com/__assets/hashed/page-kit/financial-times-n-newsletter-signup.86486f40af67.bundle.js",
+                    "https://www.ft.com/__assets/hashed/page-kit/financial-times-n-notification.ffae2cfafe36.bundle.js",
+                    "https://www.ft.com/__assets/hashed/page-kit/financial-times-n-scrollytelling-image.64b28cd8fbe0.bundle.js",
+                    "https://www.ft.com/__assets/hashed/page-kit/financial-times-o-audio.9f5609f087ec.bundle.js",
+                    "https://www.ft.com/__assets/hashed/page-kit/financial-times-o-errors.be3c3bdc0c01.bundle.js",
+                    "https://www.ft.com/__assets/hashed/page-kit/financial-times-n-eventpromo.0b19a22dbf5c.bundle.js",
+                    "https://www.ft.com/__assets/hashed/page-kit/scripts.c819326c5430.bundle.js"
+                ]
+            }</script>
+        <script>
+            ;(function() {
+                var doc = document.documentElement
+                var isEnhanced = isEnhancedBrowser()
+                var scriptsConfig = getScriptsConfig()
+                var scriptsToLoad = []
+                var currentScript = document.scripts[document.scripts.length - 1]
 
-  doc.className = doc.className.replace('no-js', 'js')
+                doc.className = doc.className.replace('no-js', 'js')
 
-  if (isEnhanced) {
-    doc.className = doc.className.replace('core', 'enhanced')
-    Array.prototype.push.apply(scriptsToLoad, scriptsConfig.enhanced)
-  } else {
-    Array.prototype.push.apply(scriptsToLoad, scriptsConfig.core)
-  }
+                if (isEnhanced) {
+                    doc.className = doc.className.replace('core', 'enhanced')
+                    Array.prototype.push.apply(scriptsToLoad, scriptsConfig.enhanced)
+                } else {
+                    Array.prototype.push.apply(scriptsToLoad, scriptsConfig.core)
+                }
 
-  for (var i = 0, len = scriptsToLoad.length; i < len; i++) {
-    loadScript(scriptsToLoad[i])
-  }
+                for (var i = 0, len = scriptsToLoad.length; i < len; i++) {
+                    loadScript(scriptsToLoad[i])
+                }
 
-  function scriptLoadError(error) {
-    var script = error.target ? error.target.src : null
+                function scriptLoadError(error) {
+                    var script = error.target ? error.target.src : null
 
-    if (script) {
-      console.error('The script ' + script + ' failed to load') // eslint-disable-line no-console
-    }
+                    if (script) {
+                        console.error('The script ' + script + ' failed to load')
+                        // eslint-disable-line no-console
+                    }
 
-    if (/enhanced/.test(doc.className)) {
-      console.warn('Script loading failed, reverting to core experience') // eslint-disable-line no-console
-      doc.className = doc.className.replace('enhanced', 'core')
-    }
+                    if (/enhanced/.test(doc.className)) {
+                        console.warn('Script loading failed, reverting to core experience')
+                        // eslint-disable-line no-console
+                        doc.className = doc.className.replace('enhanced', 'core')
+                    }
 
-    if (scriptsConfig.trackErrors) {
-      addErrorTrackingPixel(script)
-    }
-  }
+                    if (scriptsConfig.trackErrors) {
+                        addErrorTrackingPixel(script)
+                    }
+                }
 
-  function loadScript(src) {
-    var script = document.createElement('script')
-    script.onerror = scriptLoadError
-    script.async = false
-    script.src = src
-    currentScript.parentNode.insertBefore(script, currentScript)
-  }
+                function loadScript(src) {
+                    var script = document.createElement('script')
+                    script.onerror = scriptLoadError
+                    script.async = false
+                    script.src = src
+                    currentScript.parentNode.insertBefore(script, currentScript)
+                }
 
-  // "Cut the mustard" test
-  // by Maggie Allen and Matt Hinchliffe November 2018
-  function isEnhancedBrowser() {
-    var script = document.createElement('script')
-    var input = document.createElement('input')
+                // "Cut the mustard" test
+                // by Maggie Allen and Matt Hinchliffe November 2018
+                function isEnhancedBrowser() {
+                    var script = document.createElement('script')
+                    var input = document.createElement('input')
 
-    return (
-      'visibilityState' in document && // not supported by old Android (4.0-4.4) without a prefix
-      'indeterminate' in input && // not supported by BB 10
-      'flex' in doc.style && // not supported by old Safari (< 9) or IE 6-10
-      'async' in script // not supported by old Opera (Presto engine < 15)
-    )
-  }
+                    return ('visibilityState'in document && // not supported by old Android (4.0-4.4) without a prefix
+                    'indeterminate'in input && // not supported by BB 10
+                    'flex'in doc.style && // not supported by old Safari (< 9) or IE 6-10
+                    'async'in script // not supported by old Opera (Presto engine < 15)
+                    )
+                }
 
-  function getScriptsConfig() {
-    var scriptsConfigEl = document.getElementById('page-kit-bootstrap-config')
-    var scriptsConfig = { core: [], enhanced: [], trackErrors: false }
+                function getScriptsConfig() {
+                    var scriptsConfigEl = document.getElementById('page-kit-bootstrap-config')
+                    var scriptsConfig = {
+                        core: [],
+                        enhanced: [],
+                        trackErrors: false
+                    }
 
-    if (scriptsConfigEl) {
-      try {
-        scriptsConfig = JSON.parse(scriptsConfigEl.innerHTML)
-      } catch (error) {
-        console.error('Bootstrap configuration error', error) // eslint-disable-line no-console
-      }
-    }
+                    if (scriptsConfigEl) {
+                        try {
+                            scriptsConfig = JSON.parse(scriptsConfigEl.innerHTML)
+                        } catch (error) {
+                            console.error('Bootstrap configuration error', error)
+                            // eslint-disable-line no-console
+                        }
+                    }
 
-    return scriptsConfig
-  }
+                    return scriptsConfig
+                }
 
-  function addErrorTrackingPixel(script) {
-    var img = new Image()
+                function addErrorTrackingPixel(script) {
+                    var img = new Image()
 
-    var data = JSON.stringify({
-      category: 'javascript',
-      action: 'load-error',
-      system: {
-        source: 'page-kit'
-      },
-      context: {
-        script: script
-      }
-    })
+                    var data = JSON.stringify({
+                        category: 'javascript',
+                        action: 'load-error',
+                        system: {
+                            source: 'page-kit'
+                        },
+                        context: {
+                            script: script
+                        }
+                    })
 
-    img.src = 'https://spoor-api.ft.com/px.gif?data=' + encodeURIComponent(data)
-  }
-})()
-</script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-NWQJW68');</script><script>(function loadCustomFonts() {
-    var rootElement = document.documentElement;
-    if (/(^|\s)o-typography-fonts-loaded=1(;|$)/.test(document.cookie)) {
-        var fontLabels = ['sans', 'sans-bold', 'display', 'display-bold'];
-        for (var i = 0; i < fontLabels.length; i++) {
-            rootElement.className = rootElement.className.replace('o-typography--loading-' + fontLabels[i], '');
-        }
-    }
-}());</script><style>@font-face{src:url("https://www.ft.com/__origami/service/build/v3/font?version=1.12&font_name=MetricWeb-Regular&system_code=origami&font_format=woff2") format("woff2"),url("https://www.ft.com/__origami/service/build/v3/font?version=1.12&font_name=MetricWeb-Regular&system_code=origami&font_format=woff") format("woff");font-family:"MetricWeb";font-weight:400;font-style:normal;font-display:swap}@font-face{src:url("https://www.ft.com/__origami/service/build/v3/font?version=1.12&font_name=MetricWeb-Semibold&system_code=origami&font_format=woff2") format("woff2"),url("https://www.ft.com/__origami/service/build/v3/font?version=1.12&font_name=MetricWeb-Semibold&system_code=origami&font_format=woff") format("woff");font-family:"MetricWeb";font-weight:600;font-style:normal;font-display:swap}@font-face{src:url("https://www.ft.com/__origami/service/build/v3/font?version=1.12&font_name=FinancierDisplayWeb-Medium&system_code=origami&font_format=woff2") format("woff2"),url("https://www.ft.com/__origami/service/build/v3/font?version=1.12&font_name=FinancierDisplayWeb-Medium&system_code=origami&font_format=woff") format("woff");font-family:"FinancierDisplayWeb";font-weight:500;font-style:normal;font-display:swap}@font-face{src:url("https://www.ft.com/__origami/service/build/v3/font?version=1.12&font_name=FinancierDisplayWeb-Bold&system_code=origami&font_format=woff2") format("woff2"),url("https://www.ft.com/__origami/service/build/v3/font?version=1.12&font_name=FinancierDisplayWeb-Bold&system_code=origami&font_format=woff") format("woff");font-family:"FinancierDisplayWeb";font-weight:700;font-style:normal;font-display:swap}.tooltip{width:auto;height:auto;position:fixed;transform:translateX(-50%);z-index:2}.tooltip .tooltip_content{width:auto;height:auto;position:relative;min-height:32px;box-sizing:border-box;display:flex;flex-direction:row;justify-content:center;align-items:center;border:0;outline:none;cursor:pointer;padding:12px;background-color:#262a33}.tooltip .tooltip_content .tooltip_indicator{width:16px;height:16px;border-radius:50%;margin-right:12px;background-color:#ffec1a}.tooltip .tooltip_content .tooltip_text{flex:1 1 auto}.tooltip .tooltip_content .tooltip_text p{font-family:MetricWeb, sans-serif;font-size:18px;line-height:20px;margin:0 0 24px;color:#33302e;color:#fff;margin:0;white-space:nowrap}.o-typography--loading-sans .tooltip .tooltip_content .tooltip_text p{font-size:15.66px;font-family:sans-serif}.tooltip .tooltip_content::after{content:"";width:0;height:0;border-left:12px solid rgba(0,0,0,0);border-right:12px solid rgba(0,0,0,0);border-top:12px solid #262a33;position:absolute;bottom:-12px;left:calc(50% - 12px)}.tooltip .tooltip_content.disabled{pointer-events:none;cursor:default}.tooltip.hidden{display:none}mark{background-color:rgba(255,236,26,.5);cursor:pointer}mark.active-user-annotation{background-color:#ffec1a}.o-message--inner .o-message__content.missing-highlight-content{max-width:fit-content}.missing-highlight-message{margin-bottom:18px}
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL25vZGVfbW9kdWxlcy9AZmluYW5jaWFsLXRpbWVzL28tZm9udHMvc3JjL3Njc3MvX21peGlucy5zY3NzIiwid2VicGFjazovLy4vbm9kZV9tb2R1bGVzL0BmaW5hbmNpYWwtdGltZXMvby1mb250cy9tYWluLnNjc3MiLCJ3ZWJwYWNrOi8vLi9zcmMvc2Nzcy9pbmRleC5zY3NzIiwid2VicGFjazovLy4vbm9kZV9tb2R1bGVzL0BmaW5hbmNpYWwtdGltZXMvby10eXBvZ3JhcGh5L3NyYy9zY3NzL19taXhpbnMuc2NzcyIsIndlYnBhY2s6Ly8uL25vZGVfbW9kdWxlcy9AZmluYW5jaWFsLXRpbWVzL28tdHlwb2dyYXBoeS9zcmMvc2Nzcy91c2UtY2FzZXMvX2dlbmVyYWwuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUEySkUsV0FDQyxtVEFBQSxDQUNBLHVCQzFHUSxDRDJHUixlQUFBLENBQ0EsaUJBQUEsQ0FDQSxpQkFBQSxDQUxELFdBQ0MscVRBQUEsQ0FDQSx1QkMxR1EsQ0QyR1IsZUFBQSxDQUNBLGlCQUFBLENBQ0EsaUJBQUEsQ0FMRCxXQUNDLHFVQUFBLENBQ0EsaUNDMUdRLENEMkdSLGVBQUEsQ0FDQSxpQkFBQSxDQUNBLGlCQUFBLENBTEQsV0FDQyxpVUFBQSxDQUNBLGlDQzFHUSxDRDJHUixlQUFBLENBQ0EsaUJBQUEsQ0FDQSxpQkFBQSxDRXZKSCxTQUNDLFVBQUEsQ0FDQSxXQUFBLENBQ0EsY0FBQSxDQUNBLDBCQUFBLENBQ0EsU0FBQSxDQUVBLDBCQUNDLFVBQUEsQ0FDQSxXQUFBLENBQ0EsaUJBQUEsQ0FDQSxlQUFBLENBQ0EscUJBQUEsQ0FDQSxZQUFBLENBQ0Esa0JBQUEsQ0FDQSxzQkFBQSxDQUNBLGtCQUFBLENBQ0EsUUFBQSxDQUNBLFlBQUEsQ0FDQSxjQUFBLENBQ0EsWUFBQSxDQUNBLHdCQUFBLENBRUEsNkNBQ0MsVUFBQSxDQUNBLFdBQUEsQ0FDQSxpQkFBQSxDQUNBLGlCQUFBLENBQ0Esd0JBQUEsQ0FHRCx3Q0FDQyxhQUFBLENBRUEsMENDZ05ELGlDQUFBLENBZ0RBLGNBQUEsQ0FDQSxnQkFBQSxDQzVQRCxlQUFBLENBQ0EsYUFBQSxDRkpHLFVBQUEsQ0FDQSxRQUFBLENBQ0Esa0JBQUEsQ0N3U0Esc0VBc0NGLGlCQUFBLENBbkNJLHNCQUFBLENEdlNKLGlDQUNDLFVBQUEsQ0FDQSxPQUFBLENBQ0MsUUFBQSxDQUNBLG9DQUFBLENBQ0EscUNBQUEsQ0FDQSw2QkFBQSxDQUNELGlCQUFBLENBQ0EsWUFBQSxDQUNBLHFCQUFBLENBR0QsbUNBQ0MsbUJBQUEsQ0FDQSxjQUFBLENBSUYsZ0JBQ0MsWUFBQSxDQUlGLEtBQ0Msb0NBQUEsQ0FDQSxjQUFBLENBRUEsNEJBQ0Msd0JBQUEsQ0FJRixnRUFDRSxxQkFBQSxDQUdGLDJCQUNFLGtCQUFBIiwic291cmNlc0NvbnRlbnQiOlsiLy8vIE91dHB1dCBjdXN0b20gRm9udC1mYWNlIGRlY2xhcmF0aW9ucyBhbmQgcmVnaXN0ZXIgdGhlIGZhbWlseSBhbmQgdmFyaWFudHMgd2l0aCBvLWZvbnRzLlxuLy8vXG4vLy8gQGV4YW1wbGUgVGhpcyBleGFtcGxlIHNob3dzIHJlZ2lzdGVyaW5nIGEgY3VzdG9tIGZvbnQgXCJNeUZvbnRcIiB3aXRoIFwic2Fuc1wiIGZhbGxiYWNrLiBUaGUgZm9udCBhbGxvd3MgcmVndWxhciBvciBib2xkIHZhcmlhbnRzLlxuLy8vIFx0QGluY2x1ZGUgb0ZvbnRzRGVmaW5lQ3VzdG9tRm9udCgnTXlGb250LCBzYW5zJywgKFxuLy8vIFx0XHQod2VpZ2h0OiByZWd1bGFyLCBzdHlsZTogbm9ybWFsKSxcbi8vLyBcdFx0KHdlaWdodDogYm9sZCwgc3R5bGU6IG5vcm1hbClcbi8vLyBcdCkpIHtcbi8vLyBcdFx0QGZvbnQtZmFjZSB7XG4vLy8gXHRcdFx0c3JjOiB1cmwoJ015Rm9udC1UaGluLndvZmYyJykgZm9ybWF0KCd3b2ZmMicpLCB1cmwoJ015Rm9udC1UaGluLndvZmYnKSBmb3JtYXQoJ3dvZmYnKTtcbi8vLyBcdFx0XHRmb250LWZhbWlseTogTXlGb250O1xuLy8vIFx0XHRcdGZvbnQtd2VpZ2h0OiAxMDA7XG4vLy8gXHRcdFx0Zm9udC1zdHlsZTogbm9ybWFsO1xuLy8vIFx0XHR9XG4vLy9cbi8vLyBcdFx0QGZvbnQtZmFjZXtcbi8vLyBcdFx0XHRzcmM6IHVybCgnTXlGb250LUJvbGQud29mZjInKSBmb3JtYXQoJ3dvZmYyJyksIHVybCgnTXlGb250LUJvbGQud29mZicpIGZvcm1hdCgnd29mZicpO1xuLy8vIFx0XHRcdGZvbnQtZmFtaWx5OiBNeUZvbnQ7XG4vLy8gXHRcdFx0Zm9udC13ZWlnaHQ6IDcwMDtcbi8vLyBcdFx0XHRmb250LXN0eWxlOiBub3JtYWw7XG4vLy8gXHRcdH1cbi8vLyBcdH07XG4vLy9cbi8vLyBAcGFyYW0ge1N0cmluZ30gJGZvbnQtZmFtaWx5IFRoZSBjdXN0b20gZm9udCBmYW1pbHkgd2l0aCBmYWxsYmFjayBlLmcuICdDb21pY1NhbnMsIHNhbnMnXG4vLy8gQHBhcmFtIHtNYXB9ICR2YXJpYW50cyBUaGUgdmFyaWFudHMgKHdlaWdodCBhbmQgc3R5bGUgY29tYmluYXRpb25zKSB3aGljaCBhcmUgYWxsb3dlZCBpbiBhIG5lc3RlZCBtYXAgZS5nLiAoKHdlaWdodDogYm9sZCwgc3R5bGU6IG5vcm1hbCksICh3ZWlnaHQ6IHJlZ3VsYXIsIHN0eWxlOiBub3JtYWwpKVxuLy8vIEBjb250ZW50IElmIHRoZSBmb250IGZhbWlseSBpcyBub3QgYSBzeXN0ZW0gZm9udCwgb3V0cHV0IHRoZSBmb250LWZhY2UgZm9yIHRoZSBjdXN0b20gZm9udCBpbiB0aGUgbWl4aW4gY29udGVudC5cbkBtaXhpbiBvRm9udHNEZWZpbmVDdXN0b21Gb250KCRmb250LWZhbWlseSwgJHZhcmlhbnRzKSB7XG5cdC8vIFZhbGlkYXRlIHZhcmlhbnRzLlxuXHRAZWFjaCAkdmFyaWFudCBpbiAkdmFyaWFudHMge1xuXHRcdCR3ZWlnaHQ6IG1hcC1nZXQoJHZhcmlhbnQsICd3ZWlnaHQnKTtcblx0XHQkc3R5bGU6IG1hcC1nZXQoJHZhcmlhbnQsICdzdHlsZScpO1xuXHRcdEBpZiB0eXBlLW9mKCR3ZWlnaHQpICE9ICdzdHJpbmcnIGFuZCBtYXAtaGFzLWtleSgkX28tZm9udHMtd2VpZ2h0cywgJHdlaWdodCkge1xuXHRcdFx0QGVycm9yICdDb3VsZCBub3QgaW5jbHVkZSBjdXN0b20gZm9udCBcIiN7JGZvbnQtZmFtaWx5fVwiLiBBbGwgdmFyaWFudHMgbXVzdCBzcGVjaWZ5IGEgd2VpZ2h0LCBvbmUgb2YgXCIjeyRfby1mb250cy13ZWlnaHRzfVwiLic7XG5cdFx0fVxuXHRcdEBpZiB0eXBlLW9mKCRzdHlsZSkgIT0gJ3N0cmluZycge1xuXHRcdFx0QGVycm9yICdDb3VsZCBub3QgaW5jbHVkZSBjdXN0b20gZm9udCBcIiN7JGZvbnQtZmFtaWx5fVwiLiBBbGwgdmFyaWFudHMgbXVzdCBzcGVjaWZ5IGEgc3R5bGUsIGUuZy4gXCJub3JtYWxcIiwgXCJpdGFsaWNcIi4nO1xuXHRcdH1cblx0fVxuXHQkZm9udC1rZXk6IG9Gb250c0dldEZvbnRGYW1pbHlXaXRob3V0RmFsbGJhY2tzKCRmb250LWZhbWlseSk7XG5cdCRfby1mb250cy1mYW1pbGllczogbWFwLW1lcmdlKCgkZm9udC1rZXk6IChcblx0XHQnZm9udC1mYW1pbHknOiAkZm9udC1mYW1pbHksXG5cdFx0J3ZhcmlhbnRzJzogJHZhcmlhbnRzLFxuXHRcdCdjdXN0b20nOiB0cnVlXG5cdCkpLCAkX28tZm9udHMtZmFtaWxpZXMpICFnbG9iYWw7XG5cdEBjb250ZW50OyAvLyBPdXRwdXQgYSBjdXN0b20gRm9udC1mYWNlIGRlY2xhcmF0aW9uLlxufVxuXG4vLy8gUmVnaXN0ZXIgd2hpY2ggZm9udHMgaGF2ZSBiZWVuIG91dHB1dCBieSBhbHJlYWR5IGZvciB5b3VyIHByb2plY3QuXG4vLy8gVGhpcyBtaXhpbiBpcyB1c2VmdWwgaWYgYSBwcm9qZWN0IGNhbGxzIHRoZSBgb0ZvbnRzYCBtaXhpbiBpcyBpbiBhIGRpZmZlcmVudFxuLy8vIGVudHJ5IHBvaW50LlxuLy8vXG4vLy8gQGV4YW1wbGUgSW5jbHVkZSBhbGwgZm9udHMgZm9yIHRoZSBjdXJyZW50IGJyYW5kIChjb3JlLCBpbnRlcm5hbCwgd2hpdGVsYWJlbCkuXG4vLy8gICAgIEBpbmNsdWRlIG9Gb250c1ZhcmlhbnRzSW5jbHVkZWQoKTtcbi8vL1xuLy8vIEBleGFtcGxlIEluY2x1ZGUgYSBsaW1pdGVkIHNldCBvZiByZWNvbW1lbmRlZCBmb250cyBmb3IgdGhlIGN1cnJlbnQgYnJhbmQgKGNvcmUsIGludGVybmFsLCB3aGl0ZWxhYmVsKS5cbi8vLyAgICAgQGluY2x1ZGUgb0ZvbnRzVmFyaWFudHNJbmNsdWRlZCgkb3B0czogKCdyZWNvbW1lbmRlZCc6IHRydWUpKTtcbi8vL1xuLy8vIEBleGFtcGxlIEluY2x1ZGUgYSBsaW1pdGVkIHNldCBvZiByZWNvbW1lbmRlZCBmb250cyBmb3IgdGhlIGN1cnJlbnQgYnJhbmQsIHBsdXMgYW4gZXh0cmEgRmluYW5jaWVyRGlzcGxheVdlYiBmb250LlxuLy8vIFx0QGluY2x1ZGUgb0ZvbnRzVmFyaWFudHNJbmNsdWRlZCgkb3B0czogKFxuLy8vIFx0XHQncmVjb21tZW5kZWQnOiB0cnVlLFxuLy8vIFx0XHQnZmluYW5jaWVyLWRpc3BsYXknOiAoXG4vLy8gXHRcdFx0KHdlaWdodDogcmVndWxhciwgc3R5bGU6IG5vcm1hbClcbi8vLyBcdFx0KVxuLy8vIFx0KSk7XG4vLy9cbi8vLyBAZXhhbXBsZSBJbmNsdWRlIG9ubHkgcmVndWxhciBhbmQgc2VtaWJvbGQgTWV0cmljV2ViIGZvbnQgZmFjZXMuXG4vLy8gICAgIEBpbmNsdWRlIG9Gb250c1ZhcmlhbnRzSW5jbHVkZWQoJG9wdHM6ICgnbWV0cmljJzogKFxuLy8vICAgICBcdCh3ZWlnaHQ6IHJlZ3VsYXIsIHN0eWxlOiBub3JtYWwpLFxuLy8vICAgICBcdCh3ZWlnaHQ6IHNlbWlib2xkLCBzdHlsZTogbm9ybWFsKSxcbi8vLyAgICAgKSkpO1xuLy8vXG4vLy8gQGV4YW1wbGUgSW5jbHVkZSBvbmx5IHJlZ3VsYXIgYW5kIGJvbGQgRmluYW5jaWVyRGlzcGxheVdlYiBmb250IGZhY2VzLlxuLy8vICAgICBAaW5jbHVkZSBvRm9udHNWYXJpYW50c0luY2x1ZGVkKCRvcHRzOiAoJ2ZpbmFuY2llci1kaXNwbGF5JzogKFxuLy8vICAgICBcdCh3ZWlnaHQ6IHJlZ3VsYXIsIHN0eWxlOiBub3JtYWwpLFxuLy8vICAgICBcdCh3ZWlnaHQ6IHNlbWlib2xkLCBzdHlsZTogbm9ybWFsKSxcbi8vLyAgICAgKSkpO1xuLy8vXG4vLy8gQGV4YW1wbGUgSW5jbHVkZSBvbmx5IHJlZ3VsYXIgZm9udCBmYWNlcyBmb3IgTWV0cmljV2ViIGFuZCBGaW5hbmNpZXJEaXNwbGF5V2ViLlxuLy8vICAgICBAaW5jbHVkZSBvRm9udHNWYXJpYW50c0luY2x1ZGVkKCRvcHRzOiAoXG4vLy8gICAgIFx0J21ldHJpYyc6ICgod2VpZ2h0OiByZWd1bGFyLCBzdHlsZTogbm9ybWFsKSksXG4vLy8gICAgIFx0J2ZpbmFuY2llci1kaXNwbGF5JzogKCh3ZWlnaHQ6IHJlZ3VsYXIsIHN0eWxlOiBub3JtYWwpKVxuLy8vICAgICApKTtcbi8vLyBAcGFyYW0ge01hcH0gJG9wdHMgLSB0aGUgZm9udCBmYWNlcyB0byBpbmNsdWRlZCwgc2VlIHRoZSBSRUFETUUgb3IgZXhhbXBsZXMgZm9yIG1vcmUgZGV0YWlscy5cbi8vLyBAc2VlIG9Gb250cyAtIFVzZSBgb0ZvbnRzYCB0byBpbmNsdWRlIGZvbnQgZmFjZXMuXG5AbWl4aW4gb0ZvbnRzVmFyaWFudHNJbmNsdWRlZCgkb3B0czogJF9vLWZvbnRzLWRlZmF1bHQpIHtcblx0JHZhcmlhbnRzOiBfb0ZvbnRzT3B0aW9uc1RvVmFyaWFudHMoJG9wdHMpO1xuXG5cdEBlYWNoICR2YXJpYW50IGluICR2YXJpYW50cyB7XG5cdFx0JGZhbWlseTogbWFwLWdldCgkdmFyaWFudCwgJ2ZhbWlseScpO1xuXHRcdCR3ZWlnaHQ6IG1hcC1nZXQoJHZhcmlhbnQsICd3ZWlnaHQnKTtcblx0XHQkc3R5bGU6IG1hcC1nZXQoJHZhcmlhbnQsICdzdHlsZScpO1xuXHRcdEBpbmNsdWRlIF9vRm9udHNWYXJpYW50SW5jbHVkZWQoJGZhbWlseSwgJHdlaWdodCwgJHN0eWxlKTtcblx0fVxufVxuXG4vLy8gT3V0cHV0IGEgRm9udC1mYWNlIGRlY2xhcmF0aW9uIGZvciBhIGdpdmVuIGZvbnQgZmFtaWx5IHdoaWNoIGlzIHByb3ZpZGVkIGJ5IE9yaWdhbWkuXG4vLy9cbi8vLyBAcGFyYW0ge1N0cmluZ30gJGZhbWlseSAtIG9uZSBvZiAkX28tZm9udHMtZmFtaWxpZXNcbi8vLyBAcGFyYW0ge1N0cmluZ30gJHdlaWdodCBbcmVndWxhcl0gLSBlLmcuICdyZWd1bGFyJywgJ3NlbWlib2xkJywgJ2JvbGQnXG4vLy8gQHBhcmFtIHtTdHJpbmd9ICRzdHlsZSBbbm9ybWFsXSAtIGUuZy4gJ2l0YWxpYydcbi8vLyBAcGFyYW0ge1N0cmluZ3xOdWxsfSAkZGlzcGxheSAtIHRoZSBmb250LWRpc3BsYXkgcHJvcGVydHkgZm9yIHRoaXMgZm9udCBmYWNlLCBkZWZhdWx0cyB0byAkby1mb250cy1kaXNwbGF5XG4vLy8gQGFjY2VzcyBwcml2YXRlXG5AbWl4aW4gX29Gb250c0luY2x1ZGUoJGZhbWlseSwgJHdlaWdodDogcmVndWxhciwgJHN0eWxlOiBub3JtYWwsICRkaXNwbGF5OiAkby1mb250cy1kaXNwbGF5KSB7XG5cdC8vIEhlbHAgdXNlciBpZiB0aGV5IHJlcXVlc3RlZCBhIG5vcm1hbCByYXRoZXIgdGhhbiByZWd1bGFyIHdlaWdodC5cblx0QGlmICR3ZWlnaHQgPT0gbm9ybWFsIHtcblx0XHRAd2FybiAnXCJub3JtYWxcIiBpcyBub3QgYSBmb250IHdlaWdodCBmb3IgXCIjeyRmYW1pbHl9XCIuIFJlcXVlc3QgYSBcInJlZ3VsYXJcIiB3ZWlnaHQgaW5zdGVhZC4nO1xuXHRcdCR3ZWlnaHQ6IHJlZ3VsYXI7XG5cdH1cblxuXHQvLyBDaGVjayB0aGUgZm9udCBpcyBhbiBPcmlnYW1pIGZvbnQsIG5vdCBhIGN1c3RvbSBmb250LlxuXHRAaWYgbWFwLWhhcy1rZXkoJF9vLWZvbnRzLWZhbWlsaWVzLCAkZmFtaWx5KSB7XG5cdFx0JGZvbnQtZmFtaWx5LWNvbmZpZzogbWFwLWdldCgkX28tZm9udHMtZmFtaWxpZXMsICRmYW1pbHkpO1xuXHRcdEBpZiBtYXAtZ2V0KCRmb250LWZhbWlseS1jb25maWcsICdjdXN0b20nKSB7XG5cdFx0XHRAZXJyb3IgJ0NhbiBub3QgaW5jbHVkZSBhIGN1c3RvbSBmb250IFwiI3skZmFtaWx5fVwiLiBJbmNsdWRlIHlvdXIgY3VzdG9tIGZvbnQgbWFudWFsbHkuJztcblx0XHR9XG5cdH1cblxuXHQvLyBDaGVjayBpZiB0aGUgZm9udCBoYXMgYWxyZWFkeSBiZWVuIGluY2x1ZGVkXG5cdC8vIElmIHNvLCBubyBuZWVkIHRvIG91dHB1dCBhbm90aGVyIEBmb250LWZhY2UgZGVjbGFyYXRpb25cblx0JGZvbnQtaXMtYWxyZWFkeS1pbmNsdWRlZDogb0ZvbnRzVmFyaWFudEluY2x1ZGVkKCRmYW1pbHksICR3ZWlnaHQsICRzdHlsZSk7XG5cblx0QGlmICRmb250LWlzLWFscmVhZHktaW5jbHVkZWQgPT0gZmFsc2Uge1xuXHRcdC8vIEVycm9yIGlmIGEgZm9udCBkb2VzIG5vdCBleGlzdCBmb3IgdGhlIGdpdmVuIHZhcmlhbnQuXG5cdFx0QGlmIG5vdCBtYXAtaGFzLWtleSgkX28tZm9udHMtZmFtaWxpZXMsICRmYW1pbHkpIHtcblx0XHRcdEBlcnJvciAnRm9udCBcIiN7aW5zcGVjdCgkZmFtaWx5KX1cIiBub3QgZm91bmQuIE11c3QgYmUgb25lIG9mICN7bWFwLWtleXMoJF9vLWZvbnRzLWZhbWlsaWVzKX0uJztcblx0XHR9XG5cblx0XHRAaWYgbm90IG9Gb250c1ZhcmlhbnRFeGlzdHMoJGZhbWlseSwgJHdlaWdodCwgJHN0eWxlKSB7XG5cdFx0XHRAZXJyb3IgJ0ZvbnQgZm9yIFwiI3skZmFtaWx5fVwiIGF0IHdlaWdodDogXCIjeyR3ZWlnaHR9XCIgYW5kIHN0eWxlIFwiI3skc3R5bGV9XCIgZG9lcyBub3QgZXhpc3QuJztcblx0XHR9XG5cblx0XHQvLyBGaWxlcyBhcmUgbmFtZWQgYXMgZm9sbG93c1xuXHRcdC8vIE5hbWUtV2VpZ2h0VHlwZVxuXHRcdC8vIE1ldHJpY1dlYi1SZWd1bGFyICAgICAgICAgICAgICAocmVndWxhciBub3JtYWwpXG5cdFx0Ly8gTWV0cmljV2ViLVJlZ3VsYXJJdGFsaWMgICAgICAgIChyZWd1bGFyIGl0YWxpYylcblx0XHQvLyBNZXRyaWNXZWItQm9sZCAgICAgICAgICAgICAgICAgKGJvbGQgbm9ybWFsKVxuXHRcdC8vIE1ldHJpY1dlYi1Cb2xkSXRhbGljICAgICAgICAgICAoYm9sZCBpdGFsaWMpXG5cblx0XHQvLyBCeSBkZWZhdWx0LCBzdWZmaXggaXMgdGhlIHdlaWdodFxuXHRcdCRmb250LXN1ZmZpeDogX29Gb250c1N0cmluZ0NhcGl0YWxpc2UoJHdlaWdodCk7XG5cdFx0QGlmICgkc3R5bGUgIT0gJ25vcm1hbCcpIHtcblx0XHRcdCRjYXBpdGFsaXNlZC13ZWlnaHQ6IF9vRm9udHNTdHJpbmdDYXBpdGFsaXNlKCR3ZWlnaHQpO1xuXHRcdFx0JGNhcGl0YWxpc2VkLXN0eWxlOiBfb0ZvbnRzU3RyaW5nQ2FwaXRhbGlzZSgkc3R5bGUpO1xuXHRcdFx0JGZvbnQtc3VmZml4OiAjeyRjYXBpdGFsaXNlZC13ZWlnaHR9I3skY2FwaXRhbGlzZWQtc3R5bGV9O1xuXHRcdH1cblxuXHRcdCRmb250LWZpbGU6ICcjeyRmYW1pbHl9LSN7JGZvbnQtc3VmZml4fSc7XG5cdFx0Ly8gc2V0IHBhdGggZm9yIHNlbGYgaG9zdGVkIGZvbnRcblx0XHQkc2VsZi1ob3N0LXBhdGg6ICRvLWZvbnRzLXNlbGYtaG9zdC1wYXRoICsgJGZvbnQtZmlsZTtcblx0XHQvLyBzZXQgcGF0aCB1c2luZyBleGlzdGluZyBvLWZvbnRzLXBhdGggdmFyaWFibGUsIGZvciBmb250IGhvc3RlZCBvbiBCdWlsZCBTZXJ2aWNlIGFwaSBpbXBsZW1lbnRhdGlvblxuXHRcdCRidWlsZC1zZXJ2aWNlLXBhdGg6ICRvLWZvbnRzLWJ1aWxkLXNlcnZpY2UtcGF0aCArICcmZm9udF9uYW1lPSN7JGZvbnQtZmlsZX0mc3lzdGVtX2NvZGU9b3JpZ2FtaSc7XG5cblx0XHQvLyB1c2UgJG8tZm9udHMtc2VsZi1ob3N0LXBhdGggaWYgc2V0LCAkby1mb250cy1idWlsZC1zZXJ2aWNlLXBhdGggb3RoZXJ3aXNlXG5cdFx0JGZvbnQtdXJsLXdvZmY6IGlmKCRvLWZvbnRzLXNlbGYtaG9zdC1wYXRoID09ICcnLCAnI3skYnVpbGQtc2VydmljZS1wYXRofSZmb250X2Zvcm1hdD13b2ZmJywgJyN7JHNlbGYtaG9zdC1wYXRofS53b2ZmJyk7XG5cdFx0JGZvbnQtdXJsLXdvZmYyOiBpZigkby1mb250cy1zZWxmLWhvc3QtcGF0aCA9PSAnJywgJyN7JGJ1aWxkLXNlcnZpY2UtcGF0aH0mZm9udF9mb3JtYXQ9d29mZjInLCAnI3skc2VsZi1ob3N0LXBhdGh9LndvZmYyJyk7XG5cblx0XHRAZm9udC1mYWNlIHtcblx0XHRcdHNyYzogdXJsKCRmb250LXVybC13b2ZmMikgZm9ybWF0KCd3b2ZmMicpLCB1cmwoJGZvbnQtdXJsLXdvZmYpIGZvcm1hdCgnd29mZicpO1xuXHRcdFx0Zm9udC1mYW1pbHk6ICRmYW1pbHk7XG5cdFx0XHRmb250LXdlaWdodDogb0ZvbnRzV2VpZ2h0KCR3ZWlnaHQpO1xuXHRcdFx0Zm9udC1zdHlsZTogdW5xdW90ZSgkc3R5bGUpO1xuXHRcdFx0Zm9udC1kaXNwbGF5OiB1bnF1b3RlKCRkaXNwbGF5KTtcblx0XHR9XG5cblx0XHQvLyBBZGQgdG8gdGhlIGxpc3Qgb2YgYWxyZWFkeSBpbmNsdWRlZCBmYW1pbGllcyAvIHZhcmlhbnRzXG5cdFx0QGluY2x1ZGUgX29Gb250c1ZhcmlhbnRJbmNsdWRlZCgkZmFtaWx5LCAkd2VpZ2h0LCAkc3R5bGUpO1xuXHR9XG59XG5cbi8vLyBMb2cgYSBnaXZlbiBmb250IHZhcmlhbnQgYXMgaGF2aW5nIGJlZW4gb3V0cHV0LlxuLy8vXG4vLy8gQHBhcmFtIHtTdHJpbmd9ICRmYW1pbHkgLSBvbmUgb2YgJF9vLWZvbnRzLWZhbWlsaWVzXG4vLy8gQHBhcmFtIHtTdHJpbmd9ICR3ZWlnaHQgW3JlZ3VsYXJdIC0gVGhlIGZvbnQgd2VpZ2h0LlxuLy8vIEBwYXJhbSB7U3RyaW5nfSAkc3R5bGUgW25vcm1hbF0gLSBUaGUgZm9udCBzdHlsZS5cbkBtaXhpbiBfb0ZvbnRzVmFyaWFudEluY2x1ZGVkKCRmYW1pbHksICR3ZWlnaHQsICRzdHlsZSkge1xuXHQvLyBBZGQgdG8gdGhlIGxpc3Qgb2YgYWxyZWFkeSBpbmNsdWRlZCBmYW1pbGllcyAvIHZhcmlhbnRzXG5cdCR2YXJpYW50LWtleTogX29Gb250c1ZhcmlhbnRLZXkoJGZhbWlseSwgJHdlaWdodCwgJHN0eWxlKTtcblx0JF9vLWZvbnRzLWZhbWlsaWVzLWluY2x1ZGVkOiBtYXAtbWVyZ2UoJF9vLWZvbnRzLWZhbWlsaWVzLWluY2x1ZGVkLCAoJHZhcmlhbnQta2V5OiB0cnVlKSkgIWdsb2JhbDtcbn1cbiIsIkBpbXBvcnQgXCJAZmluYW5jaWFsLXRpbWVzL28tYnJhbmQvbWFpblwiO1xuXG5AaW1wb3J0IFwic3JjL3Njc3MvdmFyaWFibGVzXCI7XG5AaW1wb3J0IFwic3JjL3Njc3MvZnVuY3Rpb25zXCI7XG5AaW1wb3J0IFwic3JjL3Njc3MvbWl4aW5zXCI7XG5cbi8vLyBPdXRwdXQgYWxsIGRlZmF1bHQgZm9udC1mYWNlIGRlY2xhcmF0aW9ucyBmb3IgdGhlIGN1cnJlbnQgYnJhbmQuXG4vLy9cbi8vLyBAZXhhbXBsZSBJbmNsdWRlIGFsbCBmb250cyBmb3IgdGhlIGN1cnJlbnQgYnJhbmQgKGNvcmUsIGludGVybmFsLCB3aGl0ZWxhYmVsKS5cbi8vLyAgICAgQGluY2x1ZGUgb0ZvbnRzKCk7XG4vLy9cbi8vLyBAZXhhbXBsZSBJbmNsdWRlIGEgbGltaXRlZCBzZXQgb2YgcmVjb21tZW5kZWQgZm9udHMgZm9yIHRoZSBjdXJyZW50IGJyYW5kIChjb3JlLCBpbnRlcm5hbCwgd2hpdGVsYWJlbCkuXG4vLy8gICAgIEBpbmNsdWRlIG9Gb250cygkb3B0czogKCdyZWNvbW1lbmRlZCc6IHRydWUpKTtcbi8vL1xuLy8vIEBleGFtcGxlIEluY2x1ZGUgYSBsaW1pdGVkIHNldCBvZiByZWNvbW1lbmRlZCBmb250cyBmb3IgdGhlIGN1cnJlbnQgYnJhbmQsIHBsdXMgYW4gZXh0cmEgRmluYW5jaWVyRGlzcGxheVdlYiBmb250LlxuLy8vIFx0QGluY2x1ZGUgb0ZvbnRzKCRvcHRzOiAoXG4vLy8gXHRcdCdyZWNvbW1lbmRlZCc6IHRydWUsXG4vLy8gXHRcdCdmaW5hbmNpZXItZGlzcGxheSc6IChcbi8vLyBcdFx0XHQod2VpZ2h0OiByZWd1bGFyLCBzdHlsZTogbm9ybWFsKVxuLy8vIFx0XHQpXG4vLy8gXHQpKTtcbi8vL1xuLy8vIEBleGFtcGxlIEluY2x1ZGUgb25seSByZWd1bGFyIGFuZCBzZW1pYm9sZCBNZXRyaWNXZWIgZm9udCBmYWNlcy5cbi8vLyAgICAgQGluY2x1ZGUgb0ZvbnRzKCRvcHRzOiAoJ21ldHJpYyc6IChcbi8vLyAgICAgXHQod2VpZ2h0OiByZWd1bGFyLCBzdHlsZTogbm9ybWFsKSxcbi8vLyAgICAgXHQod2VpZ2h0OiBzZW1pYm9sZCwgc3R5bGU6IG5vcm1hbCksXG4vLy8gICAgICkpKTtcbi8vL1xuLy8vIEBleGFtcGxlIEluY2x1ZGUgb25seSByZWd1bGFyIGFuZCBib2xkIEZpbmFuY2llckRpc3BsYXlXZWIgZm9udCBmYWNlcy5cbi8vLyAgICAgQGluY2x1ZGUgb0ZvbnRzKCRvcHRzOiAoJ2ZpbmFuY2llci1kaXNwbGF5JzogKFxuLy8vICAgICBcdCh3ZWlnaHQ6IHJlZ3VsYXIsIHN0eWxlOiBub3JtYWwpLFxuLy8vICAgICBcdCh3ZWlnaHQ6IHNlbWlib2xkLCBzdHlsZTogbm9ybWFsKSxcbi8vLyAgICAgKSkpO1xuLy8vXG4vLy8gQGV4YW1wbGUgSW5jbHVkZSBvbmx5IHJlZ3VsYXIgZm9udCBmYWNlcyBmb3IgTWV0cmljV2ViIGFuZCBGaW5hbmNpZXJEaXNwbGF5V2ViLlxuLy8vICAgICBAaW5jbHVkZSBvRm9udHMoJG9wdHM6IChcbi8vLyAgICAgXHQnbWV0cmljJzogKCh3ZWlnaHQ6IHJlZ3VsYXIsIHN0eWxlOiBub3JtYWwpKSxcbi8vLyAgICAgXHQnZmluYW5jaWVyLWRpc3BsYXknOiAoKHdlaWdodDogcmVndWxhciwgc3R5bGU6IG5vcm1hbCkpXG4vLy8gICAgICkpO1xuLy8vXG4vLy8gQGV4YW1wbGUgSW5jbHVkZSBvbmx5IGJsYWNrIHdlaWdodGVkIGZvbnQgZmFjZXMgZm9yIE1ldHJpY1dlYiwgRmluYW5jaWVyRGlzcGxheVdlYiwgYW5kIEZpbmFuY2llclRleHRXZWIuXG4vLy8gICAgIEBpbmNsdWRlIG9Gb250cygkb3B0czogKFxuLy8vICAgICBcdCdtZXRyaWMnOiAoKHdlaWdodDogJ2JsYWNrJywgc3R5bGU6IG5vcm1hbCkpLFxuLy8vICAgICBcdCdmaW5hbmNpZXItZGlzcGxheSc6ICgod2VpZ2h0OiAnYmxhY2snLCBzdHlsZTogbm9ybWFsKSksXG4vLy8gICAgIFx0J2ZpbmFuY2llci10ZXh0JzogKCh3ZWlnaHQ6ICdibGFjaycsIHN0eWxlOiBub3JtYWwpKVxuLy8vICAgICApKTtcbi8vLyBAcGFyYW0ge01hcH0gJG9wdHMgLSB0aGUgZm9udCBmYWNlcyB0byBpbmNsdWRlLCBzZWUgdGhlIFJFQURNRSBvciBleGFtcGxlcyBmb3IgbW9yZSBkZXRhaWxzLlxuQG1peGluIG9Gb250cygkb3B0czogJF9vLWZvbnRzLWRlZmF1bHQpIHtcblx0JHZhcmlhbnRzOiBfb0ZvbnRzT3B0aW9uc1RvVmFyaWFudHMoJG9wdHMpO1xuXG5cdEBlYWNoICR2YXJpYW50IGluICR2YXJpYW50cyB7XG5cdFx0JGZhbWlseTogbWFwLWdldCgkdmFyaWFudCwgJ2ZhbWlseScpO1xuXHRcdCR3ZWlnaHQ6IG1hcC1nZXQoJHZhcmlhbnQsICd3ZWlnaHQnKTtcblx0XHQkc3R5bGU6IG1hcC1nZXQoJHZhcmlhbnQsICdzdHlsZScpO1xuXHRcdEBpbmNsdWRlIF9vRm9udHNJbmNsdWRlKCRmYW1pbHksICR3ZWlnaHQsICRzdHlsZSk7XG5cdH1cbn1cblxuQGlmICgkby1mb250cy1pcy1zaWxlbnQgPT0gZmFsc2UpIHtcblx0QGluY2x1ZGUgb0ZvbnRzKCk7XG59XG4iLCIkc3lzdGVtLWNvZGU6ICd1c2VyLWFubm90YXRpb25zLWVkaXRvcic7XG5cbkBpbXBvcnQgJ0BmaW5hbmNpYWwtdGltZXMvby1jb2xvcnMvbWFpbic7XG5AaW1wb3J0ICdAZmluYW5jaWFsLXRpbWVzL28tc3BhY2luZy9tYWluJztcbkBpbXBvcnQgJ0BmaW5hbmNpYWwtdGltZXMvby1mb250cy9tYWluJztcbkBpbXBvcnQgJ0BmaW5hbmNpYWwtdGltZXMvby10eXBvZ3JhcGh5L21haW4nO1xuXG5AaW5jbHVkZSBvRm9udHMoJG9wdHM6ICgncmVjb21tZW5kZWQnOiB0cnVlKSk7XG5cbi50b29sdGlwIHtcblx0d2lkdGg6IGF1dG87XG5cdGhlaWdodDogYXV0bztcblx0cG9zaXRpb246IGZpeGVkO1xuXHR0cmFuc2Zvcm06IHRyYW5zbGF0ZVgoLTUwJSk7XG5cdHotaW5kZXg6IDI7XG5cblx0LnRvb2x0aXBfY29udGVudCB7XG5cdFx0d2lkdGg6IGF1dG87XG5cdFx0aGVpZ2h0OiBhdXRvO1xuXHRcdHBvc2l0aW9uOiByZWxhdGl2ZTtcblx0XHRtaW4taGVpZ2h0OiBvU3BhY2luZ0J5TmFtZSgnczgnKTtcblx0XHRib3gtc2l6aW5nOiBib3JkZXItYm94O1xuXHRcdGRpc3BsYXk6IGZsZXg7XG5cdFx0ZmxleC1kaXJlY3Rpb246IHJvdztcblx0XHRqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcblx0XHRhbGlnbi1pdGVtczogY2VudGVyO1xuXHRcdGJvcmRlcjogMDtcblx0XHRvdXRsaW5lOiBub25lO1xuXHRcdGN1cnNvcjogcG9pbnRlcjtcblx0XHRwYWRkaW5nOiBvU3BhY2luZ0J5TmFtZSgnczMnKTtcblx0XHRiYWNrZ3JvdW5kLWNvbG9yOiBvQ29sb3JzQnlOYW1lKCdzbGF0ZScpO1xuXHRcblx0XHQudG9vbHRpcF9pbmRpY2F0b3Ige1xuXHRcdFx0d2lkdGg6IG9TcGFjaW5nQnlOYW1lKCdzNCcpO1xuXHRcdFx0aGVpZ2h0OiBvU3BhY2luZ0J5TmFtZSgnczQnKTtcblx0XHRcdGJvcmRlci1yYWRpdXM6IDUwJTtcblx0XHRcdG1hcmdpbi1yaWdodDogb1NwYWNpbmdCeU5hbWUoJ3MzJyk7XG5cdFx0XHRiYWNrZ3JvdW5kLWNvbG9yOiBvQ29sb3JzQnlOYW1lKCdsZW1vbicpO1xuXHRcdH1cblx0XG5cdFx0LnRvb2x0aXBfdGV4dCB7XG5cdFx0XHRmbGV4OiAxIDEgYXV0bztcblx0XG5cdFx0XHRwIHtcblx0XHRcdFx0QGluY2x1ZGUgb1R5cG9ncmFwaHlCb2R5KCk7XG5cdFx0XHRcdGNvbG9yOiBvQ29sb3JzQnlOYW1lKCd3aGl0ZScpO1xuXHRcdFx0XHRtYXJnaW46IDA7XG5cdFx0XHRcdHdoaXRlLXNwYWNlOiBub3dyYXA7XG5cdFx0XHR9XG5cdFx0fVxuXHRcblx0XHQmOjphZnRlciB7XG5cdFx0XHRjb250ZW50OiAnJztcblx0XHRcdHdpZHRoOiAwOyBcbiAgXHRcdGhlaWdodDogMDsgXG4gIFx0XHRib3JkZXItbGVmdDogb1NwYWNpbmdCeU5hbWUoJ3MzJykgc29saWQgdHJhbnNwYXJlbnQ7XG4gIFx0XHRib3JkZXItcmlnaHQ6IG9TcGFjaW5nQnlOYW1lKCdzMycpIHNvbGlkIHRyYW5zcGFyZW50O1xuICBcdFx0Ym9yZGVyLXRvcDogb1NwYWNpbmdCeU5hbWUoJ3MzJykgc29saWQgb0NvbG9yc0J5TmFtZSgnc2xhdGUnKTtcblx0XHRcdHBvc2l0aW9uOiBhYnNvbHV0ZTtcblx0XHRcdGJvdHRvbTogLSgje29TcGFjaW5nQnlOYW1lKCdzMycpfSk7XG5cdFx0XHRsZWZ0OiBjYWxjKDUwJSAtICN7b1NwYWNpbmdCeU5hbWUoJ3MzJyl9KTtcblx0XHR9XG5cblx0XHQmLmRpc2FibGVkIHtcblx0XHRcdHBvaW50ZXItZXZlbnRzOiBub25lO1xuXHRcdFx0Y3Vyc29yOiBkZWZhdWx0O1xuXHRcdH1cblx0fVxuXG5cdCYuaGlkZGVuIHtcblx0XHRkaXNwbGF5OiBub25lO1xuXHR9XG59XG5cbm1hcmsge1xuXHRiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKDI1NSwgMjM2LCAyNiwgMC41KTtcblx0Y3Vyc29yOiBwb2ludGVyO1xuXG5cdCYuYWN0aXZlLXVzZXItYW5ub3RhdGlvbiB7XG5cdFx0YmFja2dyb3VuZC1jb2xvcjogcmdiYSgyNTUsIDIzNiwgMjYsIDEpO1xuXHR9XG59XG5cbi5vLW1lc3NhZ2UtLWlubmVyIC5vLW1lc3NhZ2VfX2NvbnRlbnQubWlzc2luZy1oaWdobGlnaHQtY29udGVudCB7XG4gIG1heC13aWR0aDogZml0LWNvbnRlbnQ7XG59XG5cbi5taXNzaW5nLWhpZ2hsaWdodC1tZXNzYWdlIHtcbiAgbWFyZ2luLWJvdHRvbTogMThweDtcbn1cbiIsIi8vLyBPdXRwdXRzIHR5cG9ncmFwaHkgc3R5bGVzIGZvciB0aGUgU2VyaWYgZm9udC5cbi8vLyBJbmNsdWRpbmc6IGZhbWlseSwgc2l6ZSwgbGluZS1oZWlnaHQsIHdlaWdodCwgc3R5bGUsIGFuZCBmb250IHNpemVzXG4vLy8gZm9yIHByb2dyZXNzaXZlIGZvbnQgbG9hZGluZy5cbi8vL1xuLy8vIEBleGFtcGxlIE91dHB1dCBhIGZvbnQtZmFtaWx5IHByb3BlcnR5IG9ubHkgZm9yIHRoZSBzZXJpZiBmb250LlxuLy8vIFx0QGluY2x1ZGUgb1R5cG9ncmFwaHlTZXJpZigpO1xuLy8vXG4vLy8gQGV4YW1wbGUgT3V0cHV0IGZvbnQtZmFtaWx5LCBmb250LXNpemUsIGFuZCBsaW5lLWhlaWdodCBmb3IgdGhlIHNlcmlmIGZvbnQuXG4vLy8gXHRAaW5jbHVkZSBvVHlwb2dyYXBoeVNlcmlmKCRzY2FsZTogMSk7XG4vLy9cbi8vLyBAZXhhbXBsZSBPdXRwdXQgZm9udC1mYW1pbHksIGZvbnQtc2l6ZSwgYW5kIGxpbmUtaGVpZ2h0IGZvciB0aGUgc2VyaWYgZm9udC4gU2V0IGEgY3VzdG9tIGxpbmUtaGVpZ2h0IG9mIDEuNi5cbi8vLyBcdEBpbmNsdWRlIG9UeXBvZ3JhcGh5U2VyaWYoJHNjYWxlOiAxLCAkbGluZS1oZWlnaHQ6IDEuNik7XG4vLy9cbi8vLyBAZXhhbXBsZSBPdXRwdXQgZm9udC1mYW1pbHksIGZvbnQtc2l6ZSwgbGluZS1oZWlnaHQsIGFuZCBmb250LXdlaWdodCBmb3IgdGhlIHNlcmlmIGZvbnQuXG4vLy8gXHRAaW5jbHVkZSBvVHlwb2dyYXBoeVNlcmlmKCRzY2FsZTogMSwgJHdlaWdodDogJ2JvbGQnKTtcbi8vL1xuLy8vIEBleGFtcGxlIE91dHB1dCBmb250LWZhbWlseSwgZm9udC1zaXplLCBsaW5lLWhlaWdodCwgYW5kIGZvbnQtc3R5bGUgZm9yIHRoZSBzZXJpZiBmb250LlxuLy8vIFx0QGluY2x1ZGUgb1R5cG9ncmFwaHlTZXJpZigkc2NhbGU6IDEsICRzdHlsZTogJ2l0YWxpYycpO1xuLy8vXG4vLy8gQGV4YW1wbGUgT3V0cHV0IHNlcmlmIGZvbnQgcHJvcGVydGllcyB3aXRob3V0IGZvbnQtZmFtaWx5LlxuLy8vIFx0QGluY2x1ZGUgb1R5cG9ncmFwaHlTZXJpZigkc2NhbGU6IDEsICRzdHlsZTogJ2l0YWxpYycsICRpbmNsdWRlLWZvbnQtZmFtaWx5OiBmYWxzZSk7XG4vLy9cbi8vLyBAZXhhbXBsZSBPdXRwdXQgc2VyaWYgZm9udCBwcm9wZXJ0aWVzIHdpdGhvdXQgc2l6ZXMgZm9yIHRoZSBmYWxsYmFjayBmb250ICh3aXRob3V0IHByb2dyZXNzaXZlIGZvbnQgbG9hZGluZykuXG4vLy8gXHRAaW5jbHVkZSBvVHlwb2dyYXBoeVNlcmlmKCRzY2FsZTogMSwgJHN0eWxlOiAnaXRhbGljJywgJGluY2x1ZGUtcHJvZ3Jlc3NpdmU6IGZhbHNlKTtcbi8vL1xuLy8vIEBwYXJhbSB7TnVsbCB8IE51bWJlcn0gJHNjYWxlIFtudWxsXSAtIGEgc2NhbGUgbnVtYmVyIHRvIG91dHB1dCBhIGZvbnQtc2l6ZSBhbmQgbGluZS1oZWlnaHQgcHJvcGVydHlcbi8vLyBAcGFyYW0ge051bGwgfCBOdW1iZXJ9ICRsaW5lLWhlaWdodCBbbnVsbF0gLSBjdXN0b20gbGluZS1oZWlnaHQgdmFsdWUgdG8gdXNlIGluc3RlYWQgb2YgdGhlIHNjYWxlJ3MgZGVmYXVsdFxuLy8vIEBwYXJhbSB7TnVsbCB8IFN0cmluZ30gJHdlaWdodCBbbnVsbF0gLSBvdXRwdXQgYSBmb250LXdlaWdodCBwcm9wZXJ0eSwgZS5nLiAnYm9sZCcsICdzZW1pYm9sZCdcbi8vLyBAcGFyYW0ge051bGwgfCBTdHJpbmd9ICRzdHlsZSBbbnVsbF0gLSBvdXRwdXQgYSBmb250LXN0eWxlIHByb3BlcnR5LCBlLmcuICdpdGFsaWMnXG4vLy8gQHBhcmFtIHtCb29sZWFufSAkaW5jbHVkZS1mb250LWZhbWlseSBbdHJ1ZV0gLSBTZXQgdG8gZmFsc2UgdG8gZXhjbHVkZSB0aGUgZm9udC1mYW1pbHkgcHJvcGVydHkgZnJvbSB0aGUgb3V0cHV0LiBUaGlzIGlzIHVzZWZ1bCB3aGVuIHJlc2l6aW5nIHR5cG9ncmFwaHksIHdoZXJlIHRoZSBzZXJpZiBmb250LWZhbWlseSBpcyBpbmhlcml0ZWQgZnJvbSBhIHBhcmVudCBlbGVtZW50LlxuLy8vIEBwYXJhbSB7Qm9vbGVhbn0gJGluY2x1ZGUtcHJvZ3Jlc3NpdmUgW3RydWVdIC0gU2V0IHRvIGZhbHNlIHRvIGV4Y2x1ZGUgc3R5bGVzIHVzZWQgZm9yIHByb2dyZXNzaXZlIGZvbnQgbG9hZGluZyAoZm9udC1mYW1pbHkgYW5kIHNpemUgZmFsbGJhY2tzIGZvciBsb2FkaW5nIGZvbnRzKS5cbkBtaXhpbiBvVHlwb2dyYXBoeVNlcmlmKFxuXHQkc2NhbGU6IG51bGwsXG5cdCRsaW5lLWhlaWdodDogbnVsbCxcblx0JHdlaWdodDogbnVsbCxcblx0JHN0eWxlOiBudWxsLFxuXHQkaW5jbHVkZS1mb250LWZhbWlseTogdHJ1ZSxcblx0JGluY2x1ZGUtcHJvZ3Jlc3NpdmU6ICRvLXR5cG9ncmFwaHktcHJvZ3Jlc3NpdmUtZm9udC1sb2FkaW5nXG4pIHtcblx0QGluY2x1ZGUgX29UeXBvZ3JhcGh5Rm9yKFxuXHRcdCRfby10eXBvZ3JhcGh5LXNlcmlmLFxuXHRcdCRzY2FsZSxcblx0XHQkbGluZS1oZWlnaHQsXG5cdFx0JHdlaWdodCxcblx0XHQkc3R5bGUsXG5cdFx0JGluY2x1ZGUtZm9udC1mYW1pbHksXG5cdFx0JGluY2x1ZGUtcHJvZ3Jlc3NpdmVcblx0KTtcbn1cblxuLy8vIE91dHB1dHMgdHlwb2dyYXBoeSBzdHlsZXMgZm9yIHRoZSBEaXNwbGF5IGZvbnQuXG4vLy8gSW5jbHVkaW5nOiBmYW1pbHksIHNpemUsIGxpbmUtaGVpZ2h0LCB3ZWlnaHQsIHN0eWxlLCBhbmQgZm9udCBzaXplc1xuLy8vIGZvciBwcm9ncmVzc2l2ZSBmb250IGxvYWRpbmcuXG4vLy9cbi8vLyBAZXhhbXBsZSBPdXRwdXQgYSBmb250LWZhbWlseSBwcm9wZXJ0eSBvbmx5IGZvciB0aGUgZGlzcGxheSBmb250LlxuLy8vIFx0QGluY2x1ZGUgb1R5cG9ncmFwaHlEaXNwbGF5KCk7XG4vLy9cbi8vLyBAZXhhbXBsZSBPdXRwdXQgZm9udC1mYW1pbHksIGZvbnQtc2l6ZSwgYW5kIGxpbmUtaGVpZ2h0IGZvciB0aGUgZGlzcGxheSBmb250LlxuLy8vIFx0QGluY2x1ZGUgb1R5cG9ncmFwaHlEaXNwbGF5KCRzY2FsZTogMSk7XG4vLy9cbi8vLyBAZXhhbXBsZSBPdXRwdXQgZm9udC1mYW1pbHksIGZvbnQtc2l6ZSwgYW5kIGxpbmUtaGVpZ2h0IGZvciB0aGUgZGlzcGxheSBmb250LiBTZXQgYSBjdXN0b20gbGluZS1oZWlnaHQgb2YgMS42LlxuLy8vIFx0QGluY2x1ZGUgb1R5cG9ncmFwaHlEaXNwbGF5KCRzY2FsZTogMSwgJGxpbmUtaGVpZ2h0OiAxLjYpO1xuLy8vXG4vLy8gQGV4YW1wbGUgT3V0cHV0IGZvbnQtZmFtaWx5LCBmb250LXNpemUsIGxpbmUtaGVpZ2h0LCBhbmQgZm9udC13ZWlnaHQgZm9yIHRoZSBkaXNwbGF5IGZvbnQuXG4vLy8gXHRAaW5jbHVkZSBvVHlwb2dyYXBoeURpc3BsYXkoJHNjYWxlOiAxLCAkd2VpZ2h0OiAnYm9sZCcpO1xuLy8vXG4vLy8gQGV4YW1wbGUgT3V0cHV0IGZvbnQtZmFtaWx5LCBmb250LXNpemUsIGxpbmUtaGVpZ2h0LCBhbmQgZm9udC1zdHlsZSBmb3IgdGhlIGRpc3BsYXkgZm9udC5cbi8vLyBcdEBpbmNsdWRlIG9UeXBvZ3JhcGh5RGlzcGxheSgkc2NhbGU6IDEsICRzdHlsZTogJ2l0YWxpYycpO1xuLy8vXG4vLy8gQGV4YW1wbGUgT3V0cHV0IGRpc3BsYXkgZm9udCBwcm9wZXJ0aWVzIHdpdGhvdXQgZm9udC1mYW1pbHkuXG4vLy8gXHRAaW5jbHVkZSBvVHlwb2dyYXBoeURpc3BsYXkoJHNjYWxlOiAxLCAkc3R5bGU6ICdpdGFsaWMnLCAkaW5jbHVkZS1mb250LWZhbWlseTogZmFsc2UpO1xuLy8vXG4vLy8gQGV4YW1wbGUgT3V0cHV0IGRpc3BsYXkgZm9udCBwcm9wZXJ0aWVzIHdpdGhvdXQgc2l6ZXMgZm9yIHRoZSBmYWxsYmFjayBmb250ICh3aXRob3V0IHByb2dyZXNzaXZlIGZvbnQgbG9hZGluZykuXG4vLy8gXHRAaW5jbHVkZSBvVHlwb2dyYXBoeURpc3BsYXkoJHNjYWxlOiAxLCAkc3R5bGU6ICdpdGFsaWMnLCAkaW5jbHVkZS1wcm9ncmVzc2l2ZTogZmFsc2UpO1xuLy8vXG4vLy8gQHBhcmFtIHtOdWxsIHwgTnVtYmVyfSAkc2NhbGUgW251bGxdIC0gYSBzY2FsZSBudW1iZXIgdG8gb3V0cHV0IGEgZm9udC1zaXplIGFuZCBsaW5lLWhlaWdodCBwcm9wZXJ0eVxuLy8vIEBwYXJhbSB7TnVsbCB8IE51bWJlcn0gJGxpbmUtaGVpZ2h0IFtudWxsXSAtIGN1c3RvbSBsaW5lLWhlaWdodCB2YWx1ZSB0byB1c2UgaW5zdGVhZCBvZiB0aGUgc2NhbGUncyBkZWZhdWx0XG4vLy8gQHBhcmFtIHtOdWxsIHwgU3RyaW5nfSAkd2VpZ2h0IFtudWxsXSAtIG91dHB1dCBhIGZvbnQtd2VpZ2h0IHByb3BlcnR5LCBlLmcuICdib2xkJywgJ3NlbWlib2xkJ1xuLy8vIEBwYXJhbSB7TnVsbCB8IFN0cmluZ30gJHN0eWxlIFtudWxsXSAtIG91dHB1dCBhIGZvbnQtc3R5bGUgcHJvcGVydHksIGUuZy4gJ2l0YWxpYydcbi8vLyBAcGFyYW0ge0Jvb2xlYW59ICRpbmNsdWRlLWZvbnQtZmFtaWx5IFt0cnVlXSAtIFNldCB0byBmYWxzZSB0byBleGNsdWRlIHRoZSBmb250LWZhbWlseSBwcm9wZXJ0eSBmcm9tIHRoZSBvdXRwdXQuIFRoaXMgaXMgdXNlZnVsIHdoZW4gcmVzaXppbmcgdHlwb2dyYXBoeSwgd2hlcmUgdGhlIGRpc3BsYXkgZm9udC1mYW1pbHkgaXMgaW5oZXJpdGVkIGZyb20gYSBwYXJlbnQgZWxlbWVudC5cbi8vLyBAcGFyYW0ge0Jvb2xlYW59ICRpbmNsdWRlLXByb2dyZXNzaXZlIFt0cnVlXSAtIFNldCB0byBmYWxzZSB0byBleGNsdWRlIHN0eWxlcyB1c2VkIGZvciBwcm9ncmVzc2l2ZSBmb250IGxvYWRpbmcgKGZvbnQtZmFtaWx5IGFuZCBzaXplIGZhbGxiYWNrcyBmb3IgbG9hZGluZyBmb250cykuXG5AbWl4aW4gb1R5cG9ncmFwaHlEaXNwbGF5KFxuXHQkc2NhbGU6IG51bGwsXG5cdCRsaW5lLWhlaWdodDogbnVsbCxcblx0JHdlaWdodDogbnVsbCxcblx0JHN0eWxlOiBudWxsLFxuXHQkaW5jbHVkZS1mb250LWZhbWlseTogdHJ1ZSxcblx0JGluY2x1ZGUtcHJvZ3Jlc3NpdmU6ICRvLXR5cG9ncmFwaHktcHJvZ3Jlc3NpdmUtZm9udC1sb2FkaW5nXG4pIHtcblx0QGluY2x1ZGUgX29UeXBvZ3JhcGh5Rm9yKFxuXHRcdCRfby10eXBvZ3JhcGh5LWRpc3BsYXksXG5cdFx0JHNjYWxlLFxuXHRcdCRsaW5lLWhlaWdodCxcblx0XHQkd2VpZ2h0LFxuXHRcdCRzdHlsZSxcblx0XHQkaW5jbHVkZS1mb250LWZhbWlseSxcblx0XHQkaW5jbHVkZS1wcm9ncmVzc2l2ZVxuXHQpO1xufVxuXG4vLy8gT3V0cHV0cyB0eXBvZ3JhcGh5IHN0eWxlcyBmb3IgdGhlIFNhbnMgZm9udC5cbi8vLyBJbmNsdWRpbmc6IGZhbWlseSwgc2l6ZSwgbGluZS1oZWlnaHQsIHdlaWdodCwgc3R5bGUsIGFuZCBmb250IHNpemVzXG4vLy8gZm9yIHByb2dyZXNzaXZlIGZvbnQgbG9hZGluZy5cbi8vL1xuLy8vXG4vLy8gQGV4YW1wbGUgT3V0cHV0IGEgZm9udC1mYW1pbHkgcHJvcGVydHkgb25seSBmb3IgdGhlIHNhbnMgZm9udC5cbi8vLyBcdEBpbmNsdWRlIG9UeXBvZ3JhcGh5U2FucygpO1xuLy8vXG4vLy8gQGV4YW1wbGUgT3V0cHV0IGZvbnQtZmFtaWx5LCBmb250LXNpemUsIGFuZCBsaW5lLWhlaWdodCBmb3IgdGhlIHNhbnMgZm9udC5cbi8vLyBcdEBpbmNsdWRlIG9UeXBvZ3JhcGh5U2Fucygkc2NhbGU6IDEpO1xuLy8vXG4vLy8gQGV4YW1wbGUgT3V0cHV0IGZvbnQtZmFtaWx5LCBmb250LXNpemUsIGFuZCBsaW5lLWhlaWdodCBmb3IgdGhlIHNhbnMgZm9udC4gU2V0IGEgY3VzdG9tIGxpbmUtaGVpZ2h0IG9mIDEuNi5cbi8vLyBcdEBpbmNsdWRlIG9UeXBvZ3JhcGh5U2Fucygkc2NhbGU6IDEsICRsaW5lLWhlaWdodDogMS42KTtcbi8vL1xuLy8vIEBleGFtcGxlIE91dHB1dCBmb250LWZhbWlseSwgZm9udC1zaXplLCBsaW5lLWhlaWdodCwgYW5kIGZvbnQtd2VpZ2h0IGZvciB0aGUgc2FucyBmb250LlxuLy8vIFx0QGluY2x1ZGUgb1R5cG9ncmFwaHlTYW5zKCRzY2FsZTogMSwgJHdlaWdodDogJ2JvbGQnKTtcbi8vL1xuLy8vIEBleGFtcGxlIE91dHB1dCBmb250LWZhbWlseSwgZm9udC1zaXplLCBsaW5lLWhlaWdodCwgYW5kIGZvbnQtc3R5bGUgZm9yIHRoZSBzYW5zIGZvbnQuXG4vLy8gXHRAaW5jbHVkZSBvVHlwb2dyYXBoeVNhbnMoJHNjYWxlOiAxLCAkc3R5bGU6ICdpdGFsaWMnKTtcbi8vL1xuLy8vIEBleGFtcGxlIE91dHB1dCBzYW5zIGZvbnQgcHJvcGVydGllcyB3aXRob3V0IGZvbnQtZmFtaWx5LlxuLy8vIFx0QGluY2x1ZGUgb1R5cG9ncmFwaHlTYW5zKCRzY2FsZTogMSwgJHN0eWxlOiAnaXRhbGljJywgJGluY2x1ZGUtZm9udC1mYW1pbHk6IGZhbHNlKTtcbi8vL1xuLy8vIEBleGFtcGxlIE91dHB1dCBzYW5zIGZvbnQgcHJvcGVydGllcyB3aXRob3V0IHNpemVzIGZvciB0aGUgZmFsbGJhY2sgZm9udCAod2l0aG91dCBwcm9ncmVzc2l2ZSBmb250IGxvYWRpbmcpLlxuLy8vIFx0QGluY2x1ZGUgb1R5cG9ncmFwaHlTYW5zKCRzY2FsZTogMSwgJHN0eWxlOiAnaXRhbGljJywgJGluY2x1ZGUtcHJvZ3Jlc3NpdmU6IGZhbHNlKTtcbi8vL1xuLy8vIEBwYXJhbSB7TnVsbCB8IE51bWJlcn0gJHNjYWxlIFtudWxsXSAtIGEgc2NhbGUgbnVtYmVyIHRvIG91dHB1dCBhIGZvbnQtc2l6ZSBhbmQgbGluZS1oZWlnaHQgcHJvcGVydHlcbi8vLyBAcGFyYW0ge051bGwgfCBOdW1iZXJ9ICRsaW5lLWhlaWdodCBbbnVsbF0gLSBjdXN0b20gbGluZS1oZWlnaHQgdmFsdWUgdG8gdXNlIGluc3RlYWQgb2YgdGhlIHNjYWxlJ3MgZGVmYXVsdFxuLy8vIEBwYXJhbSB7TnVsbCB8IFN0cmluZ30gJHdlaWdodCBbbnVsbF0gLSBvdXRwdXQgYSBmb250LXdlaWdodCBwcm9wZXJ0eSwgZS5nLiAnYm9sZCcsICdzZW1pYm9sZCdcbi8vLyBAcGFyYW0ge051bGwgfCBTdHJpbmd9ICRzdHlsZSBbbnVsbF0gLSBvdXRwdXQgYSBmb250LXN0eWxlIHByb3BlcnR5LCBlLmcuICdpdGFsaWMnXG4vLy8gQHBhcmFtIHtCb29sZWFufSAkaW5jbHVkZS1mb250LWZhbWlseSBbdHJ1ZV0gLSBTZXQgdG8gZmFsc2UgdG8gZXhjbHVkZSB0aGUgZm9udC1mYW1pbHkgcHJvcGVydHkgZnJvbSB0aGUgb3V0cHV0LiBUaGlzIGlzIHVzZWZ1bCB3aGVuIHJlc2l6aW5nIHR5cG9ncmFwaHksIHdoZXJlIHRoZSBzYW5zIGZvbnQtZmFtaWx5IGlzIGluaGVyaXRlZCBmcm9tIGEgcGFyZW50IGVsZW1lbnQuXG4vLy8gQHBhcmFtIHtCb29sZWFufSAkaW5jbHVkZS1wcm9ncmVzc2l2ZSBbdHJ1ZV0gLSBTZXQgdG8gZmFsc2UgdG8gZXhjbHVkZSBzdHlsZXMgdXNlZCBmb3IgcHJvZ3Jlc3NpdmUgZm9udCBsb2FkaW5nIChmb250LWZhbWlseSBhbmQgc2l6ZSBmYWxsYmFja3MgZm9yIGxvYWRpbmcgZm9udHMpLlxuQG1peGluIG9UeXBvZ3JhcGh5U2Fucyhcblx0JHNjYWxlOiBudWxsLFxuXHQkbGluZS1oZWlnaHQ6IG51bGwsXG5cdCR3ZWlnaHQ6IG51bGwsXG5cdCRzdHlsZTogbnVsbCxcblx0JGluY2x1ZGUtZm9udC1mYW1pbHk6IHRydWUsXG5cdCRpbmNsdWRlLXByb2dyZXNzaXZlOiAkby10eXBvZ3JhcGh5LXByb2dyZXNzaXZlLWZvbnQtbG9hZGluZ1xuKSB7XG5cdEBpbmNsdWRlIF9vVHlwb2dyYXBoeUZvcihcblx0XHQkX28tdHlwb2dyYXBoeS1zYW5zLFxuXHRcdCRzY2FsZSxcblx0XHQkbGluZS1oZWlnaHQsXG5cdFx0JHdlaWdodCxcblx0XHQkc3R5bGUsXG5cdFx0JGluY2x1ZGUtZm9udC1mYW1pbHksXG5cdFx0JGluY2x1ZGUtcHJvZ3Jlc3NpdmVcblx0KTtcbn1cblxuLy8vIFNldCBhIGN1c3RvbSBmb250LlxuLy8vXG4vLy8gQGV4YW1wbGUgVGhpcyBleGFtcGxlIHNob3dzIHNldHRpbmcgYSBjdXN0b20gZm9udCBcIk15U2Fuc0ZvbnRcIiBhcyB0aGUgXCJzYW5zXCIgZm9udC5cbi8vLyBcdEBpbmNsdWRlIG9UeXBvZ3JhcGh5U2V0Rm9udCgkdHlwZTogJ3NhbnMnLCAkZmFtaWx5OiAnTXlTYW5zRm9udCwgc2FucycpO1xuLy8vXG4vLy8gQHBhcmFtIHtTdHJpbmd9ICR0eXBlIC0gT25lIG9mICdzYW5zJywgJ3NlcmlmJywgb3IgJ2Rpc3BsYXknLlxuLy8vIEBwYXJhbSB7U3RyaW5nfSAkZmFtaWx5IC0gVGhlIGZvbnQgZmFtaWx5IHRvIHNldC5cbkBtaXhpbiBvVHlwb2dyYXBoeVNldEZvbnQoJHR5cGUsICRmYW1pbHkpIHtcblx0JGZvbnQ6IG9Gb250c0dldEZvbnRGYW1pbHlXaXRob3V0RmFsbGJhY2tzKCRmYW1pbHkpO1xuXHRAaWYgbm90IG9Gb250c1ZhcmlhbnRFeGlzdHMoJGZvbnQsICR3ZWlnaHQ6IG51bGwsICRzdHlsZTogbnVsbCkge1xuXHRcdEBlcnJvciAnQ291bGQgbm90IHNldCB0aGUgZm9udCBmYW1pbHkgXCIjeyRmYW1pbHl9XCIgYXMgXCIjeyRmb250fVwiIGRvZXMgbm90IGV4aXN0IGluIFwiby1mb250c1wiLiBJZiB5b3UgYXJlIHNldHRpbmcgYSBjdXN0b20gZm9udCwgZmlyc3QgcmVnaXN0ZXIgeW91ciBjdXN0b20gZm9udCB3aXRoIG8tZm9udHMgKGh0dHBzOi8vcmVnaXN0cnkub3JpZ2FtaS5mdC5jb20vY29tcG9uZW50cy9vLWZvbnRzKS4nO1xuXHR9XG5cdEBpZiBub3QgaW5kZXgoJF9vLXR5cG9ncmFwaHktdHlwZXMsICR0eXBlKSB7XG5cdFx0QGVycm9yICdDb3VsZCBub3Qgc2V0IGZvbnQtZmFtaWx5IFwiI3skZmFtaWx5fVwiIGZvciBmYW1pbHkgc3R5bGUgXCIjeyR0eXBlfVwiLCBmYW1pbHkgc3R5bGUgbXVzdCBiZSBvbmUgb2YgXCIjeyRfby10eXBvZ3JhcGh5LXR5cGVzfVwiLic7XG5cdH1cblx0Ly8gU2V0IHRoZSBjdXN0b20gZm9udC5cblx0QGlmICR0eXBlID09ICdzYW5zJyB7XG5cdFx0JF9vLXR5cG9ncmFwaHktc2FuczogJGZhbWlseSAhZ2xvYmFsO1xuXHR9XG5cdEBpZiAkdHlwZSA9PSAnc2VyaWYnIHtcblx0XHQkX28tdHlwb2dyYXBoeS1zZXJpZjogJGZhbWlseSAhZ2xvYmFsO1xuXHR9XG5cdEBpZiAkdHlwZSA9PSAnZGlzcGxheScge1xuXHRcdCRfby10eXBvZ3JhcGh5LWRpc3BsYXk6ICRmYW1pbHkgIWdsb2JhbDtcblx0fVxufVxuXG4vLy8gRGVmaW5lIHRoZSB0eXBvZ3JhcGhpYyBzY2FsZSBmb3IgYSBnaXZlbiBmb250LiBUaGUgZm9udCBtYXkgYmUgYW4gZXhpc3Rpbmcgb3IgY3VzdG9tIGZvbnQuXG4vLy8gQHBhcmFtIHtTdHJpbmd9ICRmYW1pbHkgLSBUaGUgZm9udCBuYW1lIG9yIGZhbWlseSB0byBhcHBseSBhIHNjYWxlIHRvLlxuLy8vIEBwYXJhbSB7TWFwfSAkc2NhbGUgLSBBIG1hcCBvZiBzY2FsZSBudW1iZXJzIGFzIGtleXMgKC0yIHRvIDEwKSwgd2l0aCBsaXN0IHZhbHVlcyBvZiBmb250IHNpemUgYW5kIGxpbmUgaGVpZ2h0IFwiKC0yOiAoMTIsIDE2KSwgLTE6ICgxNCwgMTYpLCAwOiAoMTYsIDIwKSlcIiBldGMuLi5cbi8vLyBAZXhhbXBsZSBUaGlzIGV4YW1wbGUgc2hvd3MgZGVmaW5pbmcgYSBjdXN0b20gZm9udCBzY2FsZSBmb3IgYSBjdXN0b20gZm9udCBcIk15U2Fuc0ZvbnRcIi4gQXQgc2NhbGUgXCIwXCIgdGhlIGZvbnQgc2l6ZSB3aWxsIGJlIDE2cHgsIGFuZCB0aGUgbGluZS1oZWlnaHQgMjBweC5cbi8vL1x0XHRAaW5jbHVkZSBvVHlwb2dyYXBoeURlZmluZUZvbnRTY2FsZSgkZmFtaWx5OiAnTXlTYW5zRm9udCwgc2FucycsIChcbi8vL1x0XHQgICAtMjogKDEyLCAxNiksXG4vLy9cdFx0ICAgLTE6ICgxNCwgMTgpLFxuLy8vXHRcdCAgICAwOiAoMTYsIDIwKSxcbi8vL1x0XHQgICAgMTogKDE4LCAyNCksXG4vLy9cdFx0ICAgIDI6ICgyMCwgMjYpLFxuLy8vXHRcdCAgICAzOiAoMjQsIDMyKSxcbi8vL1x0XHQgICAgNDogKDI4LCAzNiksXG4vLy9cdFx0ICAgIDU6ICgzMiwgNDIpLFxuLy8vXHRcdCAgICA2OiAoNDAsIDUyKSxcbi8vL1x0XHQgICAgNzogKDQ4LCA2MiksXG4vLy9cdFx0ICAgIDg6ICg1NiwgNzIpLFxuLy8vXHRcdCAgICA5OiAoNzIsIDk0KSxcbi8vL1x0XHQgICAxMDogKDg0LCAxMTApXG4vLy9cdFx0KSk7XG5AbWl4aW4gb1R5cG9ncmFwaHlEZWZpbmVGb250U2NhbGUoJGZhbWlseSwgJHNjYWxlKSB7XG5cdEBpZiB0eXBlLW9mKCRzY2FsZSkgIT0gJ21hcCcge1xuXHRcdEBlcnJvciAnQ291bGQgbm90IHNldCB0aGUgc2NhbGUgZm9yIGZvbnQgXCIjeyRmYW1pbHl9XCIsIGV4cGVjdGVkIHRoZSBzY2FsZSB0byBiZSBhIG1hcCBidXQgZm91bmQgXCIjeyRzY2FsZX1cIiwgb2YgdHlwZSBcIiN7dHlwZS1vZigkc2NhbGUpfVwiLic7XG5cdH1cblx0QGVhY2ggJHNjYWxlLW51bWJlciwgJHNjYWxlLWl0ZW0gaW4gJHNjYWxlIHtcblx0XHRAaWYgdHlwZS1vZigkc2NhbGUtaXRlbSkgIT0gJ2xpc3QnIG9yIGxlbmd0aCgkc2NhbGUtaXRlbSkgIT0gMiB7XG5cdFx0XHRAZXJyb3IgJ0V4cGVjdGVkIGVhY2ggaXRlbSBpbiB0aGUgc2NhbGUgdG8gYmUgYSBsaXN0IHdpdGggdHdvIGl0ZW1zLCB0aGUgZm9udCBzaXplIGZvbGxvd2VkIGJ5IHRoZSBsaW5lIGhlaWdodC4nO1xuXHRcdH1cblx0fVxuXHRAaWYgbWFwLWtleXMoJHNjYWxlKSAhPSAoLTIsIC0xLCAwLCAxLCAyLCAzLCA0LCA1LCA2LCA3LCA4LCA5LCAxMCkge1xuXHRcdEBlcnJvciAnRXhwZWN0ZWQgdGhlIHNjYWxlIGZvciBmb250IFwiI3skZmFtaWx5fVwiIHRvIGNvbnRhaW4gdmFsdWVzIGZvciBzY2FsZXMgLTIgdG8gMTAsIGJ1dCBmb3VuZCBzY2FsZXMgXCIje21hcC1rZXlzKCRzY2FsZSl9XCIuJztcblx0fVxuXHQkZmFtaWx5OiBvRm9udHNHZXRGb250RmFtaWx5V2l0aG91dEZhbGxiYWNrcygkZmFtaWx5KTtcblx0JF9vLXR5cG9ncmFwaHktZm9udC1zY2FsZS1ieS1mb250OiBtYXAtbWVyZ2UoKCRmYW1pbHk6ICRzY2FsZSksICRfby10eXBvZ3JhcGh5LWZvbnQtc2NhbGUtYnktZm9udCkgIWdsb2JhbDtcbn1cblxuLy8vIE91dHB1dCBhIHR5cG9ncmFwaHkgZm9yIGZvbnRcbi8vLyBAcGFyYW0ge1N0cmluZ30gJGZvbnQgLSBUaGUgZm9udCB0byBvdXRwdXQgdHlwb2dyYXBoeSBmb3IuXG4vLy8gQHBhcmFtIHtOdWxsIHwgTnVtYmVyfSAkc2NhbGUgW251bGxdIC0gYSBzY2FsZSBudW1iZXIgdG8gb3V0cHV0IGEgZm9udC1zaXplIGFuZCBsaW5lLWhlaWdodCBwcm9wZXJ0eVxuLy8vIEBwYXJhbSB7TnVsbCB8IE51bWJlcn0gJGxpbmUtaGVpZ2h0IFtudWxsXSAtIGN1c3RvbSBsaW5lLWhlaWdodCB2YWx1ZSB0byB1c2UgaW5zdGVhZCBvZiB0aGUgc2NhbGUncyBkZWZhdWx0XG4vLy8gQHBhcmFtIHtOdWxsIHwgU3RyaW5nfSAkd2VpZ2h0IFtudWxsXSAtIG91dHB1dCBhIGZvbnQtd2VpZ2h0IHByb3BlcnR5LCBlLmcuICdib2xkJywgJ3NlbWlib2xkJ1xuLy8vIEBwYXJhbSB7TnVsbCB8IFN0cmluZ30gJHN0eWxlIFtudWxsXSAtIG91dHB1dCBhIGZvbnQtc3R5bGUgcHJvcGVydHksIGUuZy4gJ2l0YWxpYydcbi8vLyBAcGFyYW0ge0Jvb2xlYW59ICRpbmNsdWRlLWZvbnQtZmFtaWx5IFt0cnVlXSAtIFNldCB0byBmYWxzZSB0byBleGNsdWRlIHRoZSBmb250LWZhbWlseSBwcm9wZXJ0eSBmcm9tIHRoZSBvdXRwdXQuIFRoaXMgaXMgdXNlZnVsIHdoZW4gcmVzaXppbmcgdHlwb2dyYXBoeSwgd2hlcmUgdGhlIGdpdmVuIGZvbnQtZmFtaWx5IGlzIGluaGVyaXRlZCBmcm9tIGEgcGFyZW50IGVsZW1lbnQuXG4vLy8gQHBhcmFtIHtCb29sZWFufSAkaW5jbHVkZS1wcm9ncmVzc2l2ZSBbdHJ1ZV0gLSBTZXQgdG8gZmFsc2UgdG8gZXhjbHVkZSBzdHlsZXMgdXNlZCBmb3IgcHJvZ3Jlc3NpdmUgZm9udCBsb2FkaW5nIChmb250LWZhbWlseSBhbmQgc2l6ZSBmYWxsYmFja3MgZm9yIGxvYWRpbmcgZm9udHMpLlxuLy8vIEBhY2Nlc3MgcHJpdmF0ZVxuQG1peGluIF9vVHlwb2dyYXBoeUZvcihcblx0JGZvbnQsXG5cdCRzY2FsZSxcblx0JGxpbmUtaGVpZ2h0LFxuXHQkd2VpZ2h0LFxuXHQkc3R5bGUsXG5cdCRpbmNsdWRlLWZvbnQtZmFtaWx5LFxuXHQkaW5jbHVkZS1wcm9ncmVzc2l2ZVxuKSB7XG5cdC8vIENoZWNrIGZvbnQgdmFyaWFudCBpcyBzdXBwb3J0ZWQuXG5cdCRmb250LXdpdGhvdXQtZmFsbGJhY2tzOiBvRm9udHNHZXRGb250RmFtaWx5V2l0aG91dEZhbGxiYWNrcygkZm9udCk7XG5cdCR2YXJpYW50LWV4aXN0czogb0ZvbnRzVmFyaWFudEV4aXN0cygkZm9udC13aXRob3V0LWZhbGxiYWNrcywgJHdlaWdodCwgJHN0eWxlKTtcblx0QGlmIG5vdCAkdmFyaWFudC1leGlzdHMge1xuXHRcdEBlcnJvciAnRm9udCBmYW1pbHkgXCIjeyRmb250LXdpdGhvdXQtZmFsbGJhY2tzfVwiIG9mIHdlaWdodCAnICtcblx0XHRcdCdcIiN7aWYoJHdlaWdodCwgJHdlaWdodCwgJ3JlZ3VsYXInKX1cIiBhbmQgc3R5bGUgJyArXG5cdFx0XHQnXCIje2lmKCRzdHlsZSwgJHN0eWxlLCAnbm9ybWFsJyl9XCIgaXMgbm90IHN1cHBvcnRlZC4nO1xuXHR9XG5cblx0Ly8gQ2hlY2sgZm9udCB2YXJpYW50IGhhcyBiZWVuIGluY2x1ZGVkLCBhbmQgZXJyb3IgaWYgYW4gZXJyb3IgbWVzc2FnZVxuXHQvLyBoYXMgYmVlbiBzZXQgYnkgdGhlIHVzZXIuXG5cdCR2YXJpYW50LWluY2x1ZGVkOiBvRm9udHNWYXJpYW50SW5jbHVkZWQoJGZvbnQtd2l0aG91dC1mYWxsYmFja3MsICR3ZWlnaHQsICRzdHlsZSk7XG5cdEBpZiBub3QgJHZhcmlhbnQtaW5jbHVkZWQgYW5kIHR5cGUtb2YoJG8tdHlwb2dyYXBoeS1lcnJvci1mb3ItbWlzc2luZy1mb250cykgPT0gJ3N0cmluZycge1xuXHRcdEBlcnJvciAnVGhlIGZvbnQgZmFjZSBmb3IgZm9udCBmYW1pbHkgXCIjeyRmb250LXdpdGhvdXQtZmFsbGJhY2tzfVwiIG9mICcgK1xuXHRcdFx0J3dlaWdodCBcIiN7aWYoJHdlaWdodCwgJHdlaWdodCwgJ3JlZ3VsYXInKX1cIiBhbmQgc3R5bGUgJyArXG5cdFx0XHQnXCIje2lmKCRzdHlsZSwgJHN0eWxlLCAnbm9ybWFsJyl9XCIgaGFzIG5vdCBiZWVuIGluY2x1ZGVkIGluIHlvdXIgJyArXG5cdFx0XHQncHJvamVjdC4gI3tpbnNwZWN0KCRvLXR5cG9ncmFwaHktZXJyb3ItZm9yLW1pc3NpbmctZm9udHMpfSc7XG5cdH1cblxuXHRAaWYgJGluY2x1ZGUtZm9udC1mYW1pbHkge1xuXHRcdGZvbnQtZmFtaWx5OiBpZih0eXBlLW9mKCRmb250KSA9PSAnc3RyaW5nJywgdW5xdW90ZSgkZm9udCksICRmb250KTtcblx0fVxuXG5cdEBpZiAkc2NhbGUge1xuXHRcdEBpbmNsdWRlIF9vVHlwb2dyYXBoeVNpemUoJHNjYWxlOiAkc2NhbGUsICRsaW5lLWhlaWdodDogJGxpbmUtaGVpZ2h0LCAkZm9udDogJGZvbnQpO1xuXHR9IEBlbHNlIGlmICRsaW5lLWhlaWdodCB7XG5cdFx0bGluZS1oZWlnaHQ6IF9vVHlwb2dyYXBoeUFkanVzdFVuaXQoJGxpbmUtaGVpZ2h0KTtcblx0fVxuXG5cdEBpZiAkd2VpZ2h0IHtcblx0XHRmb250LXdlaWdodDogb0ZvbnRzV2VpZ2h0KCR3ZWlnaHQpO1xuXHR9XG5cblx0QGlmICRzdHlsZSB7XG5cdFx0Zm9udC1zdHlsZTogdW5xdW90ZSgkc3R5bGUpO1xuXHR9XG5cblx0QGlmICRpbmNsdWRlLXByb2dyZXNzaXZlIHtcblx0XHRAaW5jbHVkZSBfb1R5cG9ncmFwaHlQcm9ncmVzc2l2ZUZvbnRGYWxsYmFjaygkZm9udCwgJHNjYWxlLCAkd2VpZ2h0LCAkc3R5bGUsICRpbmNsdWRlLWZvbnQtZmFtaWx5KTtcblx0fVxufVxuXG4vLy8gT3V0cHV0cyB0aGUgZm9udCBzaXplIGFuZCBsaW5lIGhlaWdodCBiYXNlZCBvbiB0aGUgc2NhbGUsIGFsc29cbi8vLyBhY2NlcHRzIGFuIG92ZXJyaWRlIGxpbmUtaGVpZ2h0IHRvIG91dHB1dCBhbmQgYSBmb250IGFkanVzdG1lbnRcbi8vLyBwYXJhbWV0ZXIgZm9yIHdoZW4gb3V0cHV0dGluZyBzdHlsZXMgZm9yIHByb2dyZXNzaXZlbHkgbG9hZGVkIGZvbnRzXG4vLy9cbi8vLyBAcGFyYW0ge051bWJlcn0gJHNjYWxlIG51bWJlciBvbiBzY2FsZSB0aGUgc2l6ZXMgYXJlIGJhc2VkIG9uXG4vLy8gQHBhcmFtIHtCb29sZWFuIHwgTnVtYmVyfSAkbGluZS1oZWlnaHQgc2l6ZSB0byBvdmVycmlkZSB0aGUgbGluZS1oZWlnaHQgcHJvcGVydHlcbi8vLyBAcGFyYW0ge1N0cmluZ30gJGZvbnQgWycnXSAtIFRoZSBmb250IHRvIGdldCB0aGUgZm9udCBzaXplIGZvciwgYXMgZm9udHMgbWF5IGhhdmUgZGlmZmVyZW50IHNjYWxlcy4gVXNlcyB0aGUgZGVmYXVsdCBzY2FsZSBpZiBub3Qgc3BlY2lmaWVkLlxuQG1peGluIF9vVHlwb2dyYXBoeVNpemUoJHNjYWxlLCAkbGluZS1oZWlnaHQ6IGZhbHNlLCAkZm9udDogJycpIHtcblx0QGlmIHR5cGUtb2YoJHNjYWxlKSA9PSBtYXAge1xuXHRcdEBlYWNoICRicmVha3BvaW50LCAkc2NhbGUgaW4gJHNjYWxlIHtcblx0XHRcdCRjdXJyZW50LWxpbmUtaGVpZ2h0OiBpZihsZW5ndGgoJHNjYWxlKSA9PSAyLCBudGgoJHNjYWxlLCAyKSwgJGxpbmUtaGVpZ2h0KTtcblx0XHRcdCRjdXJyZW50LXNjYWxlOiBpZih0eXBlLW9mKCRzY2FsZSkgPT0gbGlzdCBhbmQgbGVuZ3RoKCRzY2FsZSkgIT0gMCwgbnRoKCRzY2FsZSwgMSksICRzY2FsZSk7XG5cblx0XHRcdEBpZiAkYnJlYWtwb2ludCA9PSAnZGVmYXVsdCcgYW5kICRjdXJyZW50LXNjYWxlIHtcblx0XHRcdFx0Zm9udC1zaXplOiBfb1R5cG9ncmFwaHlGb250U2l6ZUZyb21TY2FsZSgkY3VycmVudC1zY2FsZSwgMSwgJGZvbnQpO1xuXHRcdFx0XHRsaW5lLWhlaWdodDogX29UeXBvZ3JhcGh5TGluZUhlaWdodEZyb21TY2FsZSgkY3VycmVudC1zY2FsZSwgJGN1cnJlbnQtbGluZS1oZWlnaHQsICRmb250KTtcblx0XHRcdH1cblxuXHRcdFx0QGlmICRicmVha3BvaW50ICE9ICdkZWZhdWx0JyBhbmQgJGN1cnJlbnQtc2NhbGUge1xuXHRcdFx0XHRAaW5jbHVkZSBvR3JpZFJlc3BvbmRUbygkYnJlYWtwb2ludCkge1xuXHRcdFx0XHRcdGZvbnQtc2l6ZTogX29UeXBvZ3JhcGh5Rm9udFNpemVGcm9tU2NhbGUoJGN1cnJlbnQtc2NhbGUsIDEsICRmb250KTtcblx0XHRcdFx0XHRsaW5lLWhlaWdodDogX29UeXBvZ3JhcGh5TGluZUhlaWdodEZyb21TY2FsZSgkY3VycmVudC1zY2FsZSwgJGN1cnJlbnQtbGluZS1oZWlnaHQsICRmb250KTtcblx0XHRcdFx0fVxuXHRcdFx0fVxuXHRcdH1cblx0fSBAZWxzZSB7XG5cdFx0Zm9udC1zaXplOiBfb1R5cG9ncmFwaHlGb250U2l6ZUZyb21TY2FsZSgkc2NhbGUsIDEsICRmb250KTtcblx0XHRsaW5lLWhlaWdodDogX29UeXBvZ3JhcGh5TGluZUhlaWdodEZyb21TY2FsZSgkc2NhbGUsICRsaW5lLWhlaWdodCwgJGZvbnQpO1xuXHR9XG59XG5cbi8vLyBPdXRwdXRzIHRoZSBwcm9ncmVzc2l2ZSBmb250IGZhbGxiYWNrIHN0eWxlcyBiYXNlZCBvblxuLy8vIGZvbnQgYW5kIHNjYWxlIGlmIHRoZSBmb250IGhhcyBmYWxsYmFjayBzZXR0aW5nc1xuLy8vXG4vLy8gQHBhcmFtIHtTdHJpbmd9ICRmb250IC0gRm9udCB0byBvdXRwdXQgZmFsbGJhY2sgc3R5bGVzIGZvciAob3IgLlxuLy8vIEBwYXJhbSB7TnVtYmVyfSAkc2NhbGUgLSBOdW1iZXIgb24gc2NhbGUgdGhlIHNpemUgaXMgYmFzZWQgb24uXG4vLy8gQHBhcmFtIHtTdHJpbmd9ICR3ZWlnaHQgW251bGxdIC0gVGhlIHdlaWdodCBvZiB0aGUgZm9udCB3aGljaCBuZWVkcyBhIGZhbGxiYWNrIGUuZy4gJ2JvbGQnLlxuLy8vIEBwYXJhbSB7U3RyaW5nfSAkc3R5bGUgW251bGxdIC0gVGhlIHN0eWxlIG9mIHRoZSBmb250IHdoaWNoIG5lZWRzIGEgZmFsbGJhY2sgZS5nLiAnaXRhbGljJy5cbi8vLyBAcGFyYW0ge0Jvb2xlYW59ICRpbmNsdWRlLWZvbnQtZmFtaWx5IFt0cnVlXSAtIFdoZXRoZXIgdG8gb3V0cHV0IHRoZSBmb250IGZhbWlseSBvZiB0aGUgZmFsbGJhY2sgZm9udCAodnMuIGp1c3QgdGhlIHNpemUpXG5AbWl4aW4gX29UeXBvZ3JhcGh5UHJvZ3Jlc3NpdmVGb250RmFsbGJhY2soJGZvbnQsICRzY2FsZSwgJHdlaWdodDogbnVsbCwgJHN0eWxlOiBudWxsLCAkaW5jbHVkZS1mb250LWZhbWlseTogdHJ1ZSkge1xuXHRAaWYgbm90ICRvLXR5cG9ncmFwaHktcHJvZ3Jlc3NpdmUtZm9udC1sb2FkaW5nIHtcblx0XHRAZXJyb3IgJ1Byb2dyZXNzaXZlIGZvbnQgZmFsbGJhY2tzIGFyZSBkaXNhYmxlZC4nICtcblx0XHRcdCdJZiB5b3UgYXJlIHN1cmUgeW91IHdhbnQgdG8gb3V0cHV0IHByb2dyZXNzaXZlIGZvbnQgZmFsbGJhY2tzIGluICcgK1xuXHRcdFx0J3lvdXIgcHJvamVjdCBzZXQgYCRvLXR5cG9ncmFwaHktcHJvZ3Jlc3NpdmUtZm9udC1sb2FkaW5nOiB0cnVlO2AgJyArXG5cdFx0XHQnYXQgdGhlIHRvcCBvZiB5b3VyIHByb2plY3QsIGJlZm9yZSBpbXBvcnRpbmcgU2FzcyBmaWxlcy4gJyArXG5cdFx0XHQnU2VlIHRoZSBSRUFETUUgZm9yIGRldGFpbHMgYW5kIG1vcmUgb3B0aW9ucyBvciBjb250YWN0IHRoZSBPcmlnYW1pIHRlYW0uJztcblx0fVxuXHRAaWYgJHNjYWxlIHtcblx0XHQvLyBJZiBmYWxzeSB3ZWlnaHQvc3R5bGUgZGVmYXVsdCB0byByZWd1bGFyL25vcm1hbC5cblx0XHQkd2VpZ2h0OiBpZigkd2VpZ2h0LCAkd2VpZ2h0LCAncmVndWxhcicpO1xuXHRcdCRzdHlsZTogaWYoJHN0eWxlLCAkc3R5bGUsICdub3JtYWwnKTtcblx0XHQvLyBGaW5kIGZhbGxiYWNrIGNvbmZpZyBmb3IgZm9udCwgd2VpZ2h0LCBhbmQgc3R5bGUuXG5cdFx0QGVhY2ggJGZhbGxiYWNrIGluICRfby10eXBvZ3JhcGh5LXByb2dyZXNzaXZlLWZvbnQtZmFsbGJhY2tzIHtcblx0XHRcdC8vIEdldCBmYWxsYmFjayBwcm9wZXJ0aWVzLlxuXHRcdFx0JGZhbGxiYWNrLWZhbWlseTogbWFwLWdldCgkZmFsbGJhY2ssICdmYW1pbHknKTtcblx0XHRcdCRmYWxsYmFjay1sYWJlbDogbWFwLWdldCgkZmFsbGJhY2ssICdsYWJlbCcpO1xuXHRcdFx0Ly8gTWF0Y2ggcmVndWxhciBieSBkZWZhdWx0LlxuXHRcdFx0JGZhbGxiYWNrLXdlaWdodDogbWFwLWdldCgkZmFsbGJhY2ssICd3ZWlnaHQnKTtcblx0XHRcdCRmYWxsYmFjay13ZWlnaHQ6IGlmKCRmYWxsYmFjay13ZWlnaHQsICRmYWxsYmFjay13ZWlnaHQsICgncmVndWxhcicpKTtcblx0XHRcdC8vIE1hdGNoIG5vcm1hbCBieSBkZWZhdWx0LlxuXHRcdFx0JGZhbGxiYWNrLXN0eWxlOiBtYXAtZ2V0KCRmYWxsYmFjaywgJ3N0eWxlJyk7XG5cdFx0XHQkZmFsbGJhY2stc3R5bGU6IGlmKCRmYWxsYmFjay1zdHlsZSwgJGZhbGxiYWNrLXN0eWxlLCAoJ25vcm1hbCcpKTtcblx0XHRcdCRmYWxsYmFjay1zY2FsZTogbWFwLWdldCgkZmFsbGJhY2ssICdmYWxsYmFjay1zY2FsZScpO1xuXHRcdFx0Ly8gQ2hlY2sgaWYgZmFsbGJhY2sgaXMgZm9yIHRoZSBnaXZlbiBmb250LCB3ZWlnaHQsIGFuZCBzdHlsZS47XG5cdFx0XHQkbGFiZWwtbWF0Y2g6ICRmYWxsYmFjay1sYWJlbCA9PSBvRm9udHNHZXRGb250RmFtaWx5V2l0aG91dEZhbGxiYWNrcygkZm9udCk7IC8vIEZvciBiYWNrd2FyZCBjb21wYXRpYmlsaXR5XG5cdFx0XHQkZmFtaWx5LW1hdGNoOiBvRm9udHNHZXRGb250RmFtaWx5V2l0aG91dEZhbGxiYWNrcygkZmFsbGJhY2stZmFtaWx5KSA9PSBvRm9udHNHZXRGb250RmFtaWx5V2l0aG91dEZhbGxiYWNrcygkZm9udCk7XG5cdFx0XHQkd2VpZ2h0LW1hdGNoOiBpbmRleCgkZmFsbGJhY2std2VpZ2h0LCAkd2VpZ2h0KTtcblx0XHRcdCRzdHlsZS1tYXRjaDogaWYoJGZhbGxiYWNrLXN0eWxlLCBpbmRleCgkZmFsbGJhY2stc3R5bGUsICRzdHlsZSksIHRydWUpO1xuXHRcdFx0Ly8gT3V0cHV0IHRoZSBmYWxsYmFjayBpZiBpdCBtYXRjaGVzLlxuXHRcdFx0QGlmICgkbGFiZWwtbWF0Y2ggb3IgKCRmYW1pbHktbWF0Y2ggYW5kICR3ZWlnaHQtbWF0Y2ggYW5kICRzdHlsZS1tYXRjaCkpIHtcblx0XHRcdFx0LiN7JF9vLXR5cG9ncmFwaHktbG9hZGluZy1wcmVmaXh9LSN7JGZhbGxiYWNrLWxhYmVsfSAmIHtcblx0XHRcdFx0XHRAaW5jbHVkZSBfb1R5cG9ncmFwaHlGb250U2l6ZSgkc2NhbGU6ICRzY2FsZSwgJHByb2dyZXNzaXZlLWZvbnQtYWRqdXN0OiAkZmFsbGJhY2stc2NhbGUsICRmb250OiAkZmFsbGJhY2stZmFtaWx5KTtcblx0XHRcdFx0XHRAaWYgJGluY2x1ZGUtZm9udC1mYW1pbHkge1xuXHRcdFx0XHRcdFx0Zm9udC1mYW1pbHk6IG1hcC1nZXQoJGZhbGxiYWNrLCAnZmFsbGJhY2snKTtcblx0XHRcdFx0XHR9XG5cdFx0XHRcdH1cblx0XHRcdH1cblx0XHR9XG5cdH1cbn1cblxuLy8vIE91dHB1dHMgdGhlIGZvbnQgc2l6ZSBiYXNlZCBvbiB0aGUgc2NhbGUsIGFsc28gYWNjZXB0cyBhIGZvbnQgYWRqdXN0bWVudFxuLy8vIHBhcmFtZXRlciBmb3Igd2hlbiBvdXRwdXR0aW5nIHN0eWxlcyBmb3IgcHJvZ3Jlc3NpdmVseSBsb2FkZWQgZm9udHNcbi8vL1xuLy8vIEBwYXJhbSB7TnVtYmVyfSAkc2NhbGUgLSBOdW1iZXIgb24gc2NhbGUgdGhlIHNpemVzIGFyZSBiYXNlZCBvbi5cbi8vLyBAcGFyYW0ge051bWJlcn0gJHByb2dyZXNzaXZlLWZvbnQtYWRqdXN0IC0gTXVsdGlwbGllciBmb3IgZm9udC1zaXplIGFkanVzdG1lbnRzLCB3aGVuIGFkZGluZyBzdHlsZXMgZm9yIHByb2dyZXNzaXZlbHkgbG9hZGVkIGZvbnQuXG4vLy8gQHBhcmFtIHtTdHJpbmd9ICRmb250IFsnJ10gLSBUaGUgZm9udCB0byBnZXQgdGhlIGZvbnQgc2l6ZSBmb3IsIGFzIGZvbnRzIG1heSBoYXZlIGRpZmZlcmVudCBzY2FsZXMuIFVzZXMgdGhlIGRlZmF1bHQgc2NhbGUgaWYgbm90IHNwZWNpZmllZC5cbkBtaXhpbiBfb1R5cG9ncmFwaHlGb250U2l6ZSgkc2NhbGUsICRwcm9ncmVzc2l2ZS1mb250LWFkanVzdDogMSwgJGZvbnQ6ICcnKSB7XG5cdEBpZiB0eXBlLW9mKCRzY2FsZSkgPT0gbWFwIHtcblx0XHRAZWFjaCAkYnJlYWtwb2ludCwgJG51bWJlciBpbiAkc2NhbGUge1xuXHRcdFx0QGlmICRicmVha3BvaW50ID09ICdkZWZhdWx0JyB7XG5cdFx0XHRcdEBpZiB0eXBlLW9mKCRudW1iZXIpID09IGxpc3Qge1xuXHRcdFx0XHRcdGZvbnQtc2l6ZTogX29UeXBvZ3JhcGh5Rm9udFNpemVGcm9tU2NhbGUobnRoKCRudW1iZXIsIDEpLCAkcHJvZ3Jlc3NpdmUtZm9udC1hZGp1c3QsICRmb250KTtcblx0XHRcdFx0fSBAZWxzZSB7XG5cdFx0XHRcdFx0Zm9udC1zaXplOiBfb1R5cG9ncmFwaHlGb250U2l6ZUZyb21TY2FsZSgkbnVtYmVyLCAkcHJvZ3Jlc3NpdmUtZm9udC1hZGp1c3QsICRmb250KTtcblx0XHRcdFx0fVxuXHRcdFx0fSBAZWxzZSBpZigkbnVtYmVyKSB7XG5cdFx0XHRcdEBpbmNsdWRlIG9HcmlkUmVzcG9uZFRvKCRicmVha3BvaW50KSB7XG5cdFx0XHRcdFx0QGlmIHR5cGUtb2YoJG51bWJlcikgPT0gbGlzdCB7XG5cdFx0XHRcdFx0XHRmb250LXNpemU6IF9vVHlwb2dyYXBoeUZvbnRTaXplRnJvbVNjYWxlKG50aCgkbnVtYmVyLCAxKSwgJHByb2dyZXNzaXZlLWZvbnQtYWRqdXN0LCAkZm9udCk7XG5cdFx0XHRcdFx0fSBAZWxzZSB7XG5cdFx0XHRcdFx0XHRmb250LXNpemU6IF9vVHlwb2dyYXBoeUZvbnRTaXplRnJvbVNjYWxlKCRudW1iZXIsICRwcm9ncmVzc2l2ZS1mb250LWFkanVzdCwgJGZvbnQpO1xuXHRcdFx0XHRcdH1cblx0XHRcdFx0fVxuXHRcdFx0fVxuXG5cdFx0fVxuXHR9IEBlbHNlIHtcblx0XHRmb250LXNpemU6IF9vVHlwb2dyYXBoeUZvbnRTaXplRnJvbVNjYWxlKCRzY2FsZSwgJHByb2dyZXNzaXZlLWZvbnQtYWRqdXN0LCAkZm9udCk7XG5cdH1cbn1cbiIsIi8vLyBPdXRwdXQgc3R5bGVzIGZvciBwYWdlIGhlYWRpbmdzLlxuLy8vIEBleGFtcGxlIE91dHB1dCBoZWFkaW5nIGxldmVsIDEgc3R5bGVzLlxuLy8vICAgICBoMSB7XG4vLy8gICAgIFx0QGluY2x1ZGUgb1R5cG9ncmFwaHlIZWFkaW5nKCRsZXZlbDogMSk7XG4vLy8gICAgIH1cbi8vLyBAZXhhbXBsZSBPdXRwdXQgaGVhZGluZyBsZXZlbCA1IHN0eWxlcy5cbi8vLyAgICAgaDUge1xuLy8vICAgICBcdEBpbmNsdWRlIG9UeXBvZ3JhcGh5SGVhZGluZygkbGV2ZWw6IDUpO1xuLy8vICAgICB9XG4vLy8gQHBhcmFtIHtOdW1iZXJ9ICRsZXZlbCAtIFRoZSBoZWFkaW5nIGxldmVsIDEtNS5cbkBtaXhpbiBvVHlwb2dyYXBoeUhlYWRpbmcoJGxldmVsKSB7XG5cdCRoZWFkaW5nczogKFxuXHRcdCdoZWFkaW5nLWxldmVsLW9uZScsXG5cdFx0J2hlYWRpbmctbGV2ZWwtdHdvJyxcblx0XHQnaGVhZGluZy1sZXZlbC10aHJlZScsXG5cdFx0J2hlYWRpbmctbGV2ZWwtZm91cicsXG5cdFx0J2hlYWRpbmctbGV2ZWwtZml2ZScsXG5cdFx0J2hlYWRpbmctbGV2ZWwtc2l4Jyxcblx0KTtcblxuXHRAaWYodHlwZS1vZigkbGV2ZWwpICE9ICdudW1iZXInIG9yICRsZXZlbCA8IDEgb3IgJGxldmVsID4gNikge1xuXHRcdEBlcnJvciAnSGVhZGluZyBsZXZlbCBtdXN0IGJlIGEgTnVtYmVyIDEtNi4gRm91bmQgI3tpbnNwZWN0KCRsZXZlbCl9Lic7XG5cdH1cblxuXHQkZnJvbTogbnRoKCRoZWFkaW5ncywgJGxldmVsKTtcblxuXHQvLyBHZXQgaGVhZGluZyBzdHlsZXMgZnJvbSBicmFuZCBjb25maWcgKHNlZSBfYnJhbmQuc2Nzcylcblx0Ly8gSWYgd2VpZ2h0IGlzIG5vdCBnaXZlbiBkZWZhdWx0IHRvIHJlZ3VsYXIsIHRvIG92ZXJyaWRlIGJyb3dzZXIgZGVmYXVsdHMuXG5cdCR3ZWlnaHQ6IF9vVHlwb2dyYXBoeUdldCgnd2VpZ2h0JywgJGZyb20pO1xuXHQkd2VpZ2h0OiBpZigkd2VpZ2h0LCAkd2VpZ2h0LCAncmVndWxhcicpO1xuXHRAaW5jbHVkZSBvVHlwb2dyYXBoeVNhbnMoXG5cdFx0JHNjYWxlOiAoXG5cdFx0XHRkZWZhdWx0OiBfb1R5cG9ncmFwaHlHZXQoJ3NjYWxlJywgJGZyb20pLFxuXHRcdFx0UzogX29UeXBvZ3JhcGh5R2V0KCdzY2FsZS1zJywgJGZyb20pLFxuXHRcdFx0TTogX29UeXBvZ3JhcGh5R2V0KCdzY2FsZS1tJywgJGZyb20pLFxuXHRcdFx0TDogX29UeXBvZ3JhcGh5R2V0KCdzY2FsZS1sJywgJGZyb20pLFxuXHRcdFx0WEw6IF9vVHlwb2dyYXBoeUdldCgnc2NhbGUteGwnLCAkZnJvbSlcblx0XHQpLFxuXHRcdCR3ZWlnaHQ6ICR3ZWlnaHRcblx0KTtcblx0Y29sb3I6IG9Db2xvcnNCeVVzZWNhc2UoJ2JvZHknLCAndGV4dCcsICRmYWxsYmFjazogbnVsbCk7XG5cdG1hcmdpbjogMCAwIG9TcGFjaW5nQnlOYW1lKCdzNCcpO1xufVxuXG5cbi8vLyBCb2R5IHRleHQgc3R5bGVzXG5AbWl4aW4gb1R5cG9ncmFwaHlCb2R5IHtcblx0QGluY2x1ZGUgb1R5cG9ncmFwaHlTYW5zKDEpO1xuXHRtYXJnaW46IDAgMCBvU3BhY2luZ0J5TmFtZSgnczYnKTtcblx0Y29sb3I6IG9Db2xvcnNCeVVzZWNhc2UoJ2JvZHknLCAndGV4dCcsICRmYWxsYmFjazogbnVsbCk7XG59XG5cbi8vLyBTdWJzY3JpcHQgdGV4dFxuQG1peGluIG9UeXBvZ3JhcGh5U3ViIHtcblx0Ly8gbWFrZSBzdWJzY3JpcHQgc21hbGxlciBhbmQgc2Fucy1zZXJpZlxuXHQvLyAxMnB4IGdpdmVuIDE4cHggY29weVxuXHRAaW5jbHVkZSBvVHlwb2dyYXBoeVNhbnMoKTtcblx0Zm9udC1zaXplOiAwLjY2NmVtO1xuXHQvLyBvdmVycmlkZSBvLW5vcm1hbGlzZSBkZWZhdWx0XG5cdHBvc2l0aW9uOiBzdGF0aWM7XG5cdHZlcnRpY2FsLWFsaWduOiBzdWI7XG5cdGxpbmUtaGVpZ2h0OiAwO1xuXHQvLyBwcmV2ZW50IHN1YiBpbmNyZWFzaW5nIGxpbmUtaGVpZ2h0XG5cdGRpc3BsYXk6IGlubGluZS1ibG9jaztcblx0bWFyZ2luLWJvdHRvbTogLTFlbTtcbn1cblxuLy8vIFN1cGVyc2NyaXB0IHRleHRcbkBtaXhpbiBvVHlwb2dyYXBoeVN1cGVyIHtcblx0Ly8gbWFrZSBzdXBlcnNjcmlwdCBzbWFsbGVyIGFuZCBzYW5zLXNlcmlmXG5cdC8vIDEycHggZ2l2ZW4gMThweCBjb3B5XG5cdEBpbmNsdWRlIG9UeXBvZ3JhcGh5U2FucygpO1xuXHRmb250LXNpemU6IDAuNjY2ZW07XG5cdC8vIG92ZXJyaWRlIG8tbm9ybWFsaXNlIGRlZmF1bHRcblx0cG9zaXRpb246IHN0YXRpYztcblx0dmVydGljYWwtYWxpZ246IHN1cGVyO1xuXHRsaW5lLWhlaWdodDogMDtcblx0Ly8gcHJldmVudCBzdXBlciBpbmNyZWFzaW5nIGxpbmUtaGVpZ2h0XG5cdGRpc3BsYXk6IGlubGluZS1ibG9jaztcblx0bWFyZ2luLXRvcDogLTFlbTtcbn1cblxuLy8vIE91dHB1dCBsaW5rIHN0eWxlcy5cbi8vL1xuLy8vIEBleGFtcGxlIE91dHB1dCB0aGUgc3R5bGVzIGZvciBhIHN0YW5kYXJkIGxpbmsuXG4vLy8gICAgIC5teS1saW5rIHtcbi8vLyAgICAgXHRAaW5jbHVkZSBvVHlwb2dyYXBoeUxpbmsoKTtcbi8vLyAgICAgfVxuLy8vXG4vLy8gQGV4YW1wbGUgT3V0cHV0IGEgY3VzdG9tLCBjbGFyZXQgY29sb3VyZWQgbGluayB0byBnbyBvbiB0aGUgZGVmYXVsdCBiYWNrZ3JvdW5kIGNvbG91ciAocGFwZXIgZm9yIHRoZSBjb3JlIGJyYW5kLCB3aGl0ZSBvdGhlcndpc2UpLlxuLy8vICAgICAubXktY2xhcmV0LWxpbmsge1xuLy8vICAgICBcdEBpbmNsdWRlIG9UeXBvZ3JhcGh5TGluaygkdGhlbWU6IChcbi8vLyAgICAgXHRcdCdiYXNlJzogJ2NsYXJldCcsXG4vLy8gICAgIFx0XHQnaG92ZXInOiAnY2xhcmV0LTMwJyxcbi8vLyAgICAgXHQpKTtcbi8vLyAgICAgfVxuLy8vXG4vLy8gQGV4YW1wbGUgT3V0cHV0IGEgY3VzdG9tLCBsZW1vbiBjb2xvdXJlZCBsaW5rIHRvIGdvIG9uIGEgc2xhdGUgYmFja2dyb3VuZC5cbi8vLyAgICAgLm15LWludmVyc2UtbGluayB7XG4vLy8gICAgIFx0QGluY2x1ZGUgb1R5cG9ncmFwaHlMaW5rKCR0aGVtZTogKFxuLy8vICAgICBcdFx0J2Jhc2UnOiAnbGVtb24nLFxuLy8vICAgICBcdFx0J2hvdmVyJzogJ2xlbW9uLTMwJyxcbi8vLyAgICAgXHRcdCdjb250ZXh0JzogJ3NsYXRlJyxcbi8vLyAgICAgXHQpKTtcbi8vLyAgICAgfVxuLy8vXG4vLy8gQHBhcmFtIHtCb29sZWFufSAkZXh0ZXJuYWwgW2ZhbHNlXSAtIFRoaXMgcGFyYW1ldGVyIGlzIGRlcHJlY2F0ZWQgLSB3ZSBubyBsb25nZXIgb3V0cHV0IGFuIGljb24gZm9yIGV4dGVybmFsIGxpbmtzXG4vLy8gQHBhcmFtIHtNYXB8TnVsbH0gJHRoZW1lIFtudWxsXSAtIEEgY3VzdG9tIHRoZW1lIHRvIGNoYW5nZSB0aGUgbG9vayBvZiBhIGxpbmssIHdpdGggY29sb3VycyBmb3IgcHJvcGVydGllcyBgYmFzZWAgKHRoZSBtYWluIGxpbmsgY29sb3VyKSwgYGhvdmVyYCAodGhlIGxpbmtzIG92ZXIgY29sb3VyKSwgYW5kIG9wdGlvbmFsIGBjb250ZXh0YCBrZXkuIENvbnRleHQgaXMgdGhlIGNvbG91ciB0aGUgbGluayB3aWxsIGJlIHBsYWNlZCBvbiwgaXQgZGVmYXVsdHMgdG8gdGhlIHBhZ2UgYmFja2dyb3VuZCAocGFwZXIgZm9yIHRoZSBjb3JlIGJyYW5kLCB3aGl0ZSBvdGhlcndpc2UpLlxuLy8vIEBwYXJhbSB7Qm9vbGVhbn0gJGluY2x1ZGUtYmFzZS1zdHlsZXMgW3RydWVdIC0gSWYgc2V0IHRvIGZhbHNlIHN0YW5kYXJkIGxpbmsgc3R5bGVzIHdpbGwgbm90IGJlIG91dHB1dCwgb25seSBhZGRpdGlvbmFsIHN0eWxlcyByZXF1aXJlZCBieSBhIGN1c3RvbSB0aGVtZS5cbkBtaXhpbiBvVHlwb2dyYXBoeUxpbmsoJGV4dGVybmFsOiBmYWxzZSwgJHRoZW1lOiBudWxsLCAkaW5jbHVkZS1iYXNlLXN0eWxlczogdHJ1ZSkge1xuXHQvLyBEZWZhdWx0IGxpbmsgY29sb3Vycy5cblx0Ly8gVGhlc2UgbWF5IGJlIGBudWxsYCBpZiB0aGUgdXNlY2FzZSBpcyBub3Qgc2V0LCBpLmUuIGZvciB0aGUgd2hpdGVsYWJlbCBicmFuZC5cblx0JGJhc2UtY29sb3I6IG9Db2xvcnNCeVVzZWNhc2UobGluaywgdGV4dCwgJGZhbGxiYWNrOiBudWxsKTtcblx0JGhvdmVyLWNvbG9yOiBvQ29sb3JzQnlVc2VjYXNlKGxpbmstaG92ZXIsIHRleHQsICRmYWxsYmFjazogbnVsbCk7XG5cdCRjb250ZXh0LWNvbG9yOiBvQ29sb3JzQnlVc2VjYXNlKHBhZ2UsIGJhY2tncm91bmQpO1xuXHQkdW5kZXJsaW5lLXNpemU6IDAuMjVleDsgLy8gMnB4IGZvciAxOHB4IE1ldHJpY1dlYlxuXG5cdC8vIElmIGEgY3VzdG9tIHRoZW1lIGlzIGdpdmVuIGNoZWNrIGl0IGlzIGEgbWFwIHdpdGggdGhlIHJlcXVpcmVkIGtleXMuXG5cdC8vIEFuZCB1cGRhdGUgdGhlIGxpbmsgY29sb3Vycy5cblx0JHJlcXVpcmVkLXRoZW1lLWtleXM6ICgnYmFzZScsICdob3ZlcicpO1xuXHRAaWYoJHRoZW1lIGFuZCB0eXBlLW9mKCR0aGVtZSkgIT0gJ21hcCcpIHtcblx0XHRAZXJyb3IgJ1RoZSBsaW5rICR0aGVtZSBhcmd1bWVudCBtdXN0IGBudWxsYCBvciBhIG1hcC4gJyArXG5cdFx0XHQnRm91bmQ6IFwiI3tpbnNwZWN0KCR0aGVtZSl9XCInO1xuXHR9XG5cdEBpZih0eXBlLW9mKCR0aGVtZSkgPT0gJ21hcCcpIHtcblx0XHQvLyBHZXQgY3VzdG9tIGJhc2UgY29sb3VyLlxuXHRcdCR0aGVtZS1iYXNlOiBtYXAtZ2V0KCR0aGVtZSwgJ2Jhc2UnKTtcblx0XHQkYmFzZS1jb2xvcjogaWYodHlwZS1vZigkdGhlbWUtYmFzZSkgPT0gJ3N0cmluZycsIG9Db2xvcnNCeU5hbWUoJHRoZW1lLWJhc2UpLCAkdGhlbWUtYmFzZSk7XG5cdFx0Ly8gR2V0IGN1c3RvbSBob3ZlciBjb2xvdXIuXG5cdFx0JHRoZW1lLWhvdmVyOiBtYXAtZ2V0KCR0aGVtZSwgJ2hvdmVyJyk7XG5cdFx0JGhvdmVyLWNvbG9yOiBpZih0eXBlLW9mKCR0aGVtZS1ob3ZlcikgPT0gJ3N0cmluZycsIG9Db2xvcnNCeU5hbWUoJHRoZW1lLWhvdmVyKSwgJHRoZW1lLWhvdmVyKTtcblx0XHQvLyBHZXQgb3B0aW9uYWwgY29udGV4dCBjb2xvdXIuXG5cdFx0JHRoZW1lLWNvbnRleHQ6IG1hcC1nZXQoJHRoZW1lLCAnY29udGV4dCcpO1xuXHRcdEBpZiAkdGhlbWUtY29udGV4dCB7XG5cdFx0XHQkY29udGV4dC1jb2xvcjogaWYodHlwZS1vZigkdGhlbWUtY29udGV4dCkgPT0gJ3N0cmluZycsIG9Db2xvcnNCeU5hbWUoJHRoZW1lLWNvbnRleHQpLCAkdGhlbWUtY29udGV4dCk7XG5cdFx0fVxuXHRcdC8vIFZhbGlkYXRlIGNvbG91cnMgZ2l2ZW4uXG5cdFx0QGlmKHR5cGUtb2YoJGJhc2UtY29sb3IpICE9ICdjb2xvcicpIHtcblx0XHRcdEBlcnJvciAnQSBjdXN0b20gbGluayB0aGVtZSBtdXN0IGhhdmUgYSBgYmFzZWAgcHJvcGVydHkgd2l0aCBhIGNvbG91ciBvciBwYWxldHRlIGNvbG91ciBuYW1lIGUuZy4gYGNsYXJldGAuIEJ1dCBmb3VuZCAjeyR0aGVtZS1iYXNlfS4nO1xuXHRcdH1cblx0XHRAaWYodHlwZS1vZigkaG92ZXItY29sb3IpICE9ICdjb2xvcicpIHtcblx0XHRcdEBlcnJvciAnQSBjdXN0b20gbGluayB0aGVtZSBtdXN0IGhhdmUgYSBgaG92ZXJgIHByb3BlcnR5IHdpdGggYSBjb2xvciBvciBwYWxldHRlIGNvbG91ciBuYW1lIGUuZy4gYGNsYXJldGAuIEJ1dCBmb3VuZCAjeyR0aGVtZS1ob3Zlcn0uJztcblx0XHR9XG5cdFx0QGlmKCR0aGVtZS1jb250ZXh0IGFuZCB0eXBlLW9mKCRjb250ZXh0LWNvbG9yKSAhPSAnY29sb3InKSB7XG5cdFx0XHRAZXJyb3IgJ0EgY3VzdG9tIGxpbmsgdGhlbWUgbWF5IG9wdGlvbmFsbHkgaGF2ZSBhIGBjb250ZXh0YCBwcm9wZXJ0eSB3aXRoIGEgY29sb3Igb3IgcGFsZXR0ZSBjb2xvdXIgbmFtZSwgdG8gaW5kaWNhdGUgdGhlIGNvbG91ciBvZiB0aGUgcGFnZSBiZWhpbmQgdGhlIGxpbmssIGUuZy4gYG51bGxgIG9yIGBwYXBlcmAuIEJ1dCBmb3VuZCAjeyR0aGVtZS1jb250ZXh0fS4nO1xuXHRcdH1cblx0fVxuXG5cdEBpZiAoJGV4dGVybmFsKSB7XG5cdFx0QHdhcm4gJ1RoZSAkZXh0ZXJuYWwgcGFyYW1ldGVyIGZvciBvVHlwb2dyYXBoeUxpbmsgaXMgZGVwcmVjYXRlZC4gJyArXG5cdFx0XHQnUmVtb3ZlIHRoZSAkZXh0ZXJuYWwgYXJndW1lbnQgZnJvbSB0aGUgb1R5cG9ncmFwaHlMaW5rIGluY2x1ZGUuICcgK1xuXHRcdFx0J0R1cmluZyBhbiBhY2Nlc3NpYmlsaXR5IGF1ZGl0IHdlIGZvdW5kIHRoYXQgdGhlIGljb24gd2FzIGNhdXNpbmcgY29uZnVzaW9uICcgK1xuXHRcdFx0J2FzIHNvbWUgdXNlcnMgdW5kZXJzdG9vZCB0aGUgaWNvbiB0byBtZWFuIHRoZSBsaW5rIHdpbGwgb3BlbiBpbiBhIG5ldyB3aW5kb3cuICcgK1xuXHRcdFx0J0FmdGVyIGRpc2N1c3Npbmcgd2l0aCB0aGUgRGVzaWduIHRlYW0gYW5kIGxvb2tpbmcgaW50byB3aGF0IHdlYnNpdGVzIHN1Y2ggYXMgZ292LnVrIGRvLCAnICtcblx0XHRcdCd3ZSBkZWNpZGVkIHRvIHJlbW92ZSB0aGUgaWNvbiBmb3IgZXh0ZXJuYWwgbGlua3MuJztcblx0fVxuXG5cdCZbdGFyZ2V0PVwiX2JsYW5rXCJdOmFmdGVyIHtcblx0XHRAaW5jbHVkZSBvTm9ybWFsaXNlVmlzdWFsbHlIaWRkZW4oKTtcblx0XHRjb250ZW50OiAnKG9wZW5zIGEgbmV3IHdpbmRvdyknO1xuXHR9XG5cblx0Ly8gT3V0cHV0IGJhc2Ugc3R5bGVzIHNoYXJlZCBieSBhbGwgbGlua3MuXG5cdEBpZigkaW5jbHVkZS1iYXNlLXN0eWxlcykge1xuXHRcdHRleHQtZGVjb3JhdGlvbjogbm9uZTtcblx0XHRjdXJzb3I6IHBvaW50ZXI7XG5cdFx0Ym9yZGVyLWJvdHRvbTogJHVuZGVybGluZS1zaXplIHNvbGlkO1xuXG5cdFx0QHN1cHBvcnRzICh0ZXh0LWRlY29yYXRpb24tdGhpY2tuZXNzOiAkdW5kZXJsaW5lLXNpemUpIHtcblx0XHRcdGJvcmRlci1ib3R0b206IDA7XG5cdFx0XHR0ZXh0LWRlY29yYXRpb24tdGhpY2tuZXNzOiAkdW5kZXJsaW5lLXNpemU7IC8vc2Fzcy1saW50OmRpc2FibGUtbGluZSBuby1taXNzcGVsbGVkLXByb3BlcnRpZXNcblx0XHRcdHRleHQtZGVjb3JhdGlvbi1saW5lOiB1bmRlcmxpbmU7XG5cdFx0fVxuXHR9XG5cblx0Ly8gT3V0cHV0IGJhc2Ugc3R5bGVzIHNoYXJlZCBieSBhbGwgbGlua3MsIG9yXG5cdC8vIHJlcXVpcmVkIGZvciBhIGN1c3RvbSBsaW5rIHRoZW1lLlxuXHRAaWYoJGluY2x1ZGUtYmFzZS1zdHlsZXMgb3IgJHRoZW1lKSB7XG5cdFx0Y29sb3I6ICRiYXNlLWNvbG9yO1xuXHRcdCRkZWNvcmF0aW9uLWNvbG9yOiBpZigkYmFzZS1jb2xvciwgb0NvbG9yc01peCgkYmFzZS1jb2xvciwgJGNvbnRleHQtY29sb3IsICRwZXJjZW50YWdlOiAyMCksIG51bGwpO1xuXHRcdGJvcmRlci1ib3R0b20tY29sb3I6ICRkZWNvcmF0aW9uLWNvbG9yO1xuXHRcdHRleHQtZGVjb3JhdGlvbi1jb2xvcjogJGRlY29yYXRpb24tY29sb3I7XG5cdH1cblxuXHQmOmhvdmVyIHtcblx0XHRAaWYoJGluY2x1ZGUtYmFzZS1zdHlsZXMgb3IgJHRoZW1lKSB7XG5cdFx0XHRjb2xvcjogJGhvdmVyLWNvbG9yO1xuXHRcdFx0JGRlY29yYXRpb24tY29sb3I6IGlmKCRiYXNlLWNvbG9yLCBvQ29sb3JzTWl4KCRiYXNlLWNvbG9yLCAkY29udGV4dC1jb2xvciwgJHBlcmNlbnRhZ2U6IDQwKSwgbnVsbCk7XG5cdFx0XHRib3JkZXItYm90dG9tLWNvbG9yOiAkZGVjb3JhdGlvbi1jb2xvcjtcblx0XHRcdHRleHQtZGVjb3JhdGlvbi1jb2xvcjogJGRlY29yYXRpb24tY29sb3I7XG5cdFx0fVxuXHR9XG5cblx0Ly8gby1ub3JtYWxpc2UgcHJvdmlkZXMgZXh0cmEgZm9jdXMgc3R5bGVzIGZvciBsaW5rc1xuXHQmOmZvY3VzIHtcblx0XHRAaWYoJGluY2x1ZGUtYmFzZS1zdHlsZXMpIHtcblx0XHRcdCRkZWNvcmF0aW9uLWNvbG9yOiB0cmFuc3BhcmVudDtcblx0XHRcdGJvcmRlci1ib3R0b20tY29sb3I6ICRkZWNvcmF0aW9uLWNvbG9yO1xuXHRcdFx0dGV4dC1kZWNvcmF0aW9uLWNvbG9yOiAkZGVjb3JhdGlvbi1jb2xvcjtcblx0XHR9XG5cdFx0QGlmKCRpbmNsdWRlLWJhc2Utc3R5bGVzIG9yICR0aGVtZSkge1xuXHRcdFx0Y29sb3I6ICRob3Zlci1jb2xvcjtcblx0XHR9XG5cdH1cbn1cblxuLy8vIE91dHB1dCBzdHlsZXMgZm9yIGxpc3RzLlxuLy8vIFN0eWxlcyBjaGlsZCBgbGlgIGVsZW1lbnRzLiBBcHBseSB0byBhXG4vLy8gY29udGFpbmluZyBsaXN0IGVsZW1lbnQgc3VjaCBhcyBgdWxgIG9yIGBvbGAuXG4vLy8gRG9lcyBub3Qgb3V0cHV0IGZvbnQgc3R5bGVzLCB0aGVzZSBhcmVcbi8vLyBpbmhlcml0ZWQgKEBzZWUgb1R5cG9ncmFwaHlCb2R5KS5cbi8vL1xuLy8vIEBleGFtcGxlIE91dHB1dCB0aGUgc3R5bGVzIGZvciBhbiB1bm9yZGVyZWQgbGlzdC5cbi8vLyAgICAgLm15LXVub3JkZXJlZC1saXN0IHtcbi8vLyAgICAgXHRAaW5jbHVkZSBvVHlwb2dyYXBoeUxpc3QoJ3Vub3JkZXJlZCcpO1xuLy8vICAgICB9XG4vLy9cbi8vLyBAZXhhbXBsZSBPdXRwdXQgdGhlIHN0eWxlcyBmb3IgYW4gb3JkZXJlZCBhbmQgdW5vcmRlcmVkIGxpc3QsIHNoYXJpbmcgYmFzZSBsaXN0IHN0eWxlcy5cbi8vLyAgICAgLm15LWxpc3Qge1xuLy8vICAgICBcdEBpbmNsdWRlIG9UeXBvZ3JhcGh5TGlzdCgpO1xuLy8vICAgICB9XG4vLy9cbi8vLyAgICAgLm15LWxpc3QtLW9yZGVyZWQge1xuLy8vICAgICBcdEBpbmNsdWRlIG9UeXBvZ3JhcGh5TGlzdCgnb3JkZXJlZCcsICRpbmNsdWRlLWJhc2Utc3R5bGVzOiBmYWxzZSk7XG4vLy8gICAgIH1cbi8vL1xuLy8vICAgICAubXktbGlzdC0tdW5vcmRlcmVkIHtcbi8vLyAgICAgXHRAaW5jbHVkZSBvVHlwb2dyYXBoeUxpc3QoJ3Vub3JkZXJlZCcsICRpbmNsdWRlLWJhc2Utc3R5bGVzOiBmYWxzZSk7XG4vLy8gICAgIH1cbi8vL1xuLy8vIEBwYXJhbSB7U3RyaW5nfE51bGx9ICR0eXBlIFtudWxsXSAtIFwib3JkZXJlZFwiLCBcInVub3JkZXJlZFwiLCBvciBudWxsIGZvciBqdXN0IHRoZSBiYXNlIHN0eWxlcyBzaGFyZWQgYnkgYWxsIGxpc3RzXG4vLy8gQHBhcmFtIHtCb29sZWFufSAkaW5jbHVkZS1iYXNlLXN0eWxlcyBbdHJ1ZV0gLSBzZXQgdG8gZmFsc2UgdG8gZXhjbHVkZSBiYXNlIHN0eWxlcyB3aGljaCBhcmUgc2hhcmVkIGJ5IGFsbCBsaXN0IHR5cGVzXG5AbWl4aW4gb1R5cG9ncmFwaHlMaXN0KCR0eXBlOiBudWxsLCAkaW5jbHVkZS1iYXNlLXN0eWxlczogdHJ1ZSkge1xuXHQvLyBVbmRvIGJyb3dzZXIgZGVmYXVsdHMuXG5cdEBpZigkaW5jbHVkZS1iYXNlLXN0eWxlcykge1xuXHRcdG1hcmdpbjogMCAwIG9TcGFjaW5nQnlOYW1lKCdzNicpO1xuXHRcdHBhZGRpbmc6IDA7XG5cdFx0bGlzdC1zdHlsZTogbm9uZTtcblx0fVxuXHQvLyBSZXNldCBudW1iZXIgY291bnRlciBmb3IgbmV3IG9yZGVyZWQgbGlzdC5cblx0QGlmKCR0eXBlID09ICdvcmRlcmVkJykge1xuXHRcdGNvdW50ZXItcmVzZXQ6IGl0ZW07XG5cdH1cblx0PiBsaSB7XG5cdFx0QGlmKCRpbmNsdWRlLWJhc2Utc3R5bGVzKSB7XG5cdFx0XHRwb3NpdGlvbjogcmVsYXRpdmU7XG5cdFx0XHQvLyBVbmRvIGJyb3dzZXIgZGVmYXVsdC5cblx0XHRcdG1hcmdpbjogMDtcblx0XHRcdC8vIEFsbG93IHNwYWNlIGZvciAyLTMgbnVtYmVycyBmb3IgYm90aCBvcmRlcmVkIGFuZCB1bm9yZGVyZWQgbGlzdHMsXG5cdFx0XHQvLyBzbyBjb250ZW50IGFsaWducyBiZXR3ZWVuIGJvdGggbGlzdCB0eXBlcy5cblx0XHRcdHBhZGRpbmctbGVmdDogY2FsYygyY2ggKyAje29TcGFjaW5nQnlOYW1lKCdzMScpfSk7XG5cdFx0fVxuXHRcdCY6YmVmb3JlIHtcblx0XHRcdEBpZigkaW5jbHVkZS1iYXNlLXN0eWxlcykge1xuXHRcdFx0XHRAaW5jbHVkZSBvVHlwb2dyYXBoeVNhbnMoKTtcblx0XHRcdFx0ZGlzcGxheTogaW5saW5lLWJsb2NrO1xuXHRcdFx0XHRwb3NpdGlvbjogYWJzb2x1dGU7XG5cdFx0XHRcdGxlZnQ6IDA7XG5cdFx0XHRcdHRyYW5zZm9ybS1vcmlnaW46IGNlbnRlciBsZWZ0O1xuXHRcdFx0fVxuXG5cdFx0XHRAaWYoJHR5cGUgPT0gJ3Vub3JkZXJlZCcpIHtcblx0XHRcdFx0Y29udGVudDogJ1xcMjAyMic7IC8vIGRvdCBjaGFyYWN0ZXJcblx0XHRcdFx0Y29sb3I6IGluaGVyaXQ7XG5cdFx0XHRcdC8vIDI4cHggbWFya2VyIGdpdmVuIGEgcGFyZW50IGZvbnQtc2l6ZSBvZiAxOHB4XG5cdFx0XHRcdHRyYW5zZm9ybTogc2NhbGUoI3tkaXYoMjgsIDE4KX0pO1xuXHRcdFx0XHQvLyBtYWdpYyBudW1iZXIgdG8gY2VudGVyIG1hcmtlclxuXHRcdFx0XHRtYXJnaW4tdG9wOiAje2RpdigyOCwgMTgpICogLTAuMTZjaH07XG5cdFx0XHR9XG5cblx0XHRcdEBpZigkdHlwZSA9PSAnb3JkZXJlZCcpIHtcblx0XHRcdFx0QGluY2x1ZGUgb1R5cG9ncmFwaHlTYW5zKCR3ZWlnaHQ6ICdzZW1pYm9sZCcsICRpbmNsdWRlLWZvbnQtZmFtaWx5OiBmYWxzZSk7XG5cdFx0XHRcdGNvbnRlbnQ6IGNvdW50ZXIoaXRlbSk7XG5cdFx0XHRcdGNvdW50ZXItaW5jcmVtZW50OiBpdGVtO1xuXHRcdFx0XHRmb250LWZlYXR1cmUtc2V0dGluZ3M6IFwidG51bVwiO1xuXHRcdFx0XHQvLyAxNnB4IG1hcmtlciBnaXZlbiBhIHBhcmVudCBmb250LXNpemUgb2YgMThweFxuXHRcdFx0XHR0cmFuc2Zvcm06IHNjYWxlKCN7ZGl2KDE2LCAxOCl9KTtcblx0XHRcdFx0Ly8gbWFnaWMgbnVtYmVyIHRvIG1ha2UgbWFya2VyIGZsdXNoIHRvIHRoZSBsZWZ0XG5cdFx0XHRcdG1hcmdpbi1sZWZ0OiAje2RpdigxNiwgMTgpICogLTAuMTZjaH07XG5cdFx0XHR9XG5cdFx0fVxuXHR9XG59XG5cbi8vLyBTdHlsZSBmb3IgPGZvb3Rlcj4gdGFnc1xuQG1peGluIG9UeXBvZ3JhcGh5Rm9vdGVyIHtcblx0QGluY2x1ZGUgb1R5cG9ncmFwaHlTYW5zKCRzY2FsZTogMSwgJGxpbmUtaGVpZ2h0OiAyNHB4KTtcblx0Y29sb3I6IG9Db2xvcnNCeVVzZWNhc2UoJ2JvZHknLCAndGV4dCcsICRmYWxsYmFjazogbnVsbCk7XG59XG5cbi8vLyBTdHlsZXMgZm9yIHBob3RvIG9yIHZpZGVvIGNyZWRpdC9jYXB0aW9uXG5AbWl4aW4gb1R5cG9ncmFwaHlDYXB0aW9uIHtcblx0QGluY2x1ZGUgb1R5cG9ncmFwaHlTYW5zKCRzY2FsZTogLTEpO1xuXHRtYXJnaW4tdG9wOiBvU3BhY2luZ0J5TmFtZSgnczInKTtcblx0bWFyZ2luLWJvdHRvbTogMDtcblx0Y29sb3I6IG9Db2xvcnNCeVVzZWNhc2UoJ2JvZHknLCAndGV4dCcsICRmYWxsYmFjazogbnVsbCk7XG59XG4iXSwic291cmNlUm9vdCI6IiJ9 */</style><script defer="" src="https://z.moatads.com/financialtimesprebidheader859796398452/moatheader.js" id="n-ads-moat"></script></head><body class="o-ads-no-mpu o-ads-no-mpu1 o-ads-no-mpu3 o-ads-no-mpu4 o-ads-no-third-mpu"><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NWQJW68" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><div class="n-layout"><a data-trackable="a11y-skip-to-help" class="n-layout__skip-link" href="https://www.ft.com/accessibility">Accessibility help</a><a data-trackable="a11y-skip-to-navigation" class="n-layout__skip-link" href="#site-navigation">Skip to navigation</a><a data-trackable="a11y-skip-to-content" class="n-layout__skip-link" href="#site-content">Skip to content</a><a data-trackable="a11y-skip-to-footer" class="n-layout__skip-link" href="#site-footer">Skip to footer</a><div class="n-layout__row n-layout__row--header"><div class="n-layout__header-before"><div id="n-exponea-bottom-slot"></div><div><div class="n-messaging-slot" data-n-messaging-slot="bottom" data-n-messaging-name="cookieConsentC" data-trackable="onsite-message-cookieConsentC" data-n-messaging-tooltip="">
-			<div data-o-component="o-cookie-message" class="o-cookie-message o-cookie-message--active" role="dialog" aria-labelledby="cookie-banner-aria-label" aria-describedby="cookie-banner-aria-description">
-				<div class="o-cookie-message__outer">
-					<div class="o-cookie-message__inner">
-
-						<div class="o-cookie-message__content">
-							<div class="o-cookie-message__heading">
-								<h2 id="cookie-banner-aria-label">Cookies on FT Sites</h2>
-							</div>
-							<p id="cookie-banner-aria-description">
-								We use
-								<a href="http://help.ft.com/help/legal-privacy/cookies/" class="o-cookie-message__link o-cookie-message__link--external" target="_blank" rel="noopener" data-n-messaging-policy="">cookies</a>
-								and other data for a number of reasons, such as keeping FT Sites reliable and secure,
+                    img.src = 'https://spoor-api.ft.com/px.gif?data=' + encodeURIComponent(data)
+                }
+            }
+            )()
+        </script>
+        <script>
+            (function(w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({
+                    'gtm.start': new Date().getTime(),
+                    event: 'gtm.js'
+                });
+                var f = d.getElementsByTagName(s)[0]
+                  , j = d.createElement(s)
+                  , dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                f.parentNode.insertBefore(j, f);
+            }
+            )(window, document, 'script', 'dataLayer', 'GTM-NWQJW68');
+        </script>
+        <script>
+            (function loadCustomFonts() {
+                var rootElement = document.documentElement;
+                if (/(^|\s)o-typography-fonts-loaded=1(;|$)/.test(document.cookie)) {
+                    var fontLabels = ['sans', 'sans-bold', 'display', 'display-bold'];
+                    for (var i = 0; i < fontLabels.length; i++) {
+                        rootElement.className = rootElement.className.replace('o-typography--loading-' + fontLabels[i], '');
+                    }
+                }
+            }());
+        </script>
+    </head>
+    <body>
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NWQJW68" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <div class="n-layout">
+            <a data-trackable="a11y-skip-to-help" class="n-layout__skip-link" href="https://www.ft.com/accessibility">Accessibility help</a>
+            <a data-trackable="a11y-skip-to-navigation" class="n-layout__skip-link" href="#site-navigation">Skip to navigation</a>
+            <a data-trackable="a11y-skip-to-content" class="n-layout__skip-link" href="#site-content">Skip to content</a>
+            <a data-trackable="a11y-skip-to-footer" class="n-layout__skip-link" href="#site-footer">Skip to footer</a>
+            <div class="n-layout__row n-layout__row--header">
+                <div class="n-layout__header-before">
+                    <div id="n-exponea-bottom-slot"></div>
+                    <div>
+                        <div class="n-messaging-slot" data-n-messaging-slot="bottom" data-n-messaging-name="cookieConsentC" data-trackable="onsite-message-cookieConsentC" data-n-messaging-tooltip="">
+                            <div data-o-component="o-cookie-message" class="o-cookie-message " role="dialog" aria-labelledby="cookie-banner-aria-label" aria-describedby="cookie-banner-aria-description">
+                                <div class="o-cookie-message__outer" data-nosnippet>
+                                    <div class="o-cookie-message__inner">
+                                        <div class="o-cookie-message__content">
+                                            <div class="o-cookie-message__heading">
+                                                <h2 id="cookie-banner-aria-label">Cookies on FT Sites</h2>
+                                            </div>
+                                            <p id="cookie-banner-aria-description">
+                                                We use
+								<a href="https://help.ft.com/help/legal-privacy/cookies/" class="o-cookie-message__link o-cookie-message__link--external" target="_blank" rel="noopener" data-n-messaging-policy>cookies</a>
+                                                and other data for a number of reasons, such as keeping FT Sites reliable and secure,
 								personalising content and ads, providing social media features and to
 								analyse how our Sites are used.
-							</p>
-						</div>
-
-						<div class="o-cookie-message__actions">
-							<div class="o-cookie-message__action">
-								<a data-n-messaging-accept-cookies="" href="https://consent.ft.com/__consent/consent-record-cookie?redirect=https://www.ft.com" class="o-cookie-message__button">
-									Accept cookies
+							
+                                            </p>
+                                        </div>
+                                        <div class="o-cookie-message__actions">
+                                            <div class="o-cookie-message__action">
+                                                <a data-n-messaging-accept-cookies href="https://consent.ft.com/__consent/consent-record-cookie?redirect=https://www.ft.com" class="o-cookie-message__button">Accept cookies
 								</a>
-							</div>
-							<div class="o-cookie-message__action o-cookie-message__action--secondary">
-								<a data-n-messaging-manage-cookies="" href="https://www.ft.com/preferences/manage-cookies?redirect=https%3A%2F%2Fwww.ft.com%2Fcontent%2Fa8c1c3df-d8f7-4f3d-af9c-00af0d587880" class="o-cookie-message__link">
-									Manage cookies
+                                            </div>
+                                            <div class="o-cookie-message__action o-cookie-message__action--secondary">
+                                                <a data-n-messaging-manage-cookies href="/preferences/manage-cookies" class="o-cookie-message__link">Manage cookies
 								</a>
-							</div>
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</div></div><div class="o-ads o-ads--center o-ads--background o-ads--transition o-ads--reserve-90 above-header-advert" data-o-ads-init="true" data-o-ads-name="leaderboard" data-o-ads-targeting="pos=top" data-o-ads-formats="MediumRectangle" data-o-ads-formats-medium="Leaderboard,Responsive,OneByOne" data-o-ads-formats-large="SuperLeaderboard,Leaderboard,Responsive,OneByOne" data-o-ads-formats-extra="Billboard,SuperLeaderboard,Leaderboard,Responsive,OneByOne"><div class="o-ads__outer"><div class="o-ads__inner" id="leaderboard-gpt"></div></div></div></div><header id="site-navigation" class="o-header o-header--simple" data-o-component="o-header" tabindex="-1" data-o-header--js=""><div class="o-header__row o-header__anon" data-trackable="header-anon"><ul class="o-header__anon-list"><li class="o-header__anon-item"><a class="o-header__anon-link" href="/login?location=/content/a8c1c3df-d8f7-4f3d-af9c-00af0d587880" data-trackable="Sign In">Sign In</a></li><li class="o-header__anon-item"><a class="o-header__anon-link" href="/products?segmentId=f860e6c2-18af-ab30-cd5e-6e3a456f9265" data-trackable="Subscribe">Subscribe</a></li></ul></div><div class="o-header__row o-header__top" data-trackable="header-top"><div class="o-header__container"><div class="o-header__top-wrapper"><div class="o-header__top-column o-header__top-column--left"><a href="#o-header-drawer" class="o-header__top-icon-link o-header__top-icon-link--menu" aria-controls="o-header-drawer" title="Open side navigation menu" data-trackable="drawer-toggle" role="button" draggable="false" data-o-toggle--js="true" aria-expanded="false"><span class="o-header__top-link-label">Open side navigation menu</span></a><a href="#o-header-search-primary" class="o-header__top-icon-link o-header__top-icon-link--search" aria-controls="o-header-search-primary" title="Open search bar" data-trackable="search-toggle" role="button" draggable="false" data-o-toggle--js="true" aria-expanded="false"><span class="o-header__top-link-label">Open search bar</span></a></div><div class="o-header__top-column o-header__top-column--center"><a class="o-header__top-logo" style="background-image:none" data-trackable="logo" href="/" title="Go to Financial Times homepage"><svg viewBox="0 0 1054 86"><title>Financial Times</title><path d="M26.177 72.609c0 5.938 1.697 7.295 12.554 7.295v3.732H.9v-3.732c7.464 0 10.01-.679 10.01-7.125V12.215c0-6.447-2.546-7.126-10.01-7.126V1.357h63.448l.34 22.563h-3.054C59.937 6.956 55.696 5.43 39.919 5.43H26.008v33.59h11.196c10.688 0 11.367-1.697 12.215-10.179h3.054v24.599h-3.054c-.848-8.482-1.527-10.01-12.215-10.01H26.008v29.18h.17zm46.314 11.027v-3.732c7.465 0 10.01-.679 10.01-7.125V12.215c0-6.447-2.545-7.126-10.01-7.126V1.357h35.287V5.09c-7.465 0-10.01.679-10.01 7.126v60.564c0 6.446 2.545 7.125 10.01 7.125v3.732H72.49zm115.36 1.357l-56.323-69.725V72.44c0 6.617 4.58 7.634 12.385 7.634v3.733h-29.858v-3.733c7.803 0 12.045-1.017 12.045-7.634V8.991c-3.563-3.732-6.108-3.902-12.045-3.902V1.357h26.465l43.09 55.475V12.554c0-6.616-4.58-7.634-12.384-7.634V1.357h30.027V5.09c-7.803 0-12.045 1.018-12.045 7.635v72.27h-1.357zm40.207-1.357h-29.689v-3.732c7.804 0 11.367-1.018 13.911-7.804L239.085.509h7.464l28.84 72.1c2.545 6.447 3.732 7.125 9.67 7.125v3.732h-34.438v-3.732c10.518 0 11.536-.848 8.99-7.125l-8.481-21.884h-25.787L217.71 71.93c-2.375 6.447 1.357 7.804 10.518 7.804v3.902h-.17zm-1.188-37.153h22.393l-11.705-29.518-10.688 29.518zm135.548 38.51l-56.153-69.725V72.44c0 6.617 4.58 7.634 12.384 7.634v3.733h-29.18v-3.733c7.126 0 11.367-1.017 11.367-7.634V9.161c-4.071-3.732-7.125-4.072-13.91-4.072V1.357h28.16l43.09 55.475V12.554c0-6.616-4.58-7.634-12.383-7.634V1.357h29.858V5.09c-7.804 0-12.045 1.018-12.045 7.635v72.27h-1.188zm83.297-83.805h2.036l1.187 24.598-3.053.17c-2.036-14.08-9.5-21.545-23.242-21.545-15.268 0-26.804 13.063-26.804 33.081 0 25.617 16.116 40.206 33.08 40.206 7.296 0 13.912-2.035 20.358-8.99l2.376 2.374c-5.26 7.465-15.608 13.742-29.52 13.742-20.696 0-41.732-15.608-41.732-41.734C380.4 17.813 399.57 0 422.813 0c11.027 0 16.795 4.75 19.848 4.75 1.357 0 2.375-1.187 3.054-3.562zm12.723 82.448v-3.732c7.465 0 10.01-.679 10.01-7.125V12.215c0-6.447-2.545-7.126-10.01-7.126V1.357h35.287V5.09c-7.464 0-10.01.679-10.01 7.126v60.564c0 6.446 2.546 7.125 10.01 7.125v3.732h-35.287zm68.538 0h-27.653v-3.732c6.108 0 9.331-1.018 11.876-7.804L538.003.509h7.464l28.84 72.1c2.545 6.447 3.733 7.125 9.67 7.125v3.732H549.54v-3.732c10.518 0 11.536-.848 8.991-7.125l-8.482-21.884h-25.786l-7.635 21.205c-2.375 6.447 1.358 7.804 10.519 7.804v3.902h-.17zm-1.188-37.153h22.394l-11.536-29.518-10.858 29.518zm63.957 37.153v-3.732c7.465 0 10.01-.679 10.01-7.125V12.215c0-6.447-2.545-7.126-10.01-7.126V1.357h35.117V5.09c-7.464 0-9.84.679-9.84 7.126v61.073c0 5.428 2.715 6.107 7.126 6.107h4.241c15.947 0 21.036-2.375 25.447-20.527l3.054.339-2.545 24.26h-62.6v.17zM760.75 1.357l.339 23.92h-3.054C756.34 7.634 752.098 5.43 736.32 5.43h-5.089v67.18c0 6.447 2.375 7.295 12.554 7.295v3.732h-40.376v-3.732c10.179 0 12.723-1.018 12.723-7.295V5.429h-5.089c-15.777 0-20.018 2.205-21.715 19.848h-3.053l.339-23.92h74.136zm7.973 82.28v-3.733c7.465 0 10.01-.679 10.01-7.125V12.215c0-6.447-2.545-7.126-10.01-7.126V1.357h35.287V5.09c-7.465 0-10.01.679-10.01 7.126v60.564c0 6.446 2.545 7.125 10.01 7.125v3.732h-35.287zM910.21 1.356V5.09c-7.465 0-10.688.34-10.01 6.956l6.447 61.073c.679 6.277 3.054 6.955 10.518 6.955v3.733h-35.117v-3.733c7.295 0 9.84-.678 9.331-6.955L884.762 8.99l-25.956 76.172h-1.018L832.34 8.822l-6.108 64.126c-.678 6.447 3.733 7.125 11.197 7.125v3.733h-27.483v-3.733c7.465 0 10.01-1.187 10.518-7.125l6.447-61.073c.679-6.446-2.545-6.955-10.01-6.955V1.357h28.84l17.305 56.153 18.661-56.153h28.5zm65.653 52.082h-3.053c-.849-8.482-1.527-10.01-12.215-10.01H948.04v29.859c0 5.428 2.715 6.107 7.125 6.107h6.786c15.947 0 21.036-2.375 25.447-20.527l3.054.339-2.884 24.26h-64.805v-3.733c7.464 0 10.009-.678 10.009-7.125V12.215c0-6.447-2.545-7.126-10.01-7.126V1.357h62.261l.34 20.527h-3.054c-1.866-14.59-5.598-16.286-21.885-16.286H948.21v33.42h12.554c10.687 0 11.366-1.696 12.214-10.178h3.054v24.599h-.17zm65.484 13.232c0-7.464-4.75-11.196-12.893-15.777l-13.063-6.786c-9.84-5.259-15.607-11.027-15.607-21.375C999.783 9.84 1010.81 0 1025.23 0c9.84 0 14.929 4.75 17.813 4.75 1.866 0 2.714-1.187 3.562-3.562h2.375l1.188 23.072-3.054.17c-1.696-11.198-9.67-19.85-20.866-19.85-8.483 0-14.081 5.09-14.081 12.215 0 7.804 5.937 11.027 12.554 14.59l11.196 5.937c10.519 5.768 17.983 11.536 17.983 22.563 0 14.59-12.554 24.939-28.161 24.939-11.028 0-16.456-5.26-19.34-5.26-1.866 0-2.884 1.697-3.732 4.242h-2.376l-1.696-24.43 3.054-.339c2.375 15.268 12.893 21.545 23.411 21.545 8.822-.17 16.286-4.071 16.286-13.91z" fill="#231F20" fill-rule="evenodd"></path></svg></a></div><div class="o-header__top-column o-header__top-column--right"><a class="o-header__top-button o-header__top-button--hide-m" role="button" href="/products?segmentId=f860e6c2-18af-ab30-cd5e-6e3a456f9265" data-trackable="Subscribe">Subscribe</a><a class="o-header__top-link o-header__top-link--hide-m" href="/login?location=/content/a8c1c3df-d8f7-4f3d-af9c-00af0d587880" data-trackable="Sign In">Sign In</a><a class="o-header__top-icon-link o-header__top-icon-link--myft o-header__top-icon-link--show-m" id="o-header-top-link-myft" href="/myft" data-trackable="my-ft" data-tour-stage="myFt" aria-label="My F T"><span class="o-header__visually-hidden">myFT</span></a></div></div></div></div><div id="o-header-search-primary" class="o-header__row o-header__search o-header__search--primary" data-trackable="header-search" data-o-header-search="true" aria-hidden="true"><div class="o-header__container"><form class="o-header__search-form" action="/search" role="search" aria-label="Site search" data-n-topic-search="true" data-n-topic-search-categories="concepts,equities" data-n-topic-search-view-all="true"><label class="o-header__visually-hidden" for="o-header-search-term-primary">Search the <abbr title="Financial Times">FT</abbr></label><input type="text" class="o-header__search-term" id="o-header-search-term-primary" name="q" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" data-trackable="search-term" placeholder="Search the FT" data-n-topic-search-input="true"><div><div>
-			<div aria-live="assertive">
-
-				<div class="n-topic-search n-topic-search__suggestions" hidden="" data-trackable="typeahead">
-					<div class="o-normalise-visually-hidden">Suggestions include</div>
-					<div class="n-topic-search__group undefined" data-trackable="news"><div class="n-topic-search__heading">News</div></div><div class="n-topic-search__group undefined" data-trackable="equities"><div class="n-topic-search__heading">Securities</div><ul class="n-topic-search__item-list">
-
-				<li class="n-topic-search__item">
-					<a class="n-topic-search__target n-topic-search__target--tail" href="https://markets.ft.com/data/search?query=undefined" data-trackable="see-all" "="" tabindex="0"><span>See all quotes matching <mark>undefined</mark></span></a>
-				</li>
-			</ul></div>
-				</div>
-			</div>
-			</div></div><button class="o-header__search-submit" type="submit" data-trackable="search-submit">Search</button><button class="o-header__search-close o--if-js" type="button" aria-controls="o-header-search-primary" title="Close search bar" data-trackable="close" data-o-toggle--js="true" aria-expanded="false"><span class="o-header__visually-hidden">Close search bar</span></button></form></div></div><nav id="o-header-nav-desktop" class="o-header__row o-header__nav o-header__nav--desktop" role="navigation" aria-label="Primary navigation" data-trackable="header-nav:desktop"><div class="o-header__container"><ul class="o-header__nav-list o-header__nav-list--left" data-trackable="primary-nav"><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="/" id="o-header-link-0" data-trackable="Home">Home</a></li><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="/world" id="o-header-link-1" data-trackable="World">World</a><div class="o-header__mega" id="o-header-mega-1" role="group" aria-labelledby="o-header-link-1" data-o-header-mega="true" data-trackable="meganav | World" aria-hidden="true" aria-expanded="false"><div class="o-header__container"><div class="o-header__mega-wrapper"><div class="o-header__mega-column o-header__mega-column--subsections" data-trackable="sections"><div class="o-header__mega-heading">Sections</div><div class="o-header__mega-content"><ul class="o-header__mega-list"><li class="o-header__mega-item"><a class="o-header__mega-link" href="/world" data-trackable="link">World Home</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/global-economy" data-trackable="link">Global Economy</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/world-uk" data-trackable="link">UK</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/us" data-trackable="link">US</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/china" data-trackable="link">China</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/africa" data-trackable="link">Africa</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/asia-pacific" data-trackable="link">Asia Pacific</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/emerging-markets" data-trackable="link">Emerging Markets</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/europe" data-trackable="link">Europe</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/war-in-ukraine" data-trackable="link">War in Ukraine</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/americas" data-trackable="link">Americas</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/middle-east-north-africa" data-trackable="link">Middle East &amp; North Africa</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/australia-new-zealand" data-trackable="link">Australia &amp; NZ</a></li></ul></div></div><div class="o-header__mega-column o-header__mega-column--articles" data-trackable="popular"><div class="o-header__mega-heading">Most Read</div><div class="o-header__mega-content"><ul class="o-header__mega-list"><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/4e1a51ac-3996-43ab-b70a-483f1b4764a2" data-trackable="link">War crimes court issues arrest warrant for Vladimir Putin</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/4be5f777-9a3a-4b00-837a-91077d0f4e5b" data-trackable="link">Slovakia joins Poland in sending Soviet-era jets to Ukraine</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/b76b258a-19f9-4b37-9ea1-d7f1d79ceb00" data-trackable="link">Macron’s risky move on pensions: a gambit too far?</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/76e578d5-2983-4194-ad60-cb5a47ac6921" data-trackable="link">Xi Jinping to visit Vladimir Putin in Russia next week</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/0e6be021-6471-4b30-ba72-33fc9fa6ccd5" data-trackable="link">Turkey drops opposition to Finland’s bid to join Nato</a></li></ul></div></div></div></div></div></li><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="/world-uk" id="o-header-link-2" data-trackable="UK">UK</a><div class="o-header__mega" id="o-header-mega-2" role="group" aria-labelledby="o-header-link-2" data-o-header-mega="true" data-trackable="meganav | UK" aria-hidden="true" aria-expanded="false"><div class="o-header__container"><div class="o-header__mega-wrapper"><div class="o-header__mega-column o-header__mega-column--subsections" data-trackable="sections"><div class="o-header__mega-heading">Sections</div><div class="o-header__mega-content"><ul class="o-header__mega-list"><li class="o-header__mega-item"><a class="o-header__mega-link" href="/world-uk" data-trackable="link">UK Home</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/uk-business-economy" data-trackable="link">UK Business &amp; Economy</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/uk-politics-policy" data-trackable="link">UK Politics &amp; Policy</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/brexit" data-trackable="link">Brexit</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/uk-companies" data-trackable="link">UK Companies</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/personal-finance" data-trackable="link">Personal Finance</a></li></ul></div></div><div class="o-header__mega-column o-header__mega-column--articles" data-trackable="popular"><div class="o-header__mega-heading">Most Read</div><div class="o-header__mega-content"><ul class="o-header__mega-list"><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/b74c0444-d654-458b-ab3c-99b9fee3d523" data-trackable="link">Half-century-old divorce law on asset splitting set for review</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/5359c4c8-8084-413e-aca4-bdaf0e681579" data-trackable="link">Tory MPs accuse Downing Street of ‘playing fast and loose’ over Brexit deal vote</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/f053a1df-5fd2-4446-9153-cd2339e8ec8d" data-trackable="link">Labour accused of exaggerating tax benefits of Jeremy Hunt’s pension reform</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/85971473-d76a-48fb-ab03-efcad0829044" data-trackable="link">Stagnant UK living standards lay bare the challenge for Jeremy Hunt</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/ee5abf4a-b8a9-4c59-b687-bc9141218f9d" data-trackable="link">UK energy bill support scheme extended to June</a></li></ul></div></div></div></div></div></li><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="/companies" id="o-header-link-3" data-trackable="Companies">Companies</a><div class="o-header__mega" id="o-header-mega-3" role="group" aria-labelledby="o-header-link-3" data-o-header-mega="true" data-trackable="meganav | Companies" aria-hidden="true" aria-expanded="false"><div class="o-header__container"><div class="o-header__mega-wrapper"><div class="o-header__mega-column o-header__mega-column--subsections" data-trackable="sections"><div class="o-header__mega-heading">Sections</div><div class="o-header__mega-content"><ul class="o-header__mega-list"><li class="o-header__mega-item"><a class="o-header__mega-link" href="/companies" data-trackable="link">Companies Home</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/energy" data-trackable="link">Energy</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/financials" data-trackable="link">Financials</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/health" data-trackable="link">Health</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/industrials" data-trackable="link">Industrials</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/media" data-trackable="link">Media</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/professional-services" data-trackable="link">Professional Services</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/retail-consumer" data-trackable="link">Retail &amp; Consumer</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/technology-sector" data-trackable="link">Tech Sector</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/telecoms" data-trackable="link">Telecoms</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/transport" data-trackable="link">Transport</a></li></ul></div></div><div class="o-header__mega-column o-header__mega-column--articles" data-trackable="popular"><div class="o-header__mega-heading">Most Read</div><div class="o-header__mega-content"><ul class="o-header__mega-list"><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/17892f24-4ca0-417f-9093-289b019a0852" data-trackable="link">UBS in talks to acquire Credit Suisse</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/6319e205-d688-4521-b048-8d69a2c40847" data-trackable="link">BlackRock explored rival Credit Suisse takeover bid</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/608cd08d-97f9-486d-84f5-b01d57ec3471" data-trackable="link">Global banks shed $459bn in market rout as Goldman Sachs loses on rate swing</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/0d2977d1-70d0-4a55-9ecb-f649d871b66d" data-trackable="link">First Republic shares close down 33% despite $30bn lifeline</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/69c3295e-6f45-4b5f-8e7b-3b8d56ca46c8" data-trackable="link">Pornhub owner sold to Canadian private equity firm Ethical Capital</a></li></ul></div></div></div></div></div></li><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="/technology" id="o-header-link-4" data-trackable="Tech">Tech</a></li><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="/markets" id="o-header-link-5" data-trackable="Markets">Markets</a><div class="o-header__mega" id="o-header-mega-5" role="group" aria-labelledby="o-header-link-5" data-o-header-mega="true" data-trackable="meganav | Markets" aria-hidden="true" aria-expanded="false"><div class="o-header__container"><div class="o-header__mega-wrapper"><div class="o-header__mega-column o-header__mega-column--subsections" data-trackable="sections"><div class="o-header__mega-heading">Sections</div><div class="o-header__mega-content"><ul class="o-header__mega-list"><li class="o-header__mega-item"><a class="o-header__mega-link" href="/markets" data-trackable="link">Markets Home</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/alphaville" data-trackable="link">Alphaville</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="https://markets.ft.com/data" data-trackable="link">Markets Data</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/cryptofinance" data-trackable="link">Cryptofinance</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/capital-markets" data-trackable="link">Capital Markets</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/commodities" data-trackable="link">Commodities</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/currencies" data-trackable="link">Currencies</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/equities" data-trackable="link">Equities</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/fund-management" data-trackable="link">Fund Management</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/ft-trading-room" data-trackable="link">Trading</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/moral-money" data-trackable="link">Moral Money</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="https://etf.ft.com" data-trackable="link">ETF Hub</a></li></ul></div></div><div class="o-header__mega-column o-header__mega-column--articles" data-trackable="popular"><div class="o-header__mega-heading">Most Read</div><div class="o-header__mega-content"><ul class="o-header__mega-list"><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/b579e2b1-0b9c-49ec-ba28-6834a20b690d" data-trackable="link">Are banks on the edge of another 2008-style precipice?</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/a8c4d8d5-7c81-4c54-a90a-9f3f60d1bdd2" data-trackable="link">LME finds bags of stones instead of nickel in metal warehouse</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/c7694354-dbc9-445a-b7bd-cc8fb18f6ca0" data-trackable="link">Rokos and Goldman Sachs hit in bond market upheaval </a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/e34e00d2-e6f5-408d-90c8-bb6f7e06741f" data-trackable="link">Live news updates from March 17: ICC issues arrest warrant for Putin, Goldman loses $200mn in market upheaval</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/0d2977d1-70d0-4a55-9ecb-f649d871b66d" data-trackable="link">First Republic shares close down 33% despite $30bn lifeline</a></li></ul></div></div></div></div></div></li><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="/climate-capital" id="o-header-link-6" data-trackable="Climate">Climate</a></li><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="/opinion" id="o-header-link-7" data-trackable="Opinion">Opinion</a><div class="o-header__mega" id="o-header-mega-7" role="group" aria-labelledby="o-header-link-7" data-o-header-mega="true" data-trackable="meganav | Opinion" aria-hidden="true" aria-expanded="false"><div class="o-header__container"><div class="o-header__mega-wrapper"><div class="o-header__mega-column o-header__mega-column--subsections" data-trackable="sections"><div class="o-header__mega-heading">Sections</div><div class="o-header__mega-content"><ul class="o-header__mega-list"><li class="o-header__mega-item"><a class="o-header__mega-link" href="/opinion" data-trackable="link">Opinion Home</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/columnists" data-trackable="link">Columnists</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/ft-view" data-trackable="link">The FT View</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/lex" data-trackable="link">Lex</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/obituaries" data-trackable="link">Obituaries</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/letters" data-trackable="link">Letters</a></li></ul></div></div><div class="o-header__mega-column o-header__mega-column--articles" data-trackable="popular"><div class="o-header__mega-heading">Most Read</div><div class="o-header__mega-content"><ul class="o-header__mega-list"><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/b579e2b1-0b9c-49ec-ba28-6834a20b690d" data-trackable="link">Are banks on the edge of another 2008-style precipice?</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/d7d31da9-c35e-4fca-b4c6-6ca11ad73bfd" data-trackable="link">#GoWokeGoBroke: really?</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/5cda12a6-5296-4bd9-ad6a-28f3b564ea0e" data-trackable="link">Time to cut banker pay once and for all</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/dca3f034-bfe8-4f21-bcdc-2b274053f0b5" data-trackable="link">The Anglosphere needs to learn to love apartment living</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/fa7055ed-c325-481a-ac0b-470d40539396" data-trackable="link">The tumult in Treasuries: are hedge funds partly to blame?</a></li></ul></div></div></div></div></div></li><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="/work-careers" id="o-header-link-8" data-trackable="Work &amp; Careers">Work &amp; Careers</a><div class="o-header__mega" id="o-header-mega-8" role="group" aria-labelledby="o-header-link-8" data-o-header-mega="true" data-trackable="meganav | Work &amp; Careers" aria-hidden="true" aria-expanded="false"><div class="o-header__container"><div class="o-header__mega-wrapper"><div class="o-header__mega-column o-header__mega-column--subsections" data-trackable="sections"><div class="o-header__mega-heading">Sections</div><div class="o-header__mega-content"><ul class="o-header__mega-list"><li class="o-header__mega-item"><a class="o-header__mega-link" href="/work-careers" data-trackable="link">Work &amp; Careers Home</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="https://rankings.ft.com/" data-trackable="link">Business School Rankings</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/business-education" data-trackable="link">Business Education</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/entrepreneurship" data-trackable="link">Entrepreneurship</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/recruitment" data-trackable="link">Recruitment</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/business-books" data-trackable="link">Business Books</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/business-travel" data-trackable="link">Business Travel</a></li></ul></div></div><div class="o-header__mega-column o-header__mega-column--articles" data-trackable="popular"><div class="o-header__mega-heading">Most Read</div><div class="o-header__mega-content"><ul class="o-header__mega-list"><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/a618be1a-486c-4f57-9b03-97550be34527" data-trackable="link">Football’s first female super-agent Rafaela Pimenta on dealmaking and discrimination</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/8fddf145-2936-4395-a1b9-86c6fda37a05" data-trackable="link">Patrick Vieira on making the switch to management: ‘It’s much easier to play football’ </a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/63a0ba72-e052-4279-922a-402105eacd4d" data-trackable="link">Social media content moderators lead charge for better rights</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/8fbad76c-6705-43d8-b57e-292ee3563539" data-trackable="link">Paris mayor Anne Hidalgo: ‘A city’s creativity doesn’t depend on cars. That’s the 20th&nbsp;century’</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/6753e33b-ad7b-4ce0-b7ce-f9e7d8457645" data-trackable="link">Why insurance markets are a game of cat and mouse</a></li></ul></div></div></div></div></div></li><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="/life-arts" id="o-header-link-9" data-trackable="Life &amp; Arts">Life &amp; Arts</a><div class="o-header__mega" id="o-header-mega-9" role="group" aria-labelledby="o-header-link-9" data-o-header-mega="true" data-trackable="meganav | Life &amp; Arts" aria-hidden="true" aria-expanded="false"><div class="o-header__container"><div class="o-header__mega-wrapper"><div class="o-header__mega-column o-header__mega-column--subsections" data-trackable="sections"><div class="o-header__mega-heading">Sections</div><div class="o-header__mega-content"><ul class="o-header__mega-list"><li class="o-header__mega-item"><a class="o-header__mega-link" href="/life-arts" data-trackable="link">Life &amp; Arts Home</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/arts" data-trackable="link">Arts</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/books" data-trackable="link">Books</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/food-drink" data-trackable="link">Food &amp; Drink</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/magazine" data-trackable="link">FT Magazine</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/house-home" data-trackable="link">House &amp; Home</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/style" data-trackable="link">Style</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/travel" data-trackable="link">Travel</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/globetrotter" data-trackable="link">FT Globetrotter</a></li></ul></div></div><div class="o-header__mega-column o-header__mega-column--articles" data-trackable="popular"><div class="o-header__mega-heading">Most Read</div><div class="o-header__mega-content"><ul class="o-header__mega-list"><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/cd91db6f-e9d6-45dc-b92f-404dc8f2724e" data-trackable="link">Michael Heseltine: ‘The adults are back in charge’ </a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/eda1216f-d91d-4044-8d9b-5b71ffab272e" data-trackable="link">When Hong Kong stood still</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/b51fb31e-add8-4492-9792-50873d59f8df" data-trackable="link">Why the higher paid should work longer than the rest</a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/4228c0df-4928-4639-a8b0-a22387f48ab2" data-trackable="link">How Putin’s war destroyed a golden age of Russian culture </a></li><li class="o-header__mega-item"><a class="o-header__mega-link" href="/content/f805ab73-7b66-4606-9ccb-9b8750f65f58" data-trackable="link">Lake Tahoe’s housing market takes a cool dip </a></li></ul></div></div></div></div></div></li><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="/htsi" id="o-header-link-10" data-trackable="HTSI">HTSI</a></li></ul></div></nav></header><header class="o-header o-header--simple o-header--sticky o--if-js" data-o-component="o-header" data-o-header--sticky="true" aria-hidden="true" data-o-header--js=""><div class="o-header__row o-header__top" data-trackable="header-sticky"><div class="o-header__container"><div class="o-header__top-wrapper"><div class="o-header__top-column o-header__top-column--left"><a href="#" class="o-header__top-icon-link o-header__top-icon-link--menu" aria-controls="o-header-drawer" data-trackable="drawer-toggle" tabindex="-1" role="button" draggable="false" data-o-toggle--js="true" aria-expanded="false"><span class="o-header__top-link-label">Menu</span></a><a href="#" class="o-header__top-icon-link o-header__top-icon-link--search" aria-controls="o-header-search-sticky" data-trackable="search-toggle" tabindex="-1" role="button" draggable="false" data-o-toggle--js="true" aria-expanded="false"><span class="o-header__top-link-label">Search</span></a></div><div class="o-header__top-column o-header__top-column--center"><div class="o-header__top-takeover"><div class="o-header__nav"><ul class="o-header__nav-list o-header__nav-list--left" data-trackable="primary-nav"><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="/" data-trackable="Home" tabindex="-1">Home</a></li><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="/world" data-trackable="World" tabindex="-1">World</a></li><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="/world-uk" data-trackable="UK" tabindex="-1">UK</a></li><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="/companies" data-trackable="Companies" tabindex="-1">Companies</a></li><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="/technology" data-trackable="Tech" tabindex="-1">Tech</a></li><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="/markets" data-trackable="Markets" tabindex="-1">Markets</a></li><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="/climate-capital" data-trackable="Climate" tabindex="-1">Climate</a></li><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="/opinion" data-trackable="Opinion" tabindex="-1">Opinion</a></li><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="/work-careers" data-trackable="Work &amp; Careers" tabindex="-1">Work &amp; Careers</a></li><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="/life-arts" data-trackable="Life &amp; Arts" tabindex="-1">Life &amp; Arts</a></li><li class="o-header__nav-item"><a class="o-header__nav-link o-header__nav-link--primary" href="/htsi" data-trackable="HTSI" tabindex="-1">HTSI</a></li></ul></div></div><a class="o-header__top-logo o-header__hide--L" data-trackable="logo" href="/" title="Go to Financial Times homepage" tabindex="-1"><span class="o-header__visually-hidden">Financial Times</span></a></div><div class="o-header__top-column o-header__top-column--right"><div class="o-header__nav"><div class="o-header__top-column o-header__top-column--right"><a class="o-header__top-button o-header__top-button--hide-m" role="button" href="/products?segmentId=f860e6c2-18af-ab30-cd5e-6e3a456f9265" data-trackable="Subscribe" tabindex="-1">Subscribe</a><a class="o-header__top-link " href="/login?location=/content/a8c1c3df-d8f7-4f3d-af9c-00af0d587880" data-trackable="Sign In" tabindex="-1">Sign In</a></div></div></div></div></div></div><div id="o-header-search-sticky" class="o-header__row o-header__search o-header__search--sticky" data-trackable="header-search" data-o-header-search="true" aria-hidden="true"><div class="o-header__container"><form class="o-header__search-form" action="/search" role="search" aria-label="Site search" data-n-topic-search="true" data-n-topic-search-categories="concepts,equities" data-n-topic-search-view-all="true"><label class="o-header__visually-hidden" for="o-header-search-term-sticky">Search the <abbr title="Financial Times">FT</abbr></label><input type="text" class="o-header__search-term" id="o-header-search-term-sticky" name="q" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" data-trackable="search-term" placeholder="Search the FT" data-n-topic-search-input="true"><div><div>
-			<div aria-live="assertive">
-
-				<div class="n-topic-search n-topic-search__suggestions" hidden="" data-trackable="typeahead">
-					<div class="o-normalise-visually-hidden">Suggestions include</div>
-					<div class="n-topic-search__group undefined" data-trackable="news"><div class="n-topic-search__heading">News</div></div><div class="n-topic-search__group undefined" data-trackable="equities"><div class="n-topic-search__heading">Securities</div><ul class="n-topic-search__item-list">
-
-				<li class="n-topic-search__item">
-					<a class="n-topic-search__target n-topic-search__target--tail" href="https://markets.ft.com/data/search?query=undefined" data-trackable="see-all" "="" tabindex="0"><span>See all quotes matching <mark>undefined</mark></span></a>
-				</li>
-			</ul></div>
-				</div>
-			</div>
-			</div></div><button class="o-header__search-submit" type="submit" data-trackable="search-submit">Search</button><button class="o-header__search-close o--if-js" type="button" aria-controls="o-header-search-sticky" title="Close search bar" data-trackable="close" data-o-toggle--js="true" aria-expanded="false"><span class="o-header__visually-hidden">Close search bar</span></button></form></div></div></header></div><div class="n-layout__row n-layout__row--content"><div><div data-reactroot=""><div id="n-exponea-top-slot"><html><head></head><body><div data-o-component="o-message" class="
-		o-message
-		n-messaging-client-alert-banner
-		n-exponea
-		o-message--alert
-		o-message--exponea-digital-marketing-new-world
-	">
-	<div class="o-message__container">
-		<div class="o-message__content">
-
-				<p class="o-message__content-main o-message__cell">
-
-						<span class="o-message__content-highlight">Make sense of it all.</span>
-
-
-						<span class="o-message__content-detail">Become an FT subscriber</span>
-
-				</p>
-
-
-
-				<div class="o-message__actions o-message__cell">
-
-					<a href="https://subs.ft.com/ts_2022?segmentID=1c4f72f5-e044-db9d-60e7-a15685429b4f" messaging_action="Subscribe" class="o-message__actions__primary" role="button"> Try the FT for £1 </a>
-
-
-				</div>
-
-		</div>
-	</div>
-</div></body></html></div><div></div><div class="article-content"><div class="article-topper"><div class="o-topper article-topper o-topper--color-paper o-topper--basic"><div class="o-topper__content" id="o-topper"><div class="o-topper__tags"><div class="topper__primary-theme"><span><a href="/us-treasury-bonds" class="o-topper__topic n-content-tag--with-follow js-primary-theme" data-trackable="primary-theme" aria-label="posted in category US Treasury bonds" data-concept-id="2f9f69ff-9874-4529-adf9-3b9641b51c9b">US Treasury bonds</a><span><form class="n-myft-ui n-myft-ui--follow " method="POST" data-myft-ui="follow" data-concept-id="2f9f69ff-9874-4529-adf9-3b9641b51c9b" action="/__myft/api/core/followed/concept/2f9f69ff-9874-4529-adf9-3b9641b51c9b?method=put">
-		<input data-myft-csrf-token="" value="" type="hidden" name="token">
-		<div class="n-myft-ui__announcement o-normalise-visually-hidden" aria-live="assertive" data-pressed-text="Now following US Treasury bonds." data-unpressed-text="No longer following US Treasury bonds."></div>
-		<button aria-pressed="false" aria-label="Add to myFT: US Treasury bonds" title="Add US Treasury bonds to myFT" data-alternate-label="Added US Treasury bonds to myFT: click to remove" data-alternate-text="Added" class="
-				n-myft-follow-button n-myft-follow-button--standard" data-concept-id="2f9f69ff-9874-4529-adf9-3b9641b51c9b" data-trackable="follow" type="submit">Add to myFT</button>
-	</form></span></span></div></div><h1 class="o-topper__headline"><span class="article-classifier__gap">US Treasuries’ rollercoaster ride strains bond market functioning </span></h1><div class="o-topper__standfirst">Daily trading volumes more than doubled as failure of SVB sparked headlong dash to safety of government debt</div></div><div class="o-topper__background"></div></div></div><article id="site-content" role="main" class="article article-grid  article-grid--no-full-width-graphics" data-content-id="a8c1c3df-d8f7-4f3d-af9c-00af0d587880" data-syndicatable="yes" data-access-level="subscribed" data-article-type="no-full-width-graphics"><div class="main-image"><figure class="n-content-image n-content-image--full" style="width: 700px; max-width: 100%;">
-				<img src="https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fdba0e6ef-4f5d-4963-a9f7-644e9eb568db.jpg?fit=scale-down&amp;source=next&amp;width=700" data-id="https://api.ft.com/content/dba0e6ef-4f5d-4963-a9f7-644e9eb568db" data-image-type="image" data-original-image-width="2289" data-original-image-height="1288" alt="The US Treasury building in Washington" srcset="https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fdba0e6ef-4f5d-4963-a9f7-644e9eb568db.jpg?fit=scale-down&amp;source=next&amp;width=700 700w, https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fdba0e6ef-4f5d-4963-a9f7-644e9eb568db.jpg?fit=scale-down&amp;source=next&amp;width=500 500w, https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fdba0e6ef-4f5d-4963-a9f7-644e9eb568db.jpg?fit=scale-down&amp;source=next&amp;width=300 300w" sizes="(min-width: 76.25em) 700px, (min-width: 61.25em) 620px, (min-width: 46.25em) 700px, calc(100vw - 20px)">
-
-			<figcaption class="n-content-image__caption">
-				The US Treasury building in Washington. The current turmoil underlines that frenzied volatility is the new normal in the Treasury market © Al Drago/Bloomberg
-			</figcaption>
-
-			</figure></div><div class="share-nav" data-trackable="share | top"><div class="share-nav__vertical" data-share-nav-vertical="true"><div data-o-component="o-share" data-o-share-article="true" class="o-share o-share--vertical " data-o-share--js=""><ul data-toolbar="share"><li class="o-share__action share-nav__twitter-action" data-share="twitter"><a class="o-share__icon o-share__icon--twitter" rel="noopener" href="https://twitter.com/intent/tweet?url=https://www.ft.com/content/a8c1c3df-d8f7-4f3d-af9c-00af0d587880&amp;text=US%20Treasuries%E2%80%99%20rollercoaster%20ride%20strains%20bond%20market%20functioning%20" data-trackable="twitter"><div class="o-share__icon__image"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024"><path d="M417 720c193.2 0 298.9-160.1 298.9-298.9 0-4.5 0-9.1-.3-13.6 20.6-14.9 38.3-33.3 52.4-54.4-19.2 8.5-39.5 14.1-60.3 16.5 21.9-13.1 38.3-33.8 46.2-58.1-20.6 12.2-43.2 20.9-66.7 25.5-39.8-42.3-106.3-44.3-148.6-4.6-27.3 25.7-38.9 63.9-30.4 100.4-84.5-4.2-163.2-44.1-216.5-109.8-27.9 48-13.6 109.4 32.5 140.2-16.7-.5-33.1-5-47.7-13.1v1.3c0 50 35.3 93.1 84.3 103-15.5 4.2-31.7 4.8-47.4 1.8 13.8 42.8 53.2 72.1 98.1 72.9-37.2 29.2-83.1 45.1-130.5 45.1-8.4 0-16.7-.5-25-1.5 48 31 103.9 47.3 161 47.3"></path></svg></div><span class="o-share__text">US Treasuries’ rollercoaster ride strains bond market functioning <!-- --> on <!-- -->twitter<!-- --> (opens in a new window)</span></a></li><li class="o-share__action share-nav__facebook-action" data-share="facebook"><a class="o-share__icon o-share__icon--facebook" rel="noopener" href="https://www.facebook.com/sharer.php?u=https://www.ft.com/content/a8c1c3df-d8f7-4f3d-af9c-00af0d587880&amp;t=US%20Treasuries%E2%80%99%20rollercoaster%20ride%20strains%20bond%20market%20functioning%20" data-trackable="facebook"><div class="o-share__icon__image"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024"><path d="M643.9 342h-48.2c-37.8 0-45.1 18-45.1 44.3v58.1h90.1l-11.7 91h-78.4V769h-94V535.5H378v-91h78.6v-67.1c0-77.9 47.6-120.3 117.1-120.3 33.3 0 61.9 2.5 70.2 3.6V342z"></path></svg></div><span class="o-share__text">US Treasuries’ rollercoaster ride strains bond market functioning <!-- --> on <!-- -->facebook<!-- --> (opens in a new window)</span></a></li><li class="o-share__action share-nav__linkedin-action" data-share="linkedin"><a class="o-share__icon o-share__icon--linkedin" rel="noopener" href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.ft.com/content/a8c1c3df-d8f7-4f3d-af9c-00af0d587880" data-trackable="linkedin"><div class="o-share__icon__image"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024"><path d="M264.4 426.2h106.2v341.4H264.4V426.2zm53.2-169.7c-34.1 0-61.6 27.6-61.6 61.5 0 34 27.5 61.5 61.6 61.5 33.9 0 61.5-27.6 61.5-61.5-.1-34-27.6-61.5-61.5-61.5zm323.1 161.2c-51.6 0-86.2 28.3-100.4 55.1h-1.5v-46.7H437.2v341.4h106V598.7c0-44.5 8.4-87.7 63.6-87.7 54.5 0 55.1 50.9 55.1 90.5v166H768V580.3c0-91.9-19.9-162.6-127.3-162.6z"></path></svg></div><span class="o-share__text">US Treasuries’ rollercoaster ride strains bond market functioning <!-- --> on <!-- -->linkedin<!-- --> (opens in a new window)</span></a></li><li class="o-share__action share-nav__whatsapp-action" data-share="whatsapp"><a class="o-share__icon o-share__icon--whatsapp" rel="noopener" href="whatsapp://send?text=US%20Treasuries%E2%80%99%20rollercoaster%20ride%20strains%20bond%20market%20functioning%20%20-%20https://www.ft.com/content/a8c1c3df-d8f7-4f3d-af9c-00af0d587880" data-trackable="whatsapp"><div class="o-share__icon__image"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024"><path d="M756.7 436.8c-35.6-122-152.2-196.3-279.3-178.1-116 16.7-208.2 121.5-210.6 238.6-.9 45.5 9.5 87.9 30.4 128.2 2.6 4.9 3.1 12.2 1.6 17.6-4.1 15.4-9.8 30.5-14.9 45.7L257.6 768c44.5-14.2 86.2-27.4 127.8-41.1 7.3-2.4 13.1-1.8 19.9 1.5 48.9 23.9 100.3 31.5 154.2 22.4 145.1-24.5 238.3-172.8 197.2-314zM542.2 710.9c-47.6 5.4-91.8-3.7-132.7-28.3-5.4-3.2-9.9-3.8-15.8-1.8-20.2 6.8-40.7 13.2-61 19.7-2.4.8-4.9 1.2-9.5 2.4 5.3-16.1 8.6-31.2 15.1-44.8 9.4-20.1 6.5-35.8-4.3-55.9-57.4-106-12.8-237.4 99.5-287 124.7-55.1 269.7 24.4 288.6 159.4 17.9 129.1-77.2 224.6-179.9 236.3zm98.3-144.6c2.9 1.7 5.2 7.7 4.9 11.6-1.8 27.4-19.7 46.3-47.1 50.4-4.6.7-9.3.9-14 1.4l-.3 1c-8.8-1.9-17.7-3.3-26.2-5.9-57.5-17.8-101.9-53-134.8-103.2-13.6-20.8-27.2-41.4-30.4-66.8-3.1-24.2 4.6-44.7 21.1-62.3 10.4-11 23.3-10.4 36.3-7.7 2.9.6 6.1 4.2 7.4 7.2 6.9 16.7 13.7 33.4 19.4 50.5 1.5 4.7-.5 10.8-2 16-.8 3-3.6 5.5-5.7 8.1-14.9 18.3-14.7 18.2-1.7 37.8 17.8 26.9 41.5 46.8 70.2 61.2 9 4.5 15.7 3.7 21.9-4.2 5.2-6.5 11.1-12.5 16.5-18.9 4-4.8 8.6-6 14.2-3.1 16.8 8.9 33.9 17.4 50.3 26.9"></path></svg></div><span class="o-share__text">US Treasuries’ rollercoaster ride strains bond market functioning <!-- --> on <!-- -->whatsapp<!-- --> (opens in a new window)</span></a></li><li class="o-share__action share-nav__save-action"><div><form class="n-myft-ui n-myft-ui--save" method="POST" data-content-id="a8c1c3df-d8f7-4f3d-af9c-00af0d587880" data-myft-ui="saved" action="/__myft/api/core/saved/content/a8c1c3df-d8f7-4f3d-af9c-00af0d587880?method=put" data-myft-ui-save-new="manageArticleLists" data-myft-ui-save-new-config="">
-	<input data-myft-csrf-token="" value="" type="hidden" name="token">
-	<div class="n-myft-ui__announcement o-normalise-visually-hidden" aria-live="assertive" data-pressed-text="Article saved in My FT." data-unpressed-text="Removed article from My FT."></div>
-	<button type="submit" class="n-myft-ui__save-button-with-icon" data-trackable="save-for-later" title="Save this article to myFT for later" aria-label="Save this article to myFT for later" data-alternate-label=" Saved to myFT" aria-pressed="false" data-text-variant="save-button-with-icon-copy" data-alternate-text="Saved&nbsp;" data-content-id="a8c1c3df-d8f7-4f3d-af9c-00af0d587880">
-				<span class="save-button-with-icon-copy" data-variant-label="">Save</span>
-		</button>
-	</form></div></li></ul></div><div class="progress-indicator__container" aria-live="polite"><div class="progress-indicator progress-indicator--no-progress"><div class="progress-indicator__slice" style="transform: rotate(0deg);"><div class="progress-indicator__bar" style="transform: rotate(0deg);"></div></div><div class="progress-indicator__slice"><div class="progress-indicator__bar" style="transform: rotate(0deg);"></div></div><div class="progress-indicator__overlay"></div><div class="o-normalise-visually-hidden">current progress 0%</div></div></div></div><div class="share-nav__horizontal" data-share-nav-vertical="false"><div data-o-component="o-share" data-o-share-article="true" class="o-share o-share--horizontal " data-o-share--js=""><ul data-toolbar="share"><li class="o-share__action share-nav__twitter-action" data-share="twitter"><a class="o-share__icon o-share__icon--twitter" rel="noopener" href="https://twitter.com/intent/tweet?url=https://www.ft.com/content/a8c1c3df-d8f7-4f3d-af9c-00af0d587880&amp;text=US%20Treasuries%E2%80%99%20rollercoaster%20ride%20strains%20bond%20market%20functioning%20" data-trackable="twitter"><div class="o-share__icon__image"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024"><path d="M417 720c193.2 0 298.9-160.1 298.9-298.9 0-4.5 0-9.1-.3-13.6 20.6-14.9 38.3-33.3 52.4-54.4-19.2 8.5-39.5 14.1-60.3 16.5 21.9-13.1 38.3-33.8 46.2-58.1-20.6 12.2-43.2 20.9-66.7 25.5-39.8-42.3-106.3-44.3-148.6-4.6-27.3 25.7-38.9 63.9-30.4 100.4-84.5-4.2-163.2-44.1-216.5-109.8-27.9 48-13.6 109.4 32.5 140.2-16.7-.5-33.1-5-47.7-13.1v1.3c0 50 35.3 93.1 84.3 103-15.5 4.2-31.7 4.8-47.4 1.8 13.8 42.8 53.2 72.1 98.1 72.9-37.2 29.2-83.1 45.1-130.5 45.1-8.4 0-16.7-.5-25-1.5 48 31 103.9 47.3 161 47.3"></path></svg></div><span class="o-share__text">US Treasuries’ rollercoaster ride strains bond market functioning <!-- --> on <!-- -->twitter<!-- --> (opens in a new window)</span></a></li><li class="o-share__action share-nav__facebook-action" data-share="facebook"><a class="o-share__icon o-share__icon--facebook" rel="noopener" href="https://www.facebook.com/sharer.php?u=https://www.ft.com/content/a8c1c3df-d8f7-4f3d-af9c-00af0d587880&amp;t=US%20Treasuries%E2%80%99%20rollercoaster%20ride%20strains%20bond%20market%20functioning%20" data-trackable="facebook"><div class="o-share__icon__image"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024"><path d="M643.9 342h-48.2c-37.8 0-45.1 18-45.1 44.3v58.1h90.1l-11.7 91h-78.4V769h-94V535.5H378v-91h78.6v-67.1c0-77.9 47.6-120.3 117.1-120.3 33.3 0 61.9 2.5 70.2 3.6V342z"></path></svg></div><span class="o-share__text">US Treasuries’ rollercoaster ride strains bond market functioning <!-- --> on <!-- -->facebook<!-- --> (opens in a new window)</span></a></li><li class="o-share__action share-nav__linkedin-action" data-share="linkedin"><a class="o-share__icon o-share__icon--linkedin" rel="noopener" href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.ft.com/content/a8c1c3df-d8f7-4f3d-af9c-00af0d587880" data-trackable="linkedin"><div class="o-share__icon__image"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024"><path d="M264.4 426.2h106.2v341.4H264.4V426.2zm53.2-169.7c-34.1 0-61.6 27.6-61.6 61.5 0 34 27.5 61.5 61.6 61.5 33.9 0 61.5-27.6 61.5-61.5-.1-34-27.6-61.5-61.5-61.5zm323.1 161.2c-51.6 0-86.2 28.3-100.4 55.1h-1.5v-46.7H437.2v341.4h106V598.7c0-44.5 8.4-87.7 63.6-87.7 54.5 0 55.1 50.9 55.1 90.5v166H768V580.3c0-91.9-19.9-162.6-127.3-162.6z"></path></svg></div><span class="o-share__text">US Treasuries’ rollercoaster ride strains bond market functioning <!-- --> on <!-- -->linkedin<!-- --> (opens in a new window)</span></a></li><li class="o-share__action share-nav__whatsapp-action" data-share="whatsapp"><a class="o-share__icon o-share__icon--whatsapp" rel="noopener" href="whatsapp://send?text=US%20Treasuries%E2%80%99%20rollercoaster%20ride%20strains%20bond%20market%20functioning%20%20-%20https://www.ft.com/content/a8c1c3df-d8f7-4f3d-af9c-00af0d587880" data-trackable="whatsapp"><div class="o-share__icon__image"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024"><path d="M756.7 436.8c-35.6-122-152.2-196.3-279.3-178.1-116 16.7-208.2 121.5-210.6 238.6-.9 45.5 9.5 87.9 30.4 128.2 2.6 4.9 3.1 12.2 1.6 17.6-4.1 15.4-9.8 30.5-14.9 45.7L257.6 768c44.5-14.2 86.2-27.4 127.8-41.1 7.3-2.4 13.1-1.8 19.9 1.5 48.9 23.9 100.3 31.5 154.2 22.4 145.1-24.5 238.3-172.8 197.2-314zM542.2 710.9c-47.6 5.4-91.8-3.7-132.7-28.3-5.4-3.2-9.9-3.8-15.8-1.8-20.2 6.8-40.7 13.2-61 19.7-2.4.8-4.9 1.2-9.5 2.4 5.3-16.1 8.6-31.2 15.1-44.8 9.4-20.1 6.5-35.8-4.3-55.9-57.4-106-12.8-237.4 99.5-287 124.7-55.1 269.7 24.4 288.6 159.4 17.9 129.1-77.2 224.6-179.9 236.3zm98.3-144.6c2.9 1.7 5.2 7.7 4.9 11.6-1.8 27.4-19.7 46.3-47.1 50.4-4.6.7-9.3.9-14 1.4l-.3 1c-8.8-1.9-17.7-3.3-26.2-5.9-57.5-17.8-101.9-53-134.8-103.2-13.6-20.8-27.2-41.4-30.4-66.8-3.1-24.2 4.6-44.7 21.1-62.3 10.4-11 23.3-10.4 36.3-7.7 2.9.6 6.1 4.2 7.4 7.2 6.9 16.7 13.7 33.4 19.4 50.5 1.5 4.7-.5 10.8-2 16-.8 3-3.6 5.5-5.7 8.1-14.9 18.3-14.7 18.2-1.7 37.8 17.8 26.9 41.5 46.8 70.2 61.2 9 4.5 15.7 3.7 21.9-4.2 5.2-6.5 11.1-12.5 16.5-18.9 4-4.8 8.6-6 14.2-3.1 16.8 8.9 33.9 17.4 50.3 26.9"></path></svg></div><span class="o-share__text">US Treasuries’ rollercoaster ride strains bond market functioning <!-- --> on <!-- -->whatsapp<!-- --> (opens in a new window)</span></a></li><li class="o-share__action share-nav__save-action"><div><form class="n-myft-ui n-myft-ui--save" method="POST" data-content-id="a8c1c3df-d8f7-4f3d-af9c-00af0d587880" data-myft-ui="saved" action="/__myft/api/core/saved/content/a8c1c3df-d8f7-4f3d-af9c-00af0d587880?method=put" data-myft-ui-save-new="manageArticleLists" data-myft-ui-save-new-config="">
-	<input data-myft-csrf-token="" value="" type="hidden" name="token">
-	<div class="n-myft-ui__announcement o-normalise-visually-hidden" aria-live="assertive" data-pressed-text="Article saved in My FT." data-unpressed-text="Removed article from My FT."></div>
-	<button type="submit" class="n-myft-ui__save-button-with-icon" data-trackable="save-for-later" title="Save this article to myFT for later" aria-label="Save this article to myFT for later" data-alternate-label=" Saved to myFT" aria-pressed="false" data-text-variant="save-button-with-icon-copy" data-alternate-text="Saved&nbsp;" data-content-id="a8c1c3df-d8f7-4f3d-af9c-00af0d587880">
-				<span class="save-button-with-icon-copy" data-variant-label="">Save</span>
-		</button>
-	</form></div></li></ul></div></div><span class="myft-ui-create-list-variant-announcement o-normalise-visually-hidden" role="region" aria-live="assertive"></span></div><div class="article__content" data-trackable="article-body" data-component="article-body" style="position: relative;"><div class="article-info"><div class="article-info__time-byline"><p class="article-info__byline"><a class="n-content-tag--author" href="/kate-duguid" data-trackable="author">Kate Duguid</a> in New York</p> <time data-o-component="o-date" class="article-info__timestamp o-date" datetime="2023-03-17T21:00:24.212Z" title="March 17 2023 9:00 pm" data-o-date-js="">yesterday</time></div><a id="o-comments-count" data-o-component="o-comments" data-o-comments-article-id="a8c1c3df-d8f7-4f3d-af9c-00af0d587880" data-o-comments-count="true" data-o-comments-article-url="https://www.ft.com/content/a8c1c3df-d8f7-4f3d-af9c-00af0d587880" data-o-comments-title="US Treasuries’ rollercoaster ride strains bond market functioning " class="article-comment-count" title="Jump to comments section" href="#comments-anchor" style="visibility: visible;" aria-label="There are 23 comments, click to go to the comment section.">23</a><a class="article-print" data-component="print-button" data-trackable="print" href="javascript:void(0)" title="Print this page"><span class="o-normalise-visually-hidden">Print this page</span></a></div><div class="article__content-sign-up"><div class="article__content-sign-up-topic-title">Receive free US Treasury bonds updates</div><p class="article__content-sign-up-topic-description"><span>We’ll send you a <i>myFT Daily Digest</i> email rounding up the latest<!-- --> <!-- -->US Treasury bonds<!-- --> news every morning.</span></p><iframe class="article__content-sign-up-iframe close" scrolling="no" id="signUpIframe" data-prev-url="/register/in-article-sign-up?ft-content-uuid=a8c1c3df-d8f7-4f3d-af9c-00af0d587880&amp;concept-id=2f9f69ff-9874-4529-adf9-3b9641b51c9b" src="https://www.ft.com/register/in-article-sign-up?ft-content-uuid=a8c1c3df-d8f7-4f3d-af9c-00af0d587880&amp;concept-id=2f9f69ff-9874-4529-adf9-3b9641b51c9b&amp;trackingRootId=clfe5cmh600013e6isk9jj9io" height="64px"></iframe></div><div class="article__content-body n-content-body js-article__content-body"><div class="article__content-body n-content-body js-article__content-body" data-attribute="article-content-body">
-
-		<p>An explosion of volatility in US Treasuries following the collapse of Silicon Valley Bank has provided the sternest test of a market that underpins much of the global financial system since a dramatic meltdown in the early stages of the Covid-19 pandemic.</p><p>But while the $22tn market for US government debt this week suffered its most volatile period since the global financial crisis a decade and a half ago, surpassing even levels seen in March 2020, investors and analysts said market functioning by and large held up.</p><div class="o-ads in-article-advert advert o-ads--center o-ads--label-left o-ads--empty" data-o-ads-name="mpu" data-o-ads-center="true" data-o-ads-label="true" data-o-ads-targeting="pos=mid;" data-o-ads-formats-default="MediumRectangle,Responsive,OneByOne" data-o-ads-formats-small="MediumRectangle,Responsive,OneByOne" data-o-ads-formats-medium="Leaderboard,Responsive,OneByOne" data-o-ads-formats-large="false" data-o-ads-formats-extra="false" aria-hidden="true" data-o-ads-loaded="false"><div class="o-ads__outer"><div class="o-ads__inner" id="mpu-gpt"></div></div></div><p>Daily trading volumes more than doubled as the failure of SVB sparked a headlong dash into the safety of Treasuries. Bets that the banking crisis would force the Federal Reserve to slow, or even call off, its plans to raise interest rates further fuelled demand, leading to the biggest one-day rally in short-term Treasuries since 1987.</p><p>The moves did not lead to a 2020-style breakdown, when investors began to flee Treasuries en masse in a grave threat to the functioning of the entire financial system until the Fed stepped in with massive bond purchases. </p><p>“To me, it felt like the market worked. It functioned,” said Kevin McPartland, head of market structure and technology research at Coalition Greenwich. “The market structure clearly kept up, with $1.5tn traded.”</p><div class="n-content-layout"><figure class="n-content-picture n-content-layout__container"><picture><source media="screen and (max-width: 490px)" srcset="https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd6c748xw2pzm8.cloudfront.net%2Fprod%2F1de166b0-c4d6-11ed-9603-4db7632aea63-mobile.png?dpr=1&amp;fit=scale-down&amp;quality=highest&amp;source=next&amp;width=490" data-id="https://api.ft.com/content/bd3f9ed5-14f4-4555-98b8-a7b5868331c9" data-original-image-width="600" data-original-image-height="800"><img src="https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd6c748xw2pzm8.cloudfront.net%2Fprod%2F1de166b0-c4d6-11ed-9603-4db7632aea63-standard.png?dpr=1&amp;fit=scale-down&amp;quality=highest&amp;source=next&amp;width=700" data-id="https://api.ft.com/content/282250e8-6740-4b77-9e56-3cffa0f944d2" data-image-type="graphic" data-original-image-width="1400" data-original-image-height="1000" alt="Line chart of Ice BofA Move index showing Volatility in Treasuries spikes amid bank drama" srcset="https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd6c748xw2pzm8.cloudfront.net%2Fprod%2F1de166b0-c4d6-11ed-9603-4db7632aea63-standard.png?dpr=1&amp;fit=scale-down&amp;quality=highest&amp;source=next&amp;width=700 1x, https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd6c748xw2pzm8.cloudfront.net%2Fprod%2F1de166b0-c4d6-11ed-9603-4db7632aea63-standard.png?dpr=2&amp;fit=scale-down&amp;quality=medium&amp;source=next&amp;width=700 2x"></picture></figure></div><p>Still, the current turmoil underlines that frenzied volatility is the new normal in the Treasury market, sparking concerns in some quarters that the potential for a financial accident is never far away.</p><div class="o-ads in-article-advert advert o-ads--center o-ads--label-left o-ads--empty" data-o-ads-name="mpu1" data-o-ads-center="true" data-o-ads-label="true" data-o-ads-targeting="pos=mid1;" data-o-ads-formats-default="MediumRectangle,Responsive,OneByOne" data-o-ads-formats-small="MediumRectangle,Responsive,OneByOne" data-o-ads-formats-medium="Leaderboard,Responsive,OneByOne" data-o-ads-formats-large="false" data-o-ads-formats-extra="false" aria-hidden="true" data-o-ads-loaded="false"><div class="o-ads__outer"><div class="o-ads__inner" id="mpu1-gpt"></div></div></div><p>“We’re one crisis away from a complete breakdown of Treasury market liquidity,” said Priya Misra, head of global rates research at TD Securities. The bailout for SVB depositors and <a href="https://www.ft.com/content/56a8df6b-3466-4524-9f02-16bc3276c580" data-trackable="link">emergency funding measures</a> launched by US authorities “prevented a bigger crisis from happening”, she added.</p><p>Almost $1.5tn was traded in Treasuries on Monday with more than $1tn traded on each of the following three days, according to <a href="https://www.finra.org/finra-data/browse-catalog/about-treasury/daily-file" target="_blank" rel="noreferrer noopener" data-trackable="link">Trace</a> data. That is more than double the recent average daily volume, which in January and February was about $650bn, according to <a href="https://www.sifma.org/resources/research/us-fixed-income-securities-statistics/" target="_blank" rel="noreferrer noopener" data-trackable="link">Sifma</a>. </p><p>Volatility in the market, tracked by the Ice BofA Move index, reached its highest level since 2008. </p><p>There were signs of stress. Liquidity, the ease with which assets can be bought and sold, deteriorated, and investors reported having to pay more to get big deals done. Some traders resorted to picking up the phone to make deals, rather than trading electronically, as they typically do. </p><div class="o-ads in-article-advert advert o-ads--center o-ads--label-left o-ads--empty" data-o-ads-name="mpu3" data-o-ads-center="true" data-o-ads-label="true" data-o-ads-targeting="pos=mid3;" data-o-ads-formats-default="MediumRectangle,Responsive,OneByOne" data-o-ads-formats-small="MediumRectangle,Responsive,OneByOne" data-o-ads-formats-medium="false" data-o-ads-formats-large="false" data-o-ads-formats-extra="false" aria-hidden="true" data-o-ads-loaded="false"><div class="o-ads__outer"><div class="o-ads__inner" id="mpu3-gpt"></div></div></div><p>“Funding pressures and liquidity pressures in the banking sector have filtered through to the Treasury market,” said Matthew Scott, head of global rates trading at AllianceBernstein. “It is more expensive to trade, you can trade less.”</p><p>But trading was still possible, if costly, Scott said. Liquidity conditions in some parts of the market were the worst they had been since March 2020, but they were nowhere near as bad as they were then, when a breakdown in Treasuries sent markets worldwide into a spiral. </p><div class="n-content-layout"><figure class="n-content-picture n-content-layout__container"><picture><source media="screen and (max-width: 490px)" srcset="https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd6c748xw2pzm8.cloudfront.net%2Fprod%2Fe2f7ebf0-c480-11ed-8e02-05cd48d9ed6c-mobile.png?dpr=1&amp;fit=scale-down&amp;quality=highest&amp;source=next&amp;width=490 1x, https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd6c748xw2pzm8.cloudfront.net%2Fprod%2Fe2f7ebf0-c480-11ed-8e02-05cd48d9ed6c-mobile.png?dpr=2&amp;fit=scale-down&amp;quality=medium&amp;source=next&amp;width=490 2x" data-id="https://api.ft.com/content/de9088db-7f49-4e8f-8a73-c1cad9b44f89" data-original-image-width="1200" data-original-image-height="1600"><img src="https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd6c748xw2pzm8.cloudfront.net%2Fprod%2Fe2f7ebf0-c480-11ed-8e02-05cd48d9ed6c-standard.png?dpr=1&amp;fit=scale-down&amp;quality=highest&amp;source=next&amp;width=700" data-id="https://api.ft.com/content/fca5afa1-ff3d-45b5-a80e-90c1dc956772" data-image-type="graphic" data-original-image-width="2800" data-original-image-height="2000" alt="Line chart of Bloomberg US government debt liquidity index  showing Treasury liquidity dried up as volatility rose" srcset="https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd6c748xw2pzm8.cloudfront.net%2Fprod%2Fe2f7ebf0-c480-11ed-8e02-05cd48d9ed6c-standard.png?dpr=1&amp;fit=scale-down&amp;quality=highest&amp;source=next&amp;width=700 1x, https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd6c748xw2pzm8.cloudfront.net%2Fprod%2Fe2f7ebf0-c480-11ed-8e02-05cd48d9ed6c-standard.png?dpr=2&amp;fit=scale-down&amp;quality=medium&amp;source=next&amp;width=700 2x"></picture></figure></div><p>The bank angst has also prompted conversations about more regulation of the financial sector, which could chill participation in the Treasury market. The Financial Times <a href="https://www.ft.com/content/7b506459-448e-4d29-89e7-8fd8bb86e08f" data-trackable="link">reported</a> earlier this week that Fed officials were reviewing capital and liquidity requirements for midsized banks.</p><p>New regulations in the wake of the 2008-09 financial crisis designed to make the banking system more robust are behind some of the increased volatility in Treasuries in recent years, investors have long argued. </p><div class="o-ads in-article-advert advert o-ads--center o-ads--label-left o-ads--empty" data-o-ads-name="mpu4" data-o-ads-center="true" data-o-ads-label="true" data-o-ads-targeting="pos=mid4;" data-o-ads-formats-default="MediumRectangle,Responsive,OneByOne" data-o-ads-formats-small="MediumRectangle,Responsive,OneByOne" data-o-ads-formats-medium="Leaderboard,Responsive,OneByOne" data-o-ads-formats-large="false" data-o-ads-formats-extra="false" aria-hidden="true" data-o-ads-loaded="false"><div class="o-ads__outer"><div class="o-ads__inner" id="mpu4-gpt"></div></div></div><p>Primary dealers — the big banks that transact directly with the Treasury department at bond auctions and were the traditional providers of market liquidity — have stepped back from the market. This is partly because post-crisis rules made it more expensive for them to hold Treasuries, and in part because of a broader change in risk appetite. </p><p>As their share of government bond trading declined, hedge funds and high-speed traders took their place, introducing new degrees of leverage risk to the market. </p><p>Some experts warn that any further constraints on banks as a result of the current crisis, even if only on smaller players, may have a chilling effect on liquidity, further raising risks. </p><p>“Banks are now under the regulatory spotlight with this latest crisis — and primary dealer banks will not get a pass, if anything, the opposite. Regulators will be ruthlessly probing bank balance sheets to satisfy themselves that the biggest banks are completely immunised against failure and capable of supporting themselves and the rest of the financial system,” said Yesha Yadav, a professor at Vanderbilt Law School.</p><p>Primary dealers, said Yadav, might therefore now have to be extra careful about how they use their balance sheets to make markets in Treasuries. “It seems likely that we are going to have a really depressing few months for Treasuries liquidity ahead.”</p><p><em>Additional reporting by Katie Martin in London</em></p></div></div><div class="o-ads advert in-article-advert o-ads--center o-ads--label-left o-ads--empty" data-o-ads-name="third-mpu" data-o-ads-center="true" data-o-ads-label="true" data-o-ads-targeting="pos=mid2;" data-o-ads-formats-small="MediumRectangle,Responsive,OneByOne" data-o-ads-formats-medium="Leaderboard,Responsive,OneByOne" data-o-ads-formats-large="false" data-o-ads-formats-extra="false" aria-hidden="true" data-o-ads-loaded="false"><div class="o-ads__outer"><div class="o-ads__inner" id="third-mpu-gpt"></div></div></div><script class="js-magnet-data" type="application/json">{"focus":["2f9f69ff-9874-4529-adf9-3b9641b51c9b","fca046a3-a5e3-43f4-9a09-e90418747ec7","8a2cd02a-a97d-40be-b431-07ab2b26fe23","06177bd5-f2d4-41da-8314-19475b8b2243","2814aea9-fc45-471b-849f-4a2fc37182e8","37b1e62e-93ff-4991-aa83-c1ec974d4802","c91b1fad-1097-468b-be82-9a8ff717d54c"],"authorConcepts":["f72188d6-6bed-4242-b08c-4365652e664d"],"displayConcept":"2f9f69ff-9874-4529-adf9-3b9641b51c9b"}</script><div class="magnet-cta js-magnet-cta" data-trackable="magnet-cta"></div><div class="n-tracking-scroll-depth-marker" data-scroll-depth="50" style="position: absolute; top: 50%; bottom: 0px; width: 100%; z-index: -1;"></div><div class="n-tracking-scroll-depth-marker" data-scroll-depth="75" style="position: absolute; top: 75%; bottom: 0px; width: 100%; z-index: -1;"></div><div class="n-tracking-scroll-depth-marker" data-scroll-depth="100" style="position: absolute; top: 100%; bottom: 0px; width: 100%; z-index: -1;"></div></div><div class="article-tools" data-trackable="article-tools"><footer class="n-content-copyright"><a href="http://help.ft.com/help/legal-privacy/copyright/copyright-policy/" data-trackable="link-copyright">Copyright</a> <!-- -->The Financial Times Limited <!-- -->2023<!-- -->.<!-- --> <span class="n-content-copyright__rights">All rights reserved.</span></footer><div class="article-tools__buttons"><a class="article-tools__reuse" data-trackable="reuse-content-button" target="_blank" rel="noreferrer" href="https://enterprise.ft.com/en-gb/services/republishing/republish-content-request?ft-content-uuid=a8c1c3df-d8f7-4f3d-af9c-00af0d587880">Reuse this content<!-- --> <span class="o-normalise-visually-hidden">(opens in new window)</span></a><a class="article-tools__comments" data-trackable="view-comments-button" title="Jump to comments section" aria-label="click to go to the comment section" href="#comments-anchor"><span data-o-component="o-comments" data-o-comments-article-id="a8c1c3df-d8f7-4f3d-af9c-00af0d587880" data-o-comments-count="false"></span> <!-- -->Comments<span class="o-normalise-visually-hidden">Jump to comments section</span></a></div></div><div class="article__right ">
-	<div class="responsive advert sidebar-advert sidebar-advert--fullbleed" style="top: 0px;" data-o-ads-targeting="pos=mid;" data-o-ads-name="non-full-bleed-rhr-ad-0" data-o-ads-formats-default="false" data-o-ads-formats-small="false" data-o-ads-formats-medium="false" data-o-ads-formats-large="HalfPage,MediumRectangle,Responsive,OneByOne" data-o-ads-formats-extra="HalfPage,MediumRectangle,Responsive,OneByOne" aria-hidden="true">
-	<div class="o-ads__outer"><div class="o-ads__inner" id="non-full-bleed-rhr-ad-0-gpt"></div></div></div>
-
-	<div class="responsive advert sidebar-advert sidebar-advert--fullbleed" style="top: 1200px;" data-o-ads-targeting="pos=mid1;" data-o-ads-name="non-full-bleed-rhr-ad-1" data-o-ads-formats-default="false" data-o-ads-formats-small="false" data-o-ads-formats-medium="false" data-o-ads-formats-large="HalfPage,MediumRectangle,Responsive,OneByOne" data-o-ads-formats-extra="HalfPage,MediumRectangle,Responsive,OneByOne" aria-hidden="true">
-	<div class="o-ads__outer"><div class="o-ads__inner" id="non-full-bleed-rhr-ad-1-gpt"></div></div></div>
-	</div><div class="promoted-content__container"><h2 class="h2-promoted-content follow-tags__title" style="display:none">Promoted Content</h2><div class="o-ads o-ads--center native-ad__fullwidth" data-o-ads-init="true" data-o-ads-name="native-ad__fullwidth" data-o-ads-targeting="pos=native&amp;format=stacked&amp;appname=article" data-o-ads-formats="MediumRectangle" data-o-ads-formats-default="PartnerContent"><div class="o-ads__outer"><div class="o-ads__inner" id="native-ad__fullwidth-gpt"></div></div></div></div><div class="topic-tracker-container" data-trackable="topic-tracker" data-component="topic-tracker"></div><div class="onward-journey onward-journey--simple" data-component="onward-journey__bottom"><div class="onward-journey__content o-grid-container" data-trackable="onward-journey | bottom" data-trackable-context-contentselection="topic"><h2 class="standalone-teaser-heading">Latest on US Treasury bonds</h2><ul class="onward-journey__items o-grid-row"><li class="onward-journey__item" data-o-grid-colspan="12 M6 L3"><div class="o-teaser o-teaser--article o-teaser--small o-teaser--stacked o-teaser--has-image o-teaser--opinion js-teaser" data-id="fa7055ed-c325-481a-ac0b-470d40539396"><div class="o-teaser__content"><div class="o-teaser__meta"><span class="o-teaser__tag-prefix">The Long View</span><a class="o-teaser__tag" data-trackable="teaser-tag" href="/katie-martin" aria-label="Category: Katie Martin">Katie Martin</a></div><div class="o-teaser__heading"><a href="/content/fa7055ed-c325-481a-ac0b-470d40539396" data-trackable="heading-link" class="js-teaser-heading-link">The tumult in Treasuries: are hedge funds partly to blame?</a></div></div><div class="o-teaser__image-container js-teaser-image-container"><a href="/content/fa7055ed-c325-481a-ac0b-470d40539396" data-trackable="image-link" tabindex="-1" aria-hidden="true"><div class="o-teaser__image-placeholder" style="padding-bottom: 56.25%;"><img class="o-teaser__image" src="https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F2077e963-d21d-4566-a40b-e84802527a65.jpg?source=next&amp;fit=scale-down&amp;dpr=2&amp;width=340" alt=""></div></a></div></div></li><li class="onward-journey__item" data-o-grid-colspan="12 M6 L3"><div class="o-teaser o-teaser--article o-teaser--small o-teaser--stacked o-teaser--has-image js-teaser" data-id="7177bc70-1cff-46a9-ba87-adae0af276c4"><div class="o-teaser__content"><div class="o-teaser__meta"><a class="o-teaser__tag" data-trackable="teaser-tag" href="/fund-management" aria-label="Category: Fund management">Fund management</a></div><div class="o-teaser__heading"><a href="/content/7177bc70-1cff-46a9-ba87-adae0af276c4" data-trackable="heading-link" class="js-teaser-heading-link">Cash pours into US money market funds as investors flee bank turmoil</a></div></div><div class="o-teaser__image-container js-teaser-image-container"><a href="/content/7177bc70-1cff-46a9-ba87-adae0af276c4" data-trackable="image-link" tabindex="-1" aria-hidden="true"><div class="o-teaser__image-placeholder" style="padding-bottom: 56.2263%;"><img class="o-teaser__image" src="https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F399937e6-442e-4fa5-b858-d7563a3479c1.jpg?source=next&amp;fit=scale-down&amp;dpr=2&amp;width=340" alt=""></div></a></div></div></li><li class="onward-journey__item" data-o-grid-colspan="12 M6 L3"><div class="o-teaser o-teaser--article o-teaser--small o-teaser--stacked o-teaser--has-image js-teaser" data-id="78ea4d8b-9d30-41bf-aec3-8bfeab3969f2"><div class="o-teaser__content"><div class="o-teaser__meta"><span class="o-teaser__tag-prefix">News in-depth</span><a class="o-teaser__tag" data-trackable="teaser-tag" href="/securitisation" aria-label="Category: Securitisation">Securitisation</a></div><div class="o-teaser__heading"><a href="/content/78ea4d8b-9d30-41bf-aec3-8bfeab3969f2" data-trackable="heading-link" class="js-teaser-heading-link">US mortgage market suffers fallout from bank failures</a></div></div><div class="o-teaser__image-container js-teaser-image-container"><a href="/content/78ea4d8b-9d30-41bf-aec3-8bfeab3969f2" data-trackable="image-link" tabindex="-1" aria-hidden="true"><div class="o-teaser__image-placeholder" style="padding-bottom: 56.2691%;"><img class="o-teaser__image" src="https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fa79f96b6-8be3-411b-9b41-75119f061192.jpg?source=next&amp;fit=scale-down&amp;dpr=2&amp;width=340" alt=""></div></a></div></div></li><li class="onward-journey__item" data-o-grid-colspan="12 M6 L3" style="margin-top: 0px;"><div class="o-teaser" data-o-ads-name="native_onward_journey" data-o-ads-targeting="pos=native;format=stacked;appname=article" data-o-ads-formats="PartnerContent"><div class="o-ads__outer"><div class="o-ads__inner" id="native_onward_journey-gpt"></div></div></div></li><li class="onward-journey__item" data-o-grid-colspan="12 M6 L3"><div class="o-teaser o-teaser--article o-teaser--small o-teaser--stacked o-teaser--has-image js-teaser" data-id="1b003656-79fd-4e6a-bc48-9928728ec451"><div class="o-teaser__content"><div class="o-teaser__meta"><a class="o-teaser__tag" data-trackable="teaser-tag" href="/markets" aria-label="Category: Markets">Markets</a></div><div class="o-teaser__heading"><a href="/content/1b003656-79fd-4e6a-bc48-9928728ec451" data-trackable="heading-link" class="js-teaser-heading-link">Turbulence strains interest rate markets as traders bet on Fed cuts</a></div></div><div class="o-teaser__image-container js-teaser-image-container"><a href="/content/1b003656-79fd-4e6a-bc48-9928728ec451" data-trackable="image-link" tabindex="-1" aria-hidden="true"><div class="o-teaser__image-placeholder" style="padding-bottom: 56.2691%;"><img class="o-teaser__image" src="https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fa8f35d55-25e8-4bb7-ac78-5a56f991f13f.jpg?source=next&amp;fit=scale-down&amp;dpr=2&amp;width=340" alt=""></div></a></div></div></li><li class="onward-journey__item" data-o-grid-colspan="12 M6 L3"><div class="o-teaser o-teaser--article o-teaser--small o-teaser--stacked o-teaser--has-image js-teaser" data-id="8a26a0fa-59a9-4b7c-a86c-38bfa1bcc047"><div class="o-teaser__content"><div class="o-teaser__meta"><a class="o-teaser__tag" data-trackable="teaser-tag" href="/equities" aria-label="Category: Equities">Equities</a></div><div class="o-teaser__heading"><a href="/content/8a26a0fa-59a9-4b7c-a86c-38bfa1bcc047" data-trackable="heading-link" class="js-teaser-heading-link">US bank shares rebound after rout sparked by SVB failure</a></div></div><div class="o-teaser__image-container js-teaser-image-container"><a href="/content/8a26a0fa-59a9-4b7c-a86c-38bfa1bcc047" data-trackable="image-link" tabindex="-1" aria-hidden="true"><div class="o-teaser__image-placeholder" style="padding-bottom: 56.26%;"><img class="o-teaser__image" src="https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fb54f969e-ca58-488c-8626-2dda37af2e06.jpg?source=next&amp;fit=scale-down&amp;dpr=2&amp;width=340" alt=""></div></a></div></div></li><li class="onward-journey__item" data-o-grid-colspan="12 M6 L3"><div class="o-teaser o-teaser--article o-teaser--small o-teaser--stacked o-teaser--has-image js-teaser" data-id="36782b7f-cbd2-4fc1-9451-788d7518a278"><div class="o-teaser__content"><div class="o-teaser__meta"><a class="o-teaser__tag" data-trackable="teaser-tag" href="/hedge-funds" aria-label="Category: Hedge funds">Hedge funds</a></div><div class="o-teaser__heading"><a href="/content/36782b7f-cbd2-4fc1-9451-788d7518a278" data-trackable="heading-link" class="js-teaser-heading-link">Hedge funds stung by bond market fallout from SVB collapse</a></div></div><div class="o-teaser__image-container js-teaser-image-container"><a href="/content/36782b7f-cbd2-4fc1-9451-788d7518a278" data-trackable="image-link" tabindex="-1" aria-hidden="true"><div class="o-teaser__image-placeholder" style="padding-bottom: 56.25%;"><img class="o-teaser__image" src="https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F410136e0-c99d-4fa6-8698-9a8c37b65778.jpg?source=next&amp;fit=scale-down&amp;dpr=2&amp;width=340" alt=""></div></a></div></div></li><li class="onward-journey__item" data-o-grid-colspan="12 M6 L3"><div class="o-teaser o-teaser--article o-teaser--small o-teaser--stacked o-teaser--has-image js-teaser" data-id="82b70f3e-092f-449f-b32d-38b3dc66edaa"><div class="o-teaser__content"><div class="o-teaser__meta"><a class="o-teaser__tag" data-trackable="teaser-tag" href="/markets" aria-label="Category: Markets">Markets</a></div><div class="o-teaser__heading"><a href="/content/82b70f3e-092f-449f-b32d-38b3dc66edaa" data-trackable="heading-link" class="js-teaser-heading-link">Treasuries soar as investors trim bets on half-point Fed rate rise</a></div></div><div class="o-teaser__image-container js-teaser-image-container"><a href="/content/82b70f3e-092f-449f-b32d-38b3dc66edaa" data-trackable="image-link" tabindex="-1" aria-hidden="true"><div class="o-teaser__image-placeholder" style="padding-bottom: 56.2152%;"><img class="o-teaser__image" src="https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F5e9f9718-1d0d-46f1-8066-d313646029c4.jpg?source=next&amp;fit=scale-down&amp;dpr=2&amp;width=340" alt=""></div></a></div></div></li><li class="onward-journey__item" data-o-grid-colspan="12 M6 L3" style="display: none;"><div class="o-teaser o-teaser--article o-teaser--small o-teaser--stacked o-teaser--has-image js-teaser" data-id="47e3d4a7-70b6-4a4e-98b0-6322f8e8ba53"><div class="o-teaser__content"><div class="o-teaser__meta"><a class="o-teaser__tag" data-trackable="teaser-tag" href="/us-banks" aria-label="Category: US banks">US banks</a></div><div class="o-teaser__heading"><a href="/content/47e3d4a7-70b6-4a4e-98b0-6322f8e8ba53" data-trackable="heading-link" class="js-teaser-heading-link">Investors dump US bank shares amid fears over value of bond portfolios</a></div></div><div class="o-teaser__image-container js-teaser-image-container"><a href="/content/47e3d4a7-70b6-4a4e-98b0-6322f8e8ba53" data-trackable="image-link" tabindex="-1" aria-hidden="true"><div class="o-teaser__image-placeholder" style="padding-bottom: 56.2158%;"><img class="o-teaser__image" src="https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F008f767e-7589-4217-afc8-3a6454fbb848.jpg?source=next&amp;fit=scale-down&amp;dpr=2&amp;width=340" alt=""></div></a></div></div></li></ul></div></div><div class="article__right-bottom"><div><div class="concept-list" data-trackable="mentions">
-			<h2 class="concept-list__title">
-					Follow the topics in this article
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="o-ads o-ads--center o-ads--background o-ads--transition o-ads--reserve-90 above-header-advert" data-o-ads-init="true" data-o-ads-name="leaderboard" data-o-ads-targeting="pos=top" data-o-ads-formats="MediumRectangle" data-o-ads-formats-medium="Leaderboard,Responsive,OneByOne" data-o-ads-formats-large="SuperLeaderboard,Leaderboard,Responsive,OneByOne" data-o-ads-formats-extra="Billboard,SuperLeaderboard,Leaderboard,Responsive,OneByOne"></div>
+                </div>
+                <header id="site-navigation" class="o-header o-header--simple" data-o-component="o-header" data-o-header--no-js="true" tabindex="-1">
+                    <div class="o-header__row o-header__anon" data-trackable="header-anon">
+                        <ul class="o-header__anon-list">
+                            <li class="o-header__anon-item">
+                                <a class="o-header__anon-link" href="/login?location=/content/2314fb09-7f58-45e1-86ab-4767e9139ad3" data-trackable="Sign In">Sign In</a>
+                            </li>
+                            <li class="o-header__anon-item">
+                                <a class="o-header__anon-link" href="/products?segmentId=f860e6c2-18af-ab30-cd5e-6e3a456f9265" data-trackable="Subscribe">Subscribe</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="o-header__row o-header__top" data-trackable="header-top">
+                        <div class="o-header__container">
+                            <div class="o-header__top-wrapper">
+                                <div class="o-header__top-column o-header__top-column--left">
+                                    <a href="#o-header-drawer" class="o-header__top-icon-link o-header__top-icon-link--menu" aria-controls="o-header-drawer" title="Open side navigation menu" data-trackable="drawer-toggle">
+                                        <span class="o-header__top-link-label">Open side navigation menu</span>
+                                    </a>
+                                    <a href="#o-header-search-primary" class="o-header__top-icon-link o-header__top-icon-link--search" aria-controls="o-header-search-primary" title="Open search bar" data-trackable="search-toggle">
+                                        <span class="o-header__top-link-label">Open search bar</span>
+                                    </a>
+                                </div>
+                                <div class="o-header__top-column o-header__top-column--center">
+                                    <a class="o-header__top-logo" style="background-image:none" data-trackable="logo" href="/" title="Go to Financial Times homepage">
+                                        <svg viewBox="0 0 1054 86">
+                                            <title>Financial Times</title>
+                                            <path d="M26.177 72.609c0 5.938 1.697 7.295 12.554 7.295v3.732H.9v-3.732c7.464 0 10.01-.679 10.01-7.125V12.215c0-6.447-2.546-7.126-10.01-7.126V1.357h63.448l.34 22.563h-3.054C59.937 6.956 55.696 5.43 39.919 5.43H26.008v33.59h11.196c10.688 0 11.367-1.697 12.215-10.179h3.054v24.599h-3.054c-.848-8.482-1.527-10.01-12.215-10.01H26.008v29.18h.17zm46.314 11.027v-3.732c7.465 0 10.01-.679 10.01-7.125V12.215c0-6.447-2.545-7.126-10.01-7.126V1.357h35.287V5.09c-7.465 0-10.01.679-10.01 7.126v60.564c0 6.446 2.545 7.125 10.01 7.125v3.732H72.49zm115.36 1.357l-56.323-69.725V72.44c0 6.617 4.58 7.634 12.385 7.634v3.733h-29.858v-3.733c7.803 0 12.045-1.017 12.045-7.634V8.991c-3.563-3.732-6.108-3.902-12.045-3.902V1.357h26.465l43.09 55.475V12.554c0-6.616-4.58-7.634-12.384-7.634V1.357h30.027V5.09c-7.803 0-12.045 1.018-12.045 7.635v72.27h-1.357zm40.207-1.357h-29.689v-3.732c7.804 0 11.367-1.018 13.911-7.804L239.085.509h7.464l28.84 72.1c2.545 6.447 3.732 7.125 9.67 7.125v3.732h-34.438v-3.732c10.518 0 11.536-.848 8.99-7.125l-8.481-21.884h-25.787L217.71 71.93c-2.375 6.447 1.357 7.804 10.518 7.804v3.902h-.17zm-1.188-37.153h22.393l-11.705-29.518-10.688 29.518zm135.548 38.51l-56.153-69.725V72.44c0 6.617 4.58 7.634 12.384 7.634v3.733h-29.18v-3.733c7.126 0 11.367-1.017 11.367-7.634V9.161c-4.071-3.732-7.125-4.072-13.91-4.072V1.357h28.16l43.09 55.475V12.554c0-6.616-4.58-7.634-12.383-7.634V1.357h29.858V5.09c-7.804 0-12.045 1.018-12.045 7.635v72.27h-1.188zm83.297-83.805h2.036l1.187 24.598-3.053.17c-2.036-14.08-9.5-21.545-23.242-21.545-15.268 0-26.804 13.063-26.804 33.081 0 25.617 16.116 40.206 33.08 40.206 7.296 0 13.912-2.035 20.358-8.99l2.376 2.374c-5.26 7.465-15.608 13.742-29.52 13.742-20.696 0-41.732-15.608-41.732-41.734C380.4 17.813 399.57 0 422.813 0c11.027 0 16.795 4.75 19.848 4.75 1.357 0 2.375-1.187 3.054-3.562zm12.723 82.448v-3.732c7.465 0 10.01-.679 10.01-7.125V12.215c0-6.447-2.545-7.126-10.01-7.126V1.357h35.287V5.09c-7.464 0-10.01.679-10.01 7.126v60.564c0 6.446 2.546 7.125 10.01 7.125v3.732h-35.287zm68.538 0h-27.653v-3.732c6.108 0 9.331-1.018 11.876-7.804L538.003.509h7.464l28.84 72.1c2.545 6.447 3.733 7.125 9.67 7.125v3.732H549.54v-3.732c10.518 0 11.536-.848 8.991-7.125l-8.482-21.884h-25.786l-7.635 21.205c-2.375 6.447 1.358 7.804 10.519 7.804v3.902h-.17zm-1.188-37.153h22.394l-11.536-29.518-10.858 29.518zm63.957 37.153v-3.732c7.465 0 10.01-.679 10.01-7.125V12.215c0-6.447-2.545-7.126-10.01-7.126V1.357h35.117V5.09c-7.464 0-9.84.679-9.84 7.126v61.073c0 5.428 2.715 6.107 7.126 6.107h4.241c15.947 0 21.036-2.375 25.447-20.527l3.054.339-2.545 24.26h-62.6v.17zM760.75 1.357l.339 23.92h-3.054C756.34 7.634 752.098 5.43 736.32 5.43h-5.089v67.18c0 6.447 2.375 7.295 12.554 7.295v3.732h-40.376v-3.732c10.179 0 12.723-1.018 12.723-7.295V5.429h-5.089c-15.777 0-20.018 2.205-21.715 19.848h-3.053l.339-23.92h74.136zm7.973 82.28v-3.733c7.465 0 10.01-.679 10.01-7.125V12.215c0-6.447-2.545-7.126-10.01-7.126V1.357h35.287V5.09c-7.465 0-10.01.679-10.01 7.126v60.564c0 6.446 2.545 7.125 10.01 7.125v3.732h-35.287zM910.21 1.356V5.09c-7.465 0-10.688.34-10.01 6.956l6.447 61.073c.679 6.277 3.054 6.955 10.518 6.955v3.733h-35.117v-3.733c7.295 0 9.84-.678 9.331-6.955L884.762 8.99l-25.956 76.172h-1.018L832.34 8.822l-6.108 64.126c-.678 6.447 3.733 7.125 11.197 7.125v3.733h-27.483v-3.733c7.465 0 10.01-1.187 10.518-7.125l6.447-61.073c.679-6.446-2.545-6.955-10.01-6.955V1.357h28.84l17.305 56.153 18.661-56.153h28.5zm65.653 52.082h-3.053c-.849-8.482-1.527-10.01-12.215-10.01H948.04v29.859c0 5.428 2.715 6.107 7.125 6.107h6.786c15.947 0 21.036-2.375 25.447-20.527l3.054.339-2.884 24.26h-64.805v-3.733c7.464 0 10.009-.678 10.009-7.125V12.215c0-6.447-2.545-7.126-10.01-7.126V1.357h62.261l.34 20.527h-3.054c-1.866-14.59-5.598-16.286-21.885-16.286H948.21v33.42h12.554c10.687 0 11.366-1.696 12.214-10.178h3.054v24.599h-.17zm65.484 13.232c0-7.464-4.75-11.196-12.893-15.777l-13.063-6.786c-9.84-5.259-15.607-11.027-15.607-21.375C999.783 9.84 1010.81 0 1025.23 0c9.84 0 14.929 4.75 17.813 4.75 1.866 0 2.714-1.187 3.562-3.562h2.375l1.188 23.072-3.054.17c-1.696-11.198-9.67-19.85-20.866-19.85-8.483 0-14.081 5.09-14.081 12.215 0 7.804 5.937 11.027 12.554 14.59l11.196 5.937c10.519 5.768 17.983 11.536 17.983 22.563 0 14.59-12.554 24.939-28.161 24.939-11.028 0-16.456-5.26-19.34-5.26-1.866 0-2.884 1.697-3.732 4.242h-2.376l-1.696-24.43 3.054-.339c2.375 15.268 12.893 21.545 23.411 21.545 8.822-.17 16.286-4.071 16.286-13.91z" fill="#231F20" fill-rule="evenodd"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="o-header__top-column o-header__top-column--right">
+                                    <a class="o-header__top-button o-header__top-button--hide-m" role="button" href="/products?segmentId=f860e6c2-18af-ab30-cd5e-6e3a456f9265" data-trackable="Subscribe">Subscribe</a>
+                                    <a class="o-header__top-link o-header__top-link--hide-m" href="/login?location=/content/2314fb09-7f58-45e1-86ab-4767e9139ad3" data-trackable="Sign In">Sign In</a>
+                                    <a class="o-header__top-icon-link o-header__top-icon-link--myft o-header__top-icon-link--show-m" id="o-header-top-link-myft" href="/myft" data-trackable="my-ft" data-tour-stage="myFt" aria-label="My F T">
+                                        <span class="o-header__visually-hidden">myFT</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="o-header-search-primary" class="o-header__row o-header__search o-header__search--primary" data-trackable="header-search" data-o-header-search="true">
+                        <div class="o-header__container">
+                            <form class="o-header__search-form" action="/search" role="search" aria-label="Site search" data-n-topic-search="true" data-n-topic-search-categories="concepts,equities" data-n-topic-search-view-all="true">
+                                <label class="o-header__visually-hidden" for="o-header-search-term-primary">
+                                    Search the <abbr title="Financial Times">FT</abbr>
+                                </label>
+                                <input type="text" class="o-header__search-term" id="o-header-search-term-primary" name="q" autoComplete="off" autoCorrect="off" autoCapitalize="off" spellcheck="false" data-trackable="search-term" placeholder="Search the FT" data-n-topic-search-input="true"/>
+                                <button class="o-header__search-submit" type="submit" data-trackable="search-submit">Search</button>
+                                <button class="o-header__search-close o--if-js" type="button" aria-controls="o-header-search-primary" title="Close search bar" data-trackable="close">
+                                    <span class="o-header__visually-hidden">Close search bar</span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <nav id="o-header-nav-desktop" class="o-header__row o-header__nav o-header__nav--desktop" role="navigation" aria-label="Primary navigation" data-trackable="header-nav:desktop">
+                        <div class="o-header__container">
+                            <ul class="o-header__nav-list o-header__nav-list--left" data-trackable="primary-nav">
+                                <li class="o-header__nav-item">
+                                    <a class="o-header__nav-link o-header__nav-link--primary" href="/" id="o-header-link-0" data-trackable="Home">Home</a>
+                                </li>
+                                <li class="o-header__nav-item">
+                                    <a class="o-header__nav-link o-header__nav-link--primary" href="/world" id="o-header-link-1" data-trackable="World">World</a>
+                                    <div class="o-header__mega" id="o-header-mega-1" role="group" aria-labelledby="o-header-link-1" data-o-header-mega="true" data-trackable="meganav | World">
+                                        <div class="o-header__container">
+                                            <div class="o-header__mega-wrapper">
+                                                <div class="o-header__mega-column o-header__mega-column--subsections" data-trackable="sections">
+                                                    <div class="o-header__mega-heading">Sections</div>
+                                                    <div class="o-header__mega-content">
+                                                        <ul class="o-header__mega-list">
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/world" data-trackable="link">World Home</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/israel-hamas-war" data-trackable="link">Israel-Hamas war</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/global-economy" data-trackable="link">Global Economy</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/world-uk" data-trackable="link">UK</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/us" data-trackable="link">US</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/china" data-trackable="link">China</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/africa" data-trackable="link">Africa</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/asia-pacific" data-trackable="link">Asia Pacific</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/emerging-markets" data-trackable="link">Emerging Markets</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/europe" data-trackable="link">Europe</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/war-in-ukraine" data-trackable="link">War in Ukraine</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/americas" data-trackable="link">Americas</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/middle-east-north-africa" data-trackable="link">Middle East &amp;North Africa</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="o-header__mega-column o-header__mega-column--articles" data-trackable="popular">
+                                                    <div class="o-header__mega-heading">Most Read</div>
+                                                    <div class="o-header__mega-content">
+                                                        <ul class="o-header__mega-list">
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/content/312e43f2-a8be-445d-9d46-88d2ddf174a7" data-trackable="link">Far-right leader Geert Wilders wins most votes in Dutch election</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/content/56f7d6d6-6a93-4172-a49e-d8a91991e29d" data-trackable="link">US thwarted plot to kill Sikh separatist on American soil</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/content/ed4b352b-5c06-4f8d-9df7-1b1f9fecb269" data-trackable="link">Donald Trump would gut Joe Biden’s landmark IRA climate law if elected</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/content/81717934-e941-4064-9371-30c517399879" data-trackable="link">Military briefing: has Israel achieved its war aims in Gaza?</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/content/60674329-5be3-4802-a05a-851ee2990efd" data-trackable="link">How Germany’s ‘debt brake’ broke the budget</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="o-header__nav-item">
+                                    <a class="o-header__nav-link o-header__nav-link--primary" href="/world-uk" id="o-header-link-2" data-trackable="UK">UK</a>
+                                    <div class="o-header__mega" id="o-header-mega-2" role="group" aria-labelledby="o-header-link-2" data-o-header-mega="true" data-trackable="meganav | UK">
+                                        <div class="o-header__container">
+                                            <div class="o-header__mega-wrapper">
+                                                <div class="o-header__mega-column o-header__mega-column--subsections" data-trackable="sections">
+                                                    <div class="o-header__mega-heading">Sections</div>
+                                                    <div class="o-header__mega-content">
+                                                        <ul class="o-header__mega-list">
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/world-uk" data-trackable="link">UK Home</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/uk-economy" data-trackable="link">UK Economy</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/uk-politics" data-trackable="link">UK Politics</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/brexit" data-trackable="link">Brexit</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/uk-companies" data-trackable="link">UK Companies</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/personal-finance" data-trackable="link">Personal Finance</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="o-header__mega-column o-header__mega-column--articles" data-trackable="popular">
+                                                    <div class="o-header__mega-heading">Most Read</div>
+                                                    <div class="o-header__mega-content">
+                                                        <ul class="o-header__mega-list">
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/content/cae9b213-e793-4d4c-8025-b6573e70fd0f" data-trackable="link">Jeremy Hunt cuts national insurance but taxes head to postwar high</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/content/9ac523da-1c15-43e8-9ccc-bbfdbce4b74a" data-trackable="link">Sunak under pressure as net migration to UK hits record 745,000 </a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/content/3f4f0e67-2825-492a-897d-0691fbb24a27" data-trackable="link">Hunt may be lucky but he has not solved the UK growth challenge</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/content/0d9269ac-bd22-40fa-8d14-b1b6590edb96" data-trackable="link">Jeremy Hunt to offer UK workers ‘pot for life’ in sweeping pension reforms</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/content/2314fb09-7f58-45e1-86ab-4767e9139ad3" aria-label="British tech tycoon Lawrence Jones guilty of rape and sexual assault, current page" aria-current="page" data-trackable="link">British tech tycoon Lawrence Jones guilty of rape and sexual assault</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="o-header__nav-item">
+                                    <a class="o-header__nav-link o-header__nav-link--primary" href="/companies" id="o-header-link-3" data-trackable="Companies">Companies</a>
+                                    <div class="o-header__mega" id="o-header-mega-3" role="group" aria-labelledby="o-header-link-3" data-o-header-mega="true" data-trackable="meganav | Companies">
+                                        <div class="o-header__container">
+                                            <div class="o-header__mega-wrapper">
+                                                <div class="o-header__mega-column o-header__mega-column--subsections" data-trackable="sections">
+                                                    <div class="o-header__mega-heading">Sections</div>
+                                                    <div class="o-header__mega-content">
+                                                        <ul class="o-header__mega-list">
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/companies" data-trackable="link">Companies Home</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/energy" data-trackable="link">Energy</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/financials" data-trackable="link">Financials</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/health" data-trackable="link">Health</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/industrials" data-trackable="link">Industrials</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/media" data-trackable="link">Media</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/professional-services" data-trackable="link">Professional Services</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/retail-consumer" data-trackable="link">Retail &amp;Consumer</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/technology-sector" data-trackable="link">Tech Sector</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/telecoms" data-trackable="link">Telecoms</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/transport" data-trackable="link">Transport</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="o-header__mega-column o-header__mega-column--articles" data-trackable="popular">
+                                                    <div class="o-header__mega-heading">Most Read</div>
+                                                    <div class="o-header__mega-content">
+                                                        <ul class="o-header__mega-list">
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/content/fa41fb97-9f1f-4351-ac03-c5e1a2e50ebe" data-trackable="link">Toyota advert banned for showing pick-up truck convoy driving through river  </a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/content/4f46e278-971e-49f0-ab05-47b3a57997ec" data-trackable="link">Chinese shadow bank Zhongzhi faces $36bn shortfall after ‘management ran wild’</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/content/7caceb97-c7cf-40be-93ea-4b8ac9919bf7" data-trackable="link">UBS chief Sergio Ermotti calls for tougher sanctions on negligent bankers</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/content/c00073c1-22c3-40b7-923f-a3cbf71875f2" data-trackable="link">Bayer drug setback adds to new CEO’s problems  </a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/content/f9197565-4c71-402f-a609-cb5d8c6e7a79" data-trackable="link">Pret A Manger owner JAB names new chief as Olivier Goudet steps down</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="o-header__nav-item">
+                                    <a class="o-header__nav-link o-header__nav-link--primary" href="/technology" id="o-header-link-4" data-trackable="Tech">Tech</a>
+                                </li>
+                                <li class="o-header__nav-item">
+                                    <a class="o-header__nav-link o-header__nav-link--primary" href="/markets" id="o-header-link-5" data-trackable="Markets">Markets</a>
+                                    <div class="o-header__mega" id="o-header-mega-5" role="group" aria-labelledby="o-header-link-5" data-o-header-mega="true" data-trackable="meganav | Markets">
+                                        <div class="o-header__container">
+                                            <div class="o-header__mega-wrapper">
+                                                <div class="o-header__mega-column o-header__mega-column--subsections" data-trackable="sections">
+                                                    <div class="o-header__mega-heading">Sections</div>
+                                                    <div class="o-header__mega-content">
+                                                        <ul class="o-header__mega-list">
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/markets" data-trackable="link">Markets Home</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/alphaville" data-trackable="link">Alphaville</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="https://markets.ft.com/data" data-trackable="link">Markets Data</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/cryptofinance" data-trackable="link">Cryptofinance</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/capital-markets" data-trackable="link">Capital Markets</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/commodities" data-trackable="link">Commodities</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/currencies" data-trackable="link">Currencies</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/equities" data-trackable="link">Equities</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/fund-management" data-trackable="link">Fund Management</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/ft-wealth-management" data-trackable="link">Wealth Management</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/ft-trading-room" data-trackable="link">Trading</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/moral-money" data-trackable="link">Moral Money</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="https://etf.ft.com" data-trackable="link">ETF Hub</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="o-header__mega-column o-header__mega-column--articles" data-trackable="popular">
+                                                    <div class="o-header__mega-heading">Most Read</div>
+                                                    <div class="o-header__mega-content">
+                                                        <ul class="o-header__mega-list">
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/content/d713ae81-0652-4bca-b71f-4943cf5b870a" data-trackable="link">Live news: European stocks close higher after positive economic data</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/content/17f49c0b-9792-4db5-9592-ffff22fbc941" data-trackable="link">Anglo American’s high-stakes bet on a new way to feed the world</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/content/7caceb97-c7cf-40be-93ea-4b8ac9919bf7" data-trackable="link">UBS chief Sergio Ermotti calls for tougher sanctions on negligent bankers</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/content/dddd51c4-7c5b-4488-b935-6099788bbc89" data-trackable="link">Hedge fund short sellers suffer $43bn of losses in market rally</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/content/fe528c26-a39c-4488-bbb7-5feaa5ed3b54" data-trackable="link">Binance’s crypto dominance under threat after loss of founder Changpeng Zhao</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="o-header__nav-item">
+                                    <a class="o-header__nav-link o-header__nav-link--primary" href="/climate-capital" id="o-header-link-6" data-trackable="Climate">Climate</a>
+                                </li>
+                                <li class="o-header__nav-item">
+                                    <a class="o-header__nav-link o-header__nav-link--primary" href="/opinion" id="o-header-link-7" data-trackable="Opinion">Opinion</a>
+                                    <div class="o-header__mega" id="o-header-mega-7" role="group" aria-labelledby="o-header-link-7" data-o-header-mega="true" data-trackable="meganav | Opinion">
+                                        <div class="o-header__container">
+                                            <div class="o-header__mega-wrapper">
+                                                <div class="o-header__mega-column o-header__mega-column--subsections" data-trackable="sections">
+                                                    <div class="o-header__mega-heading">Sections</div>
+                                                    <div class="o-header__mega-content">
+                                                        <ul class="o-header__mega-list">
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/opinion" data-trackable="link">Opinion Home</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/columnists" data-trackable="link">Columnists</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/ft-view" data-trackable="link">The FT View</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/lex" data-trackable="link">Lex</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/obituaries" data-trackable="link">Obituaries</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/letters" data-trackable="link">Letters</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="o-header__mega-column o-header__mega-column--articles" data-trackable="popular">
+                                                    <div class="o-header__mega-heading">Most Read</div>
+                                                    <div class="o-header__mega-content">
+                                                        <ul class="o-header__mega-list">
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/content/a9ea4937-6a02-4eed-b751-adaca5076d84" data-trackable="link">A Tory chancellor walks into a bar . . . </a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/content/78a5a870-3243-480f-a532-f5066f590e13" data-trackable="link">There is a crisis of confidence in Israel and Zionism</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/content/8279eb63-395a-4ff2-99c3-250409e03941" data-trackable="link">OpenAI has just fused its corporate ‘kill switch’</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/content/8c23c566-cb73-4983-9773-b20917bc323f" data-trackable="link">What if US income inequality has not risen?</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/content/c88634cd-ea99-41ec-8422-b47ed2ffc45a" data-trackable="link">There is a scientific fraud epidemic — and we are ignoring the cure</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="o-header__nav-item">
+                                    <a class="o-header__nav-link o-header__nav-link--primary" href="/work-careers" id="o-header-link-8" data-trackable="Work &amp; Careers">Work &amp;Careers</a>
+                                    <div class="o-header__mega" id="o-header-mega-8" role="group" aria-labelledby="o-header-link-8" data-o-header-mega="true" data-trackable="meganav | Work &amp; Careers">
+                                        <div class="o-header__container">
+                                            <div class="o-header__mega-wrapper">
+                                                <div class="o-header__mega-column o-header__mega-column--subsections" data-trackable="sections">
+                                                    <div class="o-header__mega-heading">Sections</div>
+                                                    <div class="o-header__mega-content">
+                                                        <ul class="o-header__mega-list">
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/work-careers" data-trackable="link">Work &amp;Careers Home</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="https://rankings.ft.com/" data-trackable="link">Business School Rankings</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/business-education" data-trackable="link">Business Education</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/entrepreneurship" data-trackable="link">Entrepreneurship</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/recruitment" data-trackable="link">Recruitment</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/business-books" data-trackable="link">Business Books</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/business-travel" data-trackable="link">Business Travel</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/working-it" data-trackable="link">Working It</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="o-header__mega-column o-header__mega-column--articles" data-trackable="popular">
+                                                    <div class="o-header__mega-heading">Most Read</div>
+                                                    <div class="o-header__mega-content">
+                                                        <ul class="o-header__mega-list">
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/content/6ee16212-c748-44df-8698-b646f722deb7" data-trackable="link">Brexit negotiator Michel Barnier: ‘The EU is not the same one the UK left’</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/content/c42006d9-f3c6-4b5a-a42d-f32f7be9915c" data-trackable="link">In search of chief executives who never grow ‘old’</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/content/7944d5a5-5933-4d0c-a45d-078dde7c986b" data-trackable="link">The inescapable tyranny of the bad boss</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/content/0eb7cb51-6ccb-4277-b457-a0ad86c2ba68" data-trackable="link">Business Books: What to read this month</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/content/562f1c34-c1c3-400f-8d93-f6f5fa0bcce9" data-trackable="link">Start-ups challenge culture of the Japanese salaryman</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="o-header__nav-item">
+                                    <a class="o-header__nav-link o-header__nav-link--primary" href="/life-arts" id="o-header-link-9" data-trackable="Life &amp; Arts">Life &amp;Arts</a>
+                                    <div class="o-header__mega" id="o-header-mega-9" role="group" aria-labelledby="o-header-link-9" data-o-header-mega="true" data-trackable="meganav | Life &amp; Arts">
+                                        <div class="o-header__container">
+                                            <div class="o-header__mega-wrapper">
+                                                <div class="o-header__mega-column o-header__mega-column--subsections" data-trackable="sections">
+                                                    <div class="o-header__mega-heading">Sections</div>
+                                                    <div class="o-header__mega-content">
+                                                        <ul class="o-header__mega-list">
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/life-arts" data-trackable="link">Life &amp;Arts Home</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/arts" data-trackable="link">Arts</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/books" data-trackable="link">Books</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/food-drink" data-trackable="link">Food &amp;Drink</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/magazine" data-trackable="link">FT Magazine</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/house-home" data-trackable="link">House &amp;Home</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/style" data-trackable="link">Style</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/travel" data-trackable="link">Travel</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/globetrotter" data-trackable="link">FT Globetrotter</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="o-header__mega-column o-header__mega-column--articles" data-trackable="popular">
+                                                    <div class="o-header__mega-heading">Most Read</div>
+                                                    <div class="o-header__mega-content">
+                                                        <ul class="o-header__mega-list">
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/content/74240f9f-f09c-4b15-9011-dccbea2e000c" data-trackable="link">Leon Black’s downfall confounds the legacy of #MeToo on Wall Street</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/content/b12fbaa3-150d-4e46-bad7-25d0f79b03a7" data-trackable="link">Luxury fashion prices have gone too far</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/content/d46b742b-b906-4c51-8468-112798cc8ee4" data-trackable="link">The downsizer’s dilemma: how the property market is trapping would-be movers</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/content/2b0c050f-f776-4292-8ce7-884beceef4be" data-trackable="link">Ukraine: the new fissures in a society under strain</a>
+                                                            </li>
+                                                            <li class="o-header__mega-item">
+                                                                <a class="o-header__mega-link" href="/content/f892799e-8749-49f4-bba3-30188559af80" data-trackable="link">Theorising only gets you so far in bed </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="o-header__nav-item">
+                                    <a class="o-header__nav-link o-header__nav-link--primary" href="/htsi" id="o-header-link-10" data-trackable="HTSI">HTSI</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </header>
+                <header class="o-header o-header--simple o-header--sticky o--if-js" data-o-component="o-header" data-o-header--sticky="true" aria-hidden="true">
+                    <div class="o-header__row o-header__top" data-trackable="header-sticky">
+                        <div class="o-header__container">
+                            <div class="o-header__top-wrapper">
+                                <div class="o-header__top-column o-header__top-column--left">
+                                    <a href="#" class="o-header__top-icon-link o-header__top-icon-link--menu" aria-controls="o-header-drawer" data-trackable="drawer-toggle" tabindex="-1">
+                                        <span class="o-header__top-link-label">Menu</span>
+                                    </a>
+                                    <a href="#" class="o-header__top-icon-link o-header__top-icon-link--search" aria-controls="o-header-search-sticky" data-trackable="search-toggle" tabindex="-1">
+                                        <span class="o-header__top-link-label">Search</span>
+                                    </a>
+                                </div>
+                                <div class="o-header__top-column o-header__top-column--center">
+                                    <div class="o-header__top-takeover">
+                                        <div class="o-header__nav">
+                                            <ul class="o-header__nav-list o-header__nav-list--left" data-trackable="primary-nav">
+                                                <li class="o-header__nav-item">
+                                                    <a class="o-header__nav-link o-header__nav-link--primary" href="/" data-trackable="Home" tabindex="-1">Home</a>
+                                                </li>
+                                                <li class="o-header__nav-item">
+                                                    <a class="o-header__nav-link o-header__nav-link--primary" href="/world" data-trackable="World" tabindex="-1">World</a>
+                                                </li>
+                                                <li class="o-header__nav-item">
+                                                    <a class="o-header__nav-link o-header__nav-link--primary" href="/world-uk" data-trackable="UK" tabindex="-1">UK</a>
+                                                </li>
+                                                <li class="o-header__nav-item">
+                                                    <a class="o-header__nav-link o-header__nav-link--primary" href="/companies" data-trackable="Companies" tabindex="-1">Companies</a>
+                                                </li>
+                                                <li class="o-header__nav-item">
+                                                    <a class="o-header__nav-link o-header__nav-link--primary" href="/technology" data-trackable="Tech" tabindex="-1">Tech</a>
+                                                </li>
+                                                <li class="o-header__nav-item">
+                                                    <a class="o-header__nav-link o-header__nav-link--primary" href="/markets" data-trackable="Markets" tabindex="-1">Markets</a>
+                                                </li>
+                                                <li class="o-header__nav-item">
+                                                    <a class="o-header__nav-link o-header__nav-link--primary" href="/climate-capital" data-trackable="Climate" tabindex="-1">Climate</a>
+                                                </li>
+                                                <li class="o-header__nav-item">
+                                                    <a class="o-header__nav-link o-header__nav-link--primary" href="/opinion" data-trackable="Opinion" tabindex="-1">Opinion</a>
+                                                </li>
+                                                <li class="o-header__nav-item">
+                                                    <a class="o-header__nav-link o-header__nav-link--primary" href="/work-careers" data-trackable="Work &amp; Careers" tabindex="-1">Work &amp;Careers</a>
+                                                </li>
+                                                <li class="o-header__nav-item">
+                                                    <a class="o-header__nav-link o-header__nav-link--primary" href="/life-arts" data-trackable="Life &amp; Arts" tabindex="-1">Life &amp;Arts</a>
+                                                </li>
+                                                <li class="o-header__nav-item">
+                                                    <a class="o-header__nav-link o-header__nav-link--primary" href="/htsi" data-trackable="HTSI" tabindex="-1">HTSI</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <a class="o-header__top-logo o-header__hide--L" data-trackable="logo" href="/" title="Go to Financial Times homepage" tabindex="-1">
+                                        <span class="o-header__visually-hidden">Financial Times</span>
+                                    </a>
+                                </div>
+                                <div class="o-header__top-column o-header__top-column--right">
+                                    <div class="o-header__nav">
+                                        <div class="o-header__top-column o-header__top-column--right">
+                                            <a class="o-header__top-button o-header__top-button--hide-m" role="button" href="/products?segmentId=f860e6c2-18af-ab30-cd5e-6e3a456f9265" data-trackable="Subscribe" tabindex="-1">Subscribe</a>
+                                            <a class="o-header__top-link " href="/login?location=/content/2314fb09-7f58-45e1-86ab-4767e9139ad3" data-trackable="Sign In" tabindex="-1">Sign In</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="o-header-search-sticky" class="o-header__row o-header__search o-header__search--sticky" data-trackable="header-search" data-o-header-search="true">
+                        <div class="o-header__container">
+                            <form class="o-header__search-form" action="/search" role="search" aria-label="Site search" data-n-topic-search="true" data-n-topic-search-categories="concepts,equities" data-n-topic-search-view-all="true">
+                                <label class="o-header__visually-hidden" for="o-header-search-term-sticky">
+                                    Search the <abbr title="Financial Times">FT</abbr>
+                                </label>
+                                <input type="text" class="o-header__search-term" id="o-header-search-term-sticky" name="q" autoComplete="off" autoCorrect="off" autoCapitalize="off" spellcheck="false" data-trackable="search-term" placeholder="Search the FT" data-n-topic-search-input="true"/>
+                                <button class="o-header__search-submit" type="submit" data-trackable="search-submit">Search</button>
+                                <button class="o-header__search-close o--if-js" type="button" aria-controls="o-header-search-sticky" title="Close search bar" data-trackable="close">
+                                    <span class="o-header__visually-hidden">Close search bar</span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </header>
+            </div>
+            <div class="n-layout__row n-layout__row--content">
+                <div>
+                    <div data-reactroot="">
+                        <div id="n-exponea-top-slot"></div>
+                        <div></div>
+                        <div class="article-content">
+                            <div class="article-topper">
+                                <div class="o-topper article-topper o-topper--color-paper o-topper--basic">
+                                    <div class="o-topper__content" id="o-topper">
+                                        <div class="o-topper__tags">
+                                            <div class="topper__primary-theme">
+                                                <span>
+                                                    <a href="/stream/57afc2ba-73ba-42da-8433-0ad6ae1e9d05" class="o-topper__topic n-content-tag--with-follow js-primary-theme" data-trackable="primary-theme" aria-label="posted in category Lawrence Jones" data-concept-id="57afc2ba-73ba-42da-8433-0ad6ae1e9d05">Lawrence Jones</a>
+                                                </span>
+                                                <form action="/myft/add/57afc2ba-73ba-42da-8433-0ad6ae1e9d05" data-js-action="/__myft/api/core/followed/concept/57afc2ba-73ba-42da-8433-0ad6ae1e9d05?method=put" class="n-myft-ui n-myft-ui--follow" method="GET" data-myft-ui="follow" data-concept-id="57afc2ba-73ba-42da-8433-0ad6ae1e9d05" data-myft-ui-variant="followPlusInstantAlerts">
+                                                    <div class="n-myft-ui__announcement o-normalise-visually-hidden" aria-live="assertive" data-pressed-text="Now following Lawrence Jones." data-unpressed-text="No longer following Lawrence Jones."></div>
+                                                    <input type="hidden" data-myft-csrf-token="true" value="" name="token"/>
+                                                    <button aria-label="Add Lawrence Jones to myFT" title="Add Lawrence Jones to myFT" data-alternate-label="Added Lawrence Jones to myFT: click to manage alert preferences or remove from myFT" aria-pressed="false" data-alternate-text="Added" class="n-myft-follow-button n-myft-follow-button--instant-alerts
+						
+						n-myft-follow-button--standard" data-concept-id="57afc2ba-73ba-42da-8433-0ad6ae1e9d05" data-trackable="follow" type="submit" data-component-id="myft-follow-plus-instant-alerts">Add to myFT</button>
+                                                </form>
+                                                <div class="n-myft-ui__preferences-modal " data-component-id="myft-preferences-modal" data-concept-id="57afc2ba-73ba-42da-8433-0ad6ae1e9d05">
+                                                    <div class="n-myft-ui__preferences-modal__content">
+                                                        <span class="o-forms-input o-forms-input--checkbox">
+                                                            <label for="receive-instant-alerts">
+                                                                <input type="checkbox" id="receive-instant-alerts" name="receive-instant-alerts" value="receive-instant-alerts" data-component-id="myft-preferences-modal-checkbox" data-trackable-context-concept_id="57afc2ba-73ba-42da-8433-0ad6ae1e9d05"/>
+                                                                <span class="o-forms-input__label n-myft-ui__preferences-modal__checkbox__message">Get instant alerts for this topic</span>
+                                                            </label>
+                                                        </span>
+                                                        <p data-component-id="myft-preferences-modal-list" class="n-myft-ui__preferences-modal__text"></p>
+                                                        <a class="n-myft-ui__preferences-modal__text" href="/myft/alerts" data-trackable="pop-up-box|contact-preference" data-trackable-context-concept_id="57afc2ba-73ba-42da-8433-0ad6ae1e9d05">Manage your delivery channels here</a>
+                                                        <span class="n-myft-ui__preferences-modal-error" data-component-id="myft-preference-modal-error"></span>
+                                                        <button class="n-myft-ui__preferences-modal__remove-button" data-component-id="myft-preference-modal-remove" data-trackable="pop-up-box|remove-from-myFT" data-trackable-context-concept_id="57afc2ba-73ba-42da-8433-0ad6ae1e9d05">Remove from myFT</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h1 class="o-topper__headline">
+                                            <span class="article-classifier__gap">British tech tycoon Lawrence Jones guilty of rape and sexual assault</span>
+                                        </h1>
+                                        <div class="o-topper__standfirst">Founder of web hosting business UKFast convicted of attacking three women</div>
+                                    </div>
+                                    <div class="o-topper__background"></div>
+                                </div>
+                            </div>
+                            <article id="site-content" role="main" class="article article-grid  article-grid--no-full-width-graphics" data-content-id="2314fb09-7f58-45e1-86ab-4767e9139ad3" data-access-level="subscribed" data-syndicatable="yes" data-article-type="no-full-width-graphics" data-cp-content-pipeline="true">
+                                <div class="main-image">
+                                    <figure class="n-content-image n-content-image--full">
+                                        <picture>
+                                            <source media="(min-width: 700px)" srcSet="https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3A60936964-23d1-4b78-96e8-37b54a4579c6?source=next-article&amp;fit=scale-down&amp;quality=highest&amp;width=700&amp;dpr=1 1x,https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3A60936964-23d1-4b78-96e8-37b54a4579c6?source=next-article&amp;fit=scale-down&amp;quality=highest&amp;width=700&amp;dpr=2 2x,https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3A60936964-23d1-4b78-96e8-37b54a4579c6?source=next-article&amp;fit=scale-down&amp;quality=highest&amp;width=700&amp;dpr=3 3x" width="2290" height="1288"/>
+                                            <img src="https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F60936964-23d1-4b78-96e8-37b54a4579c6.jpg?source=next-article&amp;fit=scale-down&amp;quality=highest&amp;width=700&amp;dpr=1" alt="Lawrence Jones" data-image-type="image" width="2290" height="1288"/>
+                                        </picture>
+                                        <figcaption class="n-content-picture__caption">
+                                            <span>Lawrence Jones’s business empire started to crumble in 2019 after the FT published an investigation into his workplace conduct</span>
+                                            <span>
+                                            <!-- -->
+                                            © Jon Super/FT</span>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="share-nav" data-trackable="share | top">
+                                    <div class="share-nav__vertical" data-share-nav-vertical="true">
+                                        <div data-o-component="o-share" data-o-share-article="true" class="o-share o-share--vertical ">
+                                            <ul data-toolbar="share">
+                                                <li class="o-share__action share-nav__x-action" data-share="twitter">
+                                                    <a class="o-share__icon o-share__icon--x" rel="noopener" href="https://twitter.com/intent/tweet?url=https://www.ft.com/content/2314fb09-7f58-45e1-86ab-4767e9139ad3&amp;text=British%20tech%20tycoon%20Lawrence%20Jones%20guilty%20of%20rape%20and%20sexual%20assault&amp;via=ft" data-trackable="twitter">
+                                                        <div class="o-share__icon__image">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+                                                                <path d="M21.647 18.469 28.932 10h-1.726l-6.326 7.353L15.827 10H10l7.64 11.12L10 30h1.726l6.68-7.765L23.744 30h5.827l-7.924-11.531Zm-2.365 2.748-.774-1.107-6.16-8.81H15l4.971 7.11.774 1.107 6.462 9.242h-2.652l-5.273-7.541"></path>
+                                                            </svg>
+                                                        </div>
+                                                        <span class="o-share__text">British tech tycoon Lawrence Jones guilty of rape and sexual assault
+                                                        <!-- -->
+                                                        on 
+                                                        <!-- -->
+                                                        x
+                                                        <!-- -->
+                                                        (opens in a new window)</span>
+                                                    </a>
+                                                </li>
+                                                <li class="o-share__action share-nav__facebook-action" data-share="facebook">
+                                                    <a class="o-share__icon o-share__icon--facebook" rel="noopener" href="https://www.facebook.com/sharer.php?u=https://www.ft.com/content/2314fb09-7f58-45e1-86ab-4767e9139ad3&amp;t=British%20tech%20tycoon%20Lawrence%20Jones%20guilty%20of%20rape%20and%20sexual%20assault" data-trackable="facebook">
+                                                        <div class="o-share__icon__image">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+                                                                <path d="M643.9 342h-48.2c-37.8 0-45.1 18-45.1 44.3v58.1h90.1l-11.7 91h-78.4V769h-94V535.5H378v-91h78.6v-67.1c0-77.9 47.6-120.3 117.1-120.3 33.3 0 61.9 2.5 70.2 3.6V342z"></path>
+                                                            </svg>
+                                                        </div>
+                                                        <span class="o-share__text">British tech tycoon Lawrence Jones guilty of rape and sexual assault
+                                                        <!-- -->
+                                                        on 
+                                                        <!-- -->
+                                                        facebook
+                                                        <!-- -->
+                                                        (opens in a new window)</span>
+                                                    </a>
+                                                </li>
+                                                <li class="o-share__action share-nav__linkedin-action" data-share="linkedin">
+                                                    <a class="o-share__icon o-share__icon--linkedin" rel="noopener" href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.ft.com/content/2314fb09-7f58-45e1-86ab-4767e9139ad3" data-trackable="linkedin">
+                                                        <div class="o-share__icon__image">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+                                                                <path d="M264.4 426.2h106.2v341.4H264.4V426.2zm53.2-169.7c-34.1 0-61.6 27.6-61.6 61.5 0 34 27.5 61.5 61.6 61.5 33.9 0 61.5-27.6 61.5-61.5-.1-34-27.6-61.5-61.5-61.5zm323.1 161.2c-51.6 0-86.2 28.3-100.4 55.1h-1.5v-46.7H437.2v341.4h106V598.7c0-44.5 8.4-87.7 63.6-87.7 54.5 0 55.1 50.9 55.1 90.5v166H768V580.3c0-91.9-19.9-162.6-127.3-162.6z"></path>
+                                                            </svg>
+                                                        </div>
+                                                        <span class="o-share__text">British tech tycoon Lawrence Jones guilty of rape and sexual assault
+                                                        <!-- -->
+                                                        on 
+                                                        <!-- -->
+                                                        linkedin
+                                                        <!-- -->
+                                                        (opens in a new window)</span>
+                                                    </a>
+                                                </li>
+                                                <li class="o-share__action share-nav__whatsapp-action" data-share="whatsapp">
+                                                    <a class="o-share__icon o-share__icon--whatsapp" rel="noopener" href="whatsapp://send?text=British%20tech%20tycoon%20Lawrence%20Jones%20guilty%20of%20rape%20and%20sexual%20assault%20-%20https://www.ft.com/content/2314fb09-7f58-45e1-86ab-4767e9139ad3" data-trackable="whatsapp">
+                                                        <div class="o-share__icon__image">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+                                                                <path d="M756.7 436.8c-35.6-122-152.2-196.3-279.3-178.1-116 16.7-208.2 121.5-210.6 238.6-.9 45.5 9.5 87.9 30.4 128.2 2.6 4.9 3.1 12.2 1.6 17.6-4.1 15.4-9.8 30.5-14.9 45.7L257.6 768c44.5-14.2 86.2-27.4 127.8-41.1 7.3-2.4 13.1-1.8 19.9 1.5 48.9 23.9 100.3 31.5 154.2 22.4 145.1-24.5 238.3-172.8 197.2-314zM542.2 710.9c-47.6 5.4-91.8-3.7-132.7-28.3-5.4-3.2-9.9-3.8-15.8-1.8-20.2 6.8-40.7 13.2-61 19.7-2.4.8-4.9 1.2-9.5 2.4 5.3-16.1 8.6-31.2 15.1-44.8 9.4-20.1 6.5-35.8-4.3-55.9-57.4-106-12.8-237.4 99.5-287 124.7-55.1 269.7 24.4 288.6 159.4 17.9 129.1-77.2 224.6-179.9 236.3zm98.3-144.6c2.9 1.7 5.2 7.7 4.9 11.6-1.8 27.4-19.7 46.3-47.1 50.4-4.6.7-9.3.9-14 1.4l-.3 1c-8.8-1.9-17.7-3.3-26.2-5.9-57.5-17.8-101.9-53-134.8-103.2-13.6-20.8-27.2-41.4-30.4-66.8-3.1-24.2 4.6-44.7 21.1-62.3 10.4-11 23.3-10.4 36.3-7.7 2.9.6 6.1 4.2 7.4 7.2 6.9 16.7 13.7 33.4 19.4 50.5 1.5 4.7-.5 10.8-2 16-.8 3-3.6 5.5-5.7 8.1-14.9 18.3-14.7 18.2-1.7 37.8 17.8 26.9 41.5 46.8 70.2 61.2 9 4.5 15.7 3.7 21.9-4.2 5.2-6.5 11.1-12.5 16.5-18.9 4-4.8 8.6-6 14.2-3.1 16.8 8.9 33.9 17.4 50.3 26.9"></path>
+                                                            </svg>
+                                                        </div>
+                                                        <span class="o-share__text">British tech tycoon Lawrence Jones guilty of rape and sexual assault
+                                                        <!-- -->
+                                                        on 
+                                                        <!-- -->
+                                                        whatsapp
+                                                        <!-- -->
+                                                        (opens in a new window)</span>
+                                                    </a>
+                                                </li>
+                                                <li class="o-share__action share-nav__save-action">
+                                                    <div>
+                                                        <form class="n-myft-ui n-myft-ui--save" method="GET" data-content-id="2314fb09-7f58-45e1-86ab-4767e9139ad3" data-myft-ui="saved" action="/myft/save/2314fb09-7f58-45e1-86ab-4767e9139ad3" data-js-action="/__myft/api/core/saved/content/2314fb09-7f58-45e1-86ab-4767e9139ad3?method=put" data-myft-ui-save-config="nonModal">
+                                                            <input data-myft-csrf-token value="" type="hidden" name="token">
+                                                            <div class="n-myft-ui__announcement o-normalise-visually-hidden" aria-live="assertive" data-pressed-text="Article saved in My FT." data-unpressed-text="Removed article from My FT."></div>
+                                                            <button type="submit" class="n-myft-ui__save-button-with-icon" data-trackable="save-for-later" title="Save this article to myFT for later" aria-label="Save this article to myFT for later" data-alternate-label=" Saved to myFT" aria-pressed="false" data-text-variant="save-button-with-icon-copy" data-alternate-text="Saved&nbsp;" data-content-id="2314fb09-7f58-45e1-86ab-4767e9139ad3">
+                                                                <span class="save-button-with-icon-copy" data-variant-label>Save</span>
+                                                            </button>
+                                                        </form>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div id="article-progress"></div>
+                                        <div id="share-modal-vertical"></div>
+                                    </div>
+                                    <div class="share-nav__horizontal" data-share-nav-vertical="false">
+                                        <div data-o-component="o-share" data-o-share-article="true" class="o-share o-share--horizontal ">
+                                            <ul data-toolbar="share">
+                                                <li class="o-share__action share-nav__x-action" data-share="twitter">
+                                                    <a class="o-share__icon o-share__icon--x" rel="noopener" href="https://twitter.com/intent/tweet?url=https://www.ft.com/content/2314fb09-7f58-45e1-86ab-4767e9139ad3&amp;text=British%20tech%20tycoon%20Lawrence%20Jones%20guilty%20of%20rape%20and%20sexual%20assault&amp;via=ft" data-trackable="twitter">
+                                                        <div class="o-share__icon__image">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+                                                                <path d="M21.647 18.469 28.932 10h-1.726l-6.326 7.353L15.827 10H10l7.64 11.12L10 30h1.726l6.68-7.765L23.744 30h5.827l-7.924-11.531Zm-2.365 2.748-.774-1.107-6.16-8.81H15l4.971 7.11.774 1.107 6.462 9.242h-2.652l-5.273-7.541"></path>
+                                                            </svg>
+                                                        </div>
+                                                        <span class="o-share__text">British tech tycoon Lawrence Jones guilty of rape and sexual assault
+                                                        <!-- -->
+                                                        on 
+                                                        <!-- -->
+                                                        x
+                                                        <!-- -->
+                                                        (opens in a new window)</span>
+                                                    </a>
+                                                </li>
+                                                <li class="o-share__action share-nav__facebook-action" data-share="facebook">
+                                                    <a class="o-share__icon o-share__icon--facebook" rel="noopener" href="https://www.facebook.com/sharer.php?u=https://www.ft.com/content/2314fb09-7f58-45e1-86ab-4767e9139ad3&amp;t=British%20tech%20tycoon%20Lawrence%20Jones%20guilty%20of%20rape%20and%20sexual%20assault" data-trackable="facebook">
+                                                        <div class="o-share__icon__image">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+                                                                <path d="M643.9 342h-48.2c-37.8 0-45.1 18-45.1 44.3v58.1h90.1l-11.7 91h-78.4V769h-94V535.5H378v-91h78.6v-67.1c0-77.9 47.6-120.3 117.1-120.3 33.3 0 61.9 2.5 70.2 3.6V342z"></path>
+                                                            </svg>
+                                                        </div>
+                                                        <span class="o-share__text">British tech tycoon Lawrence Jones guilty of rape and sexual assault
+                                                        <!-- -->
+                                                        on 
+                                                        <!-- -->
+                                                        facebook
+                                                        <!-- -->
+                                                        (opens in a new window)</span>
+                                                    </a>
+                                                </li>
+                                                <li class="o-share__action share-nav__linkedin-action" data-share="linkedin">
+                                                    <a class="o-share__icon o-share__icon--linkedin" rel="noopener" href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.ft.com/content/2314fb09-7f58-45e1-86ab-4767e9139ad3" data-trackable="linkedin">
+                                                        <div class="o-share__icon__image">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+                                                                <path d="M264.4 426.2h106.2v341.4H264.4V426.2zm53.2-169.7c-34.1 0-61.6 27.6-61.6 61.5 0 34 27.5 61.5 61.6 61.5 33.9 0 61.5-27.6 61.5-61.5-.1-34-27.6-61.5-61.5-61.5zm323.1 161.2c-51.6 0-86.2 28.3-100.4 55.1h-1.5v-46.7H437.2v341.4h106V598.7c0-44.5 8.4-87.7 63.6-87.7 54.5 0 55.1 50.9 55.1 90.5v166H768V580.3c0-91.9-19.9-162.6-127.3-162.6z"></path>
+                                                            </svg>
+                                                        </div>
+                                                        <span class="o-share__text">British tech tycoon Lawrence Jones guilty of rape and sexual assault
+                                                        <!-- -->
+                                                        on 
+                                                        <!-- -->
+                                                        linkedin
+                                                        <!-- -->
+                                                        (opens in a new window)</span>
+                                                    </a>
+                                                </li>
+                                                <li class="o-share__action share-nav__whatsapp-action" data-share="whatsapp">
+                                                    <a class="o-share__icon o-share__icon--whatsapp" rel="noopener" href="whatsapp://send?text=British%20tech%20tycoon%20Lawrence%20Jones%20guilty%20of%20rape%20and%20sexual%20assault%20-%20https://www.ft.com/content/2314fb09-7f58-45e1-86ab-4767e9139ad3" data-trackable="whatsapp">
+                                                        <div class="o-share__icon__image">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+                                                                <path d="M756.7 436.8c-35.6-122-152.2-196.3-279.3-178.1-116 16.7-208.2 121.5-210.6 238.6-.9 45.5 9.5 87.9 30.4 128.2 2.6 4.9 3.1 12.2 1.6 17.6-4.1 15.4-9.8 30.5-14.9 45.7L257.6 768c44.5-14.2 86.2-27.4 127.8-41.1 7.3-2.4 13.1-1.8 19.9 1.5 48.9 23.9 100.3 31.5 154.2 22.4 145.1-24.5 238.3-172.8 197.2-314zM542.2 710.9c-47.6 5.4-91.8-3.7-132.7-28.3-5.4-3.2-9.9-3.8-15.8-1.8-20.2 6.8-40.7 13.2-61 19.7-2.4.8-4.9 1.2-9.5 2.4 5.3-16.1 8.6-31.2 15.1-44.8 9.4-20.1 6.5-35.8-4.3-55.9-57.4-106-12.8-237.4 99.5-287 124.7-55.1 269.7 24.4 288.6 159.4 17.9 129.1-77.2 224.6-179.9 236.3zm98.3-144.6c2.9 1.7 5.2 7.7 4.9 11.6-1.8 27.4-19.7 46.3-47.1 50.4-4.6.7-9.3.9-14 1.4l-.3 1c-8.8-1.9-17.7-3.3-26.2-5.9-57.5-17.8-101.9-53-134.8-103.2-13.6-20.8-27.2-41.4-30.4-66.8-3.1-24.2 4.6-44.7 21.1-62.3 10.4-11 23.3-10.4 36.3-7.7 2.9.6 6.1 4.2 7.4 7.2 6.9 16.7 13.7 33.4 19.4 50.5 1.5 4.7-.5 10.8-2 16-.8 3-3.6 5.5-5.7 8.1-14.9 18.3-14.7 18.2-1.7 37.8 17.8 26.9 41.5 46.8 70.2 61.2 9 4.5 15.7 3.7 21.9-4.2 5.2-6.5 11.1-12.5 16.5-18.9 4-4.8 8.6-6 14.2-3.1 16.8 8.9 33.9 17.4 50.3 26.9"></path>
+                                                            </svg>
+                                                        </div>
+                                                        <span class="o-share__text">British tech tycoon Lawrence Jones guilty of rape and sexual assault
+                                                        <!-- -->
+                                                        on 
+                                                        <!-- -->
+                                                        whatsapp
+                                                        <!-- -->
+                                                        (opens in a new window)</span>
+                                                    </a>
+                                                </li>
+                                                <li class="o-share__action share-nav__save-action">
+                                                    <div>
+                                                        <form class="n-myft-ui n-myft-ui--save" method="GET" data-content-id="2314fb09-7f58-45e1-86ab-4767e9139ad3" data-myft-ui="saved" action="/myft/save/2314fb09-7f58-45e1-86ab-4767e9139ad3" data-js-action="/__myft/api/core/saved/content/2314fb09-7f58-45e1-86ab-4767e9139ad3?method=put" data-myft-ui-save-config="nonModal">
+                                                            <input data-myft-csrf-token value="" type="hidden" name="token">
+                                                            <div class="n-myft-ui__announcement o-normalise-visually-hidden" aria-live="assertive" data-pressed-text="Article saved in My FT." data-unpressed-text="Removed article from My FT."></div>
+                                                            <button type="submit" class="n-myft-ui__save-button-with-icon" data-trackable="save-for-later" title="Save this article to myFT for later" aria-label="Save this article to myFT for later" data-alternate-label=" Saved to myFT" aria-pressed="false" data-text-variant="save-button-with-icon-copy" data-alternate-text="Saved&nbsp;" data-content-id="2314fb09-7f58-45e1-86ab-4767e9139ad3">
+                                                                <span class="save-button-with-icon-copy" data-variant-label>Save</span>
+                                                            </button>
+                                                        </form>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div id="share-modal-horizontal"></div>
+                                    </div>
+                                    <span class="myft-ui-create-list-variant-announcement o-normalise-visually-hidden" role="region" aria-live="assertive"></span>
+                                </div>
+                                <div class="article__content" data-trackable="article-body" data-component="article-body">
+                                    <div class="article-info">
+                                        <div class="article-info__time-byline">
+                                            <p class="article-info__byline">
+                                                <a class="n-content-tag--author" href="https://www.ft.com/madison-marriage" data-trackable="author">Madison Marriage</a>
+                                                in London
+                                            </p>
+                                            <span></span>
+                                            <time data-o-component="o-date" class="article-info__timestamp o-date" dateTime="2023-11-23T14:30:09.711Z"></time>
+                                        </div>
+                                        <a id="o-comments-count" data-o-component="o-comments" data-o-comments-article-id="2314fb09-7f58-45e1-86ab-4767e9139ad3" data-o-comments-count="true" data-o-comments-article-url="https://www.ft.com/content/2314fb09-7f58-45e1-86ab-4767e9139ad3" data-o-comments-title="British tech tycoon Lawrence Jones guilty of rape and sexual assault" class="article-comment-count" title="Jump to comments section" href="#comments-anchor">
+                                            <span class="o-normalise-visually-hidden">Jump to comments section</span>
+                                        </a>
+                                        <a class="article-print" data-component="print-button" data-trackable="print" href="javascript:void(0)" title="Print this page">
+                                            <span class="o-normalise-visually-hidden">Print this page</span>
+                                        </a>
+                                    </div>
+                                    <div class="article__content-sign-up">
+                                        <div class="article__content-sign-up-topic-title">Unlock the Editor’s Digest for free</div>
+                                        <p class="article__content-sign-up-topic-description">
+                                            <span>Roula Khalaf, Editor of the FT, selects her favourite stories in this weekly newsletter.</span>
+                                        </p>
+                                        <iframe class="article__content-sign-up-iframe close" scrolling="no" id="signUpIframe" data-prev-url="/register/in-article-sign-up?ft-content-uuid=2314fb09-7f58-45e1-86ab-4767e9139ad3"></iframe>
+                                    </div>
+                                    <article id="article-body" class="n-content-body js-article__content-body" data-attribute="article-content-body">
+                                        <p>Technology entrepreneur Lawrence Jones has been found guilty of raping two women in the early 1990s and of sexually assaulting a third woman a decade ago while she worked at UKFast, the web-hosting business he founded. </p>
+                                        <p>The 55-year-old was on Thursday unanimously convicted of raping the two women in Manchester 30 years ago. He was convicted of the sexual assault in January but that majority verdict could not be reported until now because of a reporting restriction.</p>
+                                        <p>
+                                            <a href="https://www.ft.com/stream/57afc2ba-73ba-42da-8433-0ad6ae1e9d05" data-trackable="link">Jones</a>
+                                            , once dubbed Britain’s “cloud computing king”, was considered one of the most influential technology magnates in the UK with an estimated wealth of about £700mn.
+                                        </p>
+                                        <p>But his business empire began to crumble in 2019 after the Financial Times published an investigation into his workplace conduct and treatment of female employees, prompting him to quit the company he founded 20 years earlier. </p>
+                                        <p>The two women Jones raped in the 1990s, who do not know each other, said in court that Jones attacked them in his flat on separate occasions after he gave them a substance that left them stupefied and unable to fight him off. </p>
+                                        <p>They both knew Jones socially through his work at the time as a pianist at local hotels and pubs across Manchester before his business career took off, the November trial in Manchester Crown Court heard.</p>
+                                        <p>Jones, who later gained a prominent public profile as a self-styled straight-talking business guru, claimed he had never met one of the women and said he had a consensual sexual relationship with the second.</p>
+                                        <p>In a separate trial in January Jones was found guilty of sexually assaulting a third woman — a former employee at UKFast — while she accompanied him on a business trip to London a decade ago.</p>
+                                        <p>Jones has been held in custody since the January conviction.</p>
+                                        <p>The father-of-four was acquitted of sexually assaulting and raping a fourth woman, another former UKFast employee, at the January trial. </p>
+                                        <p>The outcome of the January trial could not be reported until the second trial concluded this month to avoid prejudicing the jury. Jones’s sentencing on all three convictions will take place in a week. </p>
+                                        <figure class="n-content-image n-content-image--full">
+                                            <picture>
+                                                <source media="(min-width: 700px)" srcSet="https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Af76b9fe9-a250-43c6-827f-bdf9e35df0df?source=next-article&amp;fit=scale-down&amp;quality=highest&amp;width=700&amp;dpr=1 1x" width="1116" height="744"/>
+                                                <img src="https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Ff76b9fe9-a250-43c6-827f-bdf9e35df0df.jpg?source=next-article&amp;fit=scale-down&amp;quality=highest&amp;width=700&amp;dpr=1" alt="A picture of a young Lawrence Jones released by the court" data-image-type="image" width="1116" height="744"/>
+                                            </picture>
+                                            <figcaption class="n-content-picture__caption">
+                                                <span>A picture of a young Lawrence Jones released by the court</span>
+                                                <span></span>
+                                            </figcaption>
+                                        </figure>
+                                        <p>Jurors in the November trial heard harrowing details of the rapes Jones committed. </p>
+                                        <p>One of the women said she had known Jones in the 1990s because he dated one of her friends at the time.</p>
+                                        <p>She told the court she considered Jones obnoxious after he made an inappropriate sexual remark about her love life the first time they met, telling her she needed “a good fucking”.</p>
+                                        <p>She said she agreed to have a “Christmas drink” at his flat in late 1993 because she felt she owed it to her friend to make an effort with him. </p>
+                                        <p>Once at the flat, she said she had a glass of red wine and a few puffs of a spliff, but quickly became completely disoriented. She said she believed she may have been drugged, and that Jones proceeded to have sex with her against her will.</p>
+                                        <p>She told the court that when she resisted him, Jones shouted at her and called her “a prick tease”. Jones denied having ever met the woman.</p>
+                                        <p>The second woman in the November trial said she was at Jones’s flat when he asked her to sniff a liquid from a small medicinal bottle, which immediately made her feel woozy and “really out of it”. While she was incapacitated, she said Jones had sex with her.</p>
+                                        <p>She recalled the assault was painful as she had not been expecting it and described his attack as “opportunistic”.</p>
+                                        <p>At trial Jones denied raping the second woman and said he had a consensual sexual relationship with her, but that he broke it off after finding it had become too “intense”.</p>
+                                        <p>Jones also admitted on the stand to occasionally using “poppers” — a drug that can make an individual feel high when inhaled — during sexual intercourse in the 1990s but said he had only ever done so with the full consent of his sexual partners. </p>
+                                        <p>Jones, who once featured in the Sunday Times rich list, had denied all the charges in both trials. In 2015, he was awarded an MBE for services to the digital economy.</p>
+                                        <p>Isla Chilton, senior district crown prosecutor for the North West Rape and Serious Sexual Offence Unit at the Crown Prosecution Service, said: “Jones raped two women with no thought for how his actions would affect them.</p>
+                                        <p>“By denying the offences, he compounded the harm to the women, attempting to evade responsibility for his actions. The jury saw through his lies and found him guilty.”</p>
+                                        <p>The young female employee in the January trial told the court that Jones attacked her during a work trip in his penthouse suite, which her bedroom adjoined.</p>
+                                        <p>She said he began pulling her towards him despite her clear resistance while they were sitting on a sofa. Jones then demanded to see her knickers and attempted to forcefully prise her thighs apart, but she managed to get away from him, ran to her room and locked the door, the jury was told. </p>
+                                        <p>The trials were closely followed by former employees of UKFast, which rebranded as ANS after the initial charges against Jones became public in 2021. Under his leadership the company regularly featured in the Sunday Times’ “Best Companies to Work For” list.</p>
+                                        <p>
+                                            More than 30 former employees <a href="https://www.ft.com/content/afffb542-f577-11e9-b018-3ef8794b17c6" data-trackable="link">spoke to the FT</a>
+                                            in 2019 alleging a toxic working culture at UKFast under Jones’s leadership. Many claimed that sexual harassment or inappropriate behaviour by their former boss was commonplace, including unwanted massages, meetings in hot tubs and saunas, and intrusive questions about their sex lives.
+                                        </p>
+                                        <p>Two women told the FT at the time that they had been sexually assaulted by the entrepreneur, allegations he denied. </p>
+                                        <p>The former employees also alleged a workplace culture of fear, with Jones prone to angry, unpredictable outbursts and presiding over a “hire and fire” atmosphere. </p>
+                                        <p>
+                                            Jones stood down as chief executive of UKFast shortly after the FT investigation was published in 2019. Inflexion, the private equity firm that had a minority stake in the internet company at the time, <a href="https://www.ft.com/content/f032eab2-afa3-45ec-b350-65900a900bf0" data-trackable="link">bought out</a>
+                                            Jones and his wife Gail, also a director at UKFast, in 2020.
+                                        </p>
+                                    </article>
+                                    <script class="js-magnet-data" type="application/json">
+                                        {
+                                            "contentId": "2314fb09-7f58-45e1-86ab-4767e9139ad3",
+                                            "focus": [
+                                                "57afc2ba-73ba-42da-8433-0ad6ae1e9d05",
+                                                "6b32f2c1-da43-4e19-80b9-8aef4ab640d7",
+                                                "6b683eff-56c3-43d9-acfc-7511d974fc01",
+                                                "6bade25b-56b3-4409-8d32-c131666d9acb",
+                                                "9c4e64d2-1aca-4ed0-9ec0-dc1748415e2d",
+                                                "a579350c-61ce-4c00-97ca-ddaa2e0cacf6",
+                                                "624e64e0-aa3b-338e-9421-76785bafb4fd",
+                                                "6374b579-f67d-4970-a7cd-1ab5e41a551a",
+                                                "64ba2208-0c0d-43e2-a883-beecb55c0d33",
+                                                "82645c31-4426-4ef5-99c9-9df6e0940c00",
+                                                "c47f4dfc-6879-4e95-accf-ca8cbe6a1f69",
+                                                "e58e66fe-7cc6-4382-b781-1161bae8b905"
+                                            ],
+                                            "authorConcepts": [
+                                                {
+                                                    "id": "5fed50f3-ac7b-41a5-a653-777fdd4e7492",
+                                                    "prefLabel": "Madison Marriage",
+                                                    "types": [
+                                                        "http://www.ft.com/ontology/core/Thing",
+                                                        "http://www.ft.com/ontology/concept/Concept",
+                                                        "http://www.ft.com/ontology/person/Person"
+                                                    ],
+                                                    "type": "PERSON",
+                                                    "directType": "http://www.ft.com/ontology/person/Person",
+                                                    "isPackageBrand": false,
+                                                    "predicate": "http://www.ft.com/ontology/annotation/hasAuthor",
+                                                    "url": "https://www.ft.com/madison-marriage",
+                                                    "relativeUrl": "/madison-marriage",
+                                                    "predicateName": "hasAuthor"
+                                                }
+                                            ]
+                                        }</script>
+                                    <div class="magnet-cta js-magnet-cta" data-trackable="magnet-cta"></div>
+                                </div>
+                                <div class="article-tools" data-trackable="article-tools">
+                                    <footer class="n-content-copyright">
+                                        <a href="https://help.ft.com/help/legal-privacy/copyright/copyright-policy/" data-trackable="link-copyright">Copyright</a>
+                                        <!-- -->
+                                        The Financial Times Limited 
+                                        <!-- -->
+                                        2023
+                                        <!-- -->
+                                        .
+                                        <!-- -->
+                                        <span class="n-content-copyright__rights">All rights reserved.</span>
+                                    </footer>
+                                    <div class="article-tools__buttons">
+                                        <a class="article-tools__reuse" data-trackable="reuse-content-button" target="_blank" rel="noreferrer" href="https://enterprise.ft.com/en-gb/services/republishing/republish-content-request?ft-content-uuid=2314fb09-7f58-45e1-86ab-4767e9139ad3">
+                                            Reuse this content
+                                            <!-- -->
+                                            <span class="o-normalise-visually-hidden">(opens in new window)</span>
+                                        </a>
+                                        <a class="article-tools__comments" data-trackable="view-comments-button" title="Jump to comments section" aria-label="click to go to the comment section" href="#comments-anchor">
+                                            <span data-o-component="o-comments" data-o-comments-article-id="2314fb09-7f58-45e1-86ab-4767e9139ad3" data-o-comments-count="false"></span>
+                                            <!-- -->
+                                            Comments<span class="o-normalise-visually-hidden">Jump to comments section</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="article__right "></div>
+                                <div class="promoted-content__container">
+                                    <h2 class="h2-promoted-content follow-tags__title" style="display:none">Promoted Content</h2>
+                                    <div class="o-ads o-ads--center native-ad__fullwidth" data-o-ads-init="true" data-o-ads-name="native-ad__fullwidth" data-o-ads-targeting="pos=native&amp;format=stacked&amp;appname=article" data-o-ads-formats="MediumRectangle" data-o-ads-formats-default="PartnerContent"></div>
+                                </div>
+                                <div class="onward-journey onward-journey--simple" data-component="onward-journey__bottom"></div>
+                                <div class="article__right-bottom">
+                                    <div>
+                                        <div class="concept-list" data-trackable="mentions">
+                                            <h2 class="concept-list__title">Follow the topics in this article
 			</h2>
-		<ul class="concept-list__list">
-				<li class="concept-list__list-item">
-					<a href="/us-treasury-bonds" data-trackable="concept" class="concept-list__concept">
-						US Treasury bonds
+                                            <ul class="concept-list__list">
+                                                <li class="concept-list__list-item">
+                                                    <a href="/technology-sector" data-trackable="concept" class="concept-list__concept">Technology sector
 					</a>
-						<form class="n-myft-ui n-myft-ui--follow " method="POST" data-myft-ui="follow" data-concept-id="2f9f69ff-9874-4529-adf9-3b9641b51c9b" action="/__myft/api/core/followed/concept/2f9f69ff-9874-4529-adf9-3b9641b51c9b?method=put">
-							<input data-myft-csrf-token="" value="" type="hidden" name="token">
-							<div class="n-myft-ui__announcement o-normalise-visually-hidden" aria-live="assertive" data-pressed-text="Now following US Treasury bonds." data-unpressed-text="No longer following US Treasury bonds."></div>
-							<button aria-pressed="false" aria-label="Add to myFT: US Treasury bonds" title="Add US Treasury bonds to myFT" data-alternate-label="Added US Treasury bonds to myFT: click to remove" data-alternate-text="Added" class="
-									n-myft-follow-button" data-concept-id="2f9f69ff-9874-4529-adf9-3b9641b51c9b" data-trackable="follow" type="submit">Add to myFT</button>
-						</form>
-				</li>
-				<li class="concept-list__list-item">
-					<a href="/markets-volatility" data-trackable="concept" class="concept-list__concept">
-						Markets volatility
+                                                    <form class="n-myft-ui n-myft-ui--follow " method="GET" data-myft-ui="follow" data-concept-id="6b32f2c1-da43-4e19-80b9-8aef4ab640d7" action="/myft/add/6b32f2c1-da43-4e19-80b9-8aef4ab640d7" data-js-action="/__myft/api/core/followed/concept/6b32f2c1-da43-4e19-80b9-8aef4ab640d7?method=put">
+                                                        <input data-myft-csrf-token value="" type="hidden" name="token">
+                                                        <div class="n-myft-ui__announcement o-normalise-visually-hidden" aria-live="assertive" data-pressed-text="Now following Technology sector." data-unpressed-text="No longer following Technology sector."></div>
+                                                        <button aria-pressed="false" aria-label="Add to myFT: Technology sector" title="Add Technology sector to myFT" data-alternate-label="Added Technology sector to myFT: click to remove" data-alternate-text="Added" class="
+									n-myft-follow-button" data-concept-id="6b32f2c1-da43-4e19-80b9-8aef4ab640d7" data-trackable="follow" type="submit">Add to myFT</button>
+                                                    </form>
+                                                </li>
+                                                <li class="concept-list__list-item">
+                                                    <a href="/uk-companies" data-trackable="concept" class="concept-list__concept">UK companies
 					</a>
-						<form class="n-myft-ui n-myft-ui--follow " method="POST" data-myft-ui="follow" data-concept-id="fca046a3-a5e3-43f4-9a09-e90418747ec7" action="/__myft/api/core/followed/concept/fca046a3-a5e3-43f4-9a09-e90418747ec7?method=put">
-							<input data-myft-csrf-token="" value="" type="hidden" name="token">
-							<div class="n-myft-ui__announcement o-normalise-visually-hidden" aria-live="assertive" data-pressed-text="Now following Markets volatility." data-unpressed-text="No longer following Markets volatility."></div>
-							<button aria-pressed="false" aria-label="Add to myFT: Markets volatility" title="Add Markets volatility to myFT" data-alternate-label="Added Markets volatility to myFT: click to remove" data-alternate-text="Added" class="
-									n-myft-follow-button" data-concept-id="fca046a3-a5e3-43f4-9a09-e90418747ec7" data-trackable="follow" type="submit">Add to myFT</button>
-						</form>
-				</li>
-				<li class="concept-list__list-item">
-					<a href="/kate-duguid" data-trackable="concept" class="concept-list__concept">
-						Kate Duguid
+                                                    <form class="n-myft-ui n-myft-ui--follow " method="GET" data-myft-ui="follow" data-concept-id="6bade25b-56b3-4409-8d32-c131666d9acb" action="/myft/add/6bade25b-56b3-4409-8d32-c131666d9acb" data-js-action="/__myft/api/core/followed/concept/6bade25b-56b3-4409-8d32-c131666d9acb?method=put">
+                                                        <input data-myft-csrf-token value="" type="hidden" name="token">
+                                                        <div class="n-myft-ui__announcement o-normalise-visually-hidden" aria-live="assertive" data-pressed-text="Now following UK companies." data-unpressed-text="No longer following UK companies."></div>
+                                                        <button aria-pressed="false" aria-label="Add to myFT: UK companies" title="Add UK companies to myFT" data-alternate-label="Added UK companies to myFT: click to remove" data-alternate-text="Added" class="
+									n-myft-follow-button" data-concept-id="6bade25b-56b3-4409-8d32-c131666d9acb" data-trackable="follow" type="submit">Add to myFT</button>
+                                                    </form>
+                                                </li>
+                                                <li class="concept-list__list-item">
+                                                    <a href="/sexual-misconduct-allegations" data-trackable="concept" class="concept-list__concept">Sexual misconduct allegations
 					</a>
-						<form class="n-myft-ui n-myft-ui--follow " method="POST" data-myft-ui="follow" data-concept-id="f72188d6-6bed-4242-b08c-4365652e664d" action="/__myft/api/core/followed/concept/f72188d6-6bed-4242-b08c-4365652e664d?method=put">
-							<input data-myft-csrf-token="" value="" type="hidden" name="token">
-							<div class="n-myft-ui__announcement o-normalise-visually-hidden" aria-live="assertive" data-pressed-text="Now following Kate Duguid." data-unpressed-text="No longer following Kate Duguid."></div>
-							<button aria-pressed="false" aria-label="Add to myFT: Kate Duguid" title="Add Kate Duguid to myFT" data-alternate-label="Added Kate Duguid to myFT: click to remove" data-alternate-text="Added" class="
-									n-myft-follow-button" data-concept-id="f72188d6-6bed-4242-b08c-4365652e664d" data-trackable="follow" type="submit">Add to myFT</button>
-						</form>
-				</li>
-		</ul>
-	</div></div></div><div class="comments-container"><h2 class="standalone-teaser-heading">Comments</h2><div id="comments-anchor"><div class="comments"><div class="comments__rum-indicator"></div><div class="o-comments" id="o-comments-stream" data-o-component="o-comments" data-o-comments-use-staging-environment="false" data-o-comments-article-id="a8c1c3df-d8f7-4f3d-af9c-00af0d587880" data-o-comments-title="US Treasuries’ rollercoaster ride strains bond market functioning " data-o-comments-article-url="https://www.ft.com/content/a8c1c3df-d8f7-4f3d-af9c-00af0d587880"></div><script src="https://ft.coral.coralproject.net/assets/js/embed.js?cachebust=20210806"></script></div></div></div><div class="comments-rhr"></div><div class="rhr__ads--lower">
-	<div class="responsive advert sidebar-advert sidebar-advert--fullbleed" style="top: 216.9375px;" data-o-ads-targeting="pos=mid3;" data-o-ads-name="non-full-bleed-rhr-ad-3" data-o-ads-formats-default="false" data-o-ads-formats-small="false" data-o-ads-formats-medium="false" data-o-ads-formats-large="HalfPage,MediumRectangle,Responsive,OneByOne" data-o-ads-formats-extra="HalfPage,MediumRectangle,Responsive,OneByOne" aria-hidden="true">
-	<div class="o-ads__outer"><div class="o-ads__inner" id="non-full-bleed-rhr-ad-3-gpt"></div></div></div>
-
-	<div class="responsive advert sidebar-advert sidebar-advert--fullbleed" style="top: 1416.9375px;" data-o-ads-targeting="pos=mid4;" data-o-ads-name="non-full-bleed-rhr-ad-4" data-o-ads-formats-default="false" data-o-ads-formats-small="false" data-o-ads-formats-medium="false" data-o-ads-formats-large="HalfPage,MediumRectangle,Responsive,OneByOne" data-o-ads-formats-extra="HalfPage,MediumRectangle,Responsive,OneByOne" aria-hidden="true">
-	<div class="o-ads__outer"><div class="o-ads__inner" id="non-full-bleed-rhr-ad-4-gpt"></div></div></div>
-	</div></article></div></div></div></div><div class="n-layout__row n-layout__row--footer"><div class="n-layout__footer-before"><div class="n-feedback__container"><div class="n-feedback__overlay__container"></div>
-		<p class="n-feedback__desktop__prompt">
-			How easy or hard was it to use FT.com today?
-		</p>
-		<button class="n-feedback__survey-trigger" aria-label="Give feedback on the Financial Times website" data-trackable="feedback-start">
-			<span>Feedback</span>
-		</button></div></div><footer id="site-footer" class="o-footer o-footer--theme-dark" data-o-component="o-footer" data-o-footer--js=""><div class="o-footer__container"><div class="o-footer__row"><h2 class="o-normalise-visually-hidden">Useful links</h2><nav class="o-footer__matrix" role="navigation" aria-label="Useful links"><div class="o-footer__matrix-group o-footer__matrix-group--1"><h3 class="o-footer__matrix-title" aria-controls="o-footer-section-0">Support</h3><div class="o-footer__matrix-content" id="o-footer-section-0"><div class="o-footer__matrix-column"><a class="o-footer__matrix-link" href="/tour" data-trackable="View Site Tips"><span class="o-footer__matrix-link__copy">View Site Tips</span></a><a class="o-footer__matrix-link" href="http://help.ft.com" data-trackable="Help Centre"><span class="o-footer__matrix-link__copy">Help Centre</span></a><a class="o-footer__matrix-link" href="https://aboutus.ft.com/contact-us" data-trackable="Contact Us"><span class="o-footer__matrix-link__copy">Contact Us</span></a><a class="o-footer__matrix-link" href="http://www.ft.com/aboutus" data-trackable="About Us"><span class="o-footer__matrix-link__copy">About Us</span></a><a class="o-footer__matrix-link" href="/accessibility" data-trackable="Accessibility"><span class="o-footer__matrix-link__copy">Accessibility</span></a><a class="o-footer__matrix-link" href="/tour/myft" data-trackable="myFT Tour"><span class="o-footer__matrix-link__copy">myFT Tour</span></a><a class="o-footer__matrix-link" href="https://aboutus.ft.com/en-gb/careers/" data-trackable="Careers"><span class="o-footer__matrix-link__copy">Careers</span></a></div></div></div><div class="o-footer__matrix-group o-footer__matrix-group--1"><h3 class="o-footer__matrix-title" aria-controls="o-footer-section-1">Legal &amp; Privacy</h3><div class="o-footer__matrix-content" id="o-footer-section-1"><div class="o-footer__matrix-column"><a class="o-footer__matrix-link" href="http://help.ft.com/help/legal-privacy/terms-conditions/" data-trackable="Terms &amp; Conditions"><span class="o-footer__matrix-link__copy">Terms &amp; Conditions</span></a><a class="o-footer__matrix-link" href="http://help.ft.com/help/legal-privacy/privacy/" data-trackable="Privacy Policy"><span class="o-footer__matrix-link__copy">Privacy Policy</span></a><a class="o-footer__matrix-link" href="http://help.ft.com/help/legal-privacy/cookies/" data-trackable="Cookies"><span class="o-footer__matrix-link__copy">Cookies</span></a><a class="o-footer__matrix-link" href="http://help.ft.com/help/legal-privacy/copyright/copyright-policy/" data-trackable="Copyright"><span class="o-footer__matrix-link__copy">Copyright</span></a><a class="o-footer__matrix-link" href="https://help.ft.com/help/legal/slavery-statement/" data-trackable="Slavery Statement &amp; Policies"><span class="o-footer__matrix-link__copy">Slavery Statement &amp; Policies</span></a></div></div></div><div class="o-footer__matrix-group o-footer__matrix-group--1"><h3 class="o-footer__matrix-title" aria-controls="o-footer-section-2">Services</h3><div class="o-footer__matrix-content" id="o-footer-section-2"><div class="o-footer__matrix-column"><a class="o-footer__matrix-link" href="/securedrop" data-trackable="Share News Tips Securely" data-o-tracking-do-not-track="true"><span class="o-footer__matrix-link__copy">Share News Tips Securely</span></a><a class="o-footer__matrix-link" href="http://www.ft.com/products" data-trackable="Individual Subscriptions"><span class="o-footer__matrix-link__copy">Individual Subscriptions</span></a><a class="o-footer__matrix-link" href="https://enterprise.ft.com/en-gb/services/group-subscriptions/group-contact-us/?segmentId=383c7f63-abf4-b62d-cb33-4c278e6fdf61&amp;cpccampaign=B2B_link_ft.com_footer" data-trackable="Group Subscriptions"><span class="o-footer__matrix-link__copy">Group Subscriptions</span></a><a class="o-footer__matrix-link" href="https://enterprise.ft.com/en-gb/services/republishing/" data-trackable="Republishing"><span class="o-footer__matrix-link__copy">Republishing</span></a><a class="o-footer__matrix-link" href="https://www.exec-appointments.com/" data-trackable="Executive Job Search"><span class="o-footer__matrix-link__copy">Executive Job Search</span></a><a class="o-footer__matrix-link" href="http://fttoolkit.co.uk/" data-trackable="Advertise with the FT"><span class="o-footer__matrix-link__copy">Advertise with the FT</span></a><a class="o-footer__matrix-link" href="https://twitter.com/financialtimes" data-trackable="Follow the FT on Twitter"><span class="o-footer__matrix-link__copy">Follow the FT on Twitter</span></a><a class="o-footer__matrix-link" href="https://channels.ft.com/" data-trackable="FT Channels"><span class="o-footer__matrix-link__copy">FT Channels</span></a><a class="o-footer__matrix-link" href="https://enterprise.ft.com/en-gb/services/group-subscriptions/secondary-education/" data-trackable="Secondary Schools"><span class="o-footer__matrix-link__copy">Secondary Schools</span></a></div></div></div><div class="o-footer__matrix-group o-footer__matrix-group--1"><h3 class="o-footer__matrix-title" aria-controls="o-footer-section-3">Tools</h3><div class="o-footer__matrix-content" id="o-footer-section-3"><div class="o-footer__matrix-column"><a class="o-footer__matrix-link" href="https://markets.ft.com/data/portfolio/dashboard" data-trackable="Portfolio"><span class="o-footer__matrix-link__copy">Portfolio</span></a><a class="o-footer__matrix-link" href="https://www.ft.com/todaysnewspaper" data-trackable="Today's Newspaper (ePaper)"><span class="o-footer__matrix-link__copy">Today's Newspaper (ePaper)</span></a><a class="o-footer__matrix-link" href="http://markets.ft.com/data/alerts/" data-trackable="Alerts Hub"><span class="o-footer__matrix-link__copy">Alerts Hub</span></a><a class="o-footer__matrix-link" href="https://rankings.ft.com/" data-trackable="Business School Rankings"><span class="o-footer__matrix-link__copy">Business School Rankings</span></a><a class="o-footer__matrix-link" href="https://kat.ft.com/" data-trackable="Enterprise Tools"><span class="o-footer__matrix-link__copy">Enterprise Tools</span></a><a class="o-footer__matrix-link" href="/news-feed" data-trackable="News feed"><span class="o-footer__matrix-link__copy">News feed</span></a><a class="o-footer__matrix-link" href="/newsletters" data-trackable="Newsletters"><span class="o-footer__matrix-link__copy">Newsletters</span></a><a class="o-footer__matrix-link" href="https://markets.ft.com/research/Markets/Currencies?segid=70113" data-trackable="Currency Converter"><span class="o-footer__matrix-link__copy">Currency Converter</span></a></div></div></div><div class="o-footer__matrix-group o-footer__matrix-group--1"><h3 class="o-footer__matrix-title" aria-controls="o-footer-section-4">Community &amp; Events</h3><div class="o-footer__matrix-content" id="o-footer-section-4"><div class="o-footer__matrix-column"><a class="o-footer__matrix-link" href="https://www.ft.com/tour/community" data-trackable="FT Community"><span class="o-footer__matrix-link__copy">FT Community</span></a><a class="o-footer__matrix-link" href="http://live.ft.com/" data-trackable="FT Live Events"><span class="o-footer__matrix-link__copy">FT Live Events</span></a><a class="o-footer__matrix-link" href="https://forums.ft.com/" data-trackable="FT Forums"><span class="o-footer__matrix-link__copy">FT Forums</span></a><a class="o-footer__matrix-link" href="https://enterprise.ft.com/board-director-membership" data-trackable="FT Board Director"><span class="o-footer__matrix-link__copy">FT Board Director</span></a><a class="o-footer__matrix-link" href="https://bdp.ft.com/" data-trackable="Board Director Programme"><span class="o-footer__matrix-link__copy">Board Director Programme</span></a></div></div></div><div class="o-footer__matrix-group o-footer__matrix-group--1"><h3 class="o-footer__matrix-title o-footer__matrix-title--link"><a class="o-footer__matrix-link o-footer__matrix-link--more" id="o-footer-5" href="https://ft.com/more-from-ft-group"><span class="o-footer__matrix-link__copy">More from the FT Group</span></a></h3></div></nav></div><div class="o-footer__copyright"><small>Markets data delayed by at least 15 minutes. © THE FINANCIAL TIMES LTD 2023. <abbr title="Financial Times" aria-label="F T">FT</abbr> and ‘Financial Times’ are trademarks of The Financial Times Ltd.<br>The Financial Times and its journalism are subject to a self-regulation regime under the <a href="http://aboutus.ft.com/en-gb/ft-editorial-code/" aria-label="F T Editorial Code of Practice">FT Editorial Code of Practice</a>.</small></div></div><div class="o-footer__brand"><div class="o-footer__container"><div class="o-footer__brand-logo"></div></div></div></footer><div class="n-layout__footer-after"><script data-pixel-src="https://spoor-api.ft.com/px.gif?data=%7B%22category%22%3A%22page%22%2C%22action%22%3A%22view%22%2C%22system%22%3A%7B%22source%22%3A%22non-ctm%22%7D%2C%22context%22%3A%7B%22name%22%3A%22article%22%2C%22product%22%3A%22next%22%2C%22data%22%3A%7B%22source%22%3A%22%5BSOURCE%5D%22%7D%7D%7D">(function coreExperience() {
-    if (/\bcore\b/.test(document.documentElement.className)) {
-      var currentScript = document.scripts[document.scripts.length - 1];
-      var img = new Image();
-      img.src = currentScript.getAttribute('data-pixel-src');
-    }
-  })();</script><noscript><img src="https://spoor-api.ft.com/px.gif?data=%7B%22category%22%3A%22page%22%2C%22action%22%3A%22view%22%2C%22system%22%3A%7B%22source%22%3A%22non-ctm%22%7D%2C%22context%22%3A%7B%22name%22%3A%22article%22%2C%22product%22%3A%22next%22%2C%22data%22%3A%7B%22source%22%3A%22%5BSOURCE%5D%22%7D%7D%7D"/></noscript></div></div><div class="o-header__drawer" id="o-header-drawer" role="modal" aria-label="Drawer menu" aria-modal="true" data-o-header-drawer="true" data-trackable="drawer" data-trackable-terminate="true" aria-hidden="true" tabindex="-1" data-o-header-drawer--js="true"><div class="o-header__drawer-inner"><div class="o-header__drawer-tools"><button type="button" class="o-header__drawer-tools-close" title="Close side navigation menu" aria-controls="o-header-drawer" data-trackable="close" tabindex="-1" data-o-toggle--js="true" aria-expanded="false"><span class="o-header__visually-hidden">Close side navigation menu</span></button><a class="o-header__drawer-tools-logo" href="/" data-trackable="logo" tabindex="-1"><span class="o-header__visually-hidden">Financial Times</span></a><p class="o-header__drawer-current-edition">UK Edition</p></div><div class="o-header__drawer-actions"><a class="o-header__drawer-button" role="button" href="/products?segmentId=4526c036-7527-ab37-9a29-0b0403fa0b5f" data-trackable="subscribe-button" tabindex="-1">Subscribe for full access</a></div><div class="o-header__drawer-search"><form class="o-header__drawer-search-form" action="/search" role="search" aria-label="Site search" data-n-topic-search="true" data-n-topic-search-categories="concepts,equities" data-n-topic-search-view-all="true"><label class="o-header__visually-hidden" for="o-header-drawer-search-term">Search the <abbr title="Financial Times">FT</abbr></label><input type="text" class="o-header__drawer-search-term" id="o-header-drawer-search-term" name="q" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search the FT" data-trackable="search-term" data-n-topic-search-input="true" tabindex="-1"><div><div>
-			<div aria-live="assertive">
-
-				<div class="n-topic-search n-topic-search__suggestions" hidden="" data-trackable="typeahead">
-					<div class="o-normalise-visually-hidden">Suggestions include</div>
-					<div class="n-topic-search__group undefined" data-trackable="news"><div class="n-topic-search__heading">News</div></div><div class="n-topic-search__group undefined" data-trackable="equities"><div class="n-topic-search__heading">Securities</div><ul class="n-topic-search__item-list">
-
-				<li class="n-topic-search__item">
-					<a class="n-topic-search__target n-topic-search__target--tail" href="https://markets.ft.com/data/search?query=undefined" data-trackable="see-all" "="" tabindex="-1"><span>See all quotes matching <mark>undefined</mark></span></a>
-				</li>
-			</ul></div>
-				</div>
-			</div>
-			</div></div><button class="o-header__drawer-search-submit" type="submit" data-trackable="search-submit" tabindex="-1"><span class="o-header__visually-hidden">Search</span></button></form></div><nav class="o-header__drawer-menu" aria-label="Edition switcher"><ul class="o-header__drawer-menu-list"><li class="o-header__drawer-menu-item" data-trackable="edition-switcher"><a class="o-header__drawer-menu-link" href="/?edition=international" data-trackable="international" tabindex="-1">Switch to International Edition</a></li></ul></nav><nav class="o-header__drawer-menu o-header__drawer-menu--primary"><h2 id="top-sections" class="o-header__drawer-menu-item o-header__drawer-menu-item--heading">Top sections</h2><ul aria-labelledby="top-sections" class="o-header__drawer-menu-list"><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/" data-trackable="Home" tabindex="-1">Home</a></li><li class="o-header__drawer-menu-item"><div class="o-header__drawer-menu-toggle-wrapper"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--parent" href="/world" data-trackable="World" tabindex="-1">World</a><button class="o-header__drawer-menu-toggle o-header__drawer-menu-toggle--unselected" aria-controls="o-header-drawer-child-1" data-trackable="sub-level-toggle | World" tabindex="-1" data-o-toggle--js="true" aria-expanded="false">Show more World</button></div><ul class="o-header__drawer-menu-list o-header__drawer-menu-list--child" id="o-header-drawer-child-1" data-trackable="sub-level" aria-hidden="true"><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/global-economy" data-trackable="Global Economy" tabindex="-1">Global Economy</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/world-uk" data-trackable="UK" tabindex="-1">UK</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/us" data-trackable="US" tabindex="-1">US</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/china" data-trackable="China" tabindex="-1">China</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/africa" data-trackable="Africa" tabindex="-1">Africa</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/asia-pacific" data-trackable="Asia Pacific" tabindex="-1">Asia Pacific</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/emerging-markets" data-trackable="Emerging Markets" tabindex="-1">Emerging Markets</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/europe" data-trackable="Europe" tabindex="-1">Europe</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/war-in-ukraine" data-trackable="War in Ukraine" tabindex="-1">War in Ukraine</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/americas" data-trackable="Americas" tabindex="-1">Americas</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/middle-east-north-africa" data-trackable="Middle East &amp; North Africa" tabindex="-1">Middle East &amp; North Africa</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/australia-new-zealand" data-trackable="Australia &amp; NZ" tabindex="-1">Australia &amp; NZ</a></li></ul></li><li class="o-header__drawer-menu-item"><div class="o-header__drawer-menu-toggle-wrapper"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--parent" href="/world-uk" data-trackable="UK" tabindex="-1">UK</a><button class="o-header__drawer-menu-toggle o-header__drawer-menu-toggle--unselected" aria-controls="o-header-drawer-child-2" data-trackable="sub-level-toggle | UK" tabindex="-1" data-o-toggle--js="true" aria-expanded="false">Show more UK</button></div><ul class="o-header__drawer-menu-list o-header__drawer-menu-list--child" id="o-header-drawer-child-2" data-trackable="sub-level" aria-hidden="true"><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/uk-business-economy" data-trackable="UK Business &amp; Economy" tabindex="-1">UK Business &amp; Economy</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/uk-politics-policy" data-trackable="UK Politics &amp; Policy" tabindex="-1">UK Politics &amp; Policy</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/brexit" data-trackable="Brexit" tabindex="-1">Brexit</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/uk-companies" data-trackable="UK Companies" tabindex="-1">UK Companies</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/personal-finance" data-trackable="Personal Finance" tabindex="-1">Personal Finance</a></li></ul></li><li class="o-header__drawer-menu-item"><div class="o-header__drawer-menu-toggle-wrapper"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--parent" href="/companies" data-trackable="Companies" tabindex="-1">Companies</a><button class="o-header__drawer-menu-toggle o-header__drawer-menu-toggle--unselected" aria-controls="o-header-drawer-child-3" data-trackable="sub-level-toggle | Companies" tabindex="-1" data-o-toggle--js="true" aria-expanded="false">Show more Companies</button></div><ul class="o-header__drawer-menu-list o-header__drawer-menu-list--child" id="o-header-drawer-child-3" data-trackable="sub-level" aria-hidden="true"><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/energy" data-trackable="Energy" tabindex="-1">Energy</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/financials" data-trackable="Financials" tabindex="-1">Financials</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/health" data-trackable="Health" tabindex="-1">Health</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/industrials" data-trackable="Industrials" tabindex="-1">Industrials</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/media" data-trackable="Media" tabindex="-1">Media</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/professional-services" data-trackable="Professional Services" tabindex="-1">Professional Services</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/retail-consumer" data-trackable="Retail &amp; Consumer" tabindex="-1">Retail &amp; Consumer</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/technology-sector" data-trackable="Tech Sector" tabindex="-1">Tech Sector</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/telecoms" data-trackable="Telecoms" tabindex="-1">Telecoms</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/transport" data-trackable="Transport" tabindex="-1">Transport</a></li></ul></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/technology" data-trackable="Tech" tabindex="-1">Tech</a></li><li class="o-header__drawer-menu-item"><div class="o-header__drawer-menu-toggle-wrapper"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--parent" href="/markets" data-trackable="Markets" tabindex="-1">Markets</a><button class="o-header__drawer-menu-toggle o-header__drawer-menu-toggle--unselected" aria-controls="o-header-drawer-child-5" data-trackable="sub-level-toggle | Markets" tabindex="-1" data-o-toggle--js="true" aria-expanded="false">Show more Markets</button></div><ul class="o-header__drawer-menu-list o-header__drawer-menu-list--child" id="o-header-drawer-child-5" data-trackable="sub-level" aria-hidden="true"><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/alphaville" data-trackable="Alphaville" tabindex="-1">Alphaville</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="https://markets.ft.com/data" data-trackable="Markets Data" tabindex="-1">Markets Data</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/cryptofinance" data-trackable="Cryptofinance" tabindex="-1">Cryptofinance</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/capital-markets" data-trackable="Capital Markets" tabindex="-1">Capital Markets</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/commodities" data-trackable="Commodities" tabindex="-1">Commodities</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/currencies" data-trackable="Currencies" tabindex="-1">Currencies</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/equities" data-trackable="Equities" tabindex="-1">Equities</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/fund-management" data-trackable="Fund Management" tabindex="-1">Fund Management</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/ft-trading-room" data-trackable="Trading" tabindex="-1">Trading</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/moral-money" data-trackable="Moral Money" tabindex="-1">Moral Money</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="https://etf.ft.com" data-trackable="ETF Hub" tabindex="-1">ETF Hub</a></li></ul></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/climate-capital" data-trackable="Climate" tabindex="-1">Climate</a></li><li class="o-header__drawer-menu-item"><div class="o-header__drawer-menu-toggle-wrapper"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--parent" href="/opinion" data-trackable="Opinion" tabindex="-1">Opinion</a><button class="o-header__drawer-menu-toggle o-header__drawer-menu-toggle--unselected" aria-controls="o-header-drawer-child-7" data-trackable="sub-level-toggle | Opinion" tabindex="-1" data-o-toggle--js="true" aria-expanded="false">Show more Opinion</button></div><ul class="o-header__drawer-menu-list o-header__drawer-menu-list--child" id="o-header-drawer-child-7" data-trackable="sub-level" aria-hidden="true"><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/columnists" data-trackable="Columnists" tabindex="-1">Columnists</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/ft-view" data-trackable="The FT View" tabindex="-1">The FT View</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/lex" data-trackable="Lex" tabindex="-1">Lex</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/obituaries" data-trackable="Obituaries" tabindex="-1">Obituaries</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/letters" data-trackable="Letters" tabindex="-1">Letters</a></li></ul></li><li class="o-header__drawer-menu-item"><div class="o-header__drawer-menu-toggle-wrapper"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--parent" href="/work-careers" data-trackable="Work &amp; Careers" tabindex="-1">Work &amp; Careers</a><button class="o-header__drawer-menu-toggle o-header__drawer-menu-toggle--unselected" aria-controls="o-header-drawer-child-8" data-trackable="sub-level-toggle | Work &amp; Careers" tabindex="-1" data-o-toggle--js="true" aria-expanded="false">Show more Work &amp; Careers</button></div><ul class="o-header__drawer-menu-list o-header__drawer-menu-list--child" id="o-header-drawer-child-8" data-trackable="sub-level" aria-hidden="true"><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="https://rankings.ft.com/" data-trackable="Business School Rankings" tabindex="-1">Business School Rankings</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/business-education" data-trackable="Business Education" tabindex="-1">Business Education</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/entrepreneurship" data-trackable="Entrepreneurship" tabindex="-1">Entrepreneurship</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/recruitment" data-trackable="Recruitment" tabindex="-1">Recruitment</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/business-books" data-trackable="Business Books" tabindex="-1">Business Books</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/business-travel" data-trackable="Business Travel" tabindex="-1">Business Travel</a></li></ul></li><li class="o-header__drawer-menu-item"><div class="o-header__drawer-menu-toggle-wrapper"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--parent" href="/life-arts" data-trackable="Life &amp; Arts" tabindex="-1">Life &amp; Arts</a><button class="o-header__drawer-menu-toggle o-header__drawer-menu-toggle--unselected" aria-controls="o-header-drawer-child-9" data-trackable="sub-level-toggle | Life &amp; Arts" tabindex="-1" data-o-toggle--js="true" aria-expanded="false">Show more Life &amp; Arts</button></div><ul class="o-header__drawer-menu-list o-header__drawer-menu-list--child" id="o-header-drawer-child-9" data-trackable="sub-level" aria-hidden="true"><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/arts" data-trackable="Arts" tabindex="-1">Arts</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/books" data-trackable="Books" tabindex="-1">Books</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/food-drink" data-trackable="Food &amp; Drink" tabindex="-1">Food &amp; Drink</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/magazine" data-trackable="FT Magazine" tabindex="-1">FT Magazine</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/house-home" data-trackable="House &amp; Home" tabindex="-1">House &amp; Home</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/style" data-trackable="Style" tabindex="-1">Style</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/travel" data-trackable="Travel" tabindex="-1">Travel</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/globetrotter" data-trackable="FT Globetrotter" tabindex="-1">FT Globetrotter</a></li></ul></li><li class="o-header__drawer-menu-item"><div class="o-header__drawer-menu-toggle-wrapper"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--parent" href="/personal-finance" data-trackable="Personal Finance" tabindex="-1">Personal Finance</a><button class="o-header__drawer-menu-toggle o-header__drawer-menu-toggle--unselected" aria-controls="o-header-drawer-child-10" data-trackable="sub-level-toggle | Personal Finance" tabindex="-1" data-o-toggle--js="true" aria-expanded="false">Show more Personal Finance</button></div><ul class="o-header__drawer-menu-list o-header__drawer-menu-list--child" id="o-header-drawer-child-10" data-trackable="sub-level" aria-hidden="true"><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/mortgages" data-trackable="Property &amp; Mortgages" tabindex="-1">Property &amp; Mortgages</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/investments" data-trackable="Investments" tabindex="-1">Investments</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/pensions" data-trackable="Pensions" tabindex="-1">Pensions</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/tax" data-trackable="Tax" tabindex="-1">Tax</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/banking-savings" data-trackable="Banking &amp; Savings" tabindex="-1">Banking &amp; Savings</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/advice-comment" data-trackable="Advice &amp; Comment" tabindex="-1">Advice &amp; Comment</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/next-act" data-trackable="Next Act" tabindex="-1">Next Act</a></li></ul></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/htsi" data-trackable="HTSI" tabindex="-1">HTSI</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/special-reports" data-trackable="Special Reports" tabindex="-1">Special Reports</a></li></ul><h2 id="ft-recommends" class="o-header__drawer-menu-item o-header__drawer-menu-item--heading">FT recommends</h2><ul aria-labelledby="ft-recommends" class="o-header__drawer-menu-list"><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/lex" data-trackable="Lex" tabindex="-1">Lex</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/alphaville" data-trackable="Alphaville" tabindex="-1">Alphaville</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/lunch-with-the-ft" data-trackable="Lunch with the FT" tabindex="-1">Lunch with the FT</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/globetrotter" data-trackable="FT Globetrotter" tabindex="-1">FT Globetrotter</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="https://www.ft.com/tech-asia" data-trackable="#techAsia" tabindex="-1">#techAsia</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/moral-money" data-trackable="Moral Money" tabindex="-1">Moral Money</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/ftfm" data-trackable="FTfm" tabindex="-1">FTfm</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/newsletters" data-trackable="Newsletters" tabindex="-1">Newsletters</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/video" data-trackable="Video" tabindex="-1">Video</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="https://www.ft.com/podcasts" data-trackable="Podcasts" tabindex="-1">Podcasts</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/news-feed" data-trackable="News feed" tabindex="-1">News feed</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="http://live.ft.com/" data-trackable="FT Live Events" tabindex="-1">FT Live Events</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="https://forums.ft.com/" data-trackable="FT Forums" tabindex="-1">FT Forums</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="https://bdp.ft.com/" data-trackable="Board Director Programme" tabindex="-1">Board Director Programme</a></li></ul><ul class="o-header__drawer-menu-list o-header__drawer-menu-list--divide"><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--secondary" href="/myft" data-trackable="myFT" tabindex="-1">myFT</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--secondary" href="https://markets.ft.com/data/portfolio/dashboard" data-trackable="Portfolio" tabindex="-1">Portfolio</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--secondary" href="https://www.ft.com/todaysnewspaper" data-trackable="Today's Newspaper (ePaper)" tabindex="-1">Today's Newspaper (ePaper)</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--secondary" href="https://www.ft.com/crossword" data-trackable="Crossword" tabindex="-1">Crossword</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--secondary" href="https://www.ft.com/tour/apps" data-trackable="Our Apps" tabindex="-1">Our Apps</a></li></ul></nav><nav class="o-header__drawer-menu o-header__drawer-menu--user" data-trackable="user-nav"><ul class="o-header__drawer-menu-list"><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link" href="http://help.ft.com" data-trackable="Help Centre" tabindex="-1">Help Centre</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link" href="/products?segmentId=d290332b-e8e8-d29b-2ff4-2019b13f008a" data-trackable="Subscribe" tabindex="-1">Subscribe</a></li><li class="o-header__drawer-menu-item"><a class="o-header__drawer-menu-link" href="/login?location=/content/a8c1c3df-d8f7-4f3d-af9c-00af0d587880" data-trackable="Sign In" tabindex="-1">Sign In</a></li></ul></nav></div></div></div><script type="application/json" id="page-kit-app-context">{"appName":"article","product":"next","edition":"uk","appVersion":"998e490759e278294a4e4dcb6a58235d2026049e","abTestState":"messageSlotBottom:cookieConsentC,topicTrackerVariants:control","isProduction":true,"isUserLoggedIn":false,"pageKitVersion":"7.3.4","contentId":"a8c1c3df-d8f7-4f3d-af9c-00af0d587880","contentType":"article"}</script><script type="application/json" id="page-kit-flags-embed">{"articleRelatedContent":true,"ads":true,"javascript":true,"oTracking":true,"articleComments":true,"myFtApi":true,"articleShareButtons":true,"myFtApiWrite":true,"adTargetingUserApi":true,"videoPlayerAdvertising":true,"streamMostRead":true,"serviceWorker":true,"openGraph":true,"nativeAds":true,"myFtDigestPromo":true,"regionalNews":true,"syndication":true,"myFTEmailDisableABAlloc":true,"streamRecommendedStoriesList":true,"swAssetCaching":true,"refererCohort":true,"newsletterSignupOnArticle":true,"myFTInstantNotifications":true,"myftPrioritiseTopics":true,"myftIndustryRecs":true,"qualtrics":true,"showEventPromo":true,"myftConsentSwitch":true,"moatAdsTraffic":true,"manageCookiesWhiteLabel":true,"myftIndustryRecsFeed":true,"AdsPermutive":true,"syndication_promo":true,"topicTracker":true,"messageSlotBottom":"cookieConsentC","enableGTM":true,"myftNewNewLabel":true,"myftBoldNewArticles":true,"myftPageAppNotificationsToggle":true,"realUserMonitoringForPerformance":true,"textCopyTracking":true,"enableIHSindexBasedTargetingScript":true,"enableBrandmetricsSurveyScript":true,"managePremiumCancellationJourney":true,"articleInstantAlertsPromo":true,"manageStepUpCancellationJourney":true,"manageStandardCancellationJourney":true,"manageStepUpTransitionJourney":true,"manageDirectCancellationJourney":true,"privShowCCPALinkOnFooter":true,"optimizely":true,"accountSettingsBillingDetailsPaypal":true,"graphicSyndication":true,"adsNativeLazyload":true,"adsMoatTimeout":true,"enableRavelinOnProd":true,"enableMarketingAnalyticsTags":true,"adsFullBleedImages":true,"enableNonUKPrintOnProd":true,"streamPageGraphicsList":true,"useFlourish":true,"adsHighImpact":true,"monthlyTermForPremiumCovidCohort":true,"showConsentPageForGoogleExtendedMeter":true,"enableNonUKDeliveryAddress":true,"homePageHeaderMarketsData":true,"enableGoogleExtendedMeter":true,"communityLandingPage":true,"inArticleContentSignUp":true,"frontPageCommunitySection":true,"newBuyFlow":true,"bizzaboRegistrationEnabled":true,"enableSingleTermSubscriptions":true,"newsletterAutoEnrolment":true,"eventsInMyFtPage":true,"eventsInDigestEmails":true,"eventsInStreamPage":true,"newslettersRedesign":true,"ftGlobetrotterBanner":true,"scrollytellingImages":true,"exponeaOnNextArticle":true,"exponeaOnMyftPage":true,"exponeaOnHomePage":true,"manageArticleLists":true,"AdsExtraMobileSlot":true,"showTheEditAppButton":true,"dotcomPages":true,"fomoPage":true,"exponeaOnsiteMessaging":true,"graduateStudentsTransition":true,"contentPipelineNextArticlePerformanceTest":true,"articleTrialTemplate":true,"googleSignUp":true,"EventAssetsOnSearch":true,"purgeableLongTailArticleCaching":true,"googleSignUpBuyDigitalFlow":true,"ePaperNavLink":true,"googleSignUpBuyPrintFlow":true,"adsCommentsRHR":true,"chatterboxChat":true,"liveChat":true,"CRM Test Flag":true}</script><script src="https://public.flourish.studio/resources/embed.js" defer=""></script><style></style></body></html>"""
+                                                    <form class="n-myft-ui n-myft-ui--follow " method="GET" data-myft-ui="follow" data-concept-id="9c4e64d2-1aca-4ed0-9ec0-dc1748415e2d" action="/myft/add/9c4e64d2-1aca-4ed0-9ec0-dc1748415e2d" data-js-action="/__myft/api/core/followed/concept/9c4e64d2-1aca-4ed0-9ec0-dc1748415e2d?method=put">
+                                                        <input data-myft-csrf-token value="" type="hidden" name="token">
+                                                        <div class="n-myft-ui__announcement o-normalise-visually-hidden" aria-live="assertive" data-pressed-text="Now following Sexual misconduct allegations." data-unpressed-text="No longer following Sexual misconduct allegations."></div>
+                                                        <button aria-pressed="false" aria-label="Add to myFT: Sexual misconduct allegations" title="Add Sexual misconduct allegations to myFT" data-alternate-label="Added Sexual misconduct allegations to myFT: click to remove" data-alternate-text="Added" class="
+									n-myft-follow-button" data-concept-id="9c4e64d2-1aca-4ed0-9ec0-dc1748415e2d" data-trackable="follow" type="submit">Add to myFT</button>
+                                                    </form>
+                                                </li>
+                                                <li class="concept-list__list-item">
+                                                    <a href="/stream/57afc2ba-73ba-42da-8433-0ad6ae1e9d05" data-trackable="concept" class="concept-list__concept">Lawrence Jones
+					</a>
+                                                    <form class="n-myft-ui n-myft-ui--follow " method="GET" data-myft-ui="follow" data-concept-id="57afc2ba-73ba-42da-8433-0ad6ae1e9d05" action="/myft/add/57afc2ba-73ba-42da-8433-0ad6ae1e9d05" data-js-action="/__myft/api/core/followed/concept/57afc2ba-73ba-42da-8433-0ad6ae1e9d05?method=put">
+                                                        <input data-myft-csrf-token value="" type="hidden" name="token">
+                                                        <div class="n-myft-ui__announcement o-normalise-visually-hidden" aria-live="assertive" data-pressed-text="Now following Lawrence Jones." data-unpressed-text="No longer following Lawrence Jones."></div>
+                                                        <button aria-pressed="false" aria-label="Add to myFT: Lawrence Jones" title="Add Lawrence Jones to myFT" data-alternate-label="Added Lawrence Jones to myFT: click to remove" data-alternate-text="Added" class="
+									n-myft-follow-button" data-concept-id="57afc2ba-73ba-42da-8433-0ad6ae1e9d05" data-trackable="follow" type="submit">Add to myFT</button>
+                                                    </form>
+                                                </li>
+                                                <li class="concept-list__list-item">
+                                                    <a href="/world-uk" data-trackable="concept" class="concept-list__concept">UK
+					</a>
+                                                    <form class="n-myft-ui n-myft-ui--follow " method="GET" data-myft-ui="follow" data-concept-id="6b683eff-56c3-43d9-acfc-7511d974fc01" action="/myft/add/6b683eff-56c3-43d9-acfc-7511d974fc01" data-js-action="/__myft/api/core/followed/concept/6b683eff-56c3-43d9-acfc-7511d974fc01?method=put">
+                                                        <input data-myft-csrf-token value="" type="hidden" name="token">
+                                                        <div class="n-myft-ui__announcement o-normalise-visually-hidden" aria-live="assertive" data-pressed-text="Now following UK." data-unpressed-text="No longer following UK."></div>
+                                                        <button aria-pressed="false" aria-label="Add to myFT: UK" title="Add UK to myFT" data-alternate-label="Added UK to myFT: click to remove" data-alternate-text="Added" class="
+									n-myft-follow-button" data-concept-id="6b683eff-56c3-43d9-acfc-7511d974fc01" data-trackable="follow" type="submit">Add to myFT</button>
+                                                    </form>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="comments-container">
+                                    <h2 class="standalone-teaser-heading">Comments</h2>
+                                    <div id="comments-anchor">
+                                        <p class="comments__disabled-message">Comments have not been enabled for this article.</p>
+                                    </div>
+                                </div>
+                                <div class="comments-rhr"></div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="n-layout__row n-layout__row--footer">
+                <div class="n-layout__footer-before">
+                    <div class="n-feedback__container n-feedback--hidden"></div>
+                </div>
+                <footer id="site-footer" class="o-footer o-footer--theme-dark" data-o-component="o-footer">
+                    <div class="o-footer__container">
+                        <div class="o-footer__row">
+                            <h2 class="o-normalise-visually-hidden">Useful links</h2>
+                            <nav class="o-footer__matrix" role="navigation" aria-label="Useful links">
+                                <div class="o-footer__matrix-group o-footer__matrix-group--1">
+                                    <h3 class="o-footer__matrix-title" aria-controls="o-footer-section-0">Support</h3>
+                                    <div class="o-footer__matrix-content" id="o-footer-section-0">
+                                        <div class="o-footer__matrix-column">
+                                            <a class="o-footer__matrix-link" href="/tour" data-trackable="View Site Tips">
+                                                <span class="o-footer__matrix-link__copy">View Site Tips</span>
+                                            </a>
+                                            <a class="o-footer__matrix-link" href="https://help.ft.com" data-trackable="Help Centre">
+                                                <span class="o-footer__matrix-link__copy">Help Centre</span>
+                                            </a>
+                                            <a class="o-footer__matrix-link" href="https://aboutus.ft.com/contact-us" data-trackable="Contact Us">
+                                                <span class="o-footer__matrix-link__copy">Contact Us</span>
+                                            </a>
+                                            <a class="o-footer__matrix-link" href="https://www.ft.com/aboutus" data-trackable="About Us">
+                                                <span class="o-footer__matrix-link__copy">About Us</span>
+                                            </a>
+                                            <a class="o-footer__matrix-link" href="/accessibility" data-trackable="Accessibility">
+                                                <span class="o-footer__matrix-link__copy">Accessibility</span>
+                                            </a>
+                                            <a class="o-footer__matrix-link" href="/tour/myft" data-trackable="myFT Tour">
+                                                <span class="o-footer__matrix-link__copy">myFT Tour</span>
+                                            </a>
+                                            <a class="o-footer__matrix-link" href="https://aboutus.ft.com/en-gb/careers/" data-trackable="Careers">
+                                                <span class="o-footer__matrix-link__copy">Careers</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="o-footer__matrix-group o-footer__matrix-group--1">
+                                    <h3 class="o-footer__matrix-title" aria-controls="o-footer-section-1">Legal &amp;Privacy</h3>
+                                    <div class="o-footer__matrix-content" id="o-footer-section-1">
+                                        <div class="o-footer__matrix-column">
+                                            <a class="o-footer__matrix-link" href="https://help.ft.com/help/legal-privacy/terms-conditions/" data-trackable="Terms &amp; Conditions">
+                                                <span class="o-footer__matrix-link__copy">Terms &amp;Conditions</span>
+                                            </a>
+                                            <a class="o-footer__matrix-link" href="https://help.ft.com/help/legal-privacy/privacy/" data-trackable="Privacy Policy">
+                                                <span class="o-footer__matrix-link__copy">Privacy Policy</span>
+                                            </a>
+                                            <a class="o-footer__matrix-link" href="https://help.ft.com/help/legal-privacy/cookies/" data-trackable="Cookie Policy">
+                                                <span class="o-footer__matrix-link__copy">Cookie Policy</span>
+                                            </a>
+                                            <a class="o-footer__matrix-link" href="https://www.ft.com/preferences/manage-cookies" data-trackable="Manage Cookies">
+                                                <span class="o-footer__matrix-link__copy">Manage Cookies</span>
+                                            </a>
+                                            <a class="o-footer__matrix-link" href="https://help.ft.com/help/legal-privacy/copyright/copyright-policy/" data-trackable="Copyright">
+                                                <span class="o-footer__matrix-link__copy">Copyright</span>
+                                            </a>
+                                            <a class="o-footer__matrix-link" href="https://help.ft.com/help/legal/slavery-statement/" data-trackable="Slavery Statement &amp; Policies">
+                                                <span class="o-footer__matrix-link__copy">Slavery Statement &amp;Policies</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="o-footer__matrix-group o-footer__matrix-group--1">
+                                    <h3 class="o-footer__matrix-title" aria-controls="o-footer-section-2">Services</h3>
+                                    <div class="o-footer__matrix-content" id="o-footer-section-2">
+                                        <div class="o-footer__matrix-column">
+                                            <a class="o-footer__matrix-link" href="/securedrop" data-trackable="Share News Tips Securely" data-o-tracking-do-not-track="true">
+                                                <span class="o-footer__matrix-link__copy">Share News Tips Securely</span>
+                                            </a>
+                                            <a class="o-footer__matrix-link" href="https://www.ft.com/products" data-trackable="Individual Subscriptions">
+                                                <span class="o-footer__matrix-link__copy">Individual Subscriptions</span>
+                                            </a>
+                                            <a class="o-footer__matrix-link" href="https://professional.ft.com/en-gb/services/professional-subscriptions?segmentId=383c7f[…]4-b62d-cb33-4c278e6fdf61&amp;cpccampaign=B2B_link_ft.com_footer" data-trackable="Professional Subscriptions">
+                                                <span class="o-footer__matrix-link__copy">Professional Subscriptions</span>
+                                            </a>
+                                            <a class="o-footer__matrix-link" href="https://professional.ft.com/en-gb/services/republishing/" data-trackable="Republishing">
+                                                <span class="o-footer__matrix-link__copy">Republishing</span>
+                                            </a>
+                                            <a class="o-footer__matrix-link" href="https://www.exec-appointments.com/" data-trackable="Executive Job Search">
+                                                <span class="o-footer__matrix-link__copy">Executive Job Search</span>
+                                            </a>
+                                            <a class="o-footer__matrix-link" href="https://commercial.ft.com/" data-trackable="Advertise with the FT">
+                                                <span class="o-footer__matrix-link__copy">Advertise with the FT</span>
+                                            </a>
+                                            <a class="o-footer__matrix-link" href="https://twitter.com/ft" data-trackable="Follow the FT on X">
+                                                <span class="o-footer__matrix-link__copy">Follow the FT on X</span>
+                                            </a>
+                                            <a class="o-footer__matrix-link" href="https://channels.ft.com/" data-trackable="FT Channels">
+                                                <span class="o-footer__matrix-link__copy">FT Channels</span>
+                                            </a>
+                                            <a class="o-footer__matrix-link" href="https://enterprise.ft.com/en-gb/services/group-subscriptions/secondary-education/" data-trackable="FT Schools">
+                                                <span class="o-footer__matrix-link__copy">FT Schools</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="o-footer__matrix-group o-footer__matrix-group--1">
+                                    <h3 class="o-footer__matrix-title" aria-controls="o-footer-section-3">Tools</h3>
+                                    <div class="o-footer__matrix-content" id="o-footer-section-3">
+                                        <div class="o-footer__matrix-column">
+                                            <a class="o-footer__matrix-link" href="https://markets.ft.com/data/portfolio/dashboard" data-trackable="Portfolio">
+                                                <span class="o-footer__matrix-link__copy">Portfolio</span>
+                                            </a>
+                                            <a class="o-footer__matrix-link" href="https://www.ft.com/todaysnewspaper" data-trackable="Today’s Newspaper (FT Digital Edition)">
+                                                <span class="o-footer__matrix-link__copy">Today’s Newspaper (FT Digital Edition)</span>
+                                            </a>
+                                            <a class="o-footer__matrix-link" href="https://markets.ft.com/data/alerts/" data-trackable="Alerts Hub">
+                                                <span class="o-footer__matrix-link__copy">Alerts Hub</span>
+                                            </a>
+                                            <a class="o-footer__matrix-link" href="https://rankings.ft.com/" data-trackable="Business School Rankings">
+                                                <span class="o-footer__matrix-link__copy">Business School Rankings</span>
+                                            </a>
+                                            <a class="o-footer__matrix-link" href="https://kat.ft.com/" data-trackable="Enterprise Tools">
+                                                <span class="o-footer__matrix-link__copy">Enterprise Tools</span>
+                                            </a>
+                                            <a class="o-footer__matrix-link" href="/news-feed" data-trackable="News feed">
+                                                <span class="o-footer__matrix-link__copy">News feed</span>
+                                            </a>
+                                            <a class="o-footer__matrix-link" href="/newsletters" data-trackable="Newsletters">
+                                                <span class="o-footer__matrix-link__copy">Newsletters</span>
+                                            </a>
+                                            <a class="o-footer__matrix-link" href="https://markets.ft.com/data/currencies" data-trackable="Currency Converter">
+                                                <span class="o-footer__matrix-link__copy">Currency Converter</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="o-footer__matrix-group o-footer__matrix-group--1">
+                                    <h3 class="o-footer__matrix-title" aria-controls="o-footer-section-4">Community &amp;Events</h3>
+                                    <div class="o-footer__matrix-content" id="o-footer-section-4">
+                                        <div class="o-footer__matrix-column">
+                                            <a class="o-footer__matrix-link" href="https://www.ft.com/tour/community" data-trackable="FT Community">
+                                                <span class="o-footer__matrix-link__copy">FT Community</span>
+                                            </a>
+                                            <a class="o-footer__matrix-link" href="https://events.ft.com/events-list" data-trackable="FT Live Events">
+                                                <span class="o-footer__matrix-link__copy">FT Live Events</span>
+                                            </a>
+                                            <a class="o-footer__matrix-link" href="https://forums.ft.com/" data-trackable="FT Forums">
+                                                <span class="o-footer__matrix-link__copy">FT Forums</span>
+                                            </a>
+                                            <a class="o-footer__matrix-link" href="https://enterprise.ft.com/board-director-membership" data-trackable="FT Board Director">
+                                                <span class="o-footer__matrix-link__copy">FT Board Director</span>
+                                            </a>
+                                            <a class="o-footer__matrix-link" href="https://bdp.ft.com/" data-trackable="Board Director Programme">
+                                                <span class="o-footer__matrix-link__copy">Board Director Programme</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="o-footer__matrix-group o-footer__matrix-group--1">
+                                    <h3 class="o-footer__matrix-title o-footer__matrix-title--link">
+                                        <a class="o-footer__matrix-link o-footer__matrix-link--more" id="o-footer-5" href="https://ft.com/more-from-ft-group">
+                                            <span class="o-footer__matrix-link__copy">More from the FT Group</span>
+                                        </a>
+                                    </h3>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="o-footer__copyright">
+                            <small>
+                                Markets data delayed by at least 15 minutes. © THE FINANCIAL TIMES LTD 2023. <abbr title="Financial Times" aria-label="F T">FT</abbr>
+                                and ‘Financial Times’ are trademarks of The Financial Times Ltd.<br/>
+                                The Financial Times and its journalism are subject to a self-regulation regime under the <a href="https://aboutus.ft.com/en-gb/ft-editorial-code/" aria-label="F T Editorial Code of Practice">FT Editorial Code of Practice</a>
+                                .
+                            </small>
+                        </div>
+                    </div>
+                    <div class="o-footer__brand">
+                        <div class="o-footer__container">
+                            <div class="o-footer__brand-logo"></div>
+                        </div>
+                    </div>
+                </footer>
+                <div class="n-layout__footer-after">
+                    <script data-pixel-src="https://spoor-api.ft.com/px.gif?data=%7B%22category%22%3A%22page%22%2C%22action%22%3A%22view%22%2C%22system%22%3A%7B%22source%22%3A%22non-ctm%22%7D%2C%22context%22%3A%7B%22name%22%3A%22article%22%2C%22product%22%3A%22next%22%2C%22data%22%3A%7B%22source%22%3A%22%5BSOURCE%5D%22%7D%7D%7D">
+                        (function coreExperience() {
+                            if (/\bcore\b/.test(document.documentElement.className)) {
+                                var currentScript = document.scripts[document.scripts.length - 1];
+                                var img = new Image();
+                                img.src = currentScript.getAttribute('data-pixel-src');
+                            }
+                        }
+                        )();
+                    </script>
+                    <noscript>
+                        <img src="https://spoor-api.ft.com/px.gif?data=%7B%22category%22%3A%22page%22%2C%22action%22%3A%22view%22%2C%22system%22%3A%7B%22source%22%3A%22non-ctm%22%7D%2C%22context%22%3A%7B%22name%22%3A%22article%22%2C%22product%22%3A%22next%22%2C%22data%22%3A%7B%22source%22%3A%22%5BSOURCE%5D%22%7D%7D%7D" alt=""/>
+                    </noscript>
+                </div>
+            </div>
+            <div class="o-header__drawer" id="o-header-drawer" role="modal" aria-label="Drawer menu" aria-modal="true" data-o-header-drawer="true" data-o-header-drawer--no-js="true" data-trackable="drawer" data-trackable-terminate="true">
+                <div class="o-header__drawer-inner">
+                    <div class="o-header__drawer-tools">
+                        <button type="button" class="o-header__drawer-tools-close" title="Close side navigation menu" aria-controls="o-header-drawer" data-trackable="close">
+                            <span class="o-header__visually-hidden">Close side navigation menu</span>
+                        </button>
+                        <a class="o-header__drawer-tools-logo" href="/" data-trackable="logo">
+                            <span class="o-header__visually-hidden">Financial Times</span>
+                        </a>
+                        <p class="o-header__drawer-current-edition">UK Edition</p>
+                    </div>
+                    <div class="o-header__drawer-actions">
+                        <a class="o-header__drawer-button" role="button" href="/products?segmentId=4526c036-7527-ab37-9a29-0b0403fa0b5f" data-trackable="subscribe-button">Subscribe for full access</a>
+                    </div>
+                    <div class="o-header__drawer-search">
+                        <form class="o-header__drawer-search-form" action="/search" role="search" aria-label="Site search" data-n-topic-search="true" data-n-topic-search-categories="concepts,equities" data-n-topic-search-view-all="true">
+                            <label class="o-header__visually-hidden" for="o-header-drawer-search-term">
+                                Search the <abbr title="Financial Times">FT</abbr>
+                            </label>
+                            <input type="text" class="o-header__drawer-search-term" id="o-header-drawer-search-term" name="q" autoComplete="off" autoCorrect="off" autoCapitalize="off" spellcheck="false" placeholder="Search the FT" data-trackable="search-term" data-n-topic-search-input="true"/>
+                            <button class="o-header__drawer-search-submit" type="submit" data-trackable="search-submit">
+                                <span class="o-header__visually-hidden">Search</span>
+                            </button>
+                        </form>
+                    </div>
+                    <nav class="o-header__drawer-menu" aria-label="Edition switcher">
+                        <ul class="o-header__drawer-menu-list">
+                            <li class="o-header__drawer-menu-item" data-trackable="edition-switcher">
+                                <a class="o-header__drawer-menu-link" href="/?edition=international" data-trackable="international">Switch to International Edition</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav class="o-header__drawer-menu o-header__drawer-menu--primary">
+                        <h2 id="top-sections" class="o-header__drawer-menu-item o-header__drawer-menu-item--heading">Top sections</h2>
+                        <ul aria-labelledby="top-sections" class="o-header__drawer-menu-list">
+                            <li class="o-header__drawer-menu-item">
+                                <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/" data-trackable="Home">Home</a>
+                            </li>
+                            <li class="o-header__drawer-menu-item">
+                                <div class="o-header__drawer-menu-toggle-wrapper">
+                                    <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--parent" href="/world" data-trackable="World">World</a>
+                                    <button class="o-header__drawer-menu-toggle o-header__drawer-menu-toggle--unselected" aria-controls="o-header-drawer-child-1" data-trackable="sub-level-toggle | World">Show more World</button>
+                                </div>
+                                <ul class="o-header__drawer-menu-list o-header__drawer-menu-list--child" id="o-header-drawer-child-1" data-trackable="sub-level">
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/israel-hamas-war" data-trackable="Israel-Hamas war">Israel-Hamas war</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/global-economy" data-trackable="Global Economy">Global Economy</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/world-uk" data-trackable="UK">UK</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/us" data-trackable="US">US</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/china" data-trackable="China">China</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/africa" data-trackable="Africa">Africa</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/asia-pacific" data-trackable="Asia Pacific">Asia Pacific</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/emerging-markets" data-trackable="Emerging Markets">Emerging Markets</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/europe" data-trackable="Europe">Europe</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/war-in-ukraine" data-trackable="War in Ukraine">War in Ukraine</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/americas" data-trackable="Americas">Americas</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/middle-east-north-africa" data-trackable="Middle East &amp; North Africa">Middle East &amp;North Africa</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="o-header__drawer-menu-item">
+                                <div class="o-header__drawer-menu-toggle-wrapper">
+                                    <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--parent" href="/world-uk" data-trackable="UK">UK</a>
+                                    <button class="o-header__drawer-menu-toggle o-header__drawer-menu-toggle--unselected" aria-controls="o-header-drawer-child-2" data-trackable="sub-level-toggle | UK">Show more UK</button>
+                                </div>
+                                <ul class="o-header__drawer-menu-list o-header__drawer-menu-list--child" id="o-header-drawer-child-2" data-trackable="sub-level">
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/uk-economy" data-trackable="UK Economy">UK Economy</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/uk-politics" data-trackable="UK Politics">UK Politics</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/brexit" data-trackable="Brexit">Brexit</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/uk-companies" data-trackable="UK Companies">UK Companies</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/personal-finance" data-trackable="Personal Finance">Personal Finance</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="o-header__drawer-menu-item">
+                                <div class="o-header__drawer-menu-toggle-wrapper">
+                                    <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--parent" href="/companies" data-trackable="Companies">Companies</a>
+                                    <button class="o-header__drawer-menu-toggle o-header__drawer-menu-toggle--unselected" aria-controls="o-header-drawer-child-3" data-trackable="sub-level-toggle | Companies">Show more Companies</button>
+                                </div>
+                                <ul class="o-header__drawer-menu-list o-header__drawer-menu-list--child" id="o-header-drawer-child-3" data-trackable="sub-level">
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/energy" data-trackable="Energy">Energy</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/financials" data-trackable="Financials">Financials</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/health" data-trackable="Health">Health</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/industrials" data-trackable="Industrials">Industrials</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/media" data-trackable="Media">Media</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/professional-services" data-trackable="Professional Services">Professional Services</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/retail-consumer" data-trackable="Retail &amp; Consumer">Retail &amp;Consumer</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/technology-sector" data-trackable="Tech Sector">Tech Sector</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/telecoms" data-trackable="Telecoms">Telecoms</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/transport" data-trackable="Transport">Transport</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="o-header__drawer-menu-item">
+                                <div class="o-header__drawer-menu-toggle-wrapper">
+                                    <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--parent" href="/technology" data-trackable="Tech">Tech</a>
+                                    <button class="o-header__drawer-menu-toggle o-header__drawer-menu-toggle--unselected" aria-controls="o-header-drawer-child-4" data-trackable="sub-level-toggle | Tech">Show more Tech</button>
+                                </div>
+                                <ul class="o-header__drawer-menu-list o-header__drawer-menu-list--child" id="o-header-drawer-child-4" data-trackable="sub-level">
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/artificial-intelligence" data-trackable="Artificial intelligence">Artificial intelligence</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/semiconductors" data-trackable="Semiconductors">Semiconductors</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/cyber-security" data-trackable="Cyber Security">Cyber Security</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/social-media" data-trackable="Social Media">Social Media</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="o-header__drawer-menu-item">
+                                <div class="o-header__drawer-menu-toggle-wrapper">
+                                    <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--parent" href="/markets" data-trackable="Markets">Markets</a>
+                                    <button class="o-header__drawer-menu-toggle o-header__drawer-menu-toggle--unselected" aria-controls="o-header-drawer-child-5" data-trackable="sub-level-toggle | Markets">Show more Markets</button>
+                                </div>
+                                <ul class="o-header__drawer-menu-list o-header__drawer-menu-list--child" id="o-header-drawer-child-5" data-trackable="sub-level">
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/alphaville" data-trackable="Alphaville">Alphaville</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="https://markets.ft.com/data" data-trackable="Markets Data">Markets Data</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/cryptofinance" data-trackable="Cryptofinance">Cryptofinance</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/capital-markets" data-trackable="Capital Markets">Capital Markets</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/commodities" data-trackable="Commodities">Commodities</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/currencies" data-trackable="Currencies">Currencies</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/equities" data-trackable="Equities">Equities</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/fund-management" data-trackable="Fund Management">Fund Management</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/ft-wealth-management" data-trackable="Wealth Management">Wealth Management</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/ft-trading-room" data-trackable="Trading">Trading</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/moral-money" data-trackable="Moral Money">Moral Money</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="https://etf.ft.com" data-trackable="ETF Hub">ETF Hub</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="o-header__drawer-menu-item">
+                                <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/climate-capital" data-trackable="Climate">Climate</a>
+                            </li>
+                            <li class="o-header__drawer-menu-item">
+                                <div class="o-header__drawer-menu-toggle-wrapper">
+                                    <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--parent" href="/opinion" data-trackable="Opinion">Opinion</a>
+                                    <button class="o-header__drawer-menu-toggle o-header__drawer-menu-toggle--unselected" aria-controls="o-header-drawer-child-7" data-trackable="sub-level-toggle | Opinion">Show more Opinion</button>
+                                </div>
+                                <ul class="o-header__drawer-menu-list o-header__drawer-menu-list--child" id="o-header-drawer-child-7" data-trackable="sub-level">
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/columnists" data-trackable="Columnists">Columnists</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/ft-view" data-trackable="The FT View">The FT View</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/lex" data-trackable="Lex">Lex</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/obituaries" data-trackable="Obituaries">Obituaries</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/letters" data-trackable="Letters">Letters</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="o-header__drawer-menu-item">
+                                <div class="o-header__drawer-menu-toggle-wrapper">
+                                    <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--parent" href="/work-careers" data-trackable="Work &amp; Careers">Work &amp;Careers</a>
+                                    <button class="o-header__drawer-menu-toggle o-header__drawer-menu-toggle--unselected" aria-controls="o-header-drawer-child-8" data-trackable="sub-level-toggle | Work &amp; Careers">Show more Work &amp;Careers</button>
+                                </div>
+                                <ul class="o-header__drawer-menu-list o-header__drawer-menu-list--child" id="o-header-drawer-child-8" data-trackable="sub-level">
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="https://rankings.ft.com/" data-trackable="Business School Rankings">Business School Rankings</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/business-education" data-trackable="Business Education">Business Education</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/entrepreneurship" data-trackable="Entrepreneurship">Entrepreneurship</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/recruitment" data-trackable="Recruitment">Recruitment</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/business-books" data-trackable="Business Books">Business Books</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/business-travel" data-trackable="Business Travel">Business Travel</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/working-it" data-trackable="Working It">Working It</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="o-header__drawer-menu-item">
+                                <div class="o-header__drawer-menu-toggle-wrapper">
+                                    <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--parent" href="/life-arts" data-trackable="Life &amp; Arts">Life &amp;Arts</a>
+                                    <button class="o-header__drawer-menu-toggle o-header__drawer-menu-toggle--unselected" aria-controls="o-header-drawer-child-9" data-trackable="sub-level-toggle | Life &amp; Arts">Show more Life &amp;Arts</button>
+                                </div>
+                                <ul class="o-header__drawer-menu-list o-header__drawer-menu-list--child" id="o-header-drawer-child-9" data-trackable="sub-level">
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/arts" data-trackable="Arts">Arts</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/books" data-trackable="Books">Books</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/food-drink" data-trackable="Food &amp; Drink">Food &amp;Drink</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/magazine" data-trackable="FT Magazine">FT Magazine</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/house-home" data-trackable="House &amp; Home">House &amp;Home</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/style" data-trackable="Style">Style</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/travel" data-trackable="Travel">Travel</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/globetrotter" data-trackable="FT Globetrotter">FT Globetrotter</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="o-header__drawer-menu-item">
+                                <div class="o-header__drawer-menu-toggle-wrapper">
+                                    <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--parent" href="/personal-finance" data-trackable="Personal Finance">Personal Finance</a>
+                                    <button class="o-header__drawer-menu-toggle o-header__drawer-menu-toggle--unselected" aria-controls="o-header-drawer-child-10" data-trackable="sub-level-toggle | Personal Finance">Show more Personal Finance</button>
+                                </div>
+                                <ul class="o-header__drawer-menu-list o-header__drawer-menu-list--child" id="o-header-drawer-child-10" data-trackable="sub-level">
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/mortgages" data-trackable="Property &amp; Mortgages">Property &amp;Mortgages</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/investments" data-trackable="Investments">Investments</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/pensions" data-trackable="Pensions">Pensions</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/tax" data-trackable="Tax">Tax</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/banking-savings" data-trackable="Banking &amp; Savings">Banking &amp;Savings</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/advice-comment" data-trackable="Advice &amp; Comment">Advice &amp;Comment</a>
+                                    </li>
+                                    <li class="o-header__drawer-menu-item">
+                                        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--child" href="/next-act" data-trackable="Next Act">Next Act</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="o-header__drawer-menu-item">
+                                <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/htsi" data-trackable="HTSI">HTSI</a>
+                            </li>
+                            <li class="o-header__drawer-menu-item">
+                                <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/special-reports" data-trackable="Special Reports">Special Reports</a>
+                            </li>
+                        </ul>
+                        <h2 id="ft-recommends" class="o-header__drawer-menu-item o-header__drawer-menu-item--heading">FT recommends</h2>
+                        <ul aria-labelledby="ft-recommends" class="o-header__drawer-menu-list">
+                            <li class="o-header__drawer-menu-item">
+                                <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/lex" data-trackable="Lex">Lex</a>
+                            </li>
+                            <li class="o-header__drawer-menu-item">
+                                <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/alphaville" data-trackable="Alphaville">Alphaville</a>
+                            </li>
+                            <li class="o-header__drawer-menu-item">
+                                <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/lunch-with-the-ft" data-trackable="Lunch with the FT">Lunch with the FT</a>
+                            </li>
+                            <li class="o-header__drawer-menu-item">
+                                <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/globetrotter" data-trackable="FT Globetrotter">FT Globetrotter</a>
+                            </li>
+                            <li class="o-header__drawer-menu-item">
+                                <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="https://www.ft.com/tech-asia" data-trackable="#techAsia">#techAsia</a>
+                            </li>
+                            <li class="o-header__drawer-menu-item">
+                                <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/moral-money" data-trackable="Moral Money">Moral Money</a>
+                            </li>
+                            <li class="o-header__drawer-menu-item">
+                                <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/visual-and-data-journalism" data-trackable="Visual and data journalism">Visual and data journalism</a>
+                            </li>
+                            <li class="o-header__drawer-menu-item">
+                                <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/newsletters" data-trackable="Newsletters">Newsletters</a>
+                            </li>
+                            <li class="o-header__drawer-menu-item">
+                                <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/video" data-trackable="Video">Video</a>
+                            </li>
+                            <li class="o-header__drawer-menu-item">
+                                <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="https://www.ft.com/podcasts" data-trackable="Podcasts">Podcasts</a>
+                            </li>
+                            <li class="o-header__drawer-menu-item">
+                                <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/news-feed" data-trackable="News feed">News feed</a>
+                            </li>
+                            <li class="o-header__drawer-menu-item">
+                                <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="https://events.ft.com/events-list" data-trackable="FT Live Events">FT Live Events</a>
+                            </li>
+                            <li class="o-header__drawer-menu-item">
+                                <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="https://forums.ft.com/" data-trackable="FT Forums">FT Forums</a>
+                            </li>
+                            <li class="o-header__drawer-menu-item">
+                                <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="https://bdp.ft.com/" data-trackable="Board Director Programme">Board Director Programme</a>
+                            </li>
+                        </ul>
+                        <ul class="o-header__drawer-menu-list o-header__drawer-menu-list--divide">
+                            <li class="o-header__drawer-menu-item">
+                                <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--secondary" href="/myft" data-trackable="myFT">myFT</a>
+                            </li>
+                            <li class="o-header__drawer-menu-item">
+                                <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--secondary" href="https://markets.ft.com/data/portfolio/dashboard" data-trackable="Portfolio">Portfolio</a>
+                            </li>
+                            <li class="o-header__drawer-menu-item">
+                                <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--secondary" href="https://www.ft.com/todaysnewspaper" data-trackable="Today’s Newspaper (FT Digital Edition)">Today’s Newspaper (FT Digital Edition)</a>
+                            </li>
+                            <li class="o-header__drawer-menu-item">
+                                <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--secondary" href="https://www.ft.com/crossword" data-trackable="Crossword">Crossword</a>
+                            </li>
+                            <li class="o-header__drawer-menu-item">
+                                <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected o-header__drawer-menu-link--secondary" href="https://www.ft.com/tour/apps" data-trackable="Our Apps">Our Apps</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav class="o-header__drawer-menu o-header__drawer-menu--user" data-trackable="user-nav">
+                        <ul class="o-header__drawer-menu-list">
+                            <li class="o-header__drawer-menu-item">
+                                <a class="o-header__drawer-menu-link" href="https://help.ft.com" data-trackable="Help Centre">Help Centre</a>
+                            </li>
+                            <li class="o-header__drawer-menu-item">
+                                <a class="o-header__drawer-menu-link" href="/products?segmentId=d290332b-e8e8-d29b-2ff4-2019b13f008a" data-trackable="Subscribe">Subscribe</a>
+                            </li>
+                            <li class="o-header__drawer-menu-item">
+                                <a class="o-header__drawer-menu-link" href="/login?location=/content/2314fb09-7f58-45e1-86ab-4767e9139ad3" data-trackable="Sign In">Sign In</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <script type="application/json" id="page-kit-app-context">
+            {
+                "appName": "article",
+                "product": "next",
+                "edition": "uk",
+                "appVersion": "8190eae02a305839fda26ab634a937509605ab26",
+                "abTestState": "messageSlotBottom:cookieConsentC,chartbeat:control,articlecommunitypromoevent:variant2,articleJourneyTestsX:variant1,clipsFallbackFeature:variant,AdsCommercialMvt2AB:variant,adsCommentsRHR:control,liveBlogTruncated:control,zephrABRelease:variant",
+                "isProduction": true,
+                "isUserLoggedIn": false,
+                "pageKitVersion": "8.2.3",
+                "contentId": "2314fb09-7f58-45e1-86ab-4767e9139ad3"
+            }</script>
+        <script type="application/json" id="page-kit-flags-embed">
+            {
+                "articleRelatedContent": true,
+                "ads": true,
+                "javascript": true,
+                "oTracking": true,
+                "articleComments": true,
+                "myFtApi": true,
+                "articleShareButtons": true,
+                "myFtApiWrite": true,
+                "adTargetingUserApi": true,
+                "videoPlayerAdvertising": true,
+                "streamMostRead": true,
+                "serviceWorker": true,
+                "openGraph": true,
+                "nativeAds": true,
+                "myFtDigestPromo": true,
+                "regionalNews": true,
+                "syndication": true,
+                "myFTEmailDisableABAlloc": true,
+                "streamRecommendedStoriesList": true,
+                "swAssetCaching": true,
+                "refererCohort": true,
+                "newsletterSignupOnArticle": true,
+                "myFTInstantNotifications": true,
+                "myftPrioritiseTopics": true,
+                "myftIndustryRecs": true,
+                "qualtrics": true,
+                "showEventPromo": true,
+                "myftConsentSwitch": true,
+                "moatAdsTraffic": true,
+                "manageCookiesWhiteLabel": true,
+                "myftIndustryRecsFeed": true,
+                "AdsPermutive": true,
+                "syndication_promo": true,
+                "messageSlotBottom": "cookieConsentC",
+                "enableGTM": true,
+                "myftNewNewLabel": true,
+                "myftBoldNewArticles": true,
+                "myftPageAppNotificationsToggle": true,
+                "realUserMonitoringForPerformance": true,
+                "textCopyTracking": true,
+                "enableIHSindexBasedTargetingScript": true,
+                "enableBrandmetricsSurveyScript": true,
+                "managePremiumCancellationJourney": true,
+                "articleInstantAlertsPromo": true,
+                "manageStepUpCancellationJourney": true,
+                "manageStandardCancellationJourney": true,
+                "manageStepUpTransitionJourney": true,
+                "manageDirectCancellationJourney": true,
+                "privShowCCPALinkOnFooter": true,
+                "optimizely": true,
+                "accountSettingsBillingDetailsPaypal": true,
+                "graphicSyndication": true,
+                "adsNativeLazyload": true,
+                "adsMoatTimeout": true,
+                "enableRavelinOnProd": true,
+                "enableMarketingAnalyticsTags": true,
+                "streamPageGraphicsList": true,
+                "useFlourish": true,
+                "adsHighImpact": true,
+                "monthlyTermForPremiumCovidCohort": true,
+                "enableNonUKDeliveryAddress": true,
+                "homePageHeaderMarketsData": true,
+                "enableGoogleExtendedMeter": true,
+                "communityLandingPage": true,
+                "inArticleContentSignUp": true,
+                "frontPageCommunitySection": true,
+                "newBuyFlow": true,
+                "bizzaboRegistrationEnabled": true,
+                "enableSingleTermSubscriptions": true,
+                "newsletterAutoEnrolment": true,
+                "eventsInMyFtPage": true,
+                "eventsInDigestEmails": true,
+                "eventsInStreamPage": true,
+                "newslettersRedesign": true,
+                "ftGlobetrotterBanner": true,
+                "scrollytellingImages": true,
+                "newImageQualityTransform": true,
+                "exponeaOnNextArticle": true,
+                "emailVerificationOnSignupForms": true,
+                "AdsExtraMobileSlot": true,
+                "showTheEditAppButton": true,
+                "dotcomPages": true,
+                "fomoPage": true,
+                "enterpriseWorkspaceOnboarding": true,
+                "exponeaOnsiteMessaging": true,
+                "contentPipelineNextArticle": true,
+                "homepageInteractivesEmbeds": true,
+                "contentPipelineNextArticlePerformanceTest": true,
+                "articleTrialTemplate": true,
+                "bankTransferFeature": true,
+                "articlecommunitypromoevent": "variant2",
+                "purgeableLongTailArticleCaching": true,
+                "myAccountLanding": true,
+                "chatterboxChat": true,
+                "liveChat": true,
+                "articleJourneyTestsX": "variant1",
+                "billingDetailsConfirmationPage": true,
+                "graphQLMigrationUseGQLData": true,
+                "clipsFallbackFeature": "variant",
+                "AdsCompaniesTypeaheadDemo": true,
+                "AdsCommercialMvt2AB": "variant",
+                "enterpriseUserAnnotations": true,
+                "reverseCancellation": true,
+                "useZephrDecision": true,
+                "adsPGHomePage": true,
+                "saveMeDisplayEdit": true,
+                "adsPGSearchPage": true,
+                "stripeForIndia": true,
+                "useGoogleExtendedAccessNewAPI": true,
+                "showNoOffersPageInRetention": true,
+                "makeSubsGraphQlQuery": true,
+                "retentionGetTrabsitionData": true,
+                "myFTInstantAlertsOnboarding": true,
+                "proCentralBanking": true,
+                "magnetOnArticle": true,
+                "myftFollowButton": true,
+                "zephrABRelease": "variant",
+                "removeProfileRoute": true,
+                "centralBankingBannerWorkspace": true
+            }</script>
+    </body>
+</html>
+"""
