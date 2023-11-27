@@ -45,7 +45,7 @@ class TheEconomist(Publication):
         """Get article body."""
         driver.get(article_url)
         soup = self.parser(driver.page_source.encode("utf-8"), "lxml")
-        body_section = soup.find("section", attrs={"data-body-id": "cp1"})
+        body_section = soup.find("section", attrs={"data-body-id": "cp2"})
         p_tags = body_section.find_all("p")
         paras = [p.text for p in p_tags]
         return paras

@@ -49,31 +49,31 @@ class TestTheEconomist:
 
         assert articles == [
             ArticleToScrape(
-                url="https://www.economist.com/science-and-technology/2023/07/19/are-the-current-heatwaves-evidence-that-climate-change-is-speeding-up",
+                url="https://www.economist.com/leaders/2023/11/23/how-to-thrive-in-a-fractured-world",
                 page_rank=1,
             ),
             ArticleToScrape(
-                url="https://www.economist.com/leaders/2023/07/19/the-world-economy-is-still-in-danger",
+                url="https://www.economist.com/leaders/2023/11/22/the-fallout-from-the-weirdness-at-openai",
                 page_rank=2,
             ),
             ArticleToScrape(
-                url="https://www.economist.com/international/2023/07/19/what-if-china-and-india-became-friends",
+                url="https://www.economist.com/europe/2023/11/23/geert-wilderss-election-win-leaves-the-dutch-in-an-awful-quandary",
                 page_rank=3,
             ),
             ArticleToScrape(
-                url="https://www.economist.com/asia/2023/07/19/an-american-soldier-has-deserted-to-north-korea",
+                url="https://www.economist.com/finance-and-economics/2023/11/22/another-crypto-boss-falls",
                 page_rank=4,
             ),
             ArticleToScrape(
-                url="https://www.economist.com/business/2023/07/19/hollywoods-blockbuster-strike-may-become-a-flop",
+                url="https://www.economist.com/europe/2023/11/22/tyrant-liberator-warmonger-bureaucrat-the-meaning-of-napoleon",
                 page_rank=5,
             ),
             ArticleToScrape(
-                url="https://www.economist.com/graphic-detail/2023/07/19/brexit-was-wrong-say-57-of-british-voters",
+                url="https://www.economist.com/united-states/2023/11/22/spending-on-infrastructure-has-fallen-in-real-terms-in-america",
                 page_rank=6,
             ),
             ArticleToScrape(
-                url="https://www.economist.com/technology-quarterly/2023/07/17/the-fertility-sector-is-booming",
+                url="https://www.economist.com/obituary/2023/11/22/elinor-otto-did-not-realise-what-giant-strides-she-was-making-for-women",
                 page_rank=7,
             ),
         ]
@@ -93,7 +93,7 @@ class TestTheEconomist:
         title = pub.get_article_title(driver, "url")
         assert (
             title
-            == "Are the current heatwaves evidence that climate change is speeding up?"
+            == "How to thrive in a fractured world"
         )
 
     def test_get_article_authors(self):
@@ -107,12 +107,12 @@ class TestTheEconomist:
         driver = MockTheEconomistDriver()
         pubdate = pub.get_article_pubdate(
             driver,
-            "https://www.economist.com/science-and-technology/2023/07/19/are-the-current-heatwaves-evidence-that-climate-change-is-speeding-up",
+            "https://www.economist.com/leaders/2023/11/23/how-to-thrive-in-a-fractured-world",
         )
-        assert pubdate == datetime(2023, 7, 19, 5, 0, 0)
+        assert pubdate == datetime(2023, 11, 23, 5, 0, 0)
 
     def test_get_article_body(self):
         pub = TheEconomist()
         driver = MockTheEconomistDriver()
         body = pub.get_article_body(driver, "url")
-        assert len(body) == 23
+        assert len(body) == 12
