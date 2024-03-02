@@ -17,28 +17,21 @@ class TheNewYorker(Publication):
         """Returns a list of article URLs to be scraped."""
         driver.get(self.homepage)
         soup = self.parser(driver.page_source.encode("utf-8"), "lxml")
-        top_nine_collage_div = soup.find("div", id="news-&amp;-culture")
-        top_nine_collage_urls = list(
-            dict.fromkeys(  # dedupe list, preserving order
-                [
-                    self.homepage + a.get("href")
-                    for a in top_nine_collage_div.find_all(
-                        "a", attrs={"data-recirc-pattern": "summary-item"}
-                    )
-                ]
-            )
-        )
-
+        top_story_div = soup.find("div", id="topstory-content")
+        top_story_url = top_story_div.find("a").get("href")
+        the_lede_div = soup.find("div", id="the-lede")
+        the_lede_urls = [a.get("href") for a in the_lede_div.find_all("a")]
+        all_urls = [f"{self.homepage}{url}" for url in [top_story_url] + the_lede_urls]
         return [
             ArticleToScrape(url=url, page_rank=i)
-            for i, url in enumerate(top_nine_collage_urls, start=1)
+            for i, url in enumerate(all_urls, start=1)
         ]
 
     def get_article_body(self, driver, article_url):
         """Returns the article body as a list of strings, one for each paragraph."""
         driver.get(article_url)
         soup = self.parser(driver.page_source.encode("utf-8"), "lxml")
-        body_div = soup.find("div", attrs={"data-testid": "BodyWrapper"})
+        body_div = soup.find("article")
         first_para = [
             p.text for p in body_div.find_all("p", attrs={"class": "has-dropcap"})
         ]
