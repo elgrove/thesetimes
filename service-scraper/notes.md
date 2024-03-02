@@ -1,4 +1,5 @@
-- [ ] retest nyer, nyt on scraper
+- [x] retest nyer
+- [ ] retest nytimes
 - [ ] error handling
 - [ ] logging - to stdout, to file?
 - [ ] code files in docker volumes are hot, no need to rebuild
